@@ -1,4 +1,4 @@
-id,label,Beer_Name_left,Beer_Name_right,Brew_Factory_Name_left,Brew_Factory_Name_right,Style_left,Style_right,ABV_left,ABV_right
+id,label,left_Beer_Name,right_Beer_Name,left_Brew_Factory_Name,right_Brew_Factory_Name,left_Style,right_Style,left_ABV,right_ABV
 0,0,C N Red Imperial Red Ale,Kinetic Infrared Imperial Red Ale,Redwood Lodge,Kinetic Brewing Company,American Amber / Red Ale,American Strong Ale,8.10 %,9.30 %
 1,1,Sanibel Red Island Ale,Point Ybel Sanibel Red Island Ale,Point Ybel Brewing Company,Point Ybel Brewing Company,American Amber / Red Ale,Irish Ale,5.60 %,5.60 %
 2,0,Kniksen India Red Ale,Boneyard Skunkape India Red Ale,7 Fjell Bryggeri,Boneyard Beer Company,American Amber / Red Ale,India Pale Ale &#40; IPA &#41;,6.80 %,6.50 %

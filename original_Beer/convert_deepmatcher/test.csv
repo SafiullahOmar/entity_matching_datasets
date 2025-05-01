@@ -1,4 +1,4 @@
-id,label,Beer_Name_left,Beer_Name_right,Brew_Factory_Name_left,Brew_Factory_Name_right,Style_left,Style_right,ABV_left,ABV_right
+id,label,left_Beer_Name,right_Beer_Name,left_Brew_Factory_Name,right_Brew_Factory_Name,left_Style,right_Style,left_ABV,right_ABV
 0,0,Bulleit Bourbon Barrel Aged G'Knight,Figure Eight Bourbon Barrel Aged Jumbo Love,Oskar Blues Grill & Brew,Figure Eight Brewing,American Amber / Red Ale,Barley Wine,8.70 %,-
 1,0,Double Dragon Imperial Red Ale,Scuttlebutt Mateo Loco Imperial Red Ale,Phillips Brewing Company,Scuttlebutt Brewing Co. .,American Amber / Red Ale,American Strong Ale,8.20 %,7.10 %
 2,1,Honey Basil Amber,Rude Hippo Honey Basil Amber,Rude Hippo Brewing Company,18th Street Brewery,American Amber / Red Ale,Amber Ale,7.40 %,7.40 %

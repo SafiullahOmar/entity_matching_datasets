@@ -1,4 +1,4 @@
-id,label,Beer_Name_left,Beer_Name_right,Brew_Factory_Name_left,Brew_Factory_Name_right,Style_left,Style_right,ABV_left,ABV_right
+id,label,left_Beer_Name,right_Beer_Name,left_Brew_Factory_Name,right_Brew_Factory_Name,left_Style,right_Style,left_ABV,right_ABV
 0,0,Mountain Goat Fancy Pants Amber Ale,Breckenridge Mountain Series : Hoppy Amber Ale,Mountain Goat Beer Pty Ltd,Breckenridge Brewery,American Amber / Red Ale,Amber Ale,5.40 %,6.10 %
 1,0,Hoppy Amber Ale ( Mountain Series ),Colorado Mountain Ole 59er Amber Ale,Breckenridge Brewery,Colorado Mountain Brewery,American Amber / Red Ale,Amber Ale,6.10 %,5.20 %
 2,0,Hoppy Face Amber Ale,2nd Story Hoppy New Year Amber Ale,Hoppy Brewing Co. .,2nd Story Brewing Company,American Amber / Red Ale,Amber Ale,6.10 %,5.70 %
