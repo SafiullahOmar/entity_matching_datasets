@@ -1,3 +1,7 @@
+Noise data
+
+
+
 COL title VAL lenovo performance back pack COL category VAL electronics - general COL brand VAL lenovo COL modelno VAL 41u5254 COL price VAL 31.51 	COL title VAL lenovo performance backpack - notebook carrying backpack - 15.4 COL category VAL  COL brand VAL lenovo COL modelno VAL 41u5254 COL price VAL 24.98 	1
 COL title VAL energizer max aaa 6pk COL category VAL electronics - general COL brand VAL energizer COL modelno VAL e92bp-6r COL price VAL 0.0 	COL title VAL energizer max alkaline batteries COL category VAL d COL brand VAL energizer COL modelno VAL e95fp-8 COL price VAL 14.43 	0
 COL title VAL human toolz 3-in-1 netbook pad galaxy black champagne COL category VAL electronics - general COL brand VAL human toolz COL modelno VAL 3n1mgc COL price VAL 9.88 	COL title VAL human toolz 3-in-1 notebook pad wave COL category VAL bags cases COL brand VAL humantoolz COL modelno VAL 3n1nwa COL price VAL 9.99 	0
