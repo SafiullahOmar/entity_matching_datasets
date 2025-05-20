@@ -1,0 +1,6 @@
+[
+  "left_name", "right_name",
+  "left_brewery", "right_brewery",
+  "left_primary_style", "right_primary_style",
+  "left_abv", "right_abv"
+]
