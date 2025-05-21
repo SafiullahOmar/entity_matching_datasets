@@ -1,6 +1,11 @@
-[
-  "left_name", "right_name",
-  "left_brewery", "right_brewery",
-  "left_primary_style", "right_primary_style",
-  "left_abv", "right_abv"
-]
+ignore_columns = (
+    # ❌ Low correlation or noise
+    'left_Artist_Name', 'right_Artist_Name',
+    'left_Genre', 'right_Genre',
+    'left_secondary_genres', 'right_secondary_genres',
+    'left_release_year', 'right_release_year',
+    'left_CopyRight', 'right_CopyRight',
+    'left_record_label', 'right_record_label',
+    'left_is_explicit', 'right_is_explicit',
+    'left_normalized_artist_core', 'right_normalized_artist_core'
+)
