@@ -1,0 +1,568 @@
+id,label,left_name,left_addr,left_city,left_phone,left_category,left_class,right_name,right_addr,right_city,right_phone,right_category,right_class
+0,0,Toulouse,'B Peachtree Road',Atlanta,+1-404-351-9533,French,92,White House Restaurant,3172 Peachtree Road Northeast,Atlanta,+1-404-237-7601,Diner,719
+1,0,Gallagher's,228 West 52nd Street,New York,+1-212-245-5336,American,254,La Grenouille,3 E. 52nd St.,New York City,+1-212-752-1495,French (Classic),623
+2,0,Center Stage Plaza Hotel,1 Main Street,Las Vegas,+1-702-386-2512,American,436,` chinois on main ',' 2709 main st. ',` santa monica ',+1-310-392-9025,Pacific New Wave,5
+3,0,` Sa Tsu Ki `',' 3043 Buford Hwy . ',Atlanta,+1-404-325-5285,Asian,415,Havana Sandwich Shop,2905 Buford Highway,Atlanta,+1-404-636-4094,Cuban,695
+4,0,` Pinot Bistro ',' 12969 Ventura Boulevard ',` Los Angeles ',+1-818-990-0500,French,18,Mulberry St.,17040 Ventura Boulevard,Encino,+1-818-906-8881,Pizza,580
+5,0,China Grill,60 West 53rd Street,New York,+1-212-333-7788,American,219,Seryna,11 E. 53rd St.,New York City,+1-212-980-9393,Japanese,59
+6,0,LeSpinasse,2 E 55th St.,New York,+1-212-339-6719,American,43,La Caravelle,33 West 55th Street,New York City,+1-212-586-4252,French (Classic),39
+7,0,Tang Pavilion,65 W. 55th St.,New York,+1-212-956-6888,Asian,356,Menchanako-tei,39 West 55th Street,New York City,+1-212-247-1585,Japanese,627
+8,0,Aquavit,13 West 54th Street,New York,+1-212-307-7311,Continental,24,Oceana,55 E. 54th St.,New York City,+1-212-759-5941,Seafood,50
+9,0,Abbey,163 Ponce De Leon Ave.,Atlanta,+1-404-876-8532,International,379,Eats,600 Ponce De Leon Avenue,Atlanta,+1-404-888-9149,Italian,690
+10,0,` Fifty Seven Fifty Seven ','57 E. 57th St.',` New York ',+1-212-758-5757,American,239,Oceana,55 E. 54th St.,New York City,+1-212-759-5941,Seafood,50
+11,0,Grand Cafe Hotel Monaco,501 Geary Street,San Francisco,+1-415-292-0101,American,473,Mel's Drive-In,3355 Geary Street,San Francisco,+1-415-387-2244,Hamburger,739
+12,0,Horseradish Grill,4320 Powers Ferry Road,Atlanta,+1-404-255-7277,Southern,398,C.A.R.E.Y\'s Corner,1215 Powers Ferry Road,Marietta,+1-770-933-0909,Hamburgers,686
+13,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Original Pancake House,4330 Peachtree Road,Atlanta,+1-404-237-4116,American,708
+14,0,Bruno,240 E. 58th St.,New York,+1-212-688-4190,Italian,195,Les Celebrites,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+15,0,Eclipse,8800 Melrose Avenue,Los Angeles,+1-310-724-5959,Californian,132,,,,,,unknown
+16,0,Pacific Dining Car,6th Street,Los Angeles,+1-213-483-6000,American,153,` Andre 's French Restaurant`,401 S. 6th St.,Las Vegas,+1-702-385-5016,French (Classic),656
+17,1,Rainbow Room,30 Rockefeller Plaza,New York,+1-212-632-5000,American,55,Rainbow Room,30 Rockefeller Plaza,New York City,+1-212-632-5000,American (New),55
+18,1,`Cafe Claude`,7 Claude La . ,San Francisco,+1-415-392-3505,French,97,Cafe Claude,7 Claude Lane,San Francisco,+1-415-392-3505,French Bistro,97
+19,0,Yolie's,3900 Paradise Road,Las Vegas,+1-702-794-0700,Steak House,452,Nicky Blair's,3925 Paradise Road,Las Vegas,+1-702-792-9900,Italian,668
+20,0,Heera of India,"595 Piedmont Avenue, Rio Shopping Mall",Atlanta,+1-404-876-4408,Asian,83,` Rose of India `,308 E. Sixth Street,New York City,+1-212-533-5011,Indian,638
+21,0,L ` Osteria Del Forno,519 Columbus Avenue,San Francisco,+1-415-982-1124,Italian,490,Campo Santo,240 Columbus Avenue,San Francisco,+1-415-433-9623,Mexican,724
+22,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+23,0,Maykadeh,470 Green Street,San Francisco,+1-415-362-8286,Greek and Middle Eastern,495,Greenwood's,1087 Green Street,Roswell,+1-770-992-5383,Southern/Soul,693
+24,0,Dawat,210 East 58th Street,New York,+1-212-355-7555,Asian,32,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+25,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+26,0,Posto,14928 Ventura Boulevard,Sherman Oaks,+1-818-784-4400,Italian,156,Rubin's Red Hots,15322 Ventura Boulevard,Encino,+1-818-905-6515,Hot Dog Stand,590
+27,0,Antonio's,3700 W. Flamingo Road,Las Vegas,+1-702-252-7737,Italian,423,Buzio's in the Rio',3700 W. Flamingo Rd.,Las Vegas,+1-702-252-7697,Seafood,658
+28,0,Ruth's Chris,148 West 51st Street,New York,+1-212-245-9600,American,338,Le Bernardin,155 W. 51st St.,New York City,+1-212-489-1515,Seafood,41
+29,0,Tommy Tang's,7313 Melrose Avenue,Los Angeles,+1-213-937-5733,Asian,167,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16
+30,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+31,0,L Orangerie,903 N La Cienega Boulevard,Los Angeles,+1-310-652-9770,French,11,Matsuhisa,129 N. La Cienega Boulevard,Beverly Hills,+1-310-659-9639,Seafood,14
+32,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,Sparks Steak House,210 East 46th Street,New York,+1-212-687-4855,Steakhouses,641
+33,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,The ' Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+34,0,Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,90,Palm Atlanta,3391 Peachtree Road Northeast,Atlanta,+1-404-814-1955,Steakhouses,709
+35,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road Northeast,Atlanta,+1-404-266-1600,Continental,393,Abruzzi,2355 Peachtree Road Northeast,Atlanta,+1-404-261-8186,Italian,74
+36,0,Helmand,430 Broadway,San Francisco,+1-415-362-0641,Greek and Middle Eastern,479,La Caridad,2199 Broadway,New York City,+1-212-874-2780,Cuban,622
+37,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Tre Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+38,0,YoYo Tsumami Bistro,1611 Post Street,San Francisco,+1-415-922-7788,French,530,Postrio,545 Post Street,San Francisco,+1-415-776-7825,Californian,109
+39,1,Seryna,11 E. 53rd St.,New York,+1-212-980-9393,Asian,59,Seryna,11 E. 53rd St.,New York City,+1-212-980-9393,Japanese,59
+40,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Brookhaven Cafe,4274 Peachtree Road,Atlanta,+1-404-231-5907,Vegetarian,682
+41,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Monte Carlo,3145 Las Vegas Boulevard South,Las Vegas,+1-702-733-4524,French (New),665
+42,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+43,0,Cafe Fes,246 W. 4th Street at Charles Street,New York,+1-212-924-7653,Mediterranean,205,Cafe Flore,2298 Market Street,San Francisco,+1-415-621-8579,Californian,722
+44,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+45,0,Pinot Bistro,12969 Ventura Boulevard,Los Angeles,+1-818-990-0500,French,18,Rubin's Red Hots,15322 Ventura Boulevard,Encino,+1-818-905-6515,Hot Dog,590
+46,1,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French,106,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French (New),106
+47,0,'em Press Court',3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+48,1,Mesa Grill,102 5th Avenue Between 15th And 16th Streets,New York,+1-212-807-7400,American,47,Mesa Grill,102 Fifth Avenue,New York City,+1-212-807-7400,Southwestern,47
+49,0,` Chin 's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+50,0,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16,Mo Better Meaty Meat,7261 Melrose Avenue,LA,+1-213-935-5280,Hamburger,579
+51,0,Triangolo,345 E. 83rd St.,New York,+1-212-472-4488,Italian,363,Cafe Lalo,201 West 83rd Street,New York City,+1-212-496-6031,Coffeehouse,26
+52,0,Gilliland's,2424 Main Street,Santa Monica,+1-310-392-3901,American,135,Chinois on Main,2709 Main Street,Santa Monica,+1-310-392-9025,Pacific New Wave,5
+53,1,Nikolai's Roof,255 Courtland Street At Harris Street,Atlanta,+1-404-221-6362,Continental,87,Nikolai's Roof,255 Courtland Street,Atlanta,+1-404-221-6362,Continental,87
+54,0,Dawat,210 E. 58th St.,New York,+1-212-355-7555,Asian,32,Sparks Steak House,210 E. 46th St.,New York City,+1-212-687-4855,Steakhouse,641
+55,1,Le Bernardin,155 W. 51st St.,New York,+1-212-489-1515,French,41,Le Bernardin,155 W. 51st St.,New York City,+1-212-489-1515,Seafood,41
+56,0,Faz,161 Sutter Street,San Francisco,+1-415-362-0404,Greek and Middle Eastern,469,`Fleur de Lys`,777 Sutter Street,San Francisco,+1-415-673-7779,French (New),100
+57,0,Veni Vidi Vici,41 14th Street,Atlanta,+1-404-875-8424,Italian,93,Bobby & June's Kountry Kitchen,375 14th Street,Atlanta,+1-404-876-3872,Southern/Soul,680
+58,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+59,0,Cite,120 W. 51st St.,New York,+1-212-956-7100,French,220,Le Bernardin,155 West 51st Street,New York City,+1-212-489-1515,Seafood,41
+60,1,Oceana,55 E. 54th Street,New York,+1-212-759-5941,Seafood,50,Oceana,55 E. 54th St.,New York City,+1-212-759-5941,Seafood,50
+61,0,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Original Pancake House (At),4330 Peachtree Road,Atlanta,+1-404-237-4116,American,708
+62,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,The ` steak house' ,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+63,0,Manora,3226 Mission Street,San Francisco,+1-415-861-6224,Asian,494,Boulevard,1 Mission Street,San Francisco,+1-415-543-6084,American (New),96
+64,0,Canter's,419 N. Fairfax Ave.,Los Angeles,+1-213-651-2030,American,122,C. Carey's,1021 Cobb Parkway Southeast,Marietta,+1-770-422-8042,Hamburgers,685
+65,0,Hong Kong Villa,2332 Clement Street,San Francisco,+1-415-752-8833,Asian,481,A. Alain Rondelli,126 Clement Street,San Francisco,+1-415-387-0408,French (New),94
+66,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+67,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+68,0,Helmand,430 Broadway,San Francisco,+1-415-362-0641,Greek and Middle Eastern,479,Gray's Papaya,2090 Broadway,New York City,+1-212-799-0243,Hot Dog,614
+69,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+70,0,Jack's,615 Sacramento Street,San Francisco,+1-415-986-9854,Old San Francisco,485,Joe's,1023 Abbot Kinney Boulevard,Venice,+1-310-399-5811,American (New),560
+71,0,Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,90,Original Pancake House (At),4330 Peachtree Road,Atlanta,+1-404-237-4116,American,708
+72,0,Lutece,249 E. 50th St.,New York,+1-212-752-2225,French,44,L'Espinasse (New York City),2 E. 55th St.,New York City,+1-212-339-6719,Asian,43
+73,0,Em Press Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+74,0,Mary Mac's Tea Room,224 Ponce De Leon Avenue,Atlanta,+1-404-876-1800,Southern,86,Tortillas,774 Ponce De Leon Avenue Northeast,Atlanta,+1-404-892-0193,Tex-Mex,716
+75,0,Valentino,3115 Pico Boulevard,Santa Monica,+1-310-829-4313,Italian,21,Rae's,2901 Pico Boulevard,Santa Monica,+1-310-828-7937,Diner,589
+76,0,Lulu,816 Folsom Street,San Francisco,+1-415-495-5775,Mediterranean,105,Hamburger Mary's,1582 Folsom Street,San Francisco,+1-415-626-1985,Hamburgers,732
+77,0,TomTom,3393 Peachtree Road NE,Atlanta,+1-404-264-1163,Continental,422,White House Restaurant,3172 Peachtree Road Northeast,Atlanta,+1-404-237-7601,Diner,719
+78,0,Broadway Deli,3rd Street Promenade,Santa Monica,+1-310-451-0616,American,117,Benita's Frites,1433 Third St. Promenade,Santa Monica,+1-310-458-2889,Fast Food,538
+79,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,'Em Eriel's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+80,0,Pano's and Paul's,1232 W. Paces Ferry Road,Atlanta,+1-404-261-3662,International,88,Canoe,4199 Paces Ferry Road,Atlanta,+1-770-432-2663,American (New),684
+81,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Ritz-Carlton Dining Room (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),90
+82,0,Vong,200 East 54th Street,New York,+1-212-486-9592,American,373,Second Street Grill,200 E. Fremont Street,Las Vegas,+1-702-385-6277,Pacific Rim,71
+83,0,Hedgerose Heights Inn,490 E. Paces Ferry Road,Atlanta,+1-404-233-7673,International,82,Pano's & Paul's ',1232 W. Paces Ferry Rd.,Atlanta,+1-404-261-3662,American (New),88
+84,0,Ritz-Carlton Restaurant and Dining Room,600 Stockton Street,San Francisco,+1-415-296-7465,American,110,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91
+85,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+86,0,Fleur de Jour,348 E. 62nd St.,New York,+1-212-355-2020,Coffee Bar,245,Fleur de Lys,777 Sutter Street,San Francisco,+1-415-673-7779,French (New),100
+87,0,Dix Et Sept',181 W. 10th St.,New York,+1-212-645-8023,French,228,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+88,0,Jimmy's,201 Moreno Drive,Los Angeles,+1-310-552-2394,Continental,142,Tommy's,2575 Beverly Boulevard,Los Angeles,+1-213-389-9060,Hamburger Restaurant,598
+89,0,Petrossian,182 W. 58th St.,New York,+1-212-245-2214,French,52,Lés Célébrités,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+90,0,Aqua,252 California Street,San Francisco,+1-415-956-9662,Seafood,95,'Emerged Garden Restaurant',1550 California Street,San Francisco,+1-415-673-1155,Vietnamese,730
+91,0,Eclipse,8800 Melrose Avenue,Los Angeles,+1-310-724-5959,Californian,132,Sweet Lady Jane,8360 Melrose Avenue,LA,+1-213-653-7145,Desserts,596
+92,0,Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,90,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+93,0,Victor's Cafe,52 236 W. 52nd St.,New York,+1-212-586-7714,Latin American,371,The '21 Club,21 West 52nd Street,New York City,+1-212-582-7200,American (New),23
+94,0,C ' steak House ',2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+95,1,Valentino,3115 Pico Boulevard,Santa Monica,+1-310-829-4313,Italian,21,Valentino,3115 Pico Boulevard,Santa Monica,+1-310-829-4313,Italian,21
+96,0,Sarah\'s Kitchen,423 Amsterdam Avenue Between 80th And 81st Streets,New York,+1-212-496-6280,American,344,Sarah Beth's,1295 Madison Avenue,New York City,+1-212-410-7335,American,640
+97,1,River Cafe,1 Water Street at the East River,Brooklyn,+1-718-522-5200,American,56,` river cafe ',1 Water Street,Brooklyn,+1-718-522-5200,American (New),56
+98,1,La Grotta,"2637 Peachtree Road, Peachtree House Condominium",Atlanta,+1-404-231-1368,Italian,85,` La Grotta `,' 2637 Peachtree Rd. NE ',Atlanta,+1-404-231-1368,Italian,85
+99,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,The ' Steak House ,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+100,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+101,0,,,,,,unknown,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+102,0,Cafe Bizou,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French,3,Art's Deli,12224 Ventura Boulevard,Studio City,+1-818-762-1221,Delicatessen,1
+103,1,Union Square Cafe,21 East 16th Street,New York,+1-212-243-4020,American,65,` Union Square Cafe ','21 E. 16th St.',New York City,+1-212-243-4020,American (New),65
+104,0,` Taste of New Orleans `',' 889 W. Peachtree St. ',Atlanta,+1-404-874-5535,Southern,421,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91
+105,0,Taste of New Orleans,889 W. Peachtree St.,Atlanta,+1-404-874-5535,Southern,421,Alon's at the Terrace,659 Peachtree Street,Atlanta,+1-404-724-0444,Sandwiches,676
+106,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,`Morton`s of Chicago (Las Vegas) `,3200 Las Vegas Boulevard South ,Las Vegas,+1-702-893-0703,Steakhouse,667
+107,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Coyote Cafe (Las Vegas),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+108,0,L 'Orangerie,903 N. La Cienega Boulevard,Los Angeles,+1-310-652-9770,French,11,` Arnie Morton 's of Chicago`,435 S. La Cienega Boulevard,Los Angeles,+1-310-246-1501,Steakhouse,0
+109,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+110,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+111,0,'Em Press Court ',3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+112,0,Posto,14928 Ventura Boulevard,Sherman Oaks,+1-818-784-4400,Italian,156,Cafe Bizou,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French Bistro,3
+113,0,Island Spice,402 W. 44th St.,New York,+1-212-765-1737,Tel Caribbean,37,Virgil's Real BBQ,152 W. 44th St.,New York City,+1-212-921-9494,BBQ,66
+114,0,Beeesley's of Buckhead,260 E. Paces Ferry Road,Atlanta,+1-404-264-1334,Continental,384,Riviera,519 E. Paces Ferry Rd.,Atlanta,+1-404-262-7112,Mediterranean,712
+115,0,Petrossian,182 W. 58th St.,New York,+1-212-245-2214,French,52,March,405 E. 58th St.,New York City,+1-212-754-6272,American (New),46
+116,0,March,405 E. 58th Street,New York,+1-212-754-6272,American,46,Wollensky's Grill,205 E. 49th Street,New York City,+1-212-753-0444,Steakhouse,653
+117,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Palm The ( Atlanta ),3391 Peachtree Road Northeast,Atlanta,+1-404-814-1955,Steakhouse,709
+118,0,Joss,9255 Sunset Boulevard,Los Angeles,+1-310-276-1886,Asian,143,Duke's,8909 Sunset Boulevard,W. Hollywood,+1-310-652-3100,Coffee Shop,551
+119,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+120,0,Rose Pistola,532 Columbus Avenue,San Francisco,+1-415-399-0499,Italian,111,Caffe Greco,423 Columbus Avenue,San Francisco,+1-415-397-6261,Continental,723
+121,0,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French Bistro,12
+122,0,B. Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+123,0,Tang Pavilion,65 W. 55th St.,New York,+1-212-956-6888,Asian,356,La Cote Basque,60 West 55th Street,New York City,+1-212-688-6525,French (Classic),40
+124,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+125,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road,Atlanta,+1-404-266-1600,Continental,393,Brookhaven Cafe,4274 Peachtree Road,Atlanta,+1-404-231-5907,Vegetarian,682
+126,0,Water Club,500 E. 30th St.,New York,+1-212-683-3333,American,374,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+127,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+128,0,Bones',3130 Piedmont Road,Atlanta,+1-404-237-2663,American,76,Soto,3330 Piedmont Road,Atlanta,+1-404-233-2005,Japanese,714
+129,0,L\` Absinthe,227 E. 67th St.,New York,+1-212-794-4950,French,277,Cafe des Artistes,1 W. 67th St.,New York City,+1-212-877-3500,French (Classic),27
+130,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,White House Restaurant,3172 Peachtree Road Northeast,Atlanta,+1-404-237-7601,Diner,719
+131,0,Bruno,240 E. 58th St.,New York,+1-212-688-4190,Italian,195,March,405 E. 58th St.,New York City,+1-212-754-6272,American (New),46
+132,0,Carnival World,3700 W. Flamingo Road,Las Vegas,+1-702-252-7777,Buffet,435,'Tillerman The',2245 E. Flamingo Rd.,Las Vegas,+1-702-731-4036,Steakhouse,73
+133,0,Cafe Bianco,1486 2nd Avenue Between 77th and 78th Streets,New York,+1-212-988-2655,Coffee Bar,199,Cafe Blanc,9777 Little Santa Monica Boulevard,Beverly Hills,+1-310-888-0108,Pacific New Wave,546
+134,0,` palace court ',' 3570 Las Vegas Boulevard South ',Las Vegas,+1-702-731-7547,Continental,70,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+135,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road Northeast,Atlanta,+1-404-266-1600,Continental,393,Ritz-Carlton Dining Room (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),90
+136,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,'Emeril's New Orleans Fish House',3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+137,0,Bolo,23 E. 22nd St.,New York,+1-212-228-2200,Mediterranean,191,La Grenouille,3 East 52nd Street,New York City,+1-212-752-1495,French (Classic),623
+138,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7110,French (New),70
+139,0,Felidia,243 East 58th Street,New York,+1-212-758-1479,Italian,33,March,405 E. 58th St.,New York City,+1-212-754-6272,American (New),46
+140,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Toulouse,293-B Peachtree Road,Atlanta,+1-404-351-9533,French (New),92
+141,0,Hard Rock Cafe,221 West 57th Street,New York,+1-212-489-6565,American,261,` edison cafe ',228 W. 47th St.,New York City,+1-212-840-5000,Diner,611
+142,1,Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,90,Ritz-Carlton Dining Room (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),90
+143,1,Smith & Wollensky,201 East 49th Street,New York,+1-212-753-1530,American,62,Smith & Wollensky,797 Third Avenue,New York City,+1-212-753-1530,Steakhouses,62
+144,0,Matthew's,1030 3rd Avenue at 61st Street,New York,+1-212-838-4343,American,305,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French (New),106
+145,0,Border Grill,4th Street,Los Angeles,+1-310-451-1655,Mexican,116,Roosevelt Tamale Parlor,2817 24th Street,San Francisco,+1-415-550-9213,Mexican,742
+146,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,89,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+147,0,Vivande Porta Via,2125 Fillmore Street,San Francisco,+1-415-346-4430,Italian,524,Plumpjack Cafe,3127 Fillmore Street,San Francisco,+1-415-563-4755,American (New),108
+148,1,Pisces,95 Avenue A at 6th Street,New York,+1-212-260-6660,Seafood,54,Pisces,95 Avenue A,New York City,+1-212-260-6660,Seafood,54
+149,0,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French,12,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6
+150,0,Bruno,240 E. 58th St.,New York,+1-212-688-4190,Italian,195,Lutece,249 East 50th Street,New York City,+1-212-752-2225,French (Classic),44
+151,0,March,405 E. 58th St.,New York,+1-212-754-6272,American,46,Shun Lee Palace,155 E. 55th St.,New York City,+1-212-371-8844,Chinese,60
+152,0,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Abruzzi,2355 Peachtree Road Northeast,Atlanta,+1-404-261-8186,Italian,74
+153,0,Yolie's,3900 Paradise Road,Las Vegas,+1-702-794-0700,Steak House,452,Le Montrachet Bistro,3000 Paradise Road,Las Vegas,+1-702-732-5651,French Bistro,69
+154,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+155,1,Granita,23725 W. Malibu Rd.,Malibu,+1-310-456-0488,Californian,8,Granita,23725 W. Malibu Rd.,Malibu,+1-310-456-0488,Californian,8
+156,1,L\` Orangerie,903 N. La Cienega Blvd.,Los Angeles,+1-310-652-9770,French,11,L\` Orangerie,903 N. La Cienega Boulevard,West Hollywood,+1-310-652-9770,French (Classic),11
+157,1,Georgia Grille,"2290 Peachtree Road Northeast, Peachtree Square Shopping Center",Atlanta,+1-404-352-3517,American,81,Georgia Grille,2290 Peachtree Road,Atlanta,+1-404-352-3517,Southwestern,81
+158,0,`Camille's`,1186 N. Highland Ave.,Atlanta,+1-404-872-7203,Italian,388,Uncle Bill's Pancake House,1305 Highland Avenue,Manhattan Beach,+1-310-545-5177,Diner,599
+159,0,Antonio's,3700 W. Flamingo Road,Las Vegas,+1-702-252-7737,Italian,423,Fiore Rotisserie & Grille,3700 W. Flamingo Road,Las Vegas,+1-702-252-7702,Italian,660
+160,0,Bistango,1100 Peachtree Street,Atlanta,+1-404-724-0901,Mediterranean,386,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91
+161,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+162,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Michael's,3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+163,0,Helmand,430 Broadway,San Francisco,+1-415-362-0641,Greek and Middle Eastern,479,Carmine's,2450 Broadway Between 90th And 91st Streets,New York,+1-212-362-2200,Italian,28
+164,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Michael's,3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+165,1,Lulu,816 Folsom Street,San Francisco,+1-415-495-5775,Mediterranean,105,Lulu Restaurant-Bis-Cafe,816 Folsom Street,San Francisco,+1-415-495-5775,Mediterranean,105
+166,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+167,0,Lé Marais,150 W. 46th St.,New York,+1-212-869-0900,American,290,Virgil's Real BBQ,152 W. 44th St.,New York City,+1-212-921-9494,BBQ,66
+168,0,,,,,,unknown,Yama,122 E. 17th St.,New York City,+1-212-475-0969,Japanese,654
+169,0,Pano's and Paul's,1232 W. Paces Ferry Rd.,Atlanta,+1-404-261-3662,International,88,103 West,103 W. Paces Ferry Rd.,Atlanta,+1-404-233-5993,Continental,675
+170,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+171,0,Tadich Grill,240 California Street,San Francisco,+1-415-391-2373,Seafood,519,Aqua,252 California Street,San Francisco,+1-415-956-9662,American (New),95
+172,0,Sanppo,1702 Post Street,San Francisco,+1-415-346-3486,Asian,510,Postrio,545 Post Street,San Francisco,+1-415-776-7825,Californian,109
+173,1,Restaurant Katsu,1972 N. Hillhurst Avenue,Los Angeles,+1-213-665-1891,Asian,10,Katsu,1972 Hillhurst Avenue,Los Feliz,+1-213-665-1891,Japanese,10
+174,0,Petrossian,182 West 58th Street,New York,+1-212-245-2214,French,52,Felidia,243 E. 58th St.,New York City,+1-212-758-1479,Italian,33
+175,0,Zuni Cafe & Grill,1658 Market Street,San Francisco,+1-415-552-2522,Mediterranean,532,Cafe Flore,2298 Market Street,San Francisco,+1-415-621-8579,Californian,722
+176,0,La Folie,2316 Polk Street,San Francisco,+1-415-776-5577,French,104,The Swan Oyster Depot,1517 Polk Street,San Francisco,+1-415-673-1101,Seafood Restaurant,746
+177,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Michael's,3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+178,0,Virgil's,152 W. 44th St.,New York,+1-212-921-9494,American,66,Les Celebrites,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+179,0,Virgil's,152 W. 44th St.,New York,+1-212-921-9494,American,66,Petrossian,182 West 58th Street,New York City,+1-212-245-2214,Russian,52
+180,0,Abbey,163 Ponce De Leon Avenue,Atlanta,+1-404-876-8532,International,379,Tortillas,774 Ponce De Leon Avenue Northeast,Atlanta,+1-404-892-0193,Tex-Mex,716
+181,0,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91,`Morton's of Chicago (Atlanta) `,303 Peachtree Street NE,Atlanta,+1-404-577-4366,Steakhouses,704
+182,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Tre Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+183,0,Mon Kee Seafood Restaurant,679 N. Spring St.,Los Angeles,+1-213-628-6717,Asian,147,Lombardi's,32 Spring Street,New York City,+1-212-941-7994,Pizza,625
+184,0,LeSpinasse,2 East 55th Street,New York,+1-212-339-6719,American,43,Felidia,243 E. 58th St.,New York City,+1-212-758-1479,Italian,33
+185,0,Posto,14928 Ventura Boulevard,Sherman Oaks,+1-818-784-4400,Italian,156,Art's Deli,12224 Ventura Boulevard,Studio City,+1-818-762-1221,Deli,1
+186,0,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Ritz-Carlton Cafe ( Buckhead ),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American ( New ),89
+187,0,Bone's,3130 Piedmont Road,Atlanta,+1-404-237-2663,American,76,Rae's,2901 Pico Boulevard,Santa Monica,+1-310-828-7937,Diner,589
+188,0,The Palm,9001 Santa Monica Boulevard,Los Angeles,+1-310-550-8811,American,15,La Cachette,10506 Little Santa Monica Boulevard,Century City,+1-310-470-4992,French (New),568
+189,0,Le Perigord,405 E. 52nd St.,New York,+1-212-755-6244,French,291,Four Seasons,99 E. 52nd St.,New York City,+1-212-754-9494,American (New),34
+190,1,Aquavit,13 W. 54th St.,New York,+1-212-307-7311,Continental,24,Aquavit,13 W. 54th Street,New York City,+1-212-307-7311,Scandinavian,24
+191,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Coyote Cafe ( Las Vegas ),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+192,0,Pinot Bistro,12969 Ventura Boulevard,Los Angeles,+1-818-990-0500,French,18,Nozawa's Sushi,11288 Ventura Boulevard,Studio City,+1-818-508-7017,Japanese,595
+193,0,Carnival World,3700 W. Flamingo Road,Las Vegas,+1-702-252-7777,Buffet,435,Buzio's in the Rio,3700 W. Flamingo Road,Las Vegas,+1-702-252-7697,Seafood,658
+194,1,Fenix,8358 Sunset Boulevard West,Hollywood,+1-213-848-6677,American,7,` fenix at the argyle ',' 8358 sunset blvd. ',` w. hollywood ',+1-213-848-6677,French (New),7
+195,0,Yolie's,3900 Paradise Road,Las Vegas,+1-702-794-0700,Steak House,452,Rae's,2901 Pico Boulevard,Santa Monica,+1-310-828-7937,Diner,589
+196,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Palm The (Atlanta),3391 Peachtree Road Northeast,Atlanta,+1-404-814-1955,Steakhouses,709
+197,0,La Reserve,4 W. 49th St.,New York,+1-212-247-2993,French,281,Wollensky's Grill,205 E. 49th St.,New York City,+1-212-753-0444,Steakhouse,653
+198,0,Le Colonial,149 E. 57th St.,New York,+1-212-752-0808,Asian,286,Shun Lee Palace,155 E. 55th St.,New York City,+1-212-371-8844,Chinese,60
+199,0,Pinot Bistro,12969 Ventura Boulevard,Los Angeles,+1-818-990-0500,French,18,Bizou Cafe,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French Bistro,3
+200,0,Gallagher's,228 W. 52nd St.,New York,+1-212-245-5336,American,254,Edison Cafe,228 W. 47th St.,New York City,+1-212-840-5000,Diner,611
+201,0,Lé Marais,150 W. 46th St.,New York,+1-212-869-0900,American,290,Les Celebrites,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+202,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,Tre Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+203,0,Border Grill,4th Street,Los Angeles,+1-310-451-1655,Mexican,116,Water Grill,544 S. Grand Avenue,Los Angeles,+1-213-891-0900,Seafood,600
+204,0,Em Press Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+205,0,Cafe Michelle,1350 E. Flamingo Road,Las Vegas,+1-702-735-8686,American,432,Buzio's in the Rio,3700 W. Flamingo Rd.,Las Vegas,+1-702-252-7697,Seafood,658
+206,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,'Em Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+207,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+208,0,Caret Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,The ' Steakhouse,128 E. Fremont Street,Las Vegas,+1-702-382-1600,Steakhouse,671
+209,1,Rose Pistola,532 Columbus Avenue,San Francisco,+1-415-399-0499,Italian,111,Rose Pistola,532 Columbus Avenue,San Francisco,+1-415-399-0499,Italian,111
+210,1,La Cote Basque,60 West 55th Street Between 5th And 6th Avenue,New York,+1-212-688-6525,French,40,La Cote Basque,60 West 55th Street,New York City,+1-212-688-6525,French (Classic),40
+211,0,Ernie's,2150 Broadway Between 75th And 76th Streets,New York,+1-212-496-1588,American,234,Joe's,1023 Abbott Kinney Boulevard,Venice,+1-310-399-5811,American (New),560
+212,1,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French,12,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French Bistro,12
+213,0,Kabuto Sushi,5116 Geary Boulevard,San Francisco,+1-415-752-5652,Asian,486,Khan Toke Thai House,5937 Geary Boulevard,San Francisco,+1-415-668-6654,Thai,103
+214,0,Lé Perigord,405 E. 52nd St.,New York,+1-212-755-6244,French,291,March,405 E. 58th Street,New York City,+1-212-754-6272,American (New),46
+215,0,'Em Press Court ',3570 Las Vegas Boulevard South ,Las Vegas ,+1-702-731-7888,Asian,438,Em eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+216,0,Manhattan Ocean Club,57 W. 58th St.,New York,+1-212-371-7777,Seafood,45,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+217,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+218,0,Des Alpes,732 Broadway,San Francisco,+1-415-788-9900,French,468,Peter Lugers Steak House,178 Broadway,Brooklyn,+1-718-387-7400,Steakhouse,637
+219,0,L. Lincoln Tavern,51 W. 64th St.,New York,+1-212-721-8271,American,294,Cafe des Artistes,1 West 67th Street,New York City,+1-212-877-3500,French (Classic),27
+220,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7110,French (New),70
+221,0,Indigo Coastal Grill,1397 N. Highland Ave.,Atlanta,+1-404-876-0676,Caribbean,84,Uncle Bill's Pancake House,1305 Highland Avenue,Manhattan Beach,+1-310-545-5177,Diner,599
+222,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road Northeast,Atlanta,+1-404-266-1600,Continental,393,Ritz-Carlton Cafe (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),89
+223,0,Art's Delicatessen,12224 Ventura Boulevard,Studio City,+1-818-762-1221,American,1,Pinot Bistro,12969 Ventura Boulevard,Studio City,+1-818-990-0500,French Bistro,18
+224,0,Cafe Adriano,3347 Fillmore Street,San Francisco,+1-415-474-4180,Italian,461,Trio Cafe,1870 Fillmore Street,San Francisco,+1-415-563-2248,American,749
+225,0,TomTom,3393 Peachtree Road North,Atlanta,+1-404-264-1163,Continental,422,Georgia Grille,2290 Peachtree Road,Atlanta,+1-404-352-3517,Southwestern,81
+226,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,Tre Visi',3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+227,0,Bone's,3130 Piedmont Road,Atlanta,+1-404-237-2663,American,76,Duke's,8909 Sunset Boulevard,W. Hollywood,+1-310-652-3100,Coffee Shop,551
+228,0,Gallagher's,228 W. 52nd St.,New York,+1-212-245-5336,American,254,21 Club,21 West 52nd Street,New York City,+1-212-582-7200,American (New),23
+229,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,'Em Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+230,0,The Palm,9001 Santa Monica Boulevard,Los Angeles,+1-310-550-8811,American,15,Cafe Blanc,9777 Little Santa Monica Boulevard,Beverly Hills,+1-310-888-0108,Pacific New Wave,546
+231,0,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91,Ritz-Carlton Cafe ( Atlanta ),181 Peachtree Street,Atlanta,+1-404-659-0400,American ( New ),711
+232,1,`Brasserie Le Coze`,"3393 Peachtree Road Northeast, Lenox Square Mall near Neiman Marcus",Atlanta,+1-404-266-1440,French,77,` Brasserie Le Coze ',3393 Peachtree Road,Atlanta,+1-404-266-1440,French Bistro,77
+233,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+234,0,Dawat,210 E. 58th Street,New York,+1-212-355-7555,Asian,32,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+235,0,Union Square Cafe,21 East 16th Street,New York,+1-212-243-4020,American,65,Arcadia,21 East 62nd Street,New York City,+1-212-223-2900,American (New),603
+236,1,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16
+237,0,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,Continental,91,Alon's at the Terrace,659 Peachtree Street,Atlanta,+1-404-724-0444,Sandwiches,676
+238,0,Art's Delicatessen,12224 Ventura Boulevard,Studio City,+1-818-762-1221,American,1,` Cafe Bizou ','14016 Ventura Boulevard ',` Sherman Oaks ',+1-818-788-3536,French Bistro,3
+239,0,The Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,90,Nava,3060 Peachtree Road Northeast,Atlanta,+1-404-240-1984,Southwestern,706
+240,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+241,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Coyote Cafe ( Las Vegas ),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+242,0,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Continental,70,`Monte Carlo`,3145 Las Vegas Boulevard South,Las Vegas,+1-702-733-4524,French (New),665
+243,0,The '21 Club,21 West 52nd Street,New York,+1-212-582-7200,American,23,Arcadia,21 E. 62nd St.,New York City,+1-212-223-2900,American (New),603
+244,0,Arnie Morton's of Chicago,435 S. La Cienega Boulevard,Los Angeles,+1-310-246-1501,American,0,Morton's of Chicago (Las Vegas) ,3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+245,0,Chiam,160 E. 48th St.,New York,+1-212-371-2323,Asian,218,Dawat,210 E. 58th St.,New York City,+1-212-355-7555,Indian,32
+246,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Ritz-Carlton Cafe (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),89
+247,0,Des Alpes,732 Broadway,San Francisco,+1-415-788-9900,French,468,Pho Hoa,642 Broadway,Chinatown,+1-213-626-5530,Vietnamese,585
+248,0,Camille's,1186 N. Highland Avenue,Atlanta,+1-404-872-7203,Italian,388,Indigo Coastal Grill,1397 N Highland Ave.,Atlanta,+1-404-876-0676,Eclectic,84
+249,0,Cafe Adriano,3347 Fillmore Street,San Francisco,+1-415-474-4180,Italian,461,Plumpjack Cafe,3127 Fillmore Street,San Francisco,+1-415-563-4755,American (New),108
+250,1,Cafe Lalo,201 W. 83rd St.,New York,+1-212-496-6031,Coffee Bar,26,Cafe Lalo,201 W. 83rd St.,New York City,+1-212-496-6031,Coffeehouse,26
+251,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Restaurant,449,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+252,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7110,French (New),70
+253,0,Shun Lee West,43 W. 65th St.,New York,+1-212-371-8844,Asian,60,John's Pizzeria,48 West 65th Street,New York City,+1-212-721-7001,Pizza,618
+254,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+255,0,Felidia,243 E. 58th St.,New York,+1-212-758-1479,Italian,33,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+256,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Morton's of Chicago ( Las Vegas ),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+257,0,Art's Delicatessen,12224 Ventura Boulevard,Studio City,+1-818-762-1221,American,1,Mulberry St.,17040 Ventura Boulevard,Encino,+1-818-906-8881,Pizza,580
+258,0,Sea Grill,19 W. 49th St.,New York,+1-212-332-7610,Seafood,345,Mesa Grill,102 Fifth Avenue,New York City,+1-212-807-7400,Southwestern,47
+259,0,Smith & Wollensky,201 East 49th Street,New York,+1-212-753-1530,American,62,Sparks Steak House,210 E. 46th St.,New York City,+1-212-687-4855,Steakhouse,641
+260,0,Rex IL Ristorante,617 S. Olive St.,Los Angeles,+1-213-627-2300,Italian,19,`Bernard's`,515 S. Olive St.,Los Angeles,+1-213-612-1580,Continental,539
+261,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouses,72
+262,0,Cafe Pierre,2 E. 61st St.,New York,+1-212-940-8185,French,203,Cafe Flore,2298 Market Street,San Francisco,+1-415-621-8579,Californian,722
+263,0,L'E Jardin,25 Cleveland Place Near Spring Street,New York,+1-212-343-9599,French,288,Le Bernardin,155 W. 51st St.,New York City,+1-212-489-1515,Seafood,41
+264,0,Gianni's,15 Fulton Street,New York,+1-212-608-7300,Seafood,255,Patsy's Pizza,19 Old Fulton Street,Brooklyn,+1-718-858-4300,Pizza,636
+265,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,,,,,,unknown
+266,0,Planet Hollywood,140 W. 57th St.,New York,+1-212-333-7827,American,328,Les Celebrites,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+267,0,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French,12,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16
+268,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+269,0,Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,International,90,Georgias Grille,2290 Peachtree Road Northeast,Atlanta,+1-404-352-3517,Southwestern,81
+270,1,21 Club,21 West 52nd Street,New York,+1-212-582-7200,American,23,21 Club,21 West 52nd Street,New York City,+1-212-582-7200,American (New),23
+271,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,T� re Visi ',' 3799 Las Vegas Boulevard South ',Las Vegas,+1-702-891-7331,Italian,674
+272,0,Hard Rock Cafe,8600 Beverly Boulevard,Los Angeles,+1-310-276-7605,American,137,` Jan \ 's Family Restaurant`,8424 Beverly Boulevard,Los Angeles,+1-213-651-2866,Coffee Shop,557
+273,0,California Pizza Kitchen,207 S. Beverly Dr.,Los Angeles,+1-310-275-1101,Californian,121,Ruth's Chris Steak House (Los Angeles),224 S. Beverly Dr.,Beverly Hills,+1-310-859-8744,Steakhouses,593
+274,1,Matsuhisa,129 N. La Cienega Boulevard,Beverly Hills,+1-310-659-9639,Asian,14,Matsuhisa,129 N La Cienega Boulevard,Beverly Hills,+1-310-659-9639,Seafood,14
+275,1,Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+276,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road NE,Atlanta,+1-404-237-2700,International,89,Georgia Grille,2290 Peachtree Road,Atlanta,+1-404-352-3517,Southwestern,81
+277,0,California Culinary Academy,625 Polk Street,San Francisco,+1-415-771-3500,French,463,La Folie,2316 Polk Street,San Francisco,+1-415-776-5577,French (New),104
+278,0,C` Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak Houses,72,Tre Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+279,0,Osteria al Droge,142 W. 44th St.,New York,+1-212-944-3643,Italian,317,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+280,1,Pano's and Paul's,1232 W Paces Ferry Rd,Atlanta,+1-404-261-3662,International,88,Pano's & Paul's ,1232 W. Paces Ferry Rd.,Atlanta,+1-404-261-3662,American (New),88
+281,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+282,0,Feast,2411 W. Sahara Avenue,Las Vegas,+1-702-367-2411,Buffet,439,Mayflower Cuisinier,4750 W. Sahara Avenue,Las Vegas,+1-702-870-8432,Chinese,663
+283,0,Le Chantilly,106 E. 57th St.,New York,+1-212-751-2931,French,285,Shun Lee Palace,155 E. 55th St.,New York City,+1-212-371-8844,Chinese,60
+284,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Palm The (Atlanta),3391 Peachtree Road Northeast,Atlanta,+1-404-814-1955,Steakhouses,709
+285,0,Orso,322 West 46th Street,New York,+1-212-489-7212,Italian,316,Virgil's Real BBQ,152 W. 44th St.,New York City,+1-212-921-9494,BBQ,66
+286,0,Plumpjack Cafe,3201 Fillmore Street,San Francisco,+1-415-563-4755,Mediterranean,108,Trio Cafe,1870 Fillmore Street,San Francisco,+1-415-563-2248,American,749
+287,0,Lespinasse,2 East 55th Street,New York,+1-212-339-6719,American,43,La Cote Basque,60 W. 55th Street,New York City,+1-212-688-6525,French (Classic),40
+288,0,R.J.'s Uptown Kitchen & Wine Bar,870 N. Highland Ave.,Atlanta,+1-404-875-7775,American,413,Uncle Bill's Pancake House,1305 Highland Avenue,Manhattan Beach,+1-310-545-5177,Diner,599
+289,0,Helmand,430 Broadway,San Francisco,+1-415-362-0641,Greek and Middle Eastern,479,Peter Lugers Steak House,178 Broadway,Brooklyn,+1-718-387-7400,Steakhouse,637
+290,0,Orleans,11705 National Boulevard,Los Angeles,+1-310-479-4187,Cajun,152,Indo Cafe,10428 1/2 National Boulevard,Los Angeles,+1-310-815-1290,Indonesian,556
+291,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,Em 'Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+292,0,Palio,151 W. 51st Street,New York,+1-212-245-4850,Italian,320,` le bernardin ',155 West 51st Street,New York City,+1-212-489-1515,Seafood,41
+293,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,Coyote Cafe ( Las Vegas ),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+294,0,2223,2223 Market Street,San Francisco,+1-415-431-0692,American,453,Cafe Flore,2298 Market Street,San Francisco,+1-415-621-8579,Californian,722
+295,0,Betelnut,2030 Union Street,San Francisco,+1-415-929-8855,Asian,456,Doidge's,2217 Union Street,San Francisco,+1-415-921-2149,American,726
+296,0,Manora,3226 Mission Street,San Francisco,+1-415-861-6224,Asian,494,Shiro,1505 Mission Street South,Pasadena,+1-818-799-4774,Pacific New Wave,594
+297,0,San Pietro,18 E. 54th St.,New York,+1-212-753-9015,Italian,342,Oceana,'55 E. 54th Street',New York City,+1-212-759-5941,Seafood,50
+298,0,Posto,14928 Ventura Boulevard,Sherman Oaks,+1-818-784-4400,Italian,156,Pinot Bistro,12969 Ventura Boulevard,Studio City,+1-818-990-0500,French Bistro,18
+299,1,Ph. Philippe's The Original,1001 N Alameda St.,Los Angeles,+1-213-628-3781,American,17,Philippe The Original,1001 North Alameda Street,Chinatown,+1-213-628-3781,Cafeteria,17
+300,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+301,0,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French,106,Teresa's,80 Montague Street,Queens,+1-718-520-2910,Polish,647
+302,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,The 'Steak House',2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouses,72
+303,0,Hedgerose Heights Inn,490 E. Paces Ferry Rd.,Atlanta,+1-404-233-7673,International,82,Chops,70 West Paces Ferry Road,Atlanta,+1-404-262-2675,Steakhouse,687
+304,0,Mavalli Palace,46 E. 29th St.,New York,+1-212-679-5535,Asian,306,Gramercy Tavern,42 E. 20th St.,New York City,+1-212-477-0777,American (New),36
+305,0,Morton's,8764 Melrose Avenue,Los Angeles,+1-310-276-5205,American,148,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6
+306,0,PEN & PENCIL,205 E. 45th St.,New York,+1-212-682-8660,American,325,Wollensky's Grill,205 E. 49th St.,New York City,+1-212-753-0444,Steakhouse,653
+307,0,Orso,322 W. 46th St.,New York,+1-212-489-7212,Italian,316,Sparks Steak House,210 East 46th Street,New York City,+1-212-687-4855,Steakhouse,641
+308,0,Monkey Bar,60 East 54th Street,New York,+1-212-838-2600,American,308,Oceana,'55 E. 54th Street',New York City,+1-212-759-5941,Seafood,50
+309,0,Four Seasons Grill Room,99 E. 52nd St.,New York,+1-212-754-9494,American,34,La Grenouille,3 E. 52nd St.,New York City,+1-212-752-1495,French (Classic),623
+310,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+311,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International Restaurant,89,Nava,3060 Peachtree Road,Atlanta,+1-404-240-1984,Southwestern,706
+312,0,La Caravelle,33 W. 55th St.,New York,+1-212-586-4252,French,39,Menchanko-Tei,39 W. 55th St.,New York City,+1-212-247-1585,Japanese,627
+313,0,Jewel of India,15 W. 44th St.,New York,+1-212-869-5544,Asian,273,Island Spice,402 W. 44th St.,New York City,+1-212-765-1737,Caribbean,37
+314,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+315,0,Manora,3226 Mission Street,San Francisco,+1-415-861-6224,Asian,494,,,,,,unknown
+316,1,Cafe Bizou,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French,3,Bizou Cafe,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French Bistro,3
+317,1,Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Continental,70,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7110,French (New),70
+318,0,California Culinary Academy,625 Polk Street,San Francisco,+1-415-771-3500,French,463,Mario's Bohemian Cigar Store Cafe,2209 Polk Street,San Francisco,+1-415-776-8226,Italian,737
+319,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+320,0,Bolo,23 E. 22nd St.,New York,+1-212-228-2200,Mediterranean,191,Arcadia,21 East 62nd Street,New York City,+1-212-223-2900,American (New),603
+321,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,89,` Brasserie Le Coze ',' 3393 Peachtree Road ',Atlanta,+1-404-266-1440,French Bistro,77
+322,0,`Tavola Calda`,7371 Melrose Avenue,Los Angeles,+1-213-658-6340,Italian,165,Johnny Rockets (LA),7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+323,0,Fleur De Jour,348 E. 62nd St.,New York,+1-212-355-2020,Coffee Bar,245,Arcadia,21 E. 62nd St.,New York City,+1-212-223-2900,American (New),603
+324,0,Le Spinasse,2 East 55th Street,New York,+1-212-339-6719,American,43,`Shun Lee Palace`,155 E. 55th St.,New York City,+1-212-371-8844,Chinese,60
+325,1,Dawat,210 E. 58th St.,New York,+1-212-355-7555,Asian,32,Dawat,210 E. 58th St.,New York City,+1-212-355-7555,Indian,32
+326,0,Bamboo Garden,4850 Flamingo Road,Las Vegas,+1-702-871-3262,Asian,425,Buzio's in the Rio,3700 W. Flamingo Rd.,Las Vegas,+1-702-252-7697,Seafood,658
+327,0,Boulevard,1 Mission Street,San Francisco,+1-415-543-6084,American,96,Shiro,1505 Mission Street South,Pasadena,+1-818-799-4774,Pacific New Wave,594
+328,1,March,405 E. 58th St.,New York,+1-212-754-6272,American,46,March,405 E. 58th St.,New York City,+1-212-754-6272,American (New),46
+329,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+330,0,'em Press Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Monte Carlo,3145 Las Vegas Boulevard South,Las Vegas,+1-702-733-4524,French (New),665
+331,1,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,International Restaurant,89,Ritz-Carlton Cafe ( Buckhead ),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American ( New ),89
+332,0,La Caravelle,33 W. 55th St.,New York,+1-212-586-4252,French,39,Aquavit,13 W. 54th St.,New York City,+1-212-307-7311,Scandinavian,24
+333,1,Felidia,243 E. 58th St.,New York,+1-212-758-1479,Italian,33,Felidia,243 East 58th Street,New York City,+1-212-758-1479,Italian,33
+334,0,'Em Pire Korea',6 E. 32nd St.,New York,+1-212-725-1333,Asian,233,La Grenouille,3 E. 52nd St.,New York City,+1-212-752-1495,French (Classic),623
+335,0,Helmand,430 Broadway,San Francisco,+1-415-362-0641,Greek and Middle Eastern,479,` pho hoa ',' 642 broadway ',Chinatown,+1-213-626-5530,Vietnamese,585
+336,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Ritz-Carlton Cafe ( Atlanta ),181 Peachtree Street,Atlanta,+1-404-659-0400,American ( New ),711
+337,1,Montrachet,239 W. Broadway Between Walker and White Streets,New York,+1-212-219-2777,French,49,Montrachet,239 West Broadway,New York City,+1-212-219-2777,French Bistro,49
+338,0,Oritalia,1915 Fillmore Street,San Francisco,+1-415-346-1333,Italian,501,Plumpjack Cafe,3127 Fillmore Street,San Francisco,+1-415-563-4755,American (New),108
+339,0,Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Continental,70,Em Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+340,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International Cuisine,89,Brookhaven Cafe,4274 Peachtree Road,Atlanta,+1-404-231-5907,Vegetarian,682
+341,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+342,0,Planet Hollywood,140 West 57th Street,New York,+1-212-333-7827,American,328,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+343,0,Tommy Tang's,7313 Melrose Avenue,Los Angeles,+1-213-937-5733,Asian,167,Mo Better Meaty,7261 Melrose Avenue,Los Angeles,+1-213-935-5280,Hamburger,579
+344,1,Le Montrachet,3000 W. Paradise Rd.,Las Vegas,+1-702-732-5111,Continental,69,Le Montrachet Bistro,3000 Paradise Road,Las Vegas,+1-702-732-5651,French Bistro,69
+345,0,Yolie's,3900 Paradise Road,Las Vegas,+1-702-794-0700,Steak House,452,Joe's,1023 Abbott Kinney Boulevard,Venice,+1-310-399-5811,American (New),560
+346,0,`annie 's thai castle`,'3195 roswell rd.',Atlanta,+1-404-264-9546,Asian,381,Cafe Sunflower,5975 Roswell Road,Atlanta,+1-404-256-1675,Health Food,683
+347,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+348,0,French Quarter Food Shop,923 Peachtree Street at 8th Street,Atlanta,+1-404-875-2489,Southern,396,Ritz-Carlton Cafe ( Atlanta ),181 Peachtree Street,Atlanta,+1-404-659-0400,American ( New ),711
+349,0,French Quarter Food Shop,923 Peachtree Street at 8th Street,Atlanta,+1-404-875-2489,Southern,396,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91
+350,0,Mambo Restaurante Cubano,1402 N. Highland Ave.,Atlanta,+1-404-874-2626,Caribbean,406,Indigo Coastal Grill,1397 N. Highland Ave.,Atlanta,+1-404-876-0676,Eclectic,84
+351,0,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French,106,Kelly's on Trinity,333 Bush Street,San Francisco,+1-415-362-4454,Californian,733
+352,0,Bertolini's,3570 Las Vegas Boulevard South,Las Vegas,+1-702-735-4663,Italian,427,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+353,1,La Folie,2316 Polk Street,San Francisco,+1-415-776-5577,French,104,La Folie,2316 Polk Street,San Francisco,+1-415-776-5577,French (New),104
+354,0,Border Grill,4th Street,Los Angeles,+1-310-451-1655,Mexican,116,Andre's French Restaurant,401 S. 6th St.,Las Vegas,+1-702-385-5016,French (Classic),656
+355,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+356,0,Dive,10250 Santa Monica Boulevard,Los Angeles,+1-310-788,American Diner,128,Jiraffe,502 Santa Monica Boulevard,Santa Monica,+1-310-917-6671,Californian,558
+357,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouses,72
+358,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+359,1,The Palm,9001 Santa Monica Boulevard,Los Angeles,+1-310-550-8811,American,15,Palm The,9001 Santa Monica Boulevard,West Hollywood,+1-310-550-8811,Steakhouse,15
+360,0,Tom Tom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+361,1,Buckhead Diner,3073 Piedmont Road,Atlanta,+1-404-262-3336,American,78,Buckhead Diner,3073 Piedmont Road,Atlanta,+1-404-262-3336,American (New),78
+362,0,` Alley \ 's End ,311 W. 17th St. ,New York,+1-212-627-8899,American,178,Cafe des Artistes,1 West 67th Street,New York City,+1-212-877-3500,French (Classic),27
+363,0,Masa's,648 Bush Street,San Francisco,+1-415-989-7154,French,106,Martha's,22nd Street Grill,St. Hermosa Beach,+1-310-376-7786,American,575
+364,0,C'S Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,Peter Lugers Steak House,178 Broadway,Brooklyn,+1-718-387-7400,Steakhouse,637
+365,0,`alley`s end`,311 W. 17th St.,New York,+1-212-627-8899,American,178,Yama,122 E. 17th St.,New York City,+1-212-475-0969,Japanese,654
+366,1,Ritz-Carlton Restaurant and Dining Room,600 Stockton Street,San Francisco,+1-415-296-7465,American,110,Ritz-Carlton Dining Room (San Francisco),600 Stockton Street,San Francisco,+1-415-296-7465,French (New),110
+367,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+368,0,China Grill,60 West 53rd Street,New York,+1-212-333-7788,American,219,La Cote Basque,60 W. 55th St.,New York City,+1-212-688-6525,French (Classic),40
+369,0,Tavola Calda,7371 Melrose Avenue,Los Angeles,+1-213-658-6340,Italian,165,Mo Better Meatty Meat,7261 Melrose Avenue,Los Angeles,+1-213-935-5280,Hamburgers,579
+370,0,Eclipse,8800 Melrose Avenue,Los Angeles,+1-310-724-5959,Californian,132,Johnny Rockets (La) ,7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+371,1,The Hotel Bel-Air,701 Stone Canyon Road,Bel Air,+1-310-472-1211,Californian,2,Bel-Air Hotel,701 Stone Canyon Road,Bel Air,+1-310-472-1211,Californian,2
+372,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7110,French (New),70
+373,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Monte Carlo,3145 Las Vegas Boulevard South,Las Vegas,+1-702-733-4524,French (New),665
+374,0,Bistro Roti,155 Steuart Street,San Francisco,+1-415-495-6500,French,457,Bistro The,56 E Andrews Dr NW,Atlanta,+1-404-231-5733,French Bistro,679
+375,0,Taste of New Orleans,889 W. Peachtree St.,Atlanta,+1-404-874-5535,Southern,421,Ritz-Carlton Cafe (Atlanta),181 Peachtree Street,Atlanta,+1-404-659-0400,American (New),711
+376,0,HONG KONG FLOWER LOUNGE,5322 Geary Boulevard,San Francisco,+1-415-668-8998,Asian,480,Khan Toke Thai House,5937 Geary Boulevard,San Francisco,+1-415-668-6654,Thai,103
+377,0,Posto,14928 Ventura Boulevard,Sherman Oaks,+1-818-784-4400,Italian,156,Nozawa,11288 Ventura Boulevard,Studio City,+1-818-508-7017,Japanese,595
+378,0,Binion's Coffee Shop,128 Fremont Street,Las Vegas,+1-702-382-1600,Coffee Shop,428,Second Street Grill,200 E. Fremont St.,Las Vegas,+1-702-385-6277,Pacific Rim,71
+379,0,Mary Mac's Tea Room,224 Ponce de Leon Avenue,Atlanta,+1-404-876-1800,Southern,86,Java Jive,790 Ponce De Leon Ave.,Atlanta,+1-404-876-6161,Coffee Shop,698
+380,0,Lé Colonial,8783 Beverly Boulevard,Los Angeles,+1-310-289-0660,Asian,144,Tommy's,2575 Beverly Boulevard,Los Angeles,+1-213-389-9060,Hamburger,598
+381,1,Picholine,35 West 64th Street,New York,+1-212-724-8585,Mediterranean,53,Picholine,35 W. 64th St.,New York City,+1-212-724-8585,Mediterranean,53
+382,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,Oceana,55 E. 54th St.,New York City,+1-212-759-5941,Seafood,50
+383,0,Carta,1772 Market Street,San Francisco,+1-415-863-3516,American,465,Cafe Flore,2298 Market Street,San Francisco,+1-415-621-8579,Californian,722
+384,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Tre Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+385,0,Eclipse,8800 Melrose Avenue,Los Angeles,+1-310-724-5959,Californian,132,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,California,16
+386,0,Cafe Roma,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Coffee Shop,433,'E'm Eriel's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+387,0,Pano's and Paul's,1232 W. Paces Ferry Rd.,Atlanta,+1-404-261-3662,International,88,Riviera,519 E. Paces Ferry Rd.,Atlanta,+1-404-262-7112,Mediterranean,712
+388,0,Monkey Bar,60 E. 54th St.,New York,+1-212-838-2600,American,308,Aquavit,13 West 54th Street,New York City,+1-212-307-7311,Scandinavian,24
+389,0,Em Press Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Coyote Cafe (Las Vegas),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+390,0,Virgil's,152 W. 44th St.,New York,+1-212-921-9494,American,66,Island Spice,402 W. 44th St.,New York City,+1-212-765-1737,Caribbean,37
+391,1,Campton Place,340 Stockton Street,San Francisco,+1-415-955-5555,American,98,Campton Place,340 Stockton Street,San Francisco,+1-415-955-5555,American (New),98
+392,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road,Atlanta,+1-404-266-1600,Continental,393,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+393,0,Luna Si,1931 Peachtree Road Northeast,Atlanta,+1-404-355-5993,Continental,405,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+394,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,` Palace Court ',' 3570 Las Vegas Boulevard South ',` Las Vegas ',+1-702-731-7110,French ( New ),70
+395,0,Twenty One Club,21 West 52nd Street,New York,+1-212-582-7200,American,23,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623
+396,0,Border Grill,4th Street,Los Angeles,+1-310-451-1655,Mexican,116,Island Spice,402 W. 44th St.,New York City,+1-212-765-1737,Caribbean,37
+397,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Abruzzi,2355 Peachtree Road Northeast,Atlanta,+1-404-261-8186,Italian,74
+398,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+399,0,California Culinary Academy,625 Polk Street,San Francisco,+1-415-771-3500,French,463,Wa-Ha-Ka Oaxaca Mexican Grill,2141 Polk Street,San Francisco,+1-415-775-1055,Mexican,752
+400,0,Le Madri,168 W. 18th St.,New York,+1-212-727-8022,Italian,289,Lés Cëlëbrités,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+401,0,Palisades,1829 Peachtree Road Northeast,Atlanta,+1-404-350-6755,Continental,410,Ritz-Carlton Dining Room (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),90
+402,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,The Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouse,72
+403,1,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Toulouse,293-B Peachtree Road,Atlanta,+1-404-351-9533,French (New),92
+404,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,Monte Carlo,3145 Las Vegas Boulevard South,Las Vegas,+1-702-733-4524,French (New),665
+405,0,Two Two Two,222 W. 79th Street,New York,+1-212-799-0400,American,368,Edison Cafe,228 West 47th Street,New York City,+1-212-840-5000,Diner,611
+406,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,Michael's,3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+407,0,Des Alpes,732 Broadway,San Francisco,+1-415-788-9900,French,468,Carmines,2450 Broadway Between 90th And 91st Streets,New York,+1-212-362-2200,Italian,28
+408,0,,,,,,unknown,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+409,0,The Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,International,90,White House Restaurant,3172 Peachtree Road Northeast,Atlanta,+1-404-237-7601,Diner,719
+410,1,Mary Mac's Tea Room,224 Ponce De Leon Avenue,Atlanta,+1-404-876-1800,Southern,86,Mary Mac's Tea Room,224 Ponce De Leon Avenue,Atlanta,+1-404-876-1800,Southern/Soul,86
+411,0,Morton's,8764 Melrose Avenue,Los Angeles,+1-310-276-5205,American,148,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16
+412,1,I Rex Il Ristorante,617 S. Olive St.,Los Angeles,+1-213-627-2300,Italian,19,Rex Il Ristorante,617 S. Olive Street,Los Angeles,+1-213-627-2300,Nuova Cucina Italiana,19
+413,1,Uncle Nick's,747 9th Avenue Between 50th And 51st Streets,New York,+1-212-315-1726,Mediterranean,64,Uncle Nick's,747 Ninth Avenue,New York City,+1-212-245-7992,Greek,64
+414,0,Ralph's Diner,3000 Las Vegas Boulevard South,Las Vegas,+1-702-732-6330,Coffee Shop,448,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+415,0,Lé Madri,168 W. 18th St.,New York,+1-212-727-8022,Italian,289,` San Francisco BBQ ',1328 18th Street ,San Francisco ,+1-415-431-8956,Thai,744
+416,0,Pano's and Paul's,1232 W. Paces Ferry Rd.,Atlanta,+1-404-261-3662,International,88,Hedgerose Heights Inn The,490 E. Paces Ferry Rd. NE,Atlanta,+1-404-233-7673,Continental,82
+417,0,Ernie's,2150 Broadway Between 75th And 76th Streets,New York,+1-212-496-1588,American,234,Rae's,2901 Pico Boulevard,Santa Monica,+1-310-828-7937,Diner,589
+418,0,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,'Em Eriol's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+419,0,Carnival World,3700 W. Flamingo Road,Las Vegas,+1-702-252-7777,Buffet,435,Fiore Rotisserie & Grille,3700 W. Flamingo Road,Las Vegas,+1-702-252-7702,Italian,660
+420,0,Moose's,1652 Stockton Street,San Francisco,+1-415-989-7800,Mediterranean,498,Joe's,1023 Abbot Kinney Boulevard,Venice,+1-310-399-5811,American (New),560
+421,0,The Palm,9001 Santa Monica Boulevard,Los Angeles,+1-310-550-8811,American,15,Jiraffe,502 Santa Monica Boulevard,Santa Monica,+1-310-917-6671,Californian,558
+422,0,Swingers,8020 Beverly Boulevard,Los Angeles,+1-213-653-5858,American,164,Koo Koo Roo,8393 W. Beverly Blvd.,Los Angeles,+1-213-655-9045,Chicken,567
+423,0,Jean Lafitte,68 W. 58th Street,New York,+1-212-751-2323,French,272,Manhattan Ocean Club,57 W. 58th St.,New York City,+1-212-371-7777,Seafood,45
+424,0,Ton Kiang,3148 Geary Boulevard,San Francisco,+1-415-752-4440,Asian,522,Khan Toke Thai House,5937 Geary Boulevard,San Francisco,+1-415-668-6654,Thai,103
+425,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,Wollensky's Grill,205 East 49th Street,New York City,+1-212-753-0444,Steakhouses,653
+426,0,Eclipse,8800 Melrose Avenue,Los Angeles,+1-310-724-5959,Californian,132,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6
+427,0,Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Continental,70,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+428,0,` le montrachet '`,3000 W. Paradise Rd.,Las Vegas,+1-702-732-5111,Continental,69,Nicky Blair's,3925 Paradise Road,Las Vegas,+1-702-792-9900,Italian,668
+429,0,Mandarin Court,1510 E. Flamingo Road,Las Vegas,+1-702-737-1234,Asian,443,'Tillerman The ',2245 E. Flamingo Road,Las Vegas,+1-702-731-4036,Steakhouses,73
+430,0,Second Street Grille,200 E. Fremont St.,Las Vegas,+1-702-385-3232,Seafood,71,The ' Steakhouse ,128 E. Fremont Street,Las Vegas,+1-702-382-1600,Steakhouse,671
+431,0,Border Grill',4th St.,Los Angeles,+1-310-451-1655,Mexican,116,Veni Vidi Vici,41 14th St.,Atlanta,+1-404-875-8424,Italian,93
+432,1,Le Spinasse,2 E. 55th Street,New York,+1-212-339-6719,American,43,L'Espinasse (New York City),2 E. 55th St.,New York City,+1-212-339-6719,Asian,43
+433,0,Felidia,243 East 58th Street,New York,+1-212-758-1479,Italian,33,L'Espinasse (New York),2 E. 55th St.,New York,+1-212-339-6719,Asian,43
+434,1,`Gotham Bar & Grill`,12 E. 12th St.,New York,+1-212-620-4020,American,35,Gotham Bar & Grill,12 E. 12th Street,New York City,+1-212-620-4020,American (New),35
+435,0,9 Jones Street,9 Jones St.,New York,+1-212-989-1220,American,173,Dottie's True Blue Cafe,522 Jones Street,San Francisco,+1-415-885-2767,Diner,727
+436,1,Petrossian,182 W. 58th St.,New York,+1-212-245-2214,French,52,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+437,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Nava,3060 Peachtree Road,Atlanta,+1-404-240-1984,Southwestern,706
+438,0,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16
+439,0,Viva Mercado's,6182 W. Flamingo Road,Las Vegas,+1-702-871-8826,Mexican,451,Buzio's in the Rio,3700 W. Flamingo Road,Las Vegas,+1-702-252-7697,Seafood,658
+440,0,Mooses,1652 Stockton Street,San Francisco,+1-415-989-7800,Mediterranean,498,Campton Place,340 Stockton Street,San Francisco,+1-415-955-5555,American (New),98
+441,0,Lespinasse,2 E. 55th St.,New York,+1-212-339-6719,American,43,Lutece,249 East 50th Street,New York City,+1-212-752-2225,French (Classic),44
+442,0,Hard Rock Cafe,8600 Beverly Boulevard,Los Angeles,+1-310-276-7605,American,137,Tommy's,2575 Beverly Boulevard,Los Angeles,+1-213-389-9060,Hamburger,598
+443,1,Lutece,249 E. 50th Street,New York,+1-212-752-2225,French,44,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+444,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Brookhaven Cafe,4274 Peachtree Road,Atlanta,+1-404-231-5907,Vegetarian,682
+445,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road Northeast,Atlanta,+1-404-266-1600,Continental,393,` Brasserie Le Coze ',3393 Peachtree Road NE,Atlanta,+1-404-266-1440,French Bistro,77
+446,0,Lillie Langtry's,129 E. Fremont Street,Las Vegas,+1-702-385-7111,Asian,442,The Steakhouse,128 East Fremont Street,Las Vegas,+1-702-382-1600,Steakhouse,671
+447,0,Cafe Pierre,2 E. 61st St.,New York,+1-212-940-8185,French,203,Aureole,34 E. 61st St.,New York City,+1-212-319-1660,American (New),25
+448,0,March,405 E. 58th St.,New York,+1-212-754-6272,American,46,Petrossian,182 W. 58th St.,New York City,+1-212-245-2214,Russian,52
+449,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+450,0,Ritz-Carlton Dining Room,3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,International Cuisine,90,Abruzzi,2355 Peachtree Road Northeast,Atlanta,+1-404-261-8186,Italian,74
+451,0,Toulouse,B Peachtree Road North,Atlanta,+1-404-351-9533,French,92,La Grotta,2637 Peachtree Road Northeast,Atlanta,+1-404-231-1368,Italian,85
+452,0,Binion's Coffee Shop,128 Fremont Street,Las Vegas,+1-702-382-1600,Coffee Shop,428,Hugo's Cellar,202 E Fremont Street,Las Vegas,+1-702-385-4011,Continental,661
+453,1,Hawthorne Lane,22 Hawthorne Street,San Francisco,+1-415-777-9779,American,102,Hawthorne Lane,22 Hawthorne Street,San Francisco,+1-415-777-9779,Californian,102
+454,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,'Em Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+455,0,Mary Mac's Tea Room,224 Ponce de Leon Avenue,Atlanta,+1-404-876-1800,Southern,86,Majestic,1031 Ponce De Leon Avenue,Atlanta,+1-404-875-0276,Diner,703
+456,0,Golden Nugget Hotel,129 E. Fremont Street,Las Vegas,+1-702-385-7111,Buffet,440,Second Street Grill,200 East Fremont Street,Las Vegas,+1-702-385-6277,Pacific Rim,71
+457,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Sterling Brunch,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4651,Eclectic,673
+458,0,Binion's Coffee Shop,128 Fremont Street,Las Vegas,+1-702-382-1600,Coffee Shop,428,Stefano's,129 Fremont Street,Las Vegas,+1-702-385-7111,Italian,672
+459,0,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French,12,Mo Better Meatty Meat,7261 Melrose Avenue,Los Angeles,+1-213-935-5280,Hamburger,579
+460,0,Bistro,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Continental,429,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouses,667
+461,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Original Pancake House,4330 Peachtree Road,Atlanta,+1-404-237-4116,American,708
+462,0,Gabriela's,685 Amsterdam Avenue at 93rd Street,New York,+1-212-961-0574,Mexican,253,Monsoon (NY),435 Amsterdam Avenue,New York City,+1-212-580-8686,Thai,629
+463,1,Grill on the Alley,9560 Dayton Way,Los Angeles,+1-310-276-0615,American,9,Grill The,9560 Dayton Way,Beverly Hills,+1-310-276-0615,American (Traditional),9
+464,0,Luna Si's,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Toulouse,293-B Peachtree Road,Atlanta,+1-404-351-9533,French (New),92
+465,0,Petrossian,182 West 58th Street,New York,+1-212-245-2214,French,52,Virgil's Real BBQ,152 W. 44th St.,New York City,+1-212-921-9494,BBQ,66
+466,0,Cafe Ritz-Carlton Buckhead,3434 Peachtree Road,Atlanta,+1-404-237-2700,International,89,Toulouse,293-B Peachtree Road NE,Atlanta,+1-404-351-9533,French (New),92
+467,0,Postrio,545 Post Street,San Francisco,+1-415-776-7825,American,109,Mifune,1737 Post Street,San Francisco,+1-415-922-0337,Japanese,107
+468,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+469,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+470,0,Swingers,8020 Beverly Boulevard,Los Angeles,+1-213-653-5858,American,164,Tommy's,2575 Beverly Boulevard,Los Angeles,+1-213-389-9060,Hamburger,598
+471,0,Cù Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+472,0,Dante's Down The Hatch Buckhead,3380 Peachtree Road Northeast,Atlanta,+1-404-266-1600,Continental,393,The White House Restaurant,3172 Peachtree Road Northeast,Atlanta,+1-404-237-7601,Diner,719
+473,0,Annie's Thai Castle,3195 Roswell Road,Atlanta,+1-404-264-9546,Asian,381,Chopstix,4279 Roswell Road,Atlanta,+1-404-255-4868,Chinese,688
+474,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Nava,3060 Peachtree Road,Atlanta,+1-404-240-1984,Southwestern,706
+475,0,,,,,,unknown,'Em Eril's New Orleans Fish House,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7374,Seafood,659
+476,0,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Nava,3060 Peachtree Road Northeast,Atlanta,+1-404-240-1984,Southwestern,706
+477,0,` Katia 's `,600 5th Avenue,San Francisco,+1-415-668-9292,,487,Sylvia's,328 Lenox Avenue,New York City,+1-212-996-0660,Southern/Soul,644
+478,0,Antonio's,3700 W. Flamingo,Las Vegas,+1-702-252-7737,Italian,423,Don Antonio's,1136 Westwood Boulevard,Westwood,+1-310-209-1422,Italian,550
+479,0,Bruno,240 E. 58th St.,New York,+1-212-688-4190,Italian,195,Sparks Steak House,210 East 46th Street,New York City,+1-212-687-4855,Steakhouses,641
+480,0,A la,126 Clement Street,San Francisco,+1-415-387-0408,French,94,Bill's Place,2315 Clement Street,San Francisco,+1-415-221-5262,Hamburger,721
+481,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Ritz-Carlton Cafe ( Buckhead ),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American ( New ),89
+482,0,Hedgerose Heights Inn,490 E. Paces Ferry Rd.,Atlanta,+1-404-233-7673,International,82,Canoe,4199 Paces Ferry Road South,Atlanta,+1-770-432-2663,American (New),684
+483,0,The Palace Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7547,Continental,70,` Buccaneer Bay Club ',' 3300 Las Vegas Boulevard South ',` Las Vegas ',+1-702-894-7350,Continental,657
+484,0,Nate's,414 N. Beverly Dr.,Los Angeles,+1-310-274-0101,American,149,Ruth's Chris Steak House ( Los Angeles ),224 S. Beverly Dr.,Beverly Hills,+1-310-859-8744,Steakhouse,593
+485,1,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,California,6
+486,0,Bone's,3130 Piedmont Road,Atlanta,+1-404-237-2663,American,76,Carmine's,2450 Broadway Between 90th And 91st Streets,New York,+1-212-362-2200,Italian,28
+487,1,Locanda Veneta,3rd Street,Los Angeles,+1-310-274-1893,Italian,13,Locanda Veneta,8638 W. Third Street,Los Angeles,+1-310-274-1893,Italian,13
+488,0,Fifty Seven Fifty Seven,57 East 57th Street,New York,+1-212-758-5757,American,239,Manhattan Ocean Club,57 W. 58th St.,New York City,+1-212-371-7777,Seafood,45
+489,0,Patina,5955 Melrose Avenue,Los Angeles,+1-213-467-1108,Californian,16,Johnny Rockets (La),7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+490,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,Türe Visi,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7331,Italian,674
+491,0,Lanza Restaurant,168 1st Avenue Between 10th And 11th Streets,New York,+1-212-674-7014,Italian,282,Thailand Restaurant,106 Bayard Street,New York City,+1-212-349-3132,Thai,649
+492,0,Morton's,8764 Melrose Avenue,Los Angeles,+1-310-276-5205,American,148,Le Chardonnay,8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French Bistro,12
+493,0,Margarita's Mexican Cantina,3120 Las Vegas Boulevard South,Las Vegas,+1-702-794-8200,Mexican,444,Moongate,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7352,Chinese,666
+494,0,Ritz-Carlton Restaurant and Dining Room,600 Stockton Street,San Francisco,+1-415-296-7465,American,110,` Campton Place`,340 Stockton Street,San Francisco,+1-415-955-5555,American (New),98
+495,0,Lé Marais,150 W. 46th St.,New York,+1-212-869-0900,American,290,Sparks Steak House,210 East 46th Street,New York City,+1-212-687-4855,Steakhouse,641
+496,0,Morton's,8764 Melrose Avenue,Los Angeles,+1-310-276-5205,American,148,Johnny Rockets (La),7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+497,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+498,0,Manhattan Cafe,1161 1st Avenue Between 63rd And 64th Streets,New York,+1-212-888-6556,American,300,Manhattan Ocean Club,57 W. 58th St.,New York City,+1-212-371-7777,Seafood,45
+499,0,C\' Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,Coyote Cafe (Las Vegas),3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68
+500,0,Fenix,8358 Sunset Boulevard West,Hollywood,+1-213-848-6677,American,7,Duke's,8909 Sunset Boulevard,W. Hollywood,+1-310-652-3100,Coffee Shop,551
+501,0,Gotham Bar & Grill,12 E. 12th St.,New York,+1-212-620-4020,American,35,Yama,122 E. 17th St.,New York City,+1-212-475-0969,Japanese,654
+502,0,Otabe,68 East 56th Street,New York,+1-212-223-7575,Asian,318,Darbar,44 W. 56th St.,New York City,+1-212-432-7227,Indian,609
+503,0,Pacific Dining Car,6th Street,Los Angeles,+1-213-483-6000,American,153,Ti Couz,3108 16th Street,San Francisco,+1-415-252-7373,French,748
+504,0,Lillie Langtry's,129 E. Fremont Street,Las Vegas,+1-702-385-7111,Asian,442,Hugo's Cellar,202 E. Fremont Street,Las Vegas,+1-702-385-4011,Continental,661
+505,1,Aqua,252 California Street,San Francisco,+1-415-956-9662,Seafood,95,Aqua,252 California Street,San Francisco,+1-415-956-9662,American (New),95
+506,1,Campanile,624 S. La Brea Ave.,Los Angeles,+1-213-938-1447,American,4,Campanile,624 S. La Brea Ave.,Los Angeles,+1-213-938-1447,Californian,4
+507,0,Pen & Pencil,205 E. 45th St.,New York,+1-212-682-8660,American,325,March,405 E. 58th St.,New York City,+1-212-754-6272,American (New),46
+508,0,Le Soleil,133 Clement Street,San Francisco,+1-415-668-4848,Asian,492,Bill's Place,2315 Clement Street,San Francisco,+1-415-221-5262,Hamburgers,721
+509,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+510,0,Inca Grill,492 Broome Street Near West Broadway,New York,+1-212-966-3371,Latin American,268,Mesa Grill,102 Fifth Avenue,New York City,+1-212-807-7400,Southwestern,47
+511,0,'Em Press Court,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+512,0,Bally's Big Kitchen,3645 Las Vegas Boulevard South,Las Vegas,+1-702-739-4111,Buffet,424,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+513,0,Tommy Tang's,7313 Melrose Avenue,Los Angeles,+1-213-937-5733,Asian,167,Le Chardonnay (Los Angeles),8284 Melrose Avenue,Los Angeles,+1-213-655-8880,French Bistro,12
+514,0,Ferrier,29 E. 65th St.,New York,+1-212-772-9000,French,238,John's Pizzeria,48 W. 65th Street,New York City,+1-212-721-7001,Pizza,618
+515,0,HONG KONG VILLA,2332 Clement Street,San Francisco,+1-415-752-8833,Asian,481,Bill's Place,2315 Clement Street,San Francisco,+1-415-221-5262,Hamburger,721
+516,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,Spago (Las Vegas),3500 Las Vegas Boulevard South,Las Vegas,+1-702-369-6300,Californian,670
+517,0,The Bacchanal,3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7525,Only in Las Vegas,449,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+518,1,Arnie Morton's of Chicago,435 S. La Cienega Boulevard,Los Angeles,+1-310-246-1501,American,0,Arnie Morton's of Chicago,435 South La Cienega Boulevard,Los Angeles,+1-310-246-1501,Steakhouse,0
+519,0,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6,Mo Better Meatty Meat,7261 Melrose Avenue,LA,+1-213-935-5280,Hamburger,579
+520,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+521,0,`Tavola Calda`,7371 Melrose Avenue,Los Angeles,+1-213-658-6340,Italian,165,Sweet Lady Jane,8360 Melrose Avenue,Los Angeles,+1-213-653-7145,Desserts,596
+522,0,LeSpinnasse,2 E 55th St.,New York,+1-212-339-6719,American,43,Dawat,210 E. 58th St.,New York City,+1-212-355-7555,Indian,32
+523,0,Vong,200 E. 54th St.,New York,+1-212-486-9592,American,373,Dawat,210 E. 58th St.,New York City,+1-212-355-7555,Indian,32
+524,1,` Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Asian,67,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+525,0,Il Nido,251 E. 53rd St.,New York,+1-212-753-8450,Italian,267,Seryna,11 E. 53rd St.,New York City,+1-212-980-9393,Japanese,59
+526,0,Jean Lafitte,68 West 58th Street,New York,+1-212-751-2323,French,272,Petrossian,182 West 58th Street,New York City,+1-212-245-2214,Russian,52
+527,0,Mikado,3400 Las Vegas Boulevard South,Las Vegas,+1-702-791-7111,Asian,446,The ` Steak House`,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steakhouses,72
+528,0,Luna Si,1931 Peachtree Road,Atlanta,+1-404-355-5993,Continental,405,Ritz-Carlton Restaurant,181 Peachtree Street,Atlanta,+1-404-659-0400,French,91
+529,0,Four Seasons Grill Room,99 E. 52nd St.,New York,+1-212-754-9494,American,34,'21 Club',21 West 52nd Street,New York City,+1-212-582-7200,American (New),23
+530,0,Golden Steer,308 W. Sahara Avenue,Las Vegas,+1-702-384-4470,Steak House,441,Mayflower Cuisinier,4750 W. Sahara Avenue,Las Vegas,+1-702-870-8432,Chinese,663
+531,0,Camille's,1186 N. Highland Ave.,Atlanta,+1-404-872-7203,Italian,388,Carmine's,2450 Broadway Between 90th And 91st Streets,New York,+1-212-362-2200,Italian,28
+532,0,'em Press Court',3570 Las Vegas Boulevard South,Las Vegas,+1-702-731-7888,Asian,438,Buccaneer Bay Club,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7350,Continental,657
+533,0,Felidia,243 East 58th Street,New York,+1-212-758-1479,Italian,33,Petrossian,182 West 58th Street,New York City,+1-212-245-2214,Russian,52
+534,0,Viva Mercado's,6182 W. Flamingo Road,Las Vegas,+1-702-871-8826,Mexican,451,'Tillerman The,2245 E. Flamingo Rd.,Las Vegas,+1-702-731-4036,Steakhouse,73
+535,0,Coyote Cafe,3799 Las Vegas Boulevard South,Las Vegas,+1-702-891-7349,Southwestern,68,Morton's of Chicago (Las Vegas),3200 Las Vegas Boulevard South,Las Vegas,+1-702-893-0703,Steakhouse,667
+536,0,Le Colonial,149 East 57th Street,New York,+1-212-752-0808,Asian,286,Lutece,249 E. 50th St.,New York City,+1-212-752-2225,French (Classic),44
+537,0,TomTom,3393 Peachtree Road,Atlanta,+1-404-264-1163,Continental,422,Original Pancake House (At),4330 Peachtree Road,Atlanta,+1-404-237-4116,American,708
+538,0,Palisades,1829 Peachtree Road,Atlanta,+1-404-350-6755,Continental,410,Ritz-Carlton Cafe (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),89
+539,1,Art's Delicatessen,12224 Ventura Boulevard,Studio City,+1-818-762-1221,American,1,Art's Deli,12224 Ventura Boulevard,Studio City,+1-818-762-1221,Deli,1
+540,1,Carnegie Deli,854 7th Avenue Between 54th And 55th Streets,New York,+1-212-757-2245,Delicatessen,29,Carnegie Deli,854 Seventh Avenue,New York City,+1-212-757-2245,Delis,29
+541,0,Orso,322 W. 46th St.,New York,+1-212-489-7212,Italian,316,Island Spice,402 W. 44th St.,New York City,+1-212-765-1737,Caribbean,37
+542,0,Annie's Thai Castle,3195 Roswell Road,Atlanta,+1-404-264-9546,Asian,381,` La Fonda Latina ',4427 Roswell Road,Atlanta,+1-404-303-8201,Spanish,701
+543,0,Judson Grill,152 W. 52nd St.,New York,+1-212-582-5252,American,276,'21 Club ',21 West 52nd Street,New York City,+1-212-582-7200,American (New),23
+544,0,Manhattan Ocean Club,57 W. 58th St.,New York,+1-212-371-7777,Seafood,45,Les Celebrites,155 W. 58th St.,New York City,+1-212-484-5113,French (Classic),42
+545,0,Teresa's,103 1st Avenue Between 6th And 7th Streets,New York,+1-212-228-0604,East European,358,Teresa's,80 Montague Street,Queens,+1-718-520-2910,Polish,647
+546,0,Toulouse,B Peachtree Road,Atlanta,+1-404-351-9533,French,92,Palm The (Atlanta),3391 Peachtree Road Northeast,Atlanta,+1-404-814-1955,Steakhouse,709
+547,0,Citrus,6703 Melrose Avenue,Los Angeles,+1-213-857-0034,Californian,6,Johnny Rockets (LA),7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+548,0,Cafe Pierre,2 E. 61st St.,New York,+1-212-940-8185,French,203,L'Espinasse (New York),2 E. 55th Street,New York,+1-212-339-6719,Asian,43
+549,0,Yoyo Tsumami Bistro,1611 Post Street,San Francisco,+1-415-922-7788,French,530,Mifune,1737 Post Street,San Francisco,+1-415-922-0337,Japanese,107
+550,0,The Dining Room Ritz-Carlton Buckhead,3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,International,90,Ritz-Carlton Cafe (Buckhead),3434 Peachtree Road Northeast,Atlanta,+1-404-237-2700,American (New),89
+551,0,Carp Steak House,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Steak House,72,Michael's (Las Vegas),3595 Las Vegas Boulevard South,Las Vegas,+1-702-737-7111,Continental,664
+552,0,Des Alpes,732 Broadway,San Francisco,+1-415-788-9900,French,468,Montrachet,239 W. Broadway,New York City,+1-212-219-2777,French Bistro,49
+553,0,Bugsy's Diner,3555 Las Vegas Boulevard South,Las Vegas,+1-702-733-3111,Coffee Shop,431,Chin's,3200 Las Vegas Boulevard South,Las Vegas,+1-702-733-8899,Chinese,67
+554,0,Jewel of India,15 W. 44th St.,New York,+1-212-869-5544,Asian,273,Virgil's Real BBQ,152 W. 44th St.,New York City,+1-212-921-9494,BBQ,66
+555,0,Shaan,57 W. 48th St.,New York,+1-212-977-8400,Asian,349,Manhattan Ocean Club,57 W. 58th St.,New York City,+1-212-371-7777,Seafood,45
+556,0,Fleur de Jour,348 E. 62nd Street,New York,+1-212-355-2020,Coffee Bar,245,La Grenouille,3 E. 52nd St.,New York City,+1-212-752-1495,French (Classic),623
+557,0,Dive,10250 Santa Monica Boulevard,Los Angeles,+1-310-788-,American Dive,128,Cafe Blanc,9777 Little Santa Monica Boulevard,Beverly Hills,+1-310-888-0108,Pacific New Wave,546
+558,0,Bizou,598 Fourth Street,San Francisco,+1-415-543-2222,French,459,` Cucina Di Pesce ','87 E. Fourth St. ',` New York City ',+1-212-260-6800,Seafood,608
+559,0,Tillerman,2245 E. Flamingo Road,Las Vegas,+1-702-731-4036,Seafood,73,F. Fiore Rotisserie & Grille,3700 W. Flamingo Road,Las Vegas,+1-702-252-7702,Italian,660
+560,0,Petrossian,182 West 58th Street,New York,+1-212-245-2214,French,52,Dawat,210 East 58th Street,New York City,+1-212-355-7555,Indian,32
+561,0,` le chardonnay `',' 8284 melrose ave. ',` los angeles `',+1-213-655-8880,French,12,Johnny Rockets (LA),7507 Melrose Avenue,Los Angeles,+1-213-651-3361,American,564
+562,0,Bamboo Garden,4850 Flamingo Road,Las Vegas,+1-702-871-3262,Asian,425,'Tillerman The',2245 E. Flamingo Rd.,Las Vegas,+1-702-731-4036,Steakhouse,73
+563,0,Bizou Cafe,14016 Ventura Boulevard,Sherman Oaks,+1-818-788-3536,French,3,Nozawa's,11288 Ventura Boulevard,Studio City,+1-818-508-7017,Japanese Restaurant,595
+564,0,Bistango,1100 Peachtree Street,Atlanta,+1-404-724-0901,Mediterranean,386,Morton's of Chicago (Atlanta),303 Peachtree Street Northeast,Atlanta,+1-404-577-4366,Steakhouse,704
+565,0,Circus Circus,2880 Las Vegas Boulevard South,Las Vegas,+1-702-734-0410,Buffet,437,Madame Ching's,3300 Las Vegas Boulevard South,Las Vegas,+1-702-894-7111,Asian,662
+566,0,Abbey,163 Ponce De Leon Avenue,Atlanta,+1-404-876-8532,International,379,Majestic,1031 Ponce De Leon Avenue,Atlanta,+1-404-875-0276,Diner,703
