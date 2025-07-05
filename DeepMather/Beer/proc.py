@@ -1,60 +1,17 @@
 import pandas as pd
+import numpy as np
 import ollama
 from tqdm import tqdm
 import re
 import json
+import ast
 import os
-# from examples import Beer_Fewshot_exampels
-# from output_strucutres import Beer_output
-
-# Define the required schema
-EXPECTED_KEYS = [
-    "name",
-    "brewery",
-    "primary_style",
-    "secondary_style",
-    "abv",
-    "is_amber",
-    "is_ale",
-    "is_lager",
-    "is_imperial",
-    "special_ingredients"
-]
 
 class OllamaFeatureExtractor:
     def __init__(self, model_name="llama3.1"):
         self.llm_model = model_name
 
-    def normalize_llm_output(self, response: dict) -> dict:
-        """Ensure all expected keys are present with consistent types and names."""
-        key_map = {
-            "Beer_Name": "name",
-            "Brew_Factory_Name": "brewery",
-            "Style": "primary_style"
-        }
-
-        normalized = {}
-
-        # Map and rename keys
-        for key, value in response.items():
-            std_key = key_map.get(key, key)
-            normalized[std_key] = value
-
-        # Fill in missing keys
-        for key in EXPECTED_KEYS:
-            if key not in normalized:
-                if key == "abv":
-                    normalized[key] = "unknown"
-                elif key.startswith("is_"):
-                    normalized[key] = False
-                else:
-                    normalized[key] = "unknown"
-
-        return normalized
-
-    def extract_standardized_attributes(self, record: dict) -> dict:
-    
-
+    def extract_product_attributes(self, beer_name, brew_factory, style, abv):
         prompt = f"""
 You are an expert in beer product classification and entity resolution.
 
@@ -202,85 +159,71 @@ Standardized Output:
 
 Now process this beer record:
 
-
-Record:
-{json.dumps(record, indent=2)}
-
-
-📘 Output JSON schema format (always follow this):
-
-{{
-  "name": string,
-  "brewery": string,
-  "primary_style": string,
-  "secondary_style": string or null,
-  "abv": float or "unknown",
-  "is_amber": boolean,
-  "is_ale": boolean,
-  "is_lager": boolean,
-  "is_imperial": boolean,
-  "special_ingredients": string or null
-}}
+Beer Name: {beer_name}  
+Brewery: {brew_factory}  
+Style: {style}  
+ABV: {abv}  
 
 Return only valid JSON with standardized values. Do not include backticks, markdown, or explanations. Remember to ALWAYS split complex styles into primary_style and secondary_style components.
-
 """
         try:
             response = ollama.chat(
                 model=self.llm_model,
                 messages=[{"role": "user", "content": prompt}]
             )
-            content = response["message"]["content"].strip()
 
+            content = response["message"]["content"].strip()
+            print("🔍 response content:", content)
+
+            # Remove Markdown code formatting if present
             if content.startswith("```"):
                 content = re.sub(r"^```[a-zA-Z]*\n?", "", content)
-                content = re.sub(r"```$", "", content).strip()
+                content = re.sub(r"```$", "", content)
+                content = content.strip()
 
-            print("record:", content)
+            # Attempt to parse as JSON
             parsed = json.loads(content)
-            return self.normalize_llm_output(parsed)
-
+            print("✅ Parsed:", parsed)
+            return parsed
         except json.JSONDecodeError as jde:
             print(f"❌ JSON decode error: {jde}")
             print("⚠️ Content that failed parsing:", repr(content))
-            return self.normalize_llm_output({})
+            return {}
+
         except Exception as e:
             print(f"❌ Unexpected error: {e}")
-            return self.normalize_llm_output({})
-
-    def split_record(self, row: dict, side: str) -> dict:
-        """Extract left or right side sub-record"""
-        return {col[len(f"{side}_"):]: row[col] for col in row if col.startswith(f"{side}_")}
+            return {}
 
     def process_dataset(self, input_csv, output_csv):
-        print(f"📄 Reading data from {input_csv}...")
+        print(f"Reading data from {input_csv}...")
         df = pd.read_csv(input_csv)
+
         all_rows = []
 
-        for _, row in tqdm(df.iterrows(), total=len(df)):
-            row_dict = row.to_dict()
+        for idx, row in tqdm(df.iterrows(), total=len(df)):
+            left = self.extract_product_attributes(
+                row['left_Beer_Name'],
+                row['left_Brew_Factory_Name'],
+                row['left_Style'],
+                row['left_ABV']
+            )
+            right = self.extract_product_attributes(
+                row['right_Beer_Name'],
+                row['right_Brew_Factory_Name'],
+                row['right_Style'],
+                row['right_ABV']
+            )
 
-            left_input = self.split_record(row_dict, "left")
-            right_input = self.split_record(row_dict, "right")
-
-            left_cleaned = self.extract_standardized_attributes(left_input)
-            right_cleaned = self.extract_standardized_attributes(right_input)
-
-            # Construct the new row with normalized fields only
-            new_row = {
-                "id": row_dict.get("id"),
-                "label": row_dict.get("label")
+            combined = {
+                **row.to_dict(),
+                **{f"left_{k}": v for k, v in left.items()},
+                **{f"right_{k}": v for k, v in right.items()},
             }
 
-            for k, v in left_cleaned.items():
-                new_row[f"left_{k}"] = v
-            for k, v in right_cleaned.items():
-                new_row[f"right_{k}"] = v
-
-            all_rows.append(new_row)
+            all_rows.append(combined)
 
         enriched_df = pd.DataFrame(all_rows)
-        print(f"💾 Saving enriched data to {output_csv}")
+        print(f"Saving enriched data to {output_csv}")
         enriched_df.to_csv(output_csv, index=False)
 
 def main():
