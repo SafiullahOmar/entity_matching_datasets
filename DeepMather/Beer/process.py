@@ -53,23 +53,67 @@ class OllamaFeatureExtractor:
         return normalized
 
     def extract_standardized_attributes(self, record: dict) -> dict:
-        print("dict", record)
+    
 
         prompt = f"""
-You are a data normalization expert. Your job is to clean and standardize structured data records for entity matching:
+You are a data normalization expert. Your job is to clean and standardize structured data records to improve entity matching performance in machine learning systems.
+---
+Your Task:
+Clean the input record according to the following universal rules. Then return the normalized version using the exact same schema and field names (keys).
+---
+### Normalization Rules
 
-Instructions:
-1. Keep the original field names (keys), but normalize all values.
-2. Standardize entity names by removing branding fluff, descriptors, repeated words, and unnecessary modifiers.
-3. Normalize category, type, or style fields to common canonical forms (e.g., “rock/pop” → “Rock”).
-4. Convert numeric fields (e.g., percentages, prices, weights, counts) into plain numbers (e.g., "5.6%" → 5.6, "$3.00" → 3.0).
-5. For missing, invalid, or placeholder values (e.g., "-", "", "unknown", "N/A"), replace them with the string "unknown".
-6. Fix inconsistent formatting, punctuation, and casing. Ensure proper capitalization of names, titles, and categories.
-7. Normalize abbreviations to full form (e.g., "st" → "Street", "dept" → "Department", "intl" → "International").
-8. Canonicalize and normalize entity values (e.g., merge variants like "google", "Google LLC", and "Google Inc." into "Google"). Expand abbreviations (e.g., "Co." → "Company") and remove irrelevant, duplicated, or marketing-heavy terms.
+#### 1. Preserve Schema
+- Use the exact input field names and structure.
+- Do NOT add, remove, or rename keys.
 
+#### 2. Text Normalization
+- Remove escape characters, unmatched quotes, slashes, and formatting artifacts.
+- Strip leading/trailing punctuation and fix irregular spacing (e.g., double spaces).
+- Fix punctuation and casing (e.g., "john doe " → "John Doe").
+- Apply Title Case to names, entities, brands, and places. Use lowercase for generic types (e.g., categories, genres).
+-Eliminate repeated words or phrases (e.g., "Google Google" → "Google").
 
--------------------------
+#### 3. Abbreviations & Synonyms
+- Expand common abbreviations (e.g., “Co.” → “Company”, “St.” → “Street”).
+- Standardize synonyms (e.g., “coffee shops/diners” → “Coffee Shop”, “hip-hop / rap” → “Hip-Hop”).
+
+#### 4. Canonicalization
+- Normalize brands and entities (e.g., "Google LLC", "google inc." → "Google").
+- Remove branding fluff, edition tags (e.g., “Ltd.”, “Deluxe”), and bracketed content unless necessary.
+
+#### 5. Categorical Values
+- Collapse compound categories to a single dominant form (e.g., "rock/pop" → "Rock").
+- Use consistent singular and canonical category values.
+- If applicable, split into primary_style and secondary_style based on specificity.
+
+#### 6. Numerical Fields
+- Convert percentages (e.g., "5.6%") → numeric float (5.6).
+- Convert prices (e.g., "$3.00") → float (3.0).
+- Replace invalid or placeholder values ("-", "", "N/A", "unknown") with "unknown".
+
+#### 7. Dates and Times
+- Dates: Format to YYYY-MM-DD (e.g., “5-Jul-25” → “2025-07-05”).
+- Times: Use M:SS or MM:SS (e.g., "2:34").
+
+#### 8. Phone Numbers
+- Format as +1-XXX-XXX-XXXX (for US).
+- Replace invalid, partial, or corrupted numbers with "unknown".
+
+#### 9. Address Fields
+- Normalize street suffixes (e.g., “Blvd.” → “Boulevard”).
+- Use title case and fix spacing/punctuation.
+
+#### 10. Missing or Corrupt Values
+- Replace malformed entries like null, ?, ‰, "" with "unknown".
+
+#### 11. Style Field Normalization
+- Always split complex styles into `primary_style` and `secondary_style`:
+  - Choose the most specific or defining type as `primary_style`
+  - Move descriptors (e.g., nationality, strength, barrel-aging) to `secondary_style`
+- Examples:
+  - "American Amber / Red Ale" → primary_style: "Red Ale", secondary_style: "Amber"
+---
 
 ### EXAMPLES OF GOOD STANDARDIZATION:
 
@@ -202,13 +246,14 @@ Standardized Output:
   "special_ingredients": "bourbon"
 }}
 
------------
+
+---
 
 Now process this beer record:
 
+
 Record:
 {json.dumps(record, indent=2)}
-
 
 
 📘 Output JSON schema format (always follow this):
@@ -226,14 +271,7 @@ Record:
   "special_ingredients": string or null
 }}
 
-
-__________________
-
-⚠️ OUTPUT RULES — STRICTLY FOLLOW:
-- Output must be valid JSON.
-- Do NOT include backticks, explanations, markdown, or anything outside the JSON object.
-- Do NOT say "Here is the output" ,"Note: I've normalized" or anything similar.
-- Just return the JSON object. No comments, headers, or notes.
+Return only valid JSON with standardized values. Do not include backticks, markdown, or explanations. Remember to ALWAYS split complex styles into primary_style and secondary_style components.
 
 """
         try:
