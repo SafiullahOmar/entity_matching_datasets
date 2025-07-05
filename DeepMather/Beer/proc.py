@@ -60,58 +60,12 @@ You are an expert in beer product classification and entity resolution.
 
 Given information about a beer, standardize and normalize the values to help with entity matching. Your task is to create consistent representations that would match between different listings of the same product.
 
----
-### Normalization Rules
-
-#### 1. Preserve Schema
-- Use the exact input field names and structure.
-- Do NOT add, remove, or rename keys.
-
-#### 2. Text Normalization
-- Remove escape characters, unmatched quotes, slashes, and formatting artifacts.
-- Strip leading/trailing punctuation and fix irregular spacing (e.g., double spaces).
-- Fix punctuation and casing (e.g., "john doe " → "John Doe").
-- Apply Title Case to names, entities, brands, and places. Use lowercase for generic types (e.g., categories, genres).
-
-#### 3. Abbreviations & Synonyms
-- Expand common abbreviations (e.g., “Co.” → “Company”, “St.” → “Street”).
-- Standardize synonyms (e.g., “coffee shops/diners” → “Coffee Shop”, “hip-hop / rap” → “Hip-Hop”).
-
-#### 4. Canonicalization
-- Normalize brands and entities (e.g., "Google LLC", "google inc." → "Google").
-- Remove branding fluff, edition tags (e.g., “Ltd.”, “Deluxe”), and bracketed content unless necessary.
-
-#### 5. Categorical Values
-- Collapse compound categories to a single dominant form (e.g., "rock/pop" → "Rock").
-- Use consistent singular and canonical category values.
-
-#### 6. Numerical Fields
-- Convert percentages (e.g., "5.6%") → numeric float (5.6).
-- Convert prices (e.g., "$3.00") → float (3.0).
-- Replace invalid or placeholder values ("-", "", "N/A", "unknown") with "unknown".
-
-#### 7. Dates and Times
-- Dates: Format to YYYY-MM-DD (e.g., “5-Jul-25” → “2025-07-05”).
-- Times: Use M:SS or MM:SS (e.g., "2:34").
-
-#### 8. Phone Numbers
-- Format as +1-XXX-XXX-XXXX (for US).
-- Replace invalid, partial, or corrupted numbers with "unknown".
-
-#### 9. Address Fields
-- Normalize street suffixes (e.g., “Blvd.” → “Boulevard”).
-- Use title case and fix spacing/punctuation.
-
-#### 10. Missing or Corrupt Values
-- Replace malformed entries like null, ?, ‰, "" with "unknown".
-
-#### 11. Style Field Normalization
-- Always split complex styles into `primary_style` and `secondary_style`:
-  - Choose the most specific or defining type as `primary_style`
-  - Move descriptors (e.g., nationality, strength, barrel-aging) to `secondary_style`
-- Examples:
-  - "American Amber / Red Ale" → primary_style: "Red Ale", secondary_style: "Amber"
----
+### STYLE STANDARDIZATION IS CRITICAL
+- ALWAYS split complex styles into primary_style and secondary_style
+- For example: "American Amber / Red Ale" → primary_style: "Red Ale", secondary_style: "Amber"
+- For example: "Imperial Russian Stout" → primary_style: "Stout", secondary_style: "Imperial"
+- For example: "Belgian-Style Tripel" → primary_style: "Tripel", secondary_style: "Belgian"
+- For example: "Barrel Aged Double IPA" → primary_style: "IPA", secondary_style: "Double Barrel-Aged"
 
 ### EXAMPLES OF GOOD STANDARDIZATION:
 
