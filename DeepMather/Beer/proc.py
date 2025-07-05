@@ -56,10 +56,10 @@ class OllamaFeatureExtractor:
     
 
         prompt = f"""
-You are a data normalization expert. Your job is to clean and standardize structured data records to improve entity matching performance in machine learning systems.
----
-Your Task:
-Clean the input record according to the following universal rules. Then return the normalized version using the exact same schema and field names (keys).
+You are an expert in beer product classification and entity resolution.
+
+Given information about a beer, standardize and normalize the values to help with entity matching. Your task is to create consistent representations that would match between different listings of the same product.
+
 ---
 ### Normalization Rules
 
