@@ -114,6 +114,26 @@ Standardized Output:
   "title": "SanDisk Standard SDSDB-016G-B35 SD"
 }}
 
+## Example 5:
+Input:
+title: "WD Black 2TB Performance Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch WD2003FZEX"
+
+
+Standardized Output:
+{{
+  "title":  "WD Black 2TB 3.5\" 7200RPM SATA 6Gb/s 64MB HDD WD2003FZEX"
+}}
+
+## Example 5:
+
+Input:
+title: "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)"@en "▷ WD … | OcUK"@en
+
+Standardized Output:
+{{
+  "title": "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)"
+}}
+
 ---
 
 Now process this record:
@@ -163,10 +183,10 @@ Return only valid JSON with standardized values. Do not include backticks, markd
         except json.JSONDecodeError as jde:
             print(f"❌ JSON decode error: {jde}")
             print("⚠️ Content that failed parsing:", repr(content))
-            return self.normalize_llm_output({})
+            return record
         except Exception as e:
             print(f"❌ Unexpected error: {e}")
-            return self.normalize_llm_output({})
+            return record
 
     def split_record(self, row: dict, side: str) -> dict:
         """Extract left or right side sub-record"""
