@@ -72,6 +72,9 @@ You are a record normalizer optimizing for BERT-based similarity matching. Your 
 -Output only a cleaned COL/VAL title line in the same format as input.
 -----
 
+### Important:
+- Do not guess missing values. Only extract fields if they are explicitly present.
+
 ### EXAMPLES OF GOOD STANDARDIZATION:
 
 
@@ -83,7 +86,7 @@ title: "XTA-3510-73-GB-10K Sun 73-GB 10K HP FC-AL HDD" "Null"
 
 Standardized Output:
 {{
-  "title": "XTA-3510-73-GB-10K Sun 73GB 10K HP FC-AL HDD"
+  "title": "XTA-3510-73-GB-10K Sun 73GB 10K HP FC-AL HDD ,MODEL_NO: XTA-3510-73-GB-10K, BRAND: Sun, STORAGE: 73GB, SPEED: 10K RPM, PRODUCT_TYPE: HDD, INTERFACES: FC-AL"
 }}
 
 ## Example 2:
@@ -92,7 +95,7 @@ title: "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)
 
 Standardized Output:
 {{
-  "title": "WD Gold 10TB 3.5" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)"
+  "title": "WD Gold 10TB 3.5" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ),BRAND: WD, PRODUCT_TYPE: Hard Drive, MODEL_NO: WD101KRYZ, STORAGE: 10TB, FORM_FACTOR: 3.5 inch, SPEED: 7200RPM, MEMORY: 256MB Cache"
 }}
 
 ## Example 3:
@@ -101,7 +104,7 @@ title: "WD 6TB Gold Datacenter HDD/Hard Drive WD6002FRYZ"@en WD6002FRYZ LN72392 
 
 Standardized Output:
 {{
-  "title":"WD 6TB Gold Datacenter HDD Hard Drive WD6002FRYZ"
+  "title":"WD 6TB Gold Datacenter HDD Hard Drive WD6002FRYZ,BRAND: WD, PRODUCT_TYPE: Hard Drive, MODEL_NO: WD6002FRYZ, STORAGE: 6TB"
 }}
 
 ## Example 4:
@@ -111,7 +114,7 @@ title: "SanDisk Standard"@en-US "Superwarehouse - SanDisk Standard Sandisk SDSDB
 
 Standardized Output:
 {{
-  "title": "SanDisk Standard SDSDB-016G-B35 SD"
+  "title": "SanDisk Standard SDSDB-016G-B35 SD,BRAND: SanDisk, PRODUCT_TYPE: SD Card, MODEL_NO: SDSDB-016G-B35, STORAGE: 16GB"
 }}
 
 ## Example 5:
@@ -121,17 +124,17 @@ title: "WD Black 2TB Performance Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb/s 
 
 Standardized Output:
 {{
-  "title":  "WD Black 2TB 3.5\" 7200RPM SATA 6Gb/s 64MB HDD WD2003FZEX"
+  "title":  "WD Black 2TB 3.5\" 7200RPM SATA 6Gb/s 64MB HDD WD2003FZEX,BRAND: WD, PRODUCT_TYPE: HDD, MODEL_NO: WD2003FZEX, STORAGE: 2TB, FORM_FACTOR: 3.5 inch, SPEED: 7200RPM, INTERFACES: SATA 6Gb/s, MEMORY: 64MB Cache"
 }}
 
-## Example 5:
+## Example 6:
 
 Input:
 title: "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)"@en "▷ WD … | OcUK"@en
 
 Standardized Output:
 {{
-  "title": "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ)"
+  "title": "WD Gold 10TB 3.5\" 7200RPM 256MB Cache Datacenter Hard Drive (WD101KRYZ),BRAND: WD, PRODUCT_TYPE: Hard Drive, MODEL_NO: WD101KRYZ, STORAGE: 10TB, FORM_FACTOR: 3.5 inch, SPEED: 7200RPM, MEMORY: 256MB Cache"
 }}
 
 ---
