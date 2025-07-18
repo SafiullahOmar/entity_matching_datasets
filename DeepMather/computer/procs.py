@@ -13,7 +13,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name="llama3.1"):
+    def __init__(self, model_name="llama3.1:latest"):
         self.llm_model = model_name
 
     def normalize_llm_output(self, response: dict) -> dict:
@@ -82,95 +82,6 @@ Your goal is to return **cleaned, normalized versions** of each title (`left_tit
   - Part numbers (359461-007, 540-5629)
   - Internal model codes (MZ-N5E1T0BW, ST31000524NS, CMK64GX4M4A2666C16)
   - These identifiers are critical for DeepMatcher, even if records are not aligned.
-
----
-
-## ✅ FEW-SHOT EXAMPLES
-
-### Example 1 (label = 1)
-
-**Input**  
-left_title: "Corsair Vengeance LPX Black 64GB (4x16GB) DDR4 PC4-21300 2666MHz Quad Channel Kit"  
-right_title: "Corsair Vengeance LPX CMK64GX4M4A2666C16"  
-label: 1
-
-**Standardized Output:**  
-{{
-  "left_title": "Corsair Vengeance LPX 64GB (4x16GB) DDR4 2666MHz Quad Channel Kit CMK64GX4M4A2666C16",
-  "right_title": "Corsair Vengeance LPX 64GB DDR4 2666MHz Kit CMK64GX4M4A2666C16"
-}}
-
----
-
-### Example 2 (label = 0)
-
-**Input**  
-left_title: "388504-B21 HP Storageworks Internal, Null Price 388504-B21 Internal Wholesale 388504-B21"  
-right_title: "Null, 449363-B21 HP SC40Ge Host Bus Adapter Adapter Wholesale 449363-B21 Price 449363-B21"  
-label: 0
-
-**Standardized Output:**  
-{{
-  "left_title": "HP Storageworks Internal 388504-B21",
-  "right_title": "HP SC40Ge Host Bus Adapter 449363-B21"
-}}
-
----
-
-### Example 3 (label = 0 – Intel SSD vs. Samsung SSD)
-
-**Input**  
-left_title: "Intel Solid-State Drive 540S Series - solid state drive 240 GB SATA 6Gb Intel 6Gb SSDSCKKW240H6X1 Solid State Drives (SSDs) CDW.com"  
-right_title: "Samsung 850 EVO Series M.2 1TB SATA 6Gbps Solid State Drive (MZ-N5E1T0BW) ▷ Samsung … | OcUK"  
-label: 0
-
-**Standardized Output:**  
-{{
-  "left_title": "Intel 540S Series 240GB SATA 6Gbps SSD SSDSCKKW240H6X1",
-  "right_title": "Samsung 850 EVO Series 1TB M.2 SATA 6Gbps SSD MZ-N5E1T0BW"
-}}
-
----
-
-### Example 4 (label = 0 – Two different Z270 motherboards)
-
-**Input**  
-left_title: "Gigabyte GA-Z270N-WIFI Intel Z270 (Socket 1151) DDR4 Mini-ITX Motherboard ▷ Gigabyte Mini-IT… | OcUK"  
-right_title: "ASUS PRIME Z270M-PLUS microATX LGA1151 Intel Z270 DDR4 SATA 3"  
-label: 0
-
-**Standardized Output:**  
-{{
-  "left_title": "Gigabyte GA-Z270N-WIFI Intel Z270 DDR4 Mini-ITX Motherboard",
-  "right_title": "ASUS PRIME Z270M-PLUS Intel Z270 DDR4 microATX Motherboard"
-}}
-
-### Example 5  (label = 0 — part numbers must be retained)
-
-**Input** 
-left_title: "XTA-3510-73-GB-10K (540-5629) Sun 73-GB, Null 73-GB Wholesale XTA-3510-73-GB-10K Price XTA-3510-73GB-10K"
-right_title: "359461-007 HP 300-GB 10K FC-AL HDD Null"
-label: 0
-
-**Standardized Output:**  
-{{
-  "left_title": "Sun 73GB 10K XTA-3510-73GB-10K (540-5629)",
-  "right_title": "HP 300GB 10K FC-AL HDD 359461-007"
-}}
-
-### Example 6  (label = 0 — model numbers inside long vendor strings)
-
-**Input** 
-left_title: "ST31000524NS Seagate 1-TB 7.2K 3.5 3G SATA, Null New ST31000524NS SATA 10 Pack Wholesale Price ST31000524NS-10Pack"
-right_title: "Null, 658071-B21 HP G8 G9 500-GB 6G 7.2K 3.5 SATA SC New 658071-B21 5 Pack Wholesale Price 658071-B21-5Pack"
-label: 0
-
-**Standardized Output:**  
-{{
-  "left_title": "Seagate ST31000524NS 1TB 7.2K 3.5in SATA",
-  "right_title": "HP G8 G9 500GB 7.2K 3.5in SATA 658071-B21"
-}}
-
 
 ---
 
