@@ -20,7 +20,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name="llama3.1"):
+    def __init__(self, model_name="gemma3:12b"):
         self.llm_model = model_name
 
     def normalize_llm_output(self, response: dict) -> dict:
@@ -124,80 +124,6 @@ If unavailable, use VAL -.
 When a field (e.g., Artist_Name, Album_Name, Genre, Price, Time, Released) is missing but clearly present elsewhere in the input (often inside Song_Name or after it), extract it and populate the correct field.
 Never fabricate values — infer only when the information is unambiguous.
 
------
-
-### EXAMPLES OF GOOD STANDARDIZATION:
-
-## Example 1:
-Input:
-
-Song_Name: Illusion ( feat . Echosmith ) Zedd True Colors Dance , Music , Electronic 2015 Interscope Records 6:30
-Artist_Name: ""
-Album_Name: ""
-Genre: ""
-price: $ 1.29
-CopyRight: "2015 Interscope Records"
-Time: ""
-Released: "18-May-15"
-
-Standardized Output:
-{{
-  "Song_Name": "Illusion (feat. Echosmith)",
-  "Artist_Name": "Zedd",
-  "Album_Name": "True Colors",
-  "Genre": "Dance, Music, Electronic",
-  "Price": 1.29,
-  "CopyRight": "2015 Interscope Records",
-  "Time": "06:30",
-  "Released": "2015-05-18"
-}}
-
-## Example 2:
-Input:
-
-Song_Name: Transmission [ feat . X Ambassadors ] Dance & Electronic $ 1.29 ( C ) 2015 Interscope Records 4:02
-Artist_Name: "Zedd"
-Album_Name: "True Colors"
-Genre: ""
-Price: "$ 1.29"
-CopyRight: "2015 Interscope Records"
-Time: ""
-Released: "May 18 , 2015"
-
-Standardized Output:
-{{
-  "Song_Name": "Transmission (feat. X Ambassadors)",
-  "Artist_Name": "Zedd",
-  "Album_Name": "True Colors",
-  "Genre": "Dance & Electronic",
-  "Price": 1.29,
-  "CopyRight": "(C) 2015 Interscope Records",
-  "Time": "04:02",
-  "Released": "2015-05-18"
-}}
-
-## Example 3:
-Input:
-Song_Name: I 'm a Machine ( feat . Crystal Nicole and Tyrese Gibson ) Dance , Music , Rock , House , Electronic 26-Aug-11
-Artist_Name: "David Guetta"
-Album_Name: "Nothing But the Beat"
-Genre: ""
-Price: "$ 1.29"
-CopyRight: "2011 What A Music Ltd , Licence exclusive Parlophone Music France"
-Time: "3:34"
-Released: "May 18 , 2015"
-
-Standardized Output:
-{{
-  "Song_Name": "I'm a Machine (feat. Crystal Nicole and Tyrese Gibson)",
-  "Artist_Name": "David Guetta",
-  "Album_Name": "Nothing But the Beat",
-  "Genre": "Dance, Music, Rock, House, Electronic;",
-  "Price": "1.29",
-  "CopyRight": "2011 What A Music Ltd, Licence exclusive Parlophone Music France",
-  "Time": "03:34",
-  "Released": "2011-08-26"
-}}
 
 ---
 
