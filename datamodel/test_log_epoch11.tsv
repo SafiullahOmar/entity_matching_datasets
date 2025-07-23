@@ -1,0 +1,1099 @@
+gold	pred	result	probability	text_left	text_right
+1	1	TP	0.9947	COL title PRODUCT VAL Benq ZOWIE RL2455 24 " Full HD TN Grey computer monitor ;	COL title VAL Zowie RL2455 E - Sports 24 " Full HD LED Monitor
+0	0	TN	0.0018	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D ;	COL title VAL Tripp Lite 750VA 450W UPS Eco Green Battery Back Up Compact 120V USB RJ11
+0	0	TN	0.0026	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL Apple iPad mini 4 Wi - Fi tablet NUM 128 GB 7.90 ID MK9P2LL / A Tablets
+0	0	TN	0.0033	COL title VAL Corsair Vengeance SODIMM 8 GB ( NUM 2x4 GB ) DDR3 PRODUCT PC3 - ID 12800C9 ID 1600MHz Kit ;	COL title VAL HP 300 - GB 10 K FC - AL HDD
+0	0	TN	0.0042	COL title VAL 672631 - B21 HP 16 GB SDRAM DIMM ;	COL title VAL 404712 - 1 HP 146 GB U320 SCSI 15 K
+1	0	FN	0.3952	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s ;	COL title VAL Buy Online | WD Red ID WD20EFRX 2 TB Desktop Internal Hard Drive
+0	0	TN	0.0021	COL title VAL Intel Processor Core i7 - 7700 K ;	COL title VAL Intel Core i3 - 6100 3.7GHz Dual - Core Processor
+1	0	FN	0.5210	COL title VAL WD Black 2 TB Performance Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb / s 64 MB Cache 3.50 Inch ;	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB
+1	1	TP	0.9981	COL title VAL AMD Ryzen Threadripper ;	COL title VAL AMD Ryzen Threadripper Sixteen Core Processor
+0	0	TN	0.0104	COL title VAL HPE Smart Array P421 2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb / s ;	COL title PRODUCT VAL Transcend ID TS64GUSDU1 flash memory card 64 GB SDXC UHS - I
+0	0	TN	0.1341	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Vengeance LPX Red 16 PRODUCT GB ( NUM 4x4 GB ) DDR4 PC4 - 24000 ID 3000MHz Dual / Quad Channel Kit
+0	0	TN	0.0016	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 ) ID MC508LL / A ;	COL title VAL Apple MacBook Pro NUM 13 - inch Glossy 2.5GHz Core i5 Mid 2012 ID MD101LL / A
+1	1	TP	0.9989	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server ;	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server
+1	1	TP	0.9993	COL title PRODUCT VAL SanDisk ID SDSDB-016 G CRZ 16 GB SDHC card Class 2 PRODUCT 2MB / s Bulk ;	COL title VAL SanDisk ID SDSDJ-016 G CRZ 16 GB SDHC card Class 2 PRODUCT 2MB / s Bulk
+0	0	TN	0.0039	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Apple iPad mini 4 Wi - Fi 128 PRODUCT GB
+0	0	TN	0.0733	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title VAL Gigabyte B250 M D3H Kaby Lake Micro ATX Motherboard
+0	1	FP	0.9990	COL title PRODUCT VAL ID XTA-3510 - 73 - GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title PRODUCT VAL ID XTA-3510 - 300 - GB-10 K Sun 300 GB 10 K HP FC - AL HDD
+1	1	TP	0.9988	COL title VAL AMD Ryzen 5 1600 Six - Core Processor ;	COL title VAL AMD Ryzen 5 1600 Six - Core Processor
+0	0	TN	0.0012	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Intel Xeon E5 - 2609V2 / 2.50 GHz processor
+0	0	TN	0.6440	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240pin ;	COL title PRODUCT VAL Crucial DDR3L 4 GB SODIMM NUM 204pin
+0	0	TN	0.2961	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 " SATA Bay ;	COL title VAL Gigabyte PRODUCT Brix GB - ID BXBT-2807 2.50 " HDD Celeron Barebone Mini PC
+1	0	FN	0.4043	COL title VAL Crucial 4 GB PC3 - 12800 240 - pin DDR3 SDRAM DIMM ;	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240 - pin
+1	1	TP	0.9986	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 - Apple ID MJVM2LL / A ;	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 - Apple ID MJVM2LL / A
+0	1	FP	0.8316	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit
+1	1	TP	0.9988	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro
+0	1	FP	0.9258	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Apple MacBook Pro 15.40 With Retina Display 2.5GHz Intel Core i7 Laptop Computer
+0	0	TN	0.0157	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro Gray ;	COL title VAL Apple Smart Case for PRODUCT iPad Air 2 NUM Midnight Blue
+1	0	FN	0.5959	COL title VAL Corsair Vengeance DDR3 8 GB 2 x 4 SO - DIMM 204 - pin ;	COL title PRODUCT VAL Corsair Vengeance 8Gb 2x4Gb DDR3 ID 1600MHz Cas9 SO - DIMM Kit
+0	0	TN	0.1410	COL title VAL HPE Smart Array P421/2 GB with FBWC - storage controller RAID PRODUCT SATA 6Gb / s ;	COL title VAL HPE Smart Array ID P222/512 with FBWC - storage controller RAID PRODUCT SATA 6Gb / s
+0	0	TN	0.2129	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title VAL HP G8 G9 200 - GB 3 G 3.50 SATA MLC SSD
+0	0	TN	0.2554	COL title VAL Acer Swift 1 SF113 - 31 - P4A2 Pink ;	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook
+0	0	TN	0.0032	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3 ;	COL title PRODUCT VAL Gigabyte BRIX PRODUCT GB - ID BKi7HA-7500 - Ultra Compact PC Kit Core i7 75 GB
+1	1	TP	0.9595	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL HP 408850 - B21
+1	1	TP	0.8901	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Fair Condition : Apple iMac 21.50 - inch 2.5GHz Quad - Core i5 ( Mid 2011 ) ID MC309LL / A
+0	0	TN	0.0035	COL title VAL MacBook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 ;	COL title VAL Lenovo Professional Backpack Black for NUM 15.60 inch ThinkPad Notebooks
+1	1	TP	0.9990	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700 ;	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700
+0	0	TN	0.0026	COL title PRODUCT VAL ID XTA-3510 - 73 - GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title VAL 356816 - 1 ML350 T G4p Xeon 3.20 2 MB 512 MB
+0	1	FP	0.8188	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240pin ;	COL title VAL Crucial SODIMM NUM 204pin 4 PRODUCT GB DDR3L SDRAM
+0	1	FP	0.9913	COL title VAL 6th Generation Intel Core i7 6700 K 4.0GHz Socket ID LGA1151 Skylake Processor Retail ;	COL title VAL 6th Generation Intel Core i7 NUM 6700 3.4GHz Socket ID LGA1151 Skylake Processor Retail
+1	1	TP	0.9697	COL title VAL Switch TP - Link 16 Portas ID 10/100/1000Mbps Rack ;	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch
+0	0	TN	0.0180	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch TL - SG1016 ;	COL title VAL SmartShell Glitter MacBook Pro 2016 13 Cases
+0	0	TN	0.0270	COL title VAL Intel Giabit CT Desktop PCI Express Network Adapter ;	COL title VAL HPE Read ID Intensive-2 solid state drive 240 GB SATA 6Gb / s
+0	0	TN	0.0102	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard
+1	1	TP	0.9969	COL title VAL Seagate 1 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL Seagate 1 TB PRODUCT Barracuda 3.50 7200 RPM Internal Hard Drive
+0	0	TN	0.0642	COL title VAL Lenovo ThinkPad Solid State Drive 512 GB PCI Express 3 x4 NVMe ;	COL title VAL Samsung 960 PRO MZ - ID V6P2T0BW Solid State Drive 2 TB PCI Express 3 x4
+0	0	TN	0.0015	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS ;	COL title PRODUCT VAL 518736 - 1 HP 450 GB 10 K FCAL
+0	0	TN	0.0676	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 300680 - B21 HP 2 GB 266MHz SDRAM Kit
+0	0	TN	0.0299	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair AF140 Led Blanco 140 mm
+0	1	FP	0.9988	COL title VAL Seagate 2 TB 3.50 " SATA3 BarraCuda HDD / Hard Drive ID ST2000DM006 ;	COL title VAL Seagate PRODUCT Barracuda 2 TB SATA 3 Internal Hard Drive / HDD ID ST2000DM001
+1	1	TP	0.9981	COL title VAL Intel SSD DC P3600 Series ;	COL title VAL Intel Solid - State Drive DC P3600 Series
+0	1	FP	0.9293	COL title PRODUCT VAL Speck SeeThru MacBook Air 13 notebook hardshell case ;	COL title VAL SeeThru MacBook 12 Cases
+1	1	TP	0.9988	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 PRODUCT G6
+1	1	TP	0.9905	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL ASUS PCE - AC55BT - network adapter
+0	0	TN	0.1921	COL title VAL Logitech C525 8MP HD Webcam ;	COL title VAL Full HD Outdoor Vandal Proof PoE Dome Camera
+0	0	TN	0.0555	COL title VAL Seagate IronWolf Pro 10 TB SATA 6Gb / s ;	COL title VAL Seagate IronWolf Pro 8 TB NAS SATA 6Gb / s 256 MB Cache HDD OEM ( ID ST8000NE0021 )
+0	0	TN	0.0494	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Lenovo Legion Y520 - 15 i7 - 7700HQ 8 GB 128 PRODUCT GB SSD+1 TB Nvidia ID GTX1050 4 GB 15.60 W10
+0	0	TN	0.2762	COL title VAL Lenovo ThinkPad 11e PRODUCT Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD ;	COL title VAL Lenovo ThinkPad Work - In Case Gen.2 notebook carrying case
+0	0	TN	0.2308	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung 850 EVO M2 1 TB
+0	0	TN	0.0193	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM ;	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit
+1	1	TP	0.8293	COL title PRODUCT VAL Corsair Vengeance LPX 16 GB ( NUM 4x4 GB ) DDR4 PC4 - ID 19200C16 ID 2400MHz Quad Channel Kit - Black ;	COL title VAL Corsair Vengeance LPX Black 16 GB ( NUM 4x4 GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit
+1	1	TP	0.9986	COL title VAL Kingston Datatraveler G4 ;	COL title VAL Kingston Datatraveler G4
+0	0	TN	0.2579	COL title VAL Samsung SSD 850 PRODUCT EVO 1 TB ;	COL title VAL Samsung 850 Evo 500 PRODUCT GB
+0	0	TN	0.0024	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Ryzen 5 NUM 1600X 6 Core AM4 CPU Processor
+0	0	TN	0.3044	COL title VAL Logitech C525 8MP HD Webcam ;	COL title VAL HD Wireless Cloud Camera
+0	0	TN	0.0135	COL title VAL AMD Ryzen Threadripper 1950X ;	COL title VAL Intel Core i7 - 7800X
+1	1	TP	0.9946	COL title VAL ASUS SABERTOOTH X99 motherboard ATX ID LGA2011 - v3 Socket X99 ;	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard
+0	1	FP	0.9921	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin
+0	0	TN	0.0127	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit ;	COL title PRODUCT VAL Corsair XMS3 4 GB ( NUM 2x2 GB ) DDR3 PRODUCT PC3 - ID 10666C9 ID 1333MHz Dual Channel Kit
+1	1	TP	0.9968	COL title VAL Apple Smart Keyboard for NUM 12.90 - inch iPad Pro ;	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro
+0	0	TN	0.0103	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case Blackout Edition ;	COL title VAL Corsair Carbide Air 240 Cube Case Black
+0	0	TN	0.0029	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro Gray ;	COL title VAL Synology Disk Station DS1517 NAS server 0 GB
+0	0	TN	0.0248	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM PRODUCT OS X 10.10 PRODUCT Yosemite ;	COL title VAL Apple Mac mini DTS Core i5 2.6GHz 8 GB 1 TB
+1	1	TP	0.9977	COL title VAL Apple 12.90 Inch iPad Pro Wi Fi 32 GB Silver ;	COL title VAL Apple 12.90 inch iPad Pro Wi Fi tablet 32 PRODUCT GB
+0	0	TN	0.0082	COL title VAL 6th Generation Intel Core i7 6700 K 4.0GHz Socket ID LGA1151 Skylake Processor Retail ;	COL title VAL Intel Xeon E5 - 2683V4 2.10 GHz processor
+0	0	TN	0.0041	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Asus P541UJ - GO626 T i7 - 7500u 12 GB 1 TB Nvidia GT920 2 GB 15.60 W10
+0	0	TN	0.0104	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL TP - LINK TL - ID SG1016DE switch
+0	0	TN	0.7909	COL title VAL Corsair Vengeance LPX Black 16 GB 2x8 PRODUCT GB DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 32 GB 4x8 PRODUCT GB DDR4 PC4 - 19200 ID 2400MHz Quad Channel Kit
+0	0	TN	0.0054	COL title VAL   " 508429 - 1 HP 400 - GB 10 K 3.50 DP NHP SAS 5 Pack " " HP 508429 - 1 Part # -508429 - 1 - 5Pack "	COL title VAL   " 359461 - 7 HP 300 - GB 10 K FC - AL " " Null "
+0	0	TN	0.0182	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title PRODUCT VAL MSI AMD AM4 Ryzen B350 TOMAHAWK ATX Motherboard
+0	0	TN	0.0011	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 NUM Late 2012 ID MD095LL / A ;	COL title VAL Multilayer 6 - Port ID 1000BASE - SX Switch 2 GBIC ports
+0	0	TN	0.0251	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i5 - 4570 ID 3.20GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0051	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL HP ProBook 440 G4 Notebook PC
+0	0	TN	0.0220	COL title VAL Intel Processor Core i7 - 7700 K ;	COL title VAL Intel Core i7 - 6700 K
+0	1	FP	0.9973	COL title VAL Apple 12.90 - Inch iPad Pro Wi - Fi 32 GB Silver ;	COL title VAL Apple 12.90 - Inch iPad Pro Wi - Fi 32 GB Gold
+1	1	TP	0.9981	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 4x3.70GHz ;	COL title PRODUCT VAL AMD Athlon X4 860k 3.70 GHz PRODUCT Black Low Noise
+0	0	TN	0.0503	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i3 - 4150 ID 3.50GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0087	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL 377239 - 1 DL580 G3 Intel Xeon MP ID 3.16GHz
+1	1	TP	0.9988	COL title VAL HP 432804 - B21 MEMORY 1 GB PRODUCT PC2 - 5300 1X1 GB ;	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM
+0	0	TN	0.0108	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM ;	COL title VAL 408854 - B21 HP 8 GB ( NUM 2x4 GB ) PC2 - 5300P SDRAM Kit
+1	1	TP	0.9584	COL title PRODUCT VAL Transcend ID TS64GUSDU1 CYT 64 GB 8p MSDXC 400x Class 10 UHS-1 U1 Premium Micro Secure Digital ;	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s ( ID TS64GUSDU1 )
+0	0	TN	0.0048	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Quad Core A10 PRODUCT 9700E AM4 CPU Processor with Radeon Graphics
+1	1	TP	0.9959	COL title VAL Lenovo ThinkPad solid state drive 512 GB PCI Express 3 x4 ( NVMe ) ;	COL title VAL ThinkPad 512 GB PCIe - NVMe 3x4 M.2 SSD
+1	0	FN	0.2402	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 ) ID MC508LL / A ;	COL title VAL Apple ID 3.06GHz Intel Core i3 iMac Desktop Computer
+0	0	TN	0.0025	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title VAL PM254A HP 400 GB 7.20 K IDE SATA
+0	1	FP	0.9245	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor Black ;	COL title VAL AOC ID E2270SWDN 21.50 " ID 1920x1080 TN Widescreen LED Monitor Black
+1	0	FN	0.6572	COL title VAL Corsair 4 GB DDR3 1333 MHz Laptop Memory ;	COL title VAL Corsair DDR3 4 GB SO - DIMM 204 - pin
+0	0	TN	0.4674	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL HP ZBook Studio G4 Workstation i7 - 7700HQ 8 GB 256 GB SSD Quadro M1200 4 GB 15.60 FHD
+0	0	TN	0.0026	COL title VAL 500660 - B21 HP 4 GB PC3 - 8500 RDIMM ;	COL title VAL 354560 - B21 HP PC3200 - ECC SDRAM DIMM
+0	0	TN	0.2007	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Asrock H81 M DGS PRODUCT R2 0 Intel H81 Socket 1150 DDR3 Micro ATX Motherboard
+0	0	TN	0.2706	COL title PRODUCT VAL G.Skill Ripjaws V Series 16 PRODUCT GB ( 2 x 8 PRODUCT GB ) DDR4 - 2400 Memory ;	COL title VAL Corsair Vengeance 16 PRODUCT GB ( 2 x 8 PRODUCT GB ) DDR3 - 1866 Memory
+0	1	FP	0.9029	COL title VAL Sapphire Pulse Radeon RX NUM 580 4 GB GDDR5 ;	COL title VAL Gigabyte Radeon RX 580 Gaming 4 GB GDDR5
+0	0	TN	0.0175	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL B Grade Intel Core i5 - 4670 K ID 3.40GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0614	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title VAL Kingston Ultimate flash memory card 64 GB SDXC
+1	1	TP	0.9987	COL title VAL SanDisk 128 GB CF Extreme Pro 160MB / s - ID SDCFXPS-128G - X46 ;	COL title VAL SanDisk 128 GB CF Extreme Pro 160MB / s ID SDCFXPS-128G - X46
+0	0	TN	0.0054	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch 2.8GHz Quad - core i7 ( Mid 2011 ) ID MC812LL / A - BTO
+0	0	TN	0.5895	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title PRODUCT VAL DP 1.20 to HDMI 1.40 Active Convertor Cable From Startech
+0	0	TN	0.0050	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 601248 - B21 PRODUCT HP E5507 ID 2.26GHz ML350 PRODUCT G6
+0	0	TN	0.0967	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title PRODUCT VAL Asus ROG G501VW - FW106 T i7 - 6700HQ 8 GB 1 TB Nvidia GTX960 2 GB W10 15.60
+0	0	TN	0.0560	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643772 - B21 HP Xeon E74830 ID 2.13GHz BL680c G7
+0	0	TN	0.0020	COL title VAL AMD Ryzen 5 1400 Quad Core Processor with Wraith Stealth Cooler ;	COL title VAL AMD Ryzen 3 1200 Quad Core AM4 CPU / Processor with Wraith Stealth Cooler
+0	0	TN	0.0012	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title VAL Kingston 64 GB DataTraveler microDuo 3 ID DTDUO3/64 GB Flash Drive USB 3 OTG r70MB / s w15MB / s for Android
+0	0	TN	0.3269	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL HP Intel Xeon X5560
+0	0	TN	0.7422	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card ;	COL title VAL Palit NVIDIA GeForce GTX 1080 8 GB GameRock Graphics Card
+0	0	TN	0.0345	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Dell 73 - GB U320 NHP 15 K
+1	1	TP	0.9986	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 - Apple ID MJVM2LL / A ;	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 - Apple ID MJVM2LL / A
+0	0	TN	0.0067	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL Sapphire Radeon R7 240 Graphics Card
+0	0	TN	0.2765	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL Intel Core i5 - 4670 ID 3.40GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0111	COL title VAL 647909 - B21 HP 8 GB Dual Rank LP UDIMM ;	COL title VAL ID BD1465822C HP 146.80 - GB 10 K FC - AL HDD
+0	0	TN	0.0061	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch 2.7GHz Quad - Core i5 ( Mid 2011 ) ID MC812LL / A
+0	0	TN	0.0404	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - E Graphics Card ;	COL title VAL Gigabyte Tech GeForce GTX 1060 PRODUCT G1 PCIe NUM 3 x16 Gaming Graphics Card
+0	0	TN	0.0026	COL title VAL Seagate 1 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL Zotac GeForce GTX 1060 AMP Edition 3072 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.0115	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title PRODUCT VAL Zebra LS2208 1D SR Multi IF Kit RS232 Anthracite
+0	0	TN	0.7087	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i3 - 4340 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.2167	COL title PRODUCT VAL Corsair Vengeance Blue 4Gb DDR3 1600 ( 1x4Gb ) CL9 ;	COL title PRODUCT VAL Corsair Memory 8 GB Vengeance Performance DDR3 SO - DIMM 1600 MHz 9 Dual Channel Laptop
+0	0	TN	0.0063	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive ;	COL title VAL 287494 - B21 128 MB PC100 ECC DDR
+0	0	TN	0.0220	COL title VAL Sandisk 16 GB ID SDSDB-016 G SDHC Secure Digital Card 15MB / s Class 4 Limited ;	COL title VAL StarTech.com 4 Port PCI 1394a FireWire Adapter Card with Digital Video Edit
+1	1	TP	0.9921	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin
+1	1	TP	0.9992	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title VAL HP 72 GB 10 K rpm FC disk hard drive
+0	0	TN	0.0201	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL HP Pavilion 570 - p060na Desktop
+0	0	TN	0.2429	COL title VAL 432103 - B21 HP Smart Array ID P600/512 Controller ;	COL title VAL 578230 - B21 HP Smart Array ID P410/512 Controller
+1	1	TP	0.9747	COL title VAL Intel Gigabit CT ID 10/100/1000 PCI - E Ethernet Network Adapter ;	COL title VAL Intel Gigabit CT Desktop PCI Express Network Adapter
+1	1	TP	0.9979	COL title VAL Corsair Carbide Series 330R BlackOut Edition Silent ;	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case - Blackout Edition ( ID CC-9011076 - WW )
+0	0	TN	0.0418	COL title VAL Intel Core i7 - 7700 ID 4x3.60GHz boxed ;	COL title VAL Intel Pentium G4560 Kaby Lake Desktop Processor / CPU ID LN76888 - ID BX80677G4560 | SCAN PRODUCT UK
+0	0	TN	0.0175	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor Wraith Stealth PRODUCT 65W cooler ;	COL title VAL AMD Ryzen 5 1600 Six - Core Processor Wraith Spire PRODUCT 95W cooler
+1	1	TP	0.9723	COL title VAL Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan ;	COL title VAL Corsair Carbide ID SPEC-02 Red Windowed
+1	0	FN	0.6153	COL title VAL Crucial Ballistix Sport NUM 8 GB PRODUCT DDR4 - 2400 Memory ;	COL title VAL Crucial Ballistix Sport ID BLS8G4D240FSA
+0	0	TN	0.0057	COL title VAL Crucial BX100 500 GB SATA 2.50 " Internal Solid State Drive ID CT500BX100SSD1 ;	COL title VAL Crucial BX200 240 GB 2.50 " SATA SSD Solid State Drive ID CT240BX200SSD1
+1	0	FN	0.1644	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title VAL Lenovo IdeaPad 100 - 15IBY Windows 10 PRODUCT Betriebssystem
+0	0	TN	0.0300	COL title VAL NUM 667805 - B21 HP Intel Xeon E5 - 2603 1.8GHz BL460c G8 ;	COL title VAL FD458 Dell 73 GB U320 SCSI HP 15 K ID w/9D988
+0	1	FP	0.9416	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Zotac GeForce GTX 1050Ti OC PRODUCT 4096 MB GDDR5 PCI - Express Graphics Card
+0	1	FP	0.9420	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - Express Graphics Card ( 08G - P4 - 6180 - KR ) ;	COL title PRODUCT VAL MSI GeForce GTX 1080 Gaming X RGB 8192 MB GDDR5X PCI - Express Graphics Card
+0	0	TN	0.0010	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 " SATA Bay ;	COL title VAL Samsung 750 Evo 500 GB 2.50 " Solid State Drive
+0	0	TN	0.0097	COL title VAL 127005 - 31 HP 256 MB SDRAM MEMORY ;	COL title VAL 230534 - B21 HP 40 GB Ultra ATA 100 7.20 K
+0	0	TN	0.0038	COL title VAL WD 120 GB Green 2.50 " Solid State Drive / SSD ;	COL title VAL WD 240 GB Green 2.50 " Solid State Drive / SSD
+1	1	TP	0.9988	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL MICRO INTEL i7 4790 LGA 1150
+0	1	FP	0.9442	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair Vengeance White LED 64 PRODUCT GB DDR4 3000 Memory Kit 4x16 PRODUCT GB
+0	0	TN	0.3290	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title VAL 497765 - B21 HP 4 GB PRODUCT PC2 - 6400 SDRAM Kit
+0	0	TN	0.5696	COL title VAL Kingston NUM 128 GB DataTraveler SE9 G2 USB 3 Flash Drive ;	COL title VAL Kingston NUM 16 GB DataTraveler ID DTSE9G2/16 GB Flash Drive USB 3
+0	0	TN	0.0988	COL title VAL HP 358348 - B21 ADJ 1 GB PC2700 CL2.5 18c 128x4 Registered ECC DDR DIMM ;	COL title VAL HP NUM 432804 - B21 1 GB PC2 - 5300 ECC DIMM
+0	1	FP	0.9991	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.20 TB PCI ;	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.60 TB PCI
+1	1	TP	0.9992	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case - Blackout Edition ;	COL title VAL Corsair Carbide Series 330R PRODUCT Ultra - Silent - Blackout Edition Mid Tower A
+0	0	TN	0.3503	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 GB ;	COL title VAL Corsair 32 GB Vengeance LPX DDR4 PRODUCT ID 3200MHz RAM Kit 2x16 PRODUCT GB
+0	1	FP	0.8544	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor - Black / Red ;	COL title PRODUCT VAL Acer KA240H 24 Full HD LED Monitor 5ms inch - 1080p DVI ID UM.FX0EE.005
+1	1	TP	0.9935	COL title VAL Apple Mac mini Intel Core i5 1.4GHz 4 GB Memory 500 GB Hard Drive White ;	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM PRODUCT OS X 10.10 PRODUCT Yosemite
+0	0	TN	0.0075	COL title VAL 672631 - B21 HP 16 GB SDRAM DIMM ;	COL title PRODUCT VAL 306645 - 3 HP 72.80 GB U320 SCSI 15 K
+0	0	TN	0.0018	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title VAL SanDisk Extreme Micro SDXC SD Memory Card Class 10 UHS-1 U3 4 K 100MB / s with Full Size Adapter - 64 PRODUCT GB
+0	0	TN	0.1563	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus GeForce GTX 750Ti OC 2048 MB GDDR5 PCI - Express Graphics Card ( ID GTX750TI - ID OC-2GD5 )
+0	1	FP	0.9969	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 " SATA Bay ;	COL title VAL Gigabyte Kaby Lake i3 BRIX S Barebone Mini PC Kit with 2.50 " SATA Bay
+1	0	FN	0.3159	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 ( Late 2012 ) ID MD095LL / A ;	COL title VAL Apple 27 " iMac 2.9GHz Intel Quad - Core i5 Desktop Computer
+0	0	TN	0.0048	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL Intel Solid - State Drive DC P3600 Series solid state drive 1.60 TB PCI ID SSDPEDME016T401 Solid State Drives ( SSDs )
+0	0	TN	0.0035	COL title VAL ASUS GeForce GTX 1060 TURBO 6 GB GDDR5 Graphics Card ;	COL title VAL Gigabyte NVIDIA GeForce GTX 1060 3 GB Mini ITX OC Graphics Card
+1	1	TP	0.9913	COL title VAL Logitech C525 8MP HD Webcam ;	COL title VAL Logitech HD Webcam C525 USB
+0	0	TN	0.0235	COL title VAL Seagate 2 TB PRODUCT Barracuda PRODUCT 3.50 " 7200 RPM Internal Hard Drive ;	COL title VAL WD Black 2 TB Performance Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb / s 64 MB Cache NUM 3.50 Inch
+0	0	TN	0.0038	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL Intel Pentium G4560 3.5GHz DualCore Processor
+0	0	TN	0.0563	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title VAL Samsung ID M393B2G70DB0 - YK0 CZC NUM 16 GB 240p PRODUCT PC3 - 12800 CL11 36c 1024x4 DDR3 - 1600 2Rx4 1.35V ECC RDIMM RFB
+0	0	TN	0.2034	COL title VAL NUM 667805 - B21 HP Intel Xeon E5 - 2603 1.8GHz BL460c G8 ;	COL title VAL 662078 - B21 HP Intel Xeon E5 - 2650L 1.8GHz BL460c G8
+0	0	TN	0.0012	COL title PRODUCT VAL Transcend 64 GB 400x UHS-1 Class 10 Micro SDXC Memory Card ;	COL title PRODUCT VAL HyperX Impact Black Series DDR3L NUM 8 GB SO - DIMM 204 - pin
+0	0	TN	0.0013	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL Gigaram 16 PRODUCT GB 50p CF r21MB / s w9MB / s Bulk Blank Compact Flash Card 120x
+0	0	TN	0.6038	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL Mac Mini Qc I5 ID 2.6ghz/8gb/1tb / Iris Graphics
+0	0	TN	0.0442	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition ID 3.50Ghz Processor ;	COL title PRODUCT VAL AMD Piledriver FX-8 Eight Core 8320 ID 3.50Ghz Processor
+0	0	TN	0.0076	COL title VAL 417772 - B21 HP Xeon 5130 2.0GHz PRODUCT DL140 G3 ;	COL title VAL 578229 - B21 HP P411 SAS Smart Array Controller
+0	0	TN	0.0012	COL title VAL Samsung 120 GB 2.5IN S - ATA Solid State Drive ;	COL title VAL Samsung 250 GB 2.5IN SATA3 Mdx Solid State Disk Flash Drive SSD
+0	0	TN	0.7534	COL title VAL Corsair Vengeance LPX Black 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 28800 ID 3600MHz Dual Channel Kit
+1	1	TP	0.9940	COL title VAL Portátil HP ProBook 640 G3 Core i5 8 GB SSD 256 GB ;	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro
+0	0	TN	0.0085	COL title VAL Logitech C920 15MP NUM 1920 x 1080 Pixels USB Negro cámara web ;	COL title VAL Sandisk 16 GB Extreme Pro Compact Flash Card
+1	1	TP	0.9987	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz ;	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz ( Socket FM2 ) APU Kaveri Processor - Retail
+0	0	TN	0.0015	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB ;	COL title VAL 632429 - 3 HP G8 G9 400 - GB 6 G 2.50 SAS SLC SSD
+1	1	TP	0.9855	COL title VAL Apple NUM 12.90 - inch iPad Pro Wi - Fi tablet NUM 32 GB 12.90 " ;	COL title VAL Apple 12.90 - Inch iPad Pro with Wi - Fi 32 GB Silver
+0	0	TN	0.7260	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title VAL Acer Swift 1 SF113 - 31 - P4A2 Pink
+0	0	TN	0.0010	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM PRODUCT OS X 10.10 PRODUCT Yosemite ;	COL title VAL Apple iMac NUM 27 - inch 3.4GHz Quad - core i5 ( Late 2013 ) ID ME089LL / A
+0	0	TN	0.4080	COL title VAL Logitech PRODUCT C525 ( 8MP ) HD Webcam ;	COL title VAL Logitech C310 HD 720p 5 Megapixel PRODUCT Webcam
+1	1	TP	0.9992	COL title VAL HP Intel Xeon E5 - 2603 1.80 GHz ;	COL title VAL HP Intel Xeon E5 - 2603 1.8GHz BL460c G8
+0	0	TN	0.0520	COL title VAL Western Digital ID WDS120G1G0A 120 GB Green SATA SSD 2.50 in NUM 7 mm Cased ;	COL title VAL WD 240 GB Green 2.50 Solid State Drive / SSD ID WDS240G1G0A
+0	0	TN	0.2575	COL title VAL Western Digital Red 2 TB Internal HDD ;	COL title VAL Western Digital ID WD60EFRX 6 TB SATA 64 MB 3.50 HD Red
+1	1	TP	0.9990	COL title VAL HPE ProLiant DL380 G6 Performance Xeon X5560 2.80 GHz 12 GB ;	COL title VAL HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB
+0	0	TN	0.1449	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro Gray ;	COL title VAL Apple Smart Keyboard for NUM 10.50 - inch PRODUCT iPad Pro
+1	1	TP	0.9993	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition w/ Quiet Cooler Quad Core ID 3.7/4.0GHZ 4 MB 95W FM2 + Processor ;	COL title PRODUCT VAL AMD Athlon X4 860 K Black Processor with PRODUCT 95w Quiet Cooler
+1	1	TP	0.8367	COL title VAL Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan ;	COL title VAL Corsair Carbide Series ID SPEC-02 - mid tower ATX
+0	0	TN	0.0013	COL title VAL Apple MacBook Pro 13.30 Core i5 4 GB RAM NUM 500 HDD English ;	COL title VAL HP 6 TB 7.20 PRODUCT K 3.50 SAS HDD
+0	1	FP	0.8559	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor Black / Red ;	COL title VAL TP - Link TL - ID SG1024D 24 Port Gigabit Desktop Switch
+1	1	TP	0.9985	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive ;	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive
+1	1	TP	0.9987	COL title VAL 323146 - B21 BL20P G2 ( 1P ) Xeon ID 3.06GHz ;	COL title VAL 323146 - B21 BL20p Xeon PRODUCT ID 3.06GHz
+0	0	TN	0.0366	COL title VAL   " PRODUCT AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ID AD540KOKHJBOX " @en - US " PRODUCT AMD | 5 Free Hosting"@en - PRODUCT US	COL title VAL   " PRODUCT AMD A6 7400 K APU Processor - Black Edition Dual Core"@en Core ID LN58585 ID AD740KYBJABOX | SCAN UK"@en
+0	0	TN	0.1246	COL title VAL Kingston HyperX Fury Series 8 GB DDR3 RAM ID HX318C10F/8 ;	COL title PRODUCT VAL HyperX FURY - DDR4 16 PRODUCT GB : 2 x 8 GB DIMM 288 - pin
+0	0	TN	0.0037	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 ( Late 2012 ) ID MD095LL / A ;	COL title VAL Buy Online Intel ID BOXNUC5i5RYH Core i5 NUC Barebone Kit MINI PC
+0	0	TN	0.0166	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title PRODUCT VAL Gigabyte AMD Radeon RX 550 2 GB GAMING OC Graphics Card
+0	0	TN	0.0068	COL title VAL 432094 - B21 HP 146 - GB 15 PRODUCT K 3.50 SP SAS ;	COL title VAL ID DG0300BAHZQ HP 300 - GB 3 G 10 K 2.50 DP PRODUCT SAS HDD
+1	1	TP	0.9989	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5
+1	1	TP	0.9972	COL title VAL ASUS NVIDIA GeForce GTX 1070 Turbo 8 GB Graphics Card ;	COL title VAL Asus TURBO - ID GTX1070 - 8 G
+1	1	TP	0.9132	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair Vengeance LED NUM 32 GB 4x8 PRODUCT GB DDR4 - 3000 Memory
+0	0	TN	0.1173	COL title VAL HP 358348 - B21 ADJ 1 GB PC2700 CL2.5 Registered ECC DDR DIMM ;	COL title VAL HP 376638 - B21 AMI 1 GB PC2700 CL2.5 Registered ECC DDR DIMM
+1	1	TP	0.8855	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240pin ;	COL title VAL Kingston HyperX Fury Series 8 GB DDR3 RAM ID HX318C10F/8
+0	0	TN	0.0018	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL Seagate IronWolf 10 TB NAS ID 7200RPM SATA 6Gb / s 256 MB Cache HDD OEM
+0	1	FP	0.9992	COL title VAL Kingston 64 GB PRODUCT DataTraveler SE9 G2 USB 3 Flash Drive ID DTSE9G2/64 PRODUCT GB ;	COL title VAL Kingston DataTraveler SE9 G2 16 GB USB 3 - ID DTSE9G2/16 PRODUCT GB
+1	1	TP	0.9956	COL title VAL 500660 - B21 HP 4 GB PC3 - 8500 RDIMM ;	COL title VAL HP 500660 - B21 4 GB 4RX8 PC3 - ID 8500R-7 LP RDIMM
+0	1	FP	0.9783	COL title VAL Kingston DataTraveler 100 G3 128 GB USB3.0 ;	COL title VAL Kingston DataTraveler 100 G3 NUM 32 GB USB 3
+0	0	TN	0.0516	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM OS X Yosemite ;	COL title VAL WD Blue ID WD5000AZLX hard drive 500 GB SATA 6Gb / s
+1	1	TP	0.8733	COL title VAL Apple MacBook Pro NUM 15 - inch with Touch Bar : 2.8GHz quad - core Intel Core i7/16 GB ;	COL title VAL Apple MacBook Pro 15 TouchBar 2.8GHz Core i7 16 GB 256 GB PCIe SSD Radeon 555 2 GB Silver
+1	1	TP	0.9963	COL title PRODUCT VAL AMD A6 - 5400 K Black Edition ID 3.60GHz ( Socket FM2 ) APU Trinity Dual Core Processor ;	COL title PRODUCT VAL AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor
+0	0	TN	0.0098	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive ;	COL title VAL 346919 - 1 HP Intel Xeon MP PRODUCT 2.2GHz PRODUCT DL560
+0	1	FP	0.8649	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL All - New Fire HD 8 Tablet Display Wi - Fi 16 GB Includes Special Offers Black
+1	0	FN	0.0417	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL Apple Refurbished iPad mini NUM 4 128 GB Space gray
+0	0	TN	0.0026	COL title VAL Samsung 120 GB 2.5In S - ATA Solid State Drive ID MZ-7TD120BW ;	COL title VAL Samsung 850 PRO 512 GB Internal SSD ID MZ-7KE512BW
+1	1	TP	0.9968	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple Mac mini 1.4GHz Core i5 ( Late 2014 )
+0	1	FP	0.9416	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.20 TB PCI ;	COL title VAL Intel Solid - State Drive DC S3710 Series - solid state drive 800 GB SATA
+0	0	TN	0.0069	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory ;	COL title VAL DL145 G2 Opt 2.6GHz 1 MB 2 GB 80 PRODUCT GB
+1	1	TP	0.9989	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s 2 TB ;	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s 2 TB
+0	0	TN	0.0117	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung 850 EVO 500 GB SATA 3D - VNAND SSD Solid State Drive
+0	0	TN	0.1202	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240 - pin ;	COL title VAL Kingston ValueRAM DDR3 8 GB 2 x 4 PRODUCT DIMM 240 - pin
+1	0	FN	0.7540	COL title PRODUCT VAL Corsair ID CMK16GX4M2A2400C14 ;	COL title VAL Corsair Vengeance LPX Black 16 GB 2x8 PRODUCT GB DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit
+0	0	TN	0.0020	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM ;	COL title VAL 249675 - 1 HP 512 MB DDR 200MHz
+0	0	TN	0.0190	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3 ;	COL title PRODUCT VAL Gigabyte BRIX PRODUCT GB - ID BXBT-2807 ( rev . 1 ) - Ultra Compact PC Kit Celeron PRODUCT N280
+0	0	TN	0.0070	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D ;	COL title VAL SeeThru MacBook 12 Cases
+0	0	TN	0.0037	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard ;	COL title PRODUCT VAL Asus GT730 - ID SL-2GD3 - BRK
+0	0	TN	0.3383	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB ;	COL title VAL 491316 - 1 HP PRODUCT DL380 PRODUCT G6 2P X5550 ID 2.66GHz 12 PRODUCT GB
+0	0	TN	0.0028	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL HP Xeon E5506 4 Core ID 2.13GHz ID LGA1366 MB L3 Processor
+1	1	TP	0.9986	COL title VAL ASUS STRIX Z270 G GAMING Intel Z270 ( Socket 1151 ) Micro ATX Motherboard ;	COL title PRODUCT VAL Asus ROG Strix Z270 G Gaming Intel Z270 ( Socket 1151 ) DDR4 Micro ATX Motherboard
+0	0	TN	0.0202	COL title PRODUCT VAL Transcend ID TS64GUSDU1 CYT 64 GB 8p MSDXC 400x Class 10 UHS-1 U1 Premium Micro Secure Digital ;	COL title PRODUCT VAL Transcend 8 GB 300x UHS-1 Class 10 Micro SDHC Memory Card
+0	0	TN	0.0162	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL 462711 - B21 PRODUCT HP X5450 3.0GHz ML370 G5
+0	0	TN	0.0057	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 507825 - B21 HP Xeon E5506 ID 2.13GHz BL280c G6
+0	0	TN	0.4773	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Tech air ID TAECB001 15.60 Mochila Negro maletines PRODUCT para portáti
+0	0	TN	0.0028	COL title PRODUCT VAL AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ;	COL title PRODUCT VAL AMD A6 - 6400 K 3.9GHz Dual - Core Processor
+1	1	TP	0.9987	COL title VAL 323146 - B21 BL20P G2 ( 1P ) Xeon ID 3.06GHz ;	COL title VAL 323146 - B21 BL20p Xeon PRODUCT ID 3.06GHz
+1	1	TP	0.9947	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL Asus H81I - Plus Intel H81 DDR3 Mini ITX Motherboard
+0	0	TN	0.0532	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title VAL Kingston HyperX Fury 16 Go
+1	1	TP	0.9992	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D ;	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D
+0	0	TN	0.0561	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title VAL FAN CHASSIS 120MM 130
+0	0	TN	0.1237	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM
+0	0	TN	0.0352	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case Blackout Edition ( ID CC-9011076 - WW ) ;	COL title PRODUCT VAL Cooler Master Elite 130 Mini ITX Case
+1	1	TP	0.9993	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan
+0	0	TN	0.0014	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 SATA Bay ;	COL title VAL WD 240 GB Green SATA 6Gb s M.2 2280 Internal Solid State Drive
+0	0	TN	0.0046	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title VAL 359031 - B21 BL20P G2 Xeon 3.2GHz 2 M ( 2P )
+0	0	TN	0.0023	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Vostro 14 5000 Series Laptop
+0	1	FP	0.8290	COL title VAL AMD Ryzen Threadripper Eight Core 1900X 4GHz Processor - Retail ;	COL title VAL AMD Ryzen Threadripper Sixteen Core 1950X 4GHz Processor - Retail
+0	0	TN	0.0664	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL Kingston DataTraveler G4 16 GB
+1	1	TP	0.9991	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title VAL HP PROLIANT BL20P G2 300876 - B21
+0	0	TN	0.0162	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title PRODUCT VAL Null 379752 - 1 DL360 G4p Xeon 3.2GHz SATA HDD
+1	1	TP	0.9986	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL HP NUM 336047 - B21 KVM USB Console Interface
+1	1	TP	0.9883	COL title VAL 340769 - 1 HP StorageWorks Internal DLT SCSI ;	COL title VAL HP 340769 - 1 20/40 GB Int DLT
+0	1	FP	0.9992	COL title VAL Sandisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 ;	COL title VAL Sandisk SDHC 16 GB Secure Digital Class 6
+0	0	TN	0.0048	COL title VAL   " Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan"@en Fan ID LN68469 - ID CC-9011051 - WW | SCAN UK"@en	COL title VAL   " Corsair Obsidian 350D Micro ATX PC Gaming Case"@en Case ID LN50723 - ID CC-9011028 - WW | SCAN UK"@en
+0	1	FP	0.8384	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 25600 ID 3200MHz Dual Channel Kit
+0	0	TN	0.0114	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title PRODUCT VAL Gigabyte H110M - S2HP Intel Micro ATX Motherboard
+1	1	TP	0.9989	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core Socket AM4 Processor
+0	0	TN	0.0433	COL title VAL SanDisk Ultra flash memory card 64 GB SDXC UHS - I ;	COL title VAL SanDisk Ultra SDXC 128 GB 80MB / s PRODUCT UHS - I Class 10
+0	0	TN	0.2994	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title VAL 8 GB ID 1600MHZ DDR3 DIMM KIT OF 2
+0	1	FP	0.9725	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 APU Kaveri Processor Retail ;	COL title PRODUCT VAL AMD A4 - 7300 K 3.8GHz Socket FM2 APU Richland Processor Retail
+1	1	TP	0.9962	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB ;	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB
+0	0	TN	0.3824	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s ;	COL title PRODUCT VAL Transcend Ultimate flash memory card 8 GB microSDHC UHS - I
+1	1	TP	0.9983	COL title VAL Intel Core i7 - 4790 3.6Ghz Box ;	COL title VAL Intel Core i7 - 4790 Boxed
+0	0	TN	0.0092	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 3.70GHz ;	COL title PRODUCT VAL AMD Black Edition A8 5600 K processor
+0	0	TN	0.2081	COL title VAL Apple MacBook Air NUM 13 - inch 1.6GHz Core i5 ( Early 2015 ) ID MMGF2LL / A ;	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 ID MJVM2LL / A
+0	0	TN	0.0070	COL title VAL 500668 - B21 HP 1 GB PC3 - 10600 UDIMM ;	COL title VAL 628061 - S21 HP G8 G9 3 - TB 6 G 7.20 K 3.50 SATA SC
+1	0	FN	0.5892	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title VAL Corsair ID CMD16GX4M2B3000C15 16 gb Kit 2x8 gb ID 3000mhz Dram Ddr4 Dominator Plat C15
+0	0	TN	0.0080	COL title VAL 6th Generation Intel Core i7 6700 K 4.0GHz Socket ID LGA1151 Skylake Processor Retail ;	COL title VAL 6th Generation Intel Core i5 NUM 6400 2.7GHz Socket ID LGA1151 Skylake Processor Retail
+1	1	TP	0.9623	COL title VAL HPE SmartMemory 16 GB PC3 - 12800 240 - pin DDR3 SDRAM RDIMM for Select ProLiant Gen8 Models ;	COL title VAL HP 16 PRODUCT GB ( NUM 1x16 GB ) SDRAM DIMM
+0	0	TN	0.0094	COL title VAL Intel Processor Core i7 - 7700 K ;	COL title VAL Intel Core i3 - 7350 K Box
+0	1	FP	0.9983	COL title VAL Intel Solid - State Drive DC P3600 Series solid state drive 1.20 TB PCI ;	COL title VAL Intel DC P3600 Series 1.60 TB SSD PCI - e Adaptor Card Solid State Drive
+1	0	FN	0.0184	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL TP - LINK TL - ID WN781ND - network adapter
+0	1	FP	0.9547	COL title VAL WD My Cloud ID WDBCTL0060HWT NAS server 6 TB ;	COL title VAL WD My Cloud ID WDBCTL0030HWT NAS server 3 TB
+0	0	TN	0.4805	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL Corsair 16 GB Vengeance LPX DDR4 PRODUCT ID 3200MHz RAM Kit 4x4 GB ( ID CMK16GX4M4C3200C16 )
+0	0	TN	0.4013	COL title VAL Samsung 960 PRO Polaris 2 TB M.2 2280 PCI - e 3 x4 NVMe Solid State Drive ;	COL title VAL Samsung 960 PRODUCT EVO MZ - ID V6E500BW - solid state drive 500 GB PCI Express 3
+0	1	FP	0.9590	COL title VAL Kingston DataTraveler SE9 G2 64 GB USB 3 ;	COL title VAL Kingston DataTraveler SE9 G2 16 GB USB 3
+0	0	TN	0.0026	COL title VAL WD Red 1 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title PRODUCT VAL ID MAY2073RC Fujitsu 73 GB 10 PRODUCT K 2.50 SAS HDD
+0	0	TN	0.0079	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 493083 - 1 HP 300 GB 3 G 10 K 2.50 DP PRODUCT SAS HDD
+1	1	TP	0.9986	COL title VAL S1151 Core I7 - 6700 K ( 4Core , NUM 4Ghz , 8Mb , PRODUCT HD530 , NUM 91W ) Boite ;	COL title VAL 6th Generation Intel Core i7 6700 K 4.0GHz Socket ID LGA1151 Skylake Processor - Retail
+0	0	TN	0.0466	COL title VAL 432103 - B21 HP Smart Array ID P600/512 Controller ;	COL title VAL 271246 - 1 ML530R G2 Xeon 3.0GHz 1 GB
+0	0	TN	0.1916	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s 2 TB ;	COL title VAL Lenovo Gen5 Enterprise Easy Swap hard drive 1 TB SATA 6Gb / s
+1	1	TP	0.9557	COL title VAL Apple Mac mini Intel Core i5 1.4GHz 4 GB Memory 500 GB Hard Drive White ;	COL title VAL Mac Mini Core i5 1.40 GHz 4 GB 500 PRODUCT GB
+0	0	TN	0.3307	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB ;	COL title VAL HP 2 GB PC5300 Kit
+1	1	TP	0.9979	COL title VAL Samsung 850 EVO M.2 250 PRODUCT GB ;	COL title VAL Samsung SSD 850 EVO 250 PRODUCT GB M.2
+1	1	TP	0.8823	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL Logitech HD Pro Webcam C920 1080p
+0	0	TN	0.7878	COL title VAL Corsair Vengeance LPX Black 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title VAL Kingston 32 PRODUCT GB PC4 - 19200 288 - pin DDR4 SDRAM UDIMM Kit
+0	0	TN	0.0062	COL title VAL AMD Ryzen Threadripper Eight Core 1900X 4GHz Processor ;	COL title VAL Intel Core i7 - 6700 K 4GHz Quad - Core Processor
+0	0	TN	0.5129	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit ;	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory
+1	1	TP	0.9992	COL title VAL HP Intel Xeon E5 - 2603 1.80 GHz ;	COL title VAL Intel Xeon E5 - 2603 1.80 PRODUCT GHz processor
+0	0	TN	0.0289	COL title VAL Corsair 4 GB DDR3 1333 MHz Laptop Memory ;	COL title PRODUCT VAL Corsair Vengeance Pro Series Silver 16 GB DDR3 2133 MHz Desktop
+0	0	TN	0.0039	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Intel i7 6900 K Broadwell Extreme Unlocked CPU Processor
+0	0	TN	0.0041	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition ID 3.50Ghz Processor ;	COL title PRODUCT VAL AMD Piledriver FX-4 Quad Core 4300 ID 3.80Ghz Processor
+0	0	TN	0.0710	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title VAL HPE Enterprise Mainstream Solid State Drive 100 GB SATA 6Gb / s NUM 691862 B21 Drives SSDs CDW com
+0	0	TN	0.0777	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10 ;	COL title VAL HP Signature Slim Topload 35.50 cm 14
+0	0	TN	0.0030	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL HP ProDesk PC 600 G3 con factor de forma reducido ( ENERGY STAR )
+0	0	TN	0.0037	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title PRODUCT VAL ID DG0300FARVV HP 300 - GB 6 G 10 K 2.50 DP PRODUCT SAS HDD
+0	0	TN	0.1694	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title PRODUCT VAL Corsair Vengeance 8 GB 2 x 4 GB DDR3 - 1600 PRODUCT PC3 - 12800 CL9 Dual Channel Desktop Memory Kit
+0	0	TN	0.0007	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title VAL Intel Core i5 NUM 6600 K 3.50 PRODUCT GHz processor
+0	1	FP	0.9897	COL title VAL Corsair 4 GB DDR3 1333 MHz Laptop Memory ;	COL title PRODUCT VAL Corsair XMS3 Classic 4 GB DDR3 1333 Mhz Desktop
+1	1	TP	0.9924	COL title VAL Hewlett Packard Enterprise SP / CQ Drive DLT 20/40 GB Internal 20 PRODUCT GB tape drive ;	COL title VAL HP StorageWorks Internal DLT SCSI
+0	0	TN	0.0127	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL Intel Core i3 6300 / 3.80 PRODUCT GHz processor
+1	1	TP	0.9256	COL title VAL Kingston DataTraveler G4 USB flash drive 16 PRODUCT GB ;	COL title PRODUCT VAL PENDRIVE 16 GB KINGSTON USB 3 DATATRAVELER G4
+0	0	TN	0.0152	COL title VAL Samsung 850 EVO NUM 250 GB Internal SSD ;	COL title VAL Samsung 850 EVO NUM 500 GB ID MZ-75E500BEU
+1	1	TP	0.9503	COL title VAL 647909 - B21 HP 8 GB ( NUM 1x8 GB ) Dual Rank LP UDIMM ;	COL title VAL HP Low Power kit memory - 8 GB DIMM 240 - pin PRODUCT DDR3 Series @en
+1	0	FN	0.0585	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 " SATA Bay ;	COL title VAL Gigabyte Tech Realtek ALC255 SFF HDMI LAN SSD
+1	1	TP	0.9971	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title PRODUCT VAL MATROX ID G55MDDE32LPDF 32 MB Millenium G550 LP PCI - E Video Card with Cable
+0	1	FP	0.8969	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL Kingston 32 GB ID DataTraveler50 USB 3 Flash drive ID DT50/32 PRODUCT GB
+0	0	TN	0.4513	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL Samsung DDR4 NUM 8 GB DIMM 288 - pin
+0	0	TN	0.2859	COL title VAL 408851 - B21 HP 2 GB ( NUM 2x1 GB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 397411 - B21 HP 2 GB ( NUM 2x1 GB ) PRODUCT PC2 - 5300 SDRAM Kit
+1	1	TP	0.9988	COL title VAL 408851 - B21 HP 2 GB ( NUM 2x1 GB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 408851 - B21 HP 2 GB ( NUM 2x1 GB ) PRODUCT PC2 - 5300 SDRAM Kit
+0	0	TN	0.0165	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard ;	COL title VAL Omen X by HP 17 - ID ap000na PRODUCT Gaming Laptop - GTX 1070
+0	0	TN	0.0127	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Intel Core i5 - 7600 K 3 80GHz Kaby Lake Socket ID LGA1151 Processor Retail
+0	0	TN	0.0216	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL Gigabyte Brix PRODUCT GB BKi5HA 7200 Kit Intel Core i5 7200U Processor
+0	0	TN	0.0765	COL title VAL Asus GeForce GTX 1070 Ti 8 GB Turbo ;	COL title VAL ASUS GeForce GTX 1060 TURBO 6 GB GDDR5 Graphics Card
+0	0	TN	0.0960	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard ;	COL title VAL Asrock Intel Z270 M ID Extreme4 Kaby Lake Micro ATX Motherboard
+0	0	TN	0.0040	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL WD 6 TB Gold Datacenter HDD Hard Drive ID WD6002FRYZ
+1	1	TP	0.9915	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor Wraith Stealth PRODUCT 65W cooler ;	COL title VAL AMD Ryzen 5 1400 Box
+0	1	FP	0.9438	COL title VAL Grafica Turbo - ID GTX1070 - 8 G ;	COL title VAL Asus Turbo - ID GTX1080 - 8 G
+0	0	TN	0.1222	COL title VAL 417772 - B21 HP Xeon 5130 2.0GHz PRODUCT DL140 G3 ;	COL title VAL 442992 - B21 HP Xeon E5335 2.0GHz PRODUCT DL140 G3
+0	0	TN	0.2585	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title VAL Silverstone SST - ECM20 PCIe Low Profile M2 Expansion Card
+0	0	TN	0.1778	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.20 TB PCI ;	COL title VAL Gigabyte GV - ID N1070IXOC-8GD GeForce GTX 1070 PCI - E x16 8 GB GDDR5 HDMI DVI - D DP Mini ITX OC
+0	0	TN	0.2725	COL title VAL Corsair Vengeance LPX Black 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 16 GB DDR3 1600 MHz CAS 10 XMP Dual Channel Desktop
+0	0	TN	0.4465	COL title VAL 456896 - 1 HP 400 GB 10 K 3.50 DP SAS ;	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS
+0	0	TN	0.0092	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title PRODUCT VAL DL360R G3 ID X2.8GHz 512 K 1 GB
+1	1	TP	0.9990	COL title PRODUCT VAL AMD Threadripper 1900X 3.8GHz 8Core Processor ;	COL title VAL AMD Ryzen Threadripper NUM 1900X 3.8GHz 4.0GHz Turbo 16 MB PRODUCT L3 Cache 180W DDR4
+0	1	FP	0.9991	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 r100MB / s w15MB / s ;	COL title VAL Kingston NUM 16 GB DataTraveler ID DTSE9G2/16 GB Flash Drive USB 3 r100MB / s w10MB / s
+0	0	TN	0.0015	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i7 3770 K 3.50 PRODUCT GHz processor Series
+0	0	TN	0.0070	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL 458418 - B21 HP E5410 ID 2.33GHz PRODUCT ML370 G5
+1	1	TP	0.9876	COL title VAL SanDisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 Limited ;	COL title VAL SanDisk Standard flash memory card NUM 16 GB SDHC Series
+0	0	TN	0.0962	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch TL - SG1016 ;	COL title VAL Olympus Stylus Tough TG Tracker Action Camera Green
+0	0	TN	0.5318	COL title PRODUCT VAL HyperX FURY DDR4 16 GB : 2 x 8 GB DIMM 288 - pin ;	COL title VAL HP 16 GB SDRAM DIMM
+0	0	TN	0.2924	COL title VAL Gigabyte GeForce GTX 1070 Mini ITX OC - graphics card GF 8 GB ;	COL title PRODUCT VAL GIGABYTE GeForce GTX 1060 1771 MHz 3 GB 8008 GDDR5 PCI - E 3 DVI / ID HDMI/3XDP Mini - ITX Video Card
+0	0	TN	0.0072	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7.10 Channel ;	COL title VAL Lenovo ThinkServer RD350 - rack - mountable Xeon E5 - 2609V4 NUM 1.70 GHz 16 GB
+1	1	TP	0.9970	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title VAL MSI Z170I GAMING PRO AC Mini ITX ID LGA1151 Motherboard
+0	0	TN	0.3044	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL Gigabyte Radeon RX 550 Gaming OC 2048 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.0107	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 583383 - B21 HP Xeon E5506 ID 2.13GHz DL170h G6
+1	1	TP	0.9989	COL title VAL Intel Core i5 - 4460 3.2GHz Box ;	COL title VAL Intel - Core i5 - 4460 3.2GHz Quad - Core Processor
+1	1	TP	0.9977	COL title VAL Samsung PRODUCT SSD 840 EVO 1 To ;	COL title VAL Samsung PRODUCT SSD 840 EVO 1
+0	0	TN	0.1086	COL title PRODUCT VAL HyperX Fury 64 GB ID 2133MHz ;	COL title VAL 4 PRODUCT GB DDR4 2133MT / S ( PC4 - 2133 )
+0	0	TN	0.1184	COL title VAL HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL HP LaserJet Enterprise 700 Color MPF M775z+
+1	1	TP	0.9929	COL title VAL PNY Elite Performance 64 GB Flash Memory High Speed SDXC Class 10 UHS - I ;	COL title VAL PNY Elite Performance 64 GB SDXC
+1	1	TP	0.9991	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM ;	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM
+0	0	TN	0.0304	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 356820 - CT1 DL585 4P OPT NUM 848 2.2GHz
+0	0	TN	0.3653	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title VAL Crucial 4 GB PC3 - 12800 204 - pin DDR3 SDRAM SODIMM
+0	0	TN	0.0098	COL title VAL AMD Ryzen 5 Six Core 1600 ID 3.60GHz Processor - Retail ;	COL title VAL AMD Ryzen 5 Quad Core 1500X ID 3.70GHz Processor - Retail
+0	0	TN	0.0217	COL title VAL 157766 - B21 HP 50 - GB Internal Tape Drive ;	COL title VAL NUM 388504 - B21 HP Storageworks Internal
+0	0	TN	0.2720	COL title VAL Corsair Memory 4 GB DDR3 SO - DIMM PC3 - 8500 ( 1066 ) Dual Channel Laptop ;	COL title VAL Corsair Vengeance DDR3 8 GB 2 x 4 SO - DIMM 204 - pin
+0	0	TN	0.1005	COL title VAL AMD Ryzen Threadripper Eight Core 1900X 4GHz Processor ;	COL title PRODUCT VAL AMD Piledriver FX-8 Eight Core 8350 Black Edition PRODUCT 4GHz Processor
+1	1	TP	0.9992	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter
+0	0	TN	0.0098	COL title VAL Intel Giabit CT Desktop PCI Express Network Adapter ;	COL title PRODUCT VAL Micron 1100 solid state drive 512 GB SATA 6Gb / s
+0	0	TN	0.0730	COL title VAL 647909 - B21 HP 8 GB ( NUM 1x8 GB ) Dual Rank LP UDIMM ;	COL title VAL Corsair Vengeance DDR3 8 GB 2 x 4 SO - DIMM 204 - pin
+1	1	TP	0.9941	COL title VAL Western Digital ID WDS120G1G0A 120 GB Green SATA SSD 2.50 in NUM 7 mm Cased ;	COL title VAL WD 120 GB Green Solid State Drive / SSD ID WDS120G1G0A
+0	0	TN	0.0035	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL ID EF0600FARNA HP G8 G9 600 - GB 6 G 15 K 3.50 SAS SC
+0	1	FP	0.9912	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL Lenovo notebook sleeve
+1	1	TP	0.9985	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL Kingston 32 GB DataTraveler microDuo 3C USB 3.10 Type - C Flash Drive ( ID DTDUO3C/32 GB )
+0	0	TN	0.3878	COL title VAL Switch TP - Link 5 Portas ID 10/100Mbps ;	COL title VAL TP - LINK TL - ID SF1008D NUM 8 - Port ID 10/100Mbps Desktop Switch
+0	0	TN	0.0056	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7 Channel ;	COL title VAL 1 Port PCI Express 10 G SFP Network Adapter Card from StarTech.com
+0	0	TN	0.0039	COL title VAL Apple ID MMGF2LL / A PRODUCT MacBook Air 13.30 - Inch Laptop ( 8 GB RAM NUM 128 GB SSD ) MMGF2 ;	COL title VAL Microsoft Surface Pro - 12.30 " Core i5 NUM 7300U 8 GB RAM 256 SSD
+0	0	TN	0.0043	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL Samsung 850 PRODUCT Evo 1 TB SSD
+1	0	FN	0.2668	COL title VAL Western Digital ID WD10EFRX 1 TB SATA Desktop Red 64 MB PRODUCT Cache Bare Drive 3.50 Internal Hard ID SATA/600 Buffer ;	COL title VAL WD Red 1 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ( ID WD10EFRX )
+0	1	FP	0.9648	COL title VAL Gigabyte GV - ID N1070IXOC-8GD GeForce GTX 1070 PCI - E x16 8 GB GDDR5 HDMI DVI - D DP Mini ITX OC ;	COL title VAL Palit NVIDIA GeForce GTX 1070 8 GB JetStream Graphics Card
+0	1	FP	0.9554	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s ;	COL title PRODUCT VAL Transcend 64 GB SDXC Class 10 Flash Memory Card Up to 30MB / s
+0	0	TN	0.0036	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL 349237 - B21 HP 80 - GB 1.50 G 7.20 K 3.50 SATA HDD
+0	0	TN	0.0016	COL title VAL Intel Core i7 - 7700 K 4x ID 4.20GHz boxed without cooler ;	COL title VAL Intel Core i5 - 7500 Box
+0	0	TN	0.0104	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL HPE Smart Array P420/2 GB with FBWC - storage controller ( RAID ) SATA 6Gb / s
+0	0	TN	0.1258	COL title VAL AMD Ryzen Threadripper 1950X ;	COL title PRODUCT VAL AMD ID FX8320E Processor - 8 Core
+0	0	TN	0.0121	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL Asus PCE - AC51 Wireless - AC750 Dual - band PCI - E Adapter
+0	0	TN	0.0929	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title PRODUCT VAL Gigabyte Z170N Gaming 5 Mini ITX Motherboard
+1	1	TP	0.9992	COL title VAL Kingston 32 GB DataTraveler 100 G3 USB 3 Flash Drive ;	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB
+0	0	TN	0.0697	COL title VAL Kingston 16 GB Pendrive ;	COL title VAL Kingston NUM 128 GB DataTraveler SE9 G2 USB 3 Flash Drive
+0	0	TN	0.0258	COL title VAL Intel Giabit CT Desktop PCI Express Network Adapter ;	COL title VAL 3D Systems CubePro Trio - printer
+0	0	TN	0.0030	COL title VAL NUM 667805 - B21 HP Intel Xeon E5 - 2603 1.8GHz BL460c G8 ;	COL title VAL X143 K Dell 146 GB 10 K 2.50 SP SAS wF830C
+0	0	TN	0.0621	COL title VAL Intel Pentium G4560 Kaby Lake Desktop Processor / CPU ;	COL title VAL Intel Core i3 - 7350 K ID 4.20GHz Kaby Lake Socket ID LGA1151 Processor
+0	0	TN	0.2020	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Apple Smart Cover for 10.50 iPad Pro Flamingo
+0	0	TN	0.0026	COL title VAL 120Gb Samsung 840 Series S - ATA Solid State PRODUCT 2.5In Drive ;	COL title VAL 120Gb Samsung 750 EVO Series S - ATA3 Solid State 2.5In Drive
+0	0	TN	0.0086	COL title VAL HP 358348 - B21 ADJ 1 GB PC2700 CL2.5 Registered ECC DDR DIMM ;	COL title VAL NUM 331561 - 41 HP 512 MB DDR RAM PC2700
+0	0	TN	0.0961	COL title VAL Lenovo solid state drive 180 GB M2 Card ;	COL title VAL Lenovo ThinkPad solid state drive 512 GB PCI Express 3 x4 NVMe
+0	0	TN	0.2049	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor Black ;	COL title VAL Samsung ID S24D330H 24 " ID 1920x1080 TN Widescreen LCD Monitor Black
+0	0	TN	0.7202	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title VAL Gigabyte Z270 M D3H Kaby Lake CrossFire Micro ATX Motherboard
+1	1	TP	0.9991	COL title VAL 370780 - 1 HP 512 MB DDR Registered ECC ID PC-2700 333Mhz 1Rx4 Memory ;	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700
+0	1	FP	0.9716	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair Vengeance White LED 16 GB DDR4 3000 Memory Kit 2x8 PRODUCT GB
+1	1	TP	0.9990	COL title VAL Intel Processor Core i7 - 7700 K ;	COL title VAL Intel Core i7 - 7700 K Box
+0	0	TN	0.2593	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 r100MB / s w15MB / s ;	COL title VAL Kingston 128 PRODUCT GB - USB3.0 DataTraveler 100 G3
+1	1	TP	0.9976	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL Asus PCE - AC55BT IEEE ID 802.11ac Bluetooth 4 Wi - Fi / Bluetooth Combo Adapter for PRODUCT Server
+1	1	TP	0.9896	COL title VAL Hewlett Packard Enterprise ProLiant BL40p Intel Xeon Processor 2.20 GHz 2 M 512 K 1P server ;	COL title VAL 345628 - B21 BL40P ( 1 ) ID X2.2GHz 2 MB Server
+0	0	TN	0.0021	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL SanDisk Ultra 128 GB USB 3 Flash Drive Black
+0	0	TN	0.0325	COL title VAL 127005 - 31 HP 256 MB SDRAM MEMORY ;	COL title VAL 629142 - B21 HP FlexFabric 10Gb 2 - Port 554FLR Adapter
+0	0	TN	0.2702	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 4x3.70GHz ;	COL title PRODUCT VAL HP AMD Opteron 8384
+1	1	TP	0.9922	COL title VAL Asus SABERTOOTH X99 ;	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard
+0	1	FP	0.8814	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - NUM 21300 ID 2666MHz Dual Channel Kit
+0	1	FP	0.9072	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL Gigabyte Radeon RX 480 PRODUCT G1 Gaming 4096 MB GDDR5 PCI - Express Graphics Card
+1	1	TP	0.9991	COL title VAL Gigabyte NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card ;	COL title VAL Gigabyte GeForce GTX 1070 Mini ITX OC graphics card GF 8 PRODUCT GB
+0	0	TN	0.0560	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643772 - B21 HP Xeon E74830 ID 2.13GHz BL680c G7
+0	0	TN	0.0025	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL 750 GB CRUCIAL MX300 2.50 7MMN SSD
+0	1	FP	0.9709	COL title VAL Corsair Memory 4 GB DDR3 SO - DIMM PC3 - 10666 ( 1333 ) Dual Channel Laptop ;	COL title VAL Corsair Memory 4 GB DDR3 SO - DIMM PC3 - 8500 ( 1066 ) Dual Channel Laptop
+1	1	TP	0.9992	COL title VAL   " WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB PRODUCT Cache 3.50 Inch ID WD60EFRX " @en - US " WD | 5 Free	COL title VAL   " WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB Cache 3.50 Inch ID WD60EFRX"@en - US " Data Storage | 5 Free Hosting"@en - PRODUCT US
+1	1	TP	0.9804	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor Black / Red ;	COL title VAL BenQ Zowie RL2455 Gaming 24 " ID 1920x1080 Full HD 1Ms ID 12.000.000:1 2xHDMI VGA DVI Audio
+1	0	FN	0.5425	COL title PRODUCT VAL Transcend 64 GB microSDXC UHS - I 300x Class 10 ;	COL title PRODUCT VAL Transcend 64 GB 400x UHS-1 Class 10 Micro SDXC Memory Card
+0	0	TN	0.5670	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit ;	COL title PRODUCT VAL Corsair Vengeance Blue 4Gb DDR3 1600 CL9 Module
+0	0	TN	0.0066	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL Intel Xeon E5 2690 v2 ID BX80635E52690V2 25 M Cache NUM 3 GHz
+1	1	TP	0.9980	COL title VAL ASUS GeForce GTX 1050 Expedition 2 GB GDDR5 Graphics Card ;	COL title VAL NVIDIA GeForce GTX 1050 Expedition 2 GB Graphics Card
+1	1	TP	0.9729	COL title VAL WD Red 6 TB ;	COL title VAL WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB PRODUCT Cache 3.50 Inch ID WD60EFRX
+0	0	TN	0.0109	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory ;	COL title VAL Dell 36 - GB U320 SCSI HP 15 K ID w/9D988
+1	1	TP	0.9861	COL title VAL Logitech HD Pro Webcam C920 Widescreen Video Calling and Recording 1080p Camera Desktop or Laptop ;	COL title VAL LOGITECH 960 - 764 C920 5MP FULL HD 1080P PRO WEBCAM
+1	0	FN	0.2195	COL title VAL Apple MacBook PRO A1278 2.5GHz Core i5 NUM 4 GB 500 GB YOSEMITE OFFICE Carbon ;	COL title VAL Apple MacBook Pro 13.30 " Core i5 NUM 4 GB RAM NUM 500 HDD English
+0	0	TN	0.0215	COL title VAL   " PRODUCT AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ID AD540KOKHJBOX " @en - US " PRODUCT AMD | 5 Free Hosting"@en - PRODUCT US	COL title VAL   " Wireless AC750 Dual Band Gigabit Cloud Router"@el " ID DIR-818LW Wireless Router | D - Link Hellas"@el
+1	1	TP	0.8633	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title VAL Lenovo B50 - 10 ID 80QR0003GE Neuware OVP ge ffnet ARLT Computer
+1	1	TP	0.9994	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620 v4 16 PRODUCT GB
+0	0	TN	0.0107	COL title VAL HPE Smart Array ID P222/512 with FBWC - storage controller RAID PRODUCT SATA 6Gb / s ;	COL title VAL HPE Smart Array P420/2 GB with FBWC - storage controller RAID PRODUCT SATA 6Gb / s
+0	0	TN	0.0076	COL title VAL Apple MacBook Air ID MJVM2LL / A 11.60 - Inch Laptop ( 1.60 GHz Intel Core i5 , 128 GB Hard Drive , Integrated HD Graphics 6000 , Mac OS X 10.10 PRODUCT Yosemite ) ;	COL title VAL Apple MacBook Air 13 " 1.8GHz Core i5 8 GB 256 GB PCIe PRODUCT SSD HD 6000
+0	1	FP	0.8514	COL title VAL Gigabyte NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card ;	COL title VAL Gigabyte NVIDIA GeForce GTX 1060 3 GB Mini ITX OC Graphics Card
+0	0	TN	0.0028	COL title VAL Seagate SSHD ID ST1000LM014 1 TB 2.50 " SATA 6Gb / s 64 MB Cache ;	COL title VAL Seagate SSHD ID 5900RPM 3.50 " 4 TB SATA 6Gb / s 64 MB Cache
+1	1	TP	0.9991	COL title VAL Lenovo ThinkPad solid state drive 512 GB PCI Express 3 x4 ( NVMe ) ;	COL title VAL Lenovo ThinkPad solid state drive 512 GB PCI Express 3 x4 NVMe
+0	0	TN	0.1300	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title VAL HP 36 GB 10 K rpm FC disk hard drive
+0	0	TN	0.0140	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title VAL 345021 - B21 BL20P G2 Xeon 3.2GHz 1 GB ( 2P
+1	1	TP	0.9988	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB ;	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB PRODUCT Price
+1	1	TP	0.9987	COL title VAL TP - Link TL - SG1016 NUM 16 - Port Unmanaged Gigabit Rackmount Switch ;	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch ( TL - SG1016 )
+0	0	TN	0.0830	COL title PRODUCT VAL Corsair Vengeance LPX NUM 16 GB 4x4 GB DDR4 ID 2400MHz Quad Channel Kit Black ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL WD 6 TB Gold Datacenter HDD Hard Drive ID WD6002FRYZ ;
+1	1	TP	0.9883	COL title VAL Asus TURBO - ID GTX1070 - 8 G ;	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card
+0	1	FP	0.9780	COL title VAL 647909 - B21 HP 8 GB ( NUM 1x8 GB ) Dual Rank LP UDIMM ;	COL title VAL 647897 - B21 HP 8 GB ( NUM 1x8 GB ) LP SDRAM RDIMM
+0	0	TN	0.0024	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta SD ;	COL title VAL Kingston microSDHC NUM 16 GB Clase 4 + adaptador
+0	0	TN	0.0051	COL title VAL TPLINK SWITCH 5 PRODUCT PUERTOS MINI 10/100 ;	COL title VAL HP 242469 - 1 15/30 GB Ext SCSI DLT
+1	0	FN	0.4019	COL title VAL Apple 27 iMac 2.9GHz Intel Quad - Core i5 Desktop Computer ;	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 NUM Late 2012 ID MD095LL / A
+0	0	TN	0.0017	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta SD ;	COL title VAL SanDisk Extreme Pro 32 GB SDHC ID Clase10 UHS - I
+0	0	TN	0.2564	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 GB ;	COL title VAL MEMORY 2 GB DIMM DDR2 800MHZ
+0	0	TN	0.0048	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL Alfa ID AWUS036H 1000mW 1W Deluxe Bundle 80211b / g High Gain Wireless Long - Rang Wi - Fi Network Adapter with 5dBi and a 9dBi Antenna Suction cup Window Mount dock Also includes Neoprene carrying case For Wardriving Range Extension
+0	0	TN	0.0315	COL title VAL 127005 - 31 HP 256 MB SDRAM MEMORY ;	COL title VAL 333773 - B21 PRODUCT HP BL10e G2 40 GB PRODUCT Server Blade
+0	0	TN	0.0244	COL title VAL Seagate 3 TB Desktop HDD SATA 6Gb / s 64 MB Cache 3.50 - Inch Internal Bare Drive ( ID ST3000DM001 ) ;	COL title VAL WD Red 3 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ( PRODUCT ID WD30EFRX )
+0	0	TN	0.0885	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL Asus Prime B250M - A Motherboard Kaby Lake Socket 1151
+1	1	TP	0.9993	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming
+0	0	TN	0.0083	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL HP 340743 - B21 20/40 - GB Int SCSI DLT
+0	0	TN	0.0182	COL title VAL 127005 - 31 HP 256 MB SDRAM MEMORY ;	COL title VAL 175924 - 1 HP 256 MB DDR SDRAM Memory
+0	0	TN	0.0108	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard ;	COL title VAL ASUS H170M - E D3 Intel Skylake Micro ATX Motherboard
+0	1	FP	0.9980	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL SanDisk ID SDCFXPS-128 G DFC 128 GB 50p CF 1066x 160MB / s CompactFlash Card Sandisk Extreme Pro
+0	0	TN	0.0109	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240pin ;	COL title VAL Primera TuffCoat Plus CD - R x100 700 MB storage media
+0	0	TN	0.0066	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3 ;	COL title VAL WD Blue PC SSD ID WDS100T1B0A Solid State Drive 1 TB SATA 6Gb / s
+1	1	TP	0.9965	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 ;	COL title VAL Kingston Technology PRODUCT DataTraveler SE9 G2 64 GB USB 3 ( 3.10 Gen 1 ) Type - A Silver flash drive
+1	1	TP	0.9987	COL title VAL Intel Core i5 PRODUCT 4590 / 3.30 GHz processor ;	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor
+0	0	TN	0.4578	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 492131 - B21 HP Xeon E5506 ID 2.13GHz PRODUCT DL380 G6
+0	0	TN	0.0112	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title VAL ASUS H81I - Plus Mini - ITX Motherboard
+0	0	TN	0.6556	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 GB ;	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB
+1	1	TP	0.9992	COL title VAL Scratch & Dent Lenovo ThinkPad 11e G3 PRODUCT Celeron N3160 1.6GHz 4 GB 16 GB ac BT WC 3C NUM 11.60 " HD Chrome ;	COL title VAL Scratch & Dent Lenovo ThinkPad 11e G3 PRODUCT Celeron N3160 1.6GHz 4 GB 16 GB ac BT WC 3C NUM 11.60 " HD Chrome
+0	0	TN	0.0631	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL HP Zbook 15 G3 PRODUCT i7 - 6700HQ 8 GB 256 GB SSD Quadro M1000 2 GB 15.60 ID W7W10Pro
+0	0	TN	0.0479	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700 ;	COL title VAL 381817 - 1 HP 512 MB PC300 DDR RAM
+0	0	TN	0.0020	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 ;	COL title VAL WD 3 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0030HWT - NESN
+0	0	TN	0.5724	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title PRODUCT VAL Corsair Vengeance LPX NUM 16 GB 4x4 GB DDR4 ID 2400MHz Quad Channel Kit Black ( ID CMK16GX4M4A2400C16 )
+1	1	TP	0.9987	COL title VAL 417772 - B21 HP Xeon 5130 2.0GHz PRODUCT DL140 G3 ;	COL title VAL 417772 - B21 HP Xeon 5130 2.0GHz PRODUCT DL140 G3
+0	0	TN	0.0142	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL iGuy iPad mini 4 Cases ( also fits 3 2 and mini )
+0	1	FP	0.9973	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL SanDisk ID SDCFXPS-032 G DFA 32 GB 50p CF 1066x 160MB / s CompactFlash Card Sandisk Extreme Pro
+0	0	TN	0.0019	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3 ;	COL title VAL MSI Z170A PC MATE Intel USB 3.10 ATX Motherboard
+0	0	TN	0.0095	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB ;	COL title VAL 504351 - B21 HP 8 GB PC6400 SDRAM Kit
+1	1	TP	0.9973	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title PRODUCT VAL GIGABYTE Z370 M D3H Intel Z370 LGA 1151 Socket H4 Micro ATX
+0	0	TN	0.0877	COL title PRODUCT VAL PENDRIVE 16 GB KINGSTON USB 3 DATATRAVELER G4 ;	COL title VAL 391661 - B21 PRODUCT HP NC340 T Server Adapter
+0	0	TN	0.7722	COL title VAL Sandisk NUM 32 GB Extreme Pro ID SDSDXPA-032 G SDHC Card r95MB / s w90MB / s Class 10 PRODUCT UHS - I U3 4 K Limited ;	COL title VAL Sandisk 64 GB Extreme Pro ID SDSDXXG-064 G SDXC Card r95MB / s w90MB / s Class 10 PRODUCT UHS - I U3 4 K V30
+0	1	FP	0.9680	COL title VAL Seagate 1 - TB 7.20 K 3.50 6 G SP SATA ;	COL title VAL Seagate 2 - TB 7.20 K 3.50 6 G SP SATA
+0	1	FP	0.9931	COL title VAL Intel Core i7 - 7700 K 4.2GHz Quad - Core Processor ;	COL title VAL INTEL CORE I7 - 7700 Processor 8 M Cache 4 Cores 3.6GHZ Up to 4.2GHZ FC - LGA14C
+1	1	TP	0.9984	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS ;	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS
+0	0	TN	0.0319	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 ;	COL title VAL Apple Mac Pro ID MD878LL / A Desktop Computer Intel Xeon E5 6 - Core Processor 3.5GHz OS X 10.10 PRODUCT Yosemite 16 GB DDR3 - 1866 RAM NUM 256 GB Flash Storage
+1	1	TP	0.9968	COL title VAL Apple Smart Keyboard for NUM 12.90 - inch iPad Pro ;	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro
+0	0	TN	0.0018	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM PRODUCT OS X 10.10 PRODUCT Yosemite ;	COL title VAL Apple MacBook Air - 13.30 " Core i5 OS X 10.80 Mountain Lion 4 GB RAM
+1	1	TP	0.9960	COL title VAL Logitech HD Webcam C270 ;	COL title VAL Logitech C270
+0	0	TN	0.0164	COL title VAL   " PRODUCT AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ID AD540KOKHJBOX " @en - US " PRODUCT AMD | 5 Free Hosting"@en - PRODUCT US	COL title VAL   " HP PRODUCT AMD Opteron 2354 - Prijzen " @NL Tweakers"@NL
+0	1	FP	0.9981	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL Intel i7 - 6850 K ID 3.60GHz Broadwell - E Socket ID LGA2011 - V3 Processor Retail
+1	1	TP	0.9986	COL title VAL HPE Smart Array P421 2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb s ;	COL title VAL HPE Smart Array P421 2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb s
+0	0	TN	0.0430	COL title VAL 340769 - 1 HP StorageWorks Internal DLT SCSI ;	COL title VAL 449363 - B21 HP SC40Ge Host Bus Adapter
+0	0	TN	0.1451	COL title VAL WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB Cache 3.50 Inch ;	COL title VAL Logitech Performance Mouse Mx Usb
+1	1	TP	0.9922	COL title VAL Samsung NUM 840 120 GB ;	COL title VAL 120Gb Samsung 840 Series S - ATA Solid State Drive
+0	1	FP	0.9986	COL title VAL Lenovo ThinkServer TD350 tower Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Lenovo ThinkServer TD350 tower Xeon E5 - 2620V3 2.40 GHz 8 GB
+0	0	TN	0.0200	COL title VAL 6th Generation Intel Core i7 6700 K PRODUCT 4GHz Socket ID LGA1151 Skylake Processor Retail ;	COL title VAL 6th Generation Intel Core i5 NUM 6600 3.3GHz Socket ID LGA1151 Skylake Processor Retail
+0	0	TN	0.0033	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title VAL NZXT Phantom 530 Black ATX Full Tower Case
+1	1	TP	0.8409	COL title PRODUCT VAL HyperX Fury 64Go PRODUCT 2133 MHz ;	COL title VAL Kingston Fury Black 64 GB ID 2133MHz Dual Channel Kit
+0	0	TN	0.4944	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title VAL Corsair 32 GB ( NUM 4x8 GB ) Vengeance LPX DDR4 Black ID 2400Mhz PRODUCT C14
+0	0	TN	0.0960	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card ;	COL title VAL Asus GeForce GTX 1060 Dual OC 6144 MB GDDR5 PCI - Express Graphics Card
+1	1	TP	0.9979	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory ;	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory
+0	0	TN	0.0352	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Apple MacBook Pro ID 2.53GHz Intel Core i5 Silver Notebook Computer
+0	0	TN	0.0053	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server ;	COL title VAL 359557 - B21 BL20P G2 Xeon 2.8GHz
+0	0	TN	0.0034	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL PRODUCT Gigabyte Brix
+0	0	TN	0.7901	COL title VAL 432094 - B21 HP 146 - GB 15 PRODUCT K 3.50 SP SAS ;	COL title VAL 431943 - 3 HP 146 - GB 15 PRODUCT K 3.50 SP SAS
+0	1	FP	0.9164	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D ;	COL title VAL TP - Link 5 - Port Fast Ethernet Desktop Switch TL - ID SF1005D
+1	0	FN	0.7255	COL title VAL SanDisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL SanDisk 128 GB CF Extreme Pro 160MB / s - ID SDCFXPS-128G - X46
+0	1	FP	0.9386	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition ID 3.50Ghz Processor ;	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6350 ID 3.90Ghz Processor
+0	0	TN	0.0149	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title VAL Corsair 32 GB Vengeance LPX DDR4 PRODUCT ID 3200MHz RAM Kit 4x8 PRODUCT GB
+1	1	TP	0.9616	COL title VAL Apple ID MMGF2LL / A PRODUCT MacBook Air 13.30 - Inch Laptop ( 8 GB RAM NUM 128 GB SSD ) MMGF2 ;	COL title VAL MacBook Air 13 ID MMGF2LL / A 1.6GHz i5 NUM 8 GB 128 GB Previous Model
+0	1	FP	0.8654	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Silver
+0	0	TN	0.0041	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Apple iMac NUM 27 - inch 2.7GHz Quad - core i5 ( Mid 2011 ) ID MC813LL / A
+0	0	TN	0.0029	COL title VAL Lenovo ThinkPad 11e PRODUCT Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD ;	COL title VAL Flash Memory Card Ultra Series SDHC UHS-1 Class 10 16 PRODUCT GB
+0	1	FP	0.9984	COL title VAL Samsung NUM 120 GB 2.50 " Solid State Drive ;	COL title VAL Samsung NUM 120 GB 2.50 " Solid State Drive ( ID MZ-750120BW )
+0	0	TN	0.0054	COL title VAL Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD ;	COL title VAL HP 36 - GB 3 G 10 K 2.50 SP SAS
+1	1	TP	0.9987	COL title VAL HP Smart Array ID P600/512 Controller storage controller RAID PRODUCT SATA 1.5Gb / s SAS PCI - X/133 MHz ;	COL title VAL HP Smart Array ID P600/512 Controller 432103 - B21
+1	1	TP	0.9875	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title VAL SanDisk Ultra MICROSD UHS - I NUM 200 GB Flash Memory Card ( ID SDSDQUAN-200G - A4A )
+0	0	TN	0.0095	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700 ;	COL title VAL 432803 - B21 HP 512 PRODUCT MB PC2 - 5300 ECC DIMM
+0	1	FP	0.9821	COL title VAL Apple ID MMGF2LL / A PRODUCT MacBook Air 13.30 - Inch Laptop ( 8 GB RAM NUM 128 GB SSD ) MMGF2 ;	COL title VAL Apple MacBook Air ID MJVM2LL / A 11.60 - Inch Laptop ( 1.60 GHz Intel Core i5 , 128 GB Hard Drive , Integrated HD Graphics 6000 , Mac OS X 10.10 PRODUCT Yosemite )
+0	0	TN	0.0104	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM ;	COL title VAL 287497 - B21 HP 1 GB 266MHz DDR PC2100
+0	0	TN	0.0011	COL title VAL Samsung 120 GB 840 Series S - ATA Solid State Drive ID MZ-7TD120BW ;	COL title PRODUCT VAL Asus H110M - A M2 Prijzen
+1	0	FN	0.7455	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Vengeance LPX 32 GB 2x16 PRODUCT GB DDR4 PC4 - ID 17000C13 ID 2133MHz Dual Channel Kit - Black
+0	0	TN	0.5269	COL title VAL Corsair Vengeance LPX Black 16 GB 2x8 PRODUCT GB DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title VAL Kingston HyperX Savage DDR3 1866 PC3 - 14900 16 GB 2x8 GB CL9
+0	0	TN	0.1900	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL TP - Link TL - ID WDN4800 N900 Wireless Dual Band PCI Express Adapter
+0	1	FP	0.9781	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair Air Series AF120 Performance Edition High Airflow NUM 120 mm Fan Twin Pack
+0	1	FP	0.9841	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple Mac Mini 2.4GHz Intel Core 2 Duo Computer
+0	0	TN	0.0025	COL title VAL Seagate 1 TB 7.20 K 3.50 6 G SP SATA ;	COL title VAL HP 120 GB 5.40 K 2.50 SATA
+0	0	TN	0.0088	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL MSI NVIDIA GeForce GTX 1070 8 GB Gaming X Graphics Card
+1	1	TP	0.9989	COL title VAL 432094 - B21 HP 146 PRODUCT GB 15 PRODUCT K 3.50 SP PRODUCT SAS HDD ;	COL title VAL 432094 - B21 HP 146 PRODUCT GB 15 PRODUCT K 3.50 SP PRODUCT SAS HDD
+1	1	TP	0.9990	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5
+1	1	TP	0.9884	COL title VAL WD Green 120 GB 2.50 " SATA 6Gbps Solid State Drive ( ID WDS120G1G0A ) ;	COL title VAL WD 120 GB Green 2.50 " Solid State Drive / SSD ID WDS120G1G0A
+0	0	TN	0.0184	COL title VAL Lenovo ThinkPad 11e PRODUCT Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD ;	COL title VAL Lenovo N42 - 20 Chromebook - 14 PRODUCT Celeron N3060 NUM 2 GB RAM 16 SSD
+0	1	FP	0.9989	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s ;	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s
+1	1	TP	0.8319	COL title PRODUCT VAL Corsair Vengeance LPX 16 GB 2x8 PRODUCT GB DDR4 PC4 - ID 19200C14 ID 2400MHz Dual Channel Kit Black ( ID CMK16GX4M2A24 ) ;	COL title VAL Corsair Vengeance LPX Black 16 GB 2x8 PRODUCT GB DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit
+0	0	TN	0.0120	COL title VAL 672631 - B21 HP 16 GB SDRAM DIMM ;	COL title VAL 708641 - B21 HP 16 GB SDRAM DIMM
+0	0	TN	0.7042	COL title VAL Lenovo ThinkPad 11e Chromebook - 11.60 ;	COL title VAL Acer Chromebook 11 N7 C731T - C42N - 11.60
+0	0	TN	0.0053	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - Express Graphics Card ( 08G - P4 - 6180 - KR ) ;	COL title PRODUCT VAL GIGABYTE GeForce GTX 1060 1771 MHz NUM 6 GB 8008 GDDR5 PCI - E 3 DVI / ID HDMI/3XDP Mini - ITX Video Card
+0	0	TN	0.0440	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240pin ;	COL title VAL 8Port Desktop Switch with 4 PoE ports
+0	0	TN	0.0819	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i3 - 4160 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.3060	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10 inch ;	COL title VAL HP NUM 15.60 - inch Spectrum Sleeve Ladies Edition
+0	0	TN	0.3143	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7.10 Channel ;	COL title VAL ZXP Series 7 High Performance Card Printers
+0	0	TN	0.0178	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL WD 3 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0030HWT - NESN
+0	0	TN	0.6017	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive ;	COL title VAL 340743 - B21 HP 20/40 GB INT OPAL DLT
+0	1	FP	0.9910	COL Western Digital Red 1 TB SATA3 64 MB PRODUCT Cache 3.50 in Internal Hard Disk Drive HDD ;	COL Western Digital Red 3 TB SATA3 64 MB PRODUCT Cache 3.50 in Internal Hard Disk Drive HDD
+1	1	TP	0.9191	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus EX - ID GTX1050 - 2 G
+0	1	FP	0.9097	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL StarTech com 0.50 m White Thunderbolt Cable M / M
+0	0	TN	0.0263	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Intel Core i5 - 3570 3 40GHz Ivybridge Socket ID LGA1155 Processor 77W Retail
+0	0	TN	0.0019	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s ;	COL title VAL Kingston 4 GB Micro Memory SD Card with Adapter
+0	0	TN	0.0047	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL 454141 - 2 HP 500 GB 7.20 K 3.50 SATA
+1	1	TP	0.9980	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor
+0	0	TN	0.0867	COL title VAL 647909 - B21 HP 8 GB Dual Rank LP UDIMM ;	COL title VAL 411094 - 1 DL145 G2 Opt 2.6GHz 1 MB 2 GB 36 PRODUCT GB
+0	0	TN	0.1053	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL HP Elite x2 1012 PRODUCT G1 2 en 1 Core M7 - 6Y65 8 GB 256 GB PRODUCT SSD 4 G LTE
+1	1	TP	0.8414	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title VAL 200 GB Ultra UHS - I microSDXC Memory Card ( Class 10 )
+0	0	TN	0.0041	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title VAL ID EG0146FARTR HP 146 - GB 6 G 10 K 2.50 DP PRODUCT SAS HDD
+0	1	FP	0.9740	COL title VAL Sandisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 Limited ;	COL title VAL SanDisk Cruzer Fit 16 GB USB
+0	0	TN	0.2386	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title VAL Corsair Voyager GO 32 GB USB On - The - Go Flash Drive
+1	1	TP	0.8402	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL Seagate 2 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD - OEM ( ID ST2000DM001 )
+0	0	TN	0.0016	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL Seagate PRODUCT Barracuda ES.2 750 GB SATA - II 32 MB Cache - OEM
+0	0	TN	0.0013	COL title VAL Apple MacBook Pro 13.30 Core i5 4 GB RAM NUM 500 HDD English ;	COL title VAL HP G8 G9 100 - GB 6 G 2.50 SATA SSD
+0	0	TN	0.0963	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL LG Chromebase ID 22CV241 Celeron 2955U 16 GB SSD 2 RAM Chrome
+0	1	FP	0.9957	COL title VAL Sandisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 Limited ;	COL title VAL SanDisk ID SDSDQ-016 G CRG 16 GB MSDHC Class 4 Micro Secure Digital High Capacity card
+1	1	TP	0.9994	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620 v4 16 PRODUCT GB
+0	0	TN	0.5274	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10 ;	COL title VAL HP Chroma Sleeve Black Blue 29.46 cm 11.60
+0	0	TN	0.0013	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Dual Core A6 PRODUCT 9500 AM4 CPU Processor with Radeon R5 Graphics
+0	0	TN	0.0197	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 ( Late 2012 ) ID MD095LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch 2.9GHz Quad - core i5 ( Late 2012 ) ID MD094LL / A
+1	1	TP	0.9940	COL title VAL AMD Ryzen 5 1400 3.20 g 8 mb 65w With Wraith Stealth Cooler ;	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor with Wraith Stealth PRODUCT 65W cooler
+1	1	TP	0.9968	COL title VAL Kingston 64 GB PRODUCT DataTraveler SE9 G2 USB 3 Flash Drive ;	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3
+1	1	TP	0.9987	COL title PRODUCT VAL Asus ROG Strix Z270 G Gaming Intel Z270 Socket 1151 DDR4 Micro ATX Motherboard ;	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard
+0	0	TN	0.0025	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 235065 - 2 HP 36.40 - GB U160 SCSI HPLUG 15 K HDD
+0	0	TN	0.1878	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL HPE DDR4 32 PRODUCT GB LRDIMM 288 - pin
+0	1	FP	0.8713	COL title VAL Corsair Vengeance LPX Black 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit ;	COL title VAL Corsair Vengeance LPX Black 16 GB ( NUM 4x4 GB ) DDR4 PC4 - 19200 ID 2400MHz Dual Channel Kit
+1	1	TP	0.9991	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL Gigabyte Tech Radeon RX 580 PCIe Graphics Card 4 GB GDDR5
+0	0	TN	0.2752	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL TP - Link ID 300Mbps Wireless N PCI Adapter
+0	1	FP	0.9865	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP ENVY x360 15 - ID bp010ca
+0	0	TN	0.6441	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title PRODUCT VAL Ipad Mini 4 Wi - fi Cell 64 gb Space Gray
+0	0	TN	0.2716	COL title VAL 647909 - B21 HP 8 GB Dual Rank LP UDIMM ;	COL title VAL 487364 - 1 DL580 G5 4 - Core E7440 ID 2.4GHz/16 MB 4P 8 PRODUCT GB
+0	1	FP	0.8584	COL title VAL Gigabyte Radeon RX 480 PRODUCT G1 Gaming 4096 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Gigabyte Radeon RX 550 Gaming OC 2048 MB GDDR5 PCI - Express Graphics Card
+0	1	FP	0.8677	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL GoPro HERO6 Black
+0	0	TN	0.0015	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title PRODUCT VAL HP ENVY 13 - ID ad015na Touchscreen Laptop Natural Silver
+0	0	TN	0.0385	COL title VAL WD Red 1 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL WD Red 3 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM
+0	1	FP	0.9519	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta SD ;	COL title VAL SanDisk ID SDSDUNC-128G - GN6IN CYU 128 GB 9p SDXC r80MB / s 533x Class 10 UHS-1 U1 Ultra Secure Dig
+1	1	TP	0.9946	COL title VAL   " PRODUCT Corsair Flash Voyager Slider X2 256 GB Blauw - Prijzen " @NL Tweakers"@NL	COL title VAL   " Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - ID 256GB)"@en " ▷ Corsair ( C … | OcUK"@en
+1	1	TP	0.9993	COL title VAL Gigabyte PRODUCT GB - ID BKI7HA-7500 BRIX S ;	COL title VAL Gigabyte PRODUCT Brix GB - ID BKi7HA-7500 Intel Core i7 PRODUCT Kabylake DDR4 Mini PC
+0	0	TN	0.0088	COL title VAL Lenovo ThinkPad 11e PRODUCT Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD ;	COL title VAL HP Pavilion x360 - 11 - ID ad018ca
+0	0	TN	0.0020	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP Z440 3.7GHz Xeon Microsoft Windows 7 Professional 64 - bit Edition 10 Pro ( ID W9Z09UT#ABA )
+1	1	TP	0.9983	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ;	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive
+0	0	TN	0.0085	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL DL370 G6 Xeon E5540 ID 2.53GHz
+1	1	TP	0.9993	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P
+0	0	TN	0.0718	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 16 GB DIMM 288 - pin
+0	0	TN	0.6589	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL 533993 - B22 HP Xeon E7400 2.8GHz PRODUCT DL120 G5
+1	0	FN	0.1025	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Apple Smart screen cover for tablet
+0	0	TN	0.1474	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL HP ZBook Studio G3 Xeon E3 - 1505 M 16 GB 512 GB SSD M1000 4 GB 15.60 4 K W7Pro
+0	0	TN	0.3769	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title PRODUCT VAL F1372 Dell 36 - GB U320 SCSI NHP 15 K
+0	0	TN	0.0032	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL Intel Solid - State Drive DC S3610 Series solid state drive 800 GB SATA
+0	0	TN	0.0066	COL title VAL WD Red 1 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL WD Red Pro 4 TB ID 7200rpm SATA 6Gb / s 128 MB Cache HDD OEM
+1	1	TP	0.9984	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS ;	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS
+0	0	TN	0.0163	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL NETGEAR ReadyNAS 212 2 - Bay Network Attached Storage for Personal Cloud Diskless ID RN21200 - 100NES
+0	0	TN	0.1441	COL title VAL Gigabyte NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card ;	COL title VAL Asus Radeon RX 460 Dual OC 2048 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.0327	COL title VAL Intel Core i7 - 4790 ID 3.60GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Apple iMac PRODUCT 27inch Quadcore i7 Late 2009 PRODUCT ID MB953LLA
+1	1	TP	0.9946	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title VAL Hewlett Packard Enterprise 64 - bit/66 - MHz Single Channel Wide Ultra3 SCSI Adapter power adapter & inverter
+0	0	TN	0.0257	COL title VAL Samsung SSD 850 PRODUCT EVO 1 TB ;	COL title VAL Samsung 850 EVO 250 PRODUCT GB
+0	1	FP	0.9656	COL title VAL SanDisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 ;	COL title VAL SanDisk 4 GB SD Card Class 4
+0	1	FP	0.9950	COL title VAL Intel Processor Core i7 - 7700 K ;	COL title VAL Intel PRODUCT i7 - 7700 Quad - Core 3.6GHz ID LGA1151 Processor
+0	0	TN	0.0026	COL title VAL Apple Mac mini Core i5 NUM 500 GB HDD 4 RAM OS X Yosemite ;	COL title VAL ASUS Transformer Mini T102HA D4 10.10 Atom x5 Z8350 4 GB RAM 128
+0	0	TN	0.0786	COL title VAL Logitech C270 ;	COL title VAL Logitech B525 PRODUCT Webcam
+1	1	TP	0.9983	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM ;	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM
+0	0	TN	0.0339	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory ;	COL title VAL Kingston NUM 16 GB DataTraveler microDuo 3C ID DTDUO3C/16 GB Flash Drive USB 3.10 Type - C
+1	0	FN	0.2933	COL title VAL Seagate 1 TB 7.20 K 3.50 " 6 G SP SATA ;	COL title VAL Seagate Constellation NUM ES.3 1 TB ID 7200RPM Internal Hard Drive ( ID ST1000NM0033 )
+1	0	FN	0.1524	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Apple 21.50 2.5GHz Intel Quad - Core i5 iMac Desktop Computer
+0	0	TN	0.0227	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 4x3.70GHz ;	COL title VAL WD Purple ID WD10PURX 1 TB Surveillance 3.50 " Internal SATA Hard Drive
+0	0	TN	0.6795	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard ;	COL title VAL Asus Z170 Sabertooth Mark 1 USB 3.10 Intel ( Socket 1151 ) DDR4 ATX Motherboard
+0	1	FP	0.9489	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title VAL AMD Radeon Pro WX 4100 NUM 4 GB Low Profile Workstation Graphics Card
+0	0	TN	0.0145	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 495605 - B21 HP 64 - GB ( NUM 8x8 GB ) PRODUCT PC2 - 5300 SDRAM Kit
+0	0	TN	0.0668	COL title VAL Kingston NUM 128 GB DataTraveler SE9 G2 USB 3 Flash Drive ;	COL title VAL Kingston DataTraveler SE9 G2 16 GB USB3.0
+0	0	TN	0.0977	COL title VAL WD 120 GB Green 2.50 " Solid State Drive / SSD ;	COL title VAL Kingston ssdNow ID SV300S37A / V300 120 GB UltraSlim PRODUCT 7 mm SATA 3 SSD
+0	1	FP	0.9680	COL title VAL Seagate 1 - TB 7.20 K 3.50 6 G SP SATA ;	COL title VAL Seagate 2 - TB 7.20 K 3.50 6 G SP SATA
+0	0	TN	0.0078	COL title VAL Apple MacBook Pro 13.30 Core i5 4 GB RAM NUM 500 HDD English ;	COL title VAL Apple MacBook Air 13.30 Core i5 8 GB RAM 256 SSD English
+0	0	TN	0.0320	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 APU Kaveri Processor Retail ;	COL title PRODUCT VAL AMD A6 - 6400 K 3.9GHz Socket FM2 APU Richland Processor Retail
+0	0	TN	0.0944	COL title PRODUCT VAL PENDRIVE 16 GB KINGSTON USB 3 DATATRAVELER G4 ;	COL title VAL 157766 - B21 HP 50 - GB Internal Tape Drive
+1	0	FN	0.1964	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title VAL Corsair Vengeance DDR3 8 GB DIMM 240 - pin
+0	0	TN	0.1001	COL title VAL Intel Giabit CT Desktop PCI Express Network Adapter ;	COL title VAL StarTech.com PCIe 300 Mbps Wireless N Network Adapter 80211n / g 2T2R
+0	0	TN	0.0048	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title VAL 483513 - B21 HP DDR PCI - e Dual - Port HCA
+0	1	FP	0.9952	COL title VAL Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan ;	COL title VAL Corsair Carbide SPEC 3 Windowed ATX PC Gaming Case Orange Fan
+0	0	TN	0.0027	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL TP - Link 5 - Port Gigabit Ethernet Desktop Switch
+0	0	TN	0.0042	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM ;	COL title VAL 470065 - 235 DL320 G6 Xeon E5504 2.0GHz
+0	0	TN	0.0024	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro Gray ;	COL title VAL Seagate Expansion 1 TB External HDD
+1	0	FN	0.1275	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL WD Gold Datacenter Hard Drive ID WD101KRYZ
+0	0	TN	0.0010	COL title VAL Apple iMac NUM 21.50 - inch 2.5GHz Quad - core i5 ( Mid 2011 ) ID MC309LL / A ;	COL title VAL Gigabyte PRODUCT Brix GB - ID BXBT-2807 2.50 " HDD Celeron Barebone Mini PC
+0	0	TN	0.6497	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title VAL PNY Quadro K1200 NVIDIA 4 GB Low Profile DVI Workstation Graphics Card
+1	0	FN	0.0773	COL title VAL 647909 - B21 HP 8 GB ( NUM 1x8 GB ) Dual Rank LP UDIMM ;	COL title VAL HPE DDR3L 8 GB DIMM 240 - pin
+1	1	TP	0.9936	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL Workstation Portátil HP Zbook Studio G3 Full HD Core i7 8 GB 256 GB TurboZ NVIDIA Quadro 4 GB
+0	1	FP	0.9981	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL Intel i7 - 6850 K ID 3.60GHz Broadwell - E Socket ID LGA2011 - V3 Processor Retail
+0	0	TN	0.1719	COL title VAL WebCam Logitech C270 ;	COL title VAL D Link Vigilance HD DCS 4701E Network Camera Colour
+1	1	TP	0.9961	COL title PRODUCT VAL ID XTA-3510 - ID 73GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title PRODUCT VAL ID XTA-3510 - ID 73GB-10 K Sun 73 GB 10 K FC - AL HDD ( 540 - 5629 )
+0	0	TN	0.0130	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 572071 - B21 HP 60 - GB 2.50 MDL SATA SSD DL165 G7
+0	0	TN	0.1077	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 4x3.70GHz ;	COL title PRODUCT VAL AMD Athlon X4 870 K Black Edition ID 3.90Ghz Socket FM2 + Kaveri Quad Core Processor
+0	0	TN	0.6370	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 8 GB DIMM 288 - pin
+1	1	TP	0.9976	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL 8th Generation Intel Core i7 8700 K 3.7GHz Socket ID LGA1151 Coffee Lake Processor
+0	0	TN	0.1966	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL Avermedia U50 USB FlexArm Document Camera
+0	0	TN	0.0150	COL title VAL TPLINK SWITCH 5 PRODUCT PUERTOS MINI 10/100 ;	COL title VAL 192106 - B21 PRODUCT HP Storageworks 110/220
+0	0	TN	0.1406	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB ;	COL title PRODUCT VAL SanDisk SDCZ48 - 032G - U46 CUY 32 GB USB 3 Flash Drive
+0	1	FP	0.9989	COL title VAL Corsair Carbide ID SPEC-03 Orange Windowed ;	COL title VAL Corsair Carbide ID SPEC-02 Red Windowed
+0	0	TN	0.0145	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7 Channel ;	COL title VAL 1 Port PCI Gigabit network card from Startech ID ST1000BT32
+1	1	TP	0.9014	COL title PRODUCT VAL Corsair Vengeance LED Red 32 PRODUCT GB ( NUM 2x16 GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Vengeance LED 32 GB ( NUM 2x16 GB ) DDR4 PC4 - ID 24000C15 ID 3000MHz Dual Channel Kit - Red
+0	0	TN	0.6679	COL title VAL Corsair PRODUCT XMS3 DDR3 4 GB NUM 2x GB DIMM 240pin ;	COL title VAL HP 4 GB 2x2 GB PC2 - 6400 SDRAM Kit
+1	1	TP	0.9989	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5
+0	0	TN	0.7230	COL title VAL MacBook Air 13 ID MMGF2LL / A 1.6GHz i5 ;	COL title VAL Apple MacBook Air NUM 13 - inch 1.8GHz 8 GB 256 PRODUCT GB
+0	0	TN	0.0236	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 ;	COL title VAL 587507 - B21 HP Xeon L5640 ID 2.26GHz DL380 G7
+1	1	TP	0.9987	COL title VAL Lenovo ThinkPad 11e Chromebook ;	COL title VAL Lenovo ThinkPad 11e Chromebook
+1	0	FN	0.7224	COL title VAL Corsair Vengeance LPX Black 32 GB ( NUM 2x16 GB ) DDR4 PC4 - 17000 ID 2133MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Vengeance LPX DDR4 32 GB : 2 x 16 GB DIMM 288 - pin
+0	1	FP	0.9852	COL title VAL Gigabyte Radeon RX 550 Gaming OC 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title PRODUCT VAL Gigabyte AMD Radeon RX 550 2 GB D5 Graphics Card
+0	0	TN	0.1697	COL title VAL Samsung NUM 500 GB 850 EVO SSD 2.50 " SATA 6Gbps 32 Layer 3D V - NAND Solid State Drive ;	COL title VAL Samsung 850 EVO Series M.2 1 TB SATA 6Gbps Solid State Drive
+1	1	TP	0.9983	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title VAL PNY Elite Performance 64 GB SDXC UHS - I
+1	1	TP	0.9923	COL title VAL INFINEON 127005 - 31 ACD 256 MB 168p PC133 CL3 NUM 18c 32x4 NUM 1Rx4 3.3V ECC RDIMM RFB ;	COL title VAL 127005 - 31 HP 256 MB PRODUCT SDRAM MEMORY
+0	0	TN	0.0013	COL title VAL Apple 12.90 Inch iPad Pro Wi Fi 32 GB Silver ;	COL title VAL Apple MacBook Pro 13 inch Glossy 2.3GHz Core i5 Early NUM 2011 ID MC700LL A
+1	0	FN	0.5482	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL MAC MINI I5 ID 8/1TBFD IRIS GRAPHIC
+0	0	TN	0.0041	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 Processor ;	COL title PRODUCT VAL AMD Black Edition A8 5600 K 3.60 PRODUCT GHz processor
+0	0	TN	0.0083	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title VAL SanDisk Ultra flash memory card 64 GB SDXC UHS - I
+1	1	TP	0.9989	COL title VAL Intel Core i7 - 6700 K 4GHz Skylake Socket ID LGA1151 Processor Retail ;	COL title VAL 6th Generation Intel Core i7 6700 K PRODUCT 4GHz Socket ID LGA1151 Skylake Processor Retail
+0	0	TN	0.0102	COL title VAL AMD Ryzen 5 Six Core 1600 ID 3.60GHz ( Socket AM4 ) Processor - Retail ;	COL title VAL AMD Ryzen 5 Quad Core 1400 ID 3.40GHz ( Socket AM4 ) Processor - Retail
+0	0	TN	0.7279	COL title VAL Gigabyte NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card ;	COL title PRODUCT VAL Gigabyte H170N - WiFi Dual LAN AC WiFi Mini ITX Motherboard
+0	0	TN	0.4750	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Gigabyte 990XA UD3 AMD 990X Socket AM3 DDR3 Motherboard
+0	0	TN	0.2448	COL title VAL Gigabyte Kaby Lake i7 BRIX S Barebone Mini PC Kit with 2.50 SATA Bay ;	COL title VAL Mini Barebone Gigabyte PRODUCT Brix GB - ID BKi3HA-7100 Intel Core i3 - 7100U ID 2.40GHz DDR4 USB 3.10 2.50 PRODUCT SATA 6GB / s HD Wifi
+0	0	TN	0.0035	COL title VAL Seagate 1 - TB 7.20 K 3.50 6 G SP SATA ;	COL title VAL HP 72.80 - GB U320 SCSI 10 K
+1	1	TP	0.9988	COL title VAL 432094 - B21 HP 146 - GB 15 PRODUCT K 3.50 SP SAS ;	COL title VAL 432094 - B21 HP 146 - GB 15 PRODUCT K 3.50 SP PRODUCT SAS 2 Pack
+1	0	FN	0.0249	COL title VAL TP - Link 5 - Port Fast Ethernet Desktop Switch ;	COL title VAL TPLINK SWITCH 5 PUERTOS MINI 10/100
+0	0	TN	0.2104	COL title VAL 323146 - B21 BL20p Xeon ID 3.06GHz ;	COL title VAL 293461 - B21 PL BL40p 1.5X
+1	1	TP	0.9988	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL Asus H81I - Plus
+0	0	TN	0.1352	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 16 GB 2 x 8 DIMM 288 - pin
+1	1	TP	0.9993	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming
+0	0	TN	0.0417	COL title VAL Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan ;	COL title PRODUCT VAL NZXT H440 Green Mid Tower PC Gaming Case New Edition
+0	0	TN	0.0016	COL title VAL Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD ;	COL title VAL HP 146 - GB 6 G 10 K 2.50 DP PRODUCT SAS HDD
+0	0	TN	0.0030	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL HPE Light Endurance Enterprise solid state drive 960 GB SATA 6 G
+0	1	FP	0.9129	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL Hewlett Packard Enterprise SP / CQ Board Controller Smart Array Ultra
+1	1	TP	0.9993	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop
+0	0	TN	0.0046	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server ;	COL title VAL 349514 - B21 HP 9.10 GB Ultra2 7.20 K Drive
+0	0	TN	0.0101	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title VAL 379752 - 1 DL360 G4p Xeon 3.2GHz SATA HDD
+1	0	FN	0.0316	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Apple MacBook Pro Display Intel Core i7 NUM 16 GB Memory 256 GB Flash Storage Latest Model Silver
+1	1	TP	0.9992	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title PRODUCT VAL AccelePort Xem Digi 77000455
+0	0	TN	0.0014	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor Wraith Stealth PRODUCT 65W cooler ;	COL title VAL Apple iMac Intel Core i5 NUM 8 GB Memory 1 TB Hard Drive Silver
+0	0	TN	0.2034	COL title VAL NUM 667805 - B21 HP Intel Xeon E5 - 2603 1.8GHz BL460c G8 ;	COL title VAL 662078 - B21 HP Intel Xeon E5 - 2650L 1.8GHz BL460c G8
+1	1	TP	0.9986	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7
+0	0	TN	0.0024	COL title VAL 300876 - B21 PRODUCT ID BL20PG2 Xeon 2.8GHz 512 1P ;	COL title VAL 325134 - 1 DL580R G2 Xeon ( 2 ) 2.8GHz 2 MB
+1	1	TP	0.9964	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro
+0	0	TN	0.0551	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240 - pin ;	COL title VAL Kingston ValueRAM DDR4 16 GB 2 x 8 DIMM 288 - pin
+1	1	TP	0.9992	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Buy Online Asus AMD ID M5A99FX PRO R2 0 Motherboard
+0	0	TN	0.0191	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL HP Pavilion Power 15 - ID cb008ns i7 - 7700HQ 8 GB 1 TB Nvidia ID GTX1050 2 GB 15.60
+0	0	TN	0.0933	COL title PRODUCT VAL Corsair Vengeance LPX NUM 16 GB 4x4 GB DDR4 ID 2400MHz Quad Channel Kit Black ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL WD Gold 10 TB 3.50 " ID 7200RPM 256 MB Cache Datacenter Hard Drive ( ID WD101KRYZ ) ;
+0	0	TN	0.0122	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 409159 - B21 HP Xeon E5345 ID 2.33GHz PRODUCT DL160 G3
+0	0	TN	0.2937	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title PRODUCT VAL Gigabyte BRIX GB - BI5 - 6200 rev 1 Ultra Compact PC Kit Core i5 6200
+1	0	FN	0.1200	COL title VAL Samsung 840 Series 120 GB 2.50 " Solid State Drive ;	COL title VAL Samsung 840 Series S - ATA Solid State 2.5In Drive
+0	0	TN	0.0025	COL title VAL Seagate 1 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD - OEM ;	COL title VAL ID PY276AA HP 80 - GB 7.20 K 3.50 NHP SATA
+1	1	TP	0.9976	COL title VAL Logitech C270 3MP PRODUCT 1280 x ID 720pixels USB 2 Black webcam ;	COL title VAL Logitech C270
+1	1	TP	0.9734	COL title VAL HP 397409 - B21 2BOY ID 512MBx2 240p PRODUCT PC2 - 5300 CL5 9c 64x8 Fully Buffered ECC DDR2 - 667 FBDIMM ;	COL title VAL HP 1 GB 2x512 PRODUCT MB PC2 - 5300 SDRAM
+0	0	TN	0.0082	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM ;	COL title VAL NUM 331561 - 41 HP 512 MB DDR RAM PC2700
+0	0	TN	0.0107	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 358349 - B21 HP 2 GB PC2700 SDRAM Module
+1	1	TP	0.9973	COL title VAL HP 500668 - B21 ;	COL title VAL 500668 - B21 HP 1 GB PC3 - 10600 UDIMM
+0	1	FP	0.9754	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch ;	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch
+0	0	TN	0.0178	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL WD 3 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0030HWT - NESN
+0	0	TN	0.0468	COL title VAL Crucial BX100 500 GB SSD SATA 6Gbps 7 mm Solid State Drive ( ID CT500BX100SSD1 ) ;	COL title VAL Crucial BX200 240 GB SSD SATA 6Gbps Solid State Drive ( ID CT240BX200SSD1 )
+0	0	TN	0.0326	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP Pavilion 15 - ID cc109na Laptop
+1	1	TP	0.9977	COL title VAL Hewlett Packard Enterprise 2 GB PC2 - 5300 DDR2 - 667 DDR2 667MHz Memory Module ;	COL title VAL HP 2 GB 2x1 GB PC2 - 5300 SDRAM Kit
+0	0	TN	0.0089	COL title VAL WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB Cache 3.50 Inch ;	COL title VAL StarTech.com DisplayPort to DVI Dual Link Active Adapter Converter - DP DVI - D ID 2560x1600 3D support
+0	0	TN	0.0011	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor Wraith Stealth PRODUCT 65W cooler ;	COL title PRODUCT VAL AMD A8 - 7650 K 3.3GHz
+1	1	TP	0.9992	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN
+0	0	TN	0.0010	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB ;	COL title VAL 653078 - B21 HP G8 G9 200 - GB 6 G 2.50 SAS SC SSD
+0	0	TN	0.3940	COL title PRODUCT VAL HyperX Fury NUM 64Go 2133 MHz ( 4x16 ) ;	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin
+0	0	TN	0.0298	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung SSD 850 EVO 1 TB
+1	1	TP	0.9970	COL title VAL Gigabyte Z370M - D3H Intel Z370 Socket 1151 DDR4 Micro - ATX Motherboard ;	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard
+0	0	TN	0.0096	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.20 TB PCI ;	COL title VAL Intel Solid - State Drive 540S Series - solid state drive 240 GB SATA 6Gb
+1	1	TP	0.9958	COL title VAL   " PRODUCT Samsung SSD 840 EVO 1 To"@hi " Hdd | Net-Développements.com - hi"@hi	COL title VAL   " Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic - ( ID MZ-7TE1T0BW)"@en " ▷ PRODUCT Samsung ( ID MZ-7TE1T0BW ) | OcUK"@en
+0	0	TN	0.3445	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit ;	COL title VAL Seagate 4 TB 3.50 " ID ST4000DX001 SSHD Solid State Hybrid Drive 8 GB MLC PRODUCT Nand 64 MB Cache
+0	0	TN	0.0011	COL title VAL SanDisk Ultra Premium Edition flash memory card 200 GB microSDXC UH ;	COL title PRODUCT VAL Transcend Ultimate flash memory card 32 GB microSDHC UHS - I
+1	1	TP	0.9190	COL title VAL Corsair NUM 64 GB Flash Survivor Stealth USB3.0 Drive ( NUM ID CMFSS3B-64 GB ) ;	COL title PRODUCT VAL Rugged Corsair Survivor Stealth USB 3 NUM 64 GB Flash Drive V2
+0	0	TN	0.1619	COL title VAL WD 1 TB Red 3.50 SATA3 NAS HDD ;	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s 2 TB
+0	0	TN	0.0039	COL title PRODUCT VAL ID XTA-3510 - 73 - GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title VAL 518736001 HP 450 GB 10 K FC - AL
+0	0	TN	0.0071	COL title VAL 397409 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM ;	COL title PRODUCT VAL ID XTA-3510 - 73 - GB-10 K Sun 73 GB 10 K HP FC - AL HDD
+0	0	TN	0.0154	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s 2 TB ;	COL title PRODUCT VAL ID ST31000524NS Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD
+0	0	TN	0.4239	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title PRODUCT VAL Corsair Vengeance LED White 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit
+0	0	TN	0.1158	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL Intel Core i5 - 4570 ID 3.20GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0312	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i5 - 4670 ID 3.40GHz Haswell Socket ID LGA1150 Processor Retail
+0	1	FP	0.8100	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB ;	COL title VAL HDD Desk Black 1 TB 3.50 SATA 6Gbs 64 MB
+0	0	TN	0.0163	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL Asus PCE - N10 Network Adapter ID 150Mbps - PCI Express
+0	0	TN	0.6596	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title PRODUCT VAL Corsair Air Series AF140 ID 1200RPM LED White Quiet Edition
+0	0	TN	0.0048	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL SanDisk Ultra Dual 32 GB USB 3 Type AMicro Flash Drive White
+0	1	FP	0.9994	COL title VAL Lenovo ThinkServer TD350 - tower Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Lenovo ThinkServer TD350 - tower Xeon E5 - 2620V4 NUM 2.10 GHz 16 PRODUCT GB
+0	0	TN	0.0167	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL Apple Smart Keyboard for NUM 10.50 - inch iPad Pro US English
+1	1	TP	0.9975	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL Fire Tablet 7 Display Wi - Fi 8 GB Includes Special Offers Black
+0	0	TN	0.2912	COL title VAL WD 1 TB Red 3.50 SATA3 NAS HDD ;	COL title PRODUCT VAL DISCO DURO INTERNO HDD WD BLUE ID WD10EZEX 1 TB 3.50 SATA3 ID 7200RPM 16 MB
+0	0	TN	0.0029	COL title VAL 323146 - B21 BL20p Xeon ID 3.06GHz ;	COL title VAL HP PL NUM 8500R ( 2 ) Xeon 550MHz 1 MB 1 PRODUCT GB
+0	0	TN	0.1959	COL title VAL Apple ID MMGF2LL / A PRODUCT MacBook Air 13.30 - Inch Laptop ( 8 GB RAM NUM 128 GB SSD ) MMGF2 ;	COL title VAL Macbook Pro NUM 13.30 - inch Dual Core i5 ID MD101LL / A
+1	1	TP	0.9994	COL title VAL 500668 - B21 HP 1 GB ( NUM 1x1 GB ) PC3 - 10600 UDIMM ;	COL title VAL 500668 - B21 HP 1 GB ( NUM 1x1 GB ) PC3 - 10600 UDIMM
+1	0	FN	0.7575	COL title PRODUCT VAL Corsair Vengeance 8 GB ( NUM 1x8 GB ) DDR3 PC3 - ID 12800C10 ID 1600MHz Single Channel Module ;	COL title PRODUCT VAL Corsair Vengeance ID CMZ8GX3M1A1600C10 8 GB 1X8 GB DDR3 - 1600 CL10 - 10 - 10 - 27 240PIN
+1	1	TP	0.8724	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240pin ;	COL title PRODUCT VAL FURY Blue 8 GB ID 1866MHz DDR3
+0	0	TN	0.5111	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL TP - Link TL - ID WN881ND Adapter PCI Express Wireless N ID 300Mbps
+0	0	TN	0.0022	COL title VAL AMD Ryzen 5 Six Core 1600 ID 3.60GHz Processor - Retail ;	COL title VAL AMD Ryzen 3 Quad Core 1300X ID 3.70GHz Processor - Retail
+0	0	TN	0.1050	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL ID BF036863B5 HP 36.40 GB U320 SCSI 15 K
+0	0	TN	0.0031	COL title VAL HPE Smart Array P421 2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb / s ;	COL title VAL Dell UltraSharp U2414H NUM 60.50 cm LED LCD Monitor NUM 16 9 ms 1920 x 1080
+0	0	TN	0.5720	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL Lowrance GoFree WIFI-1 Module
+0	0	TN	0.0070	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL Apple Mac mini 2.8GHz Intel Core i5
+0	0	TN	0.2601	COL title VAL Sandisk 16 GB SDHC Secure Digital Card 15MB / s Class 4 ;	COL title VAL ATP ID AF1GSDP BXP 1 GB 9p SD Secure Digital Card 24x Class 2
+1	1	TP	0.9898	COL title VAL Logitech HD Pro Webcam C920 ;	COL title VAL Logitech C920 Webcam
+0	0	TN	0.0033	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL HP EliteBook 850 G3 2.3GHz Core i5 15.60 in display
+0	0	TN	0.0085	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard ;	COL title VAL ASUS Prime B250 M PLUS Kaby Lake Micro ATX Motherboard
+0	0	TN	0.0460	COL title VAL TPLINK SWITCH 5 PRODUCT PUERTOS MINI 10/100 ;	COL title VAL TP LINK ID SF1008D 8 Port 10/100 Desktop Switch
+0	0	TN	0.0729	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus M5A97 LE R2.0 AMD 970 Socket AM3 DDR3 Motherboard
+0	0	TN	0.0189	COL title VAL Logitech HD Pro Webcam C920 Widescreen Video Calling and Recording 1080p Camera Desktop or Laptop ;	COL title VAL Logitech C525 8MP HD Webcam
+0	0	TN	0.0253	COL title VAL 432103 - B21 HP Smart Array ID P600/512 Controller ;	COL title VAL 29347 - B22 HP ID MSL5026S2 Super DLT
+0	0	TN	0.4182	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL 493243 - B22 PRODUCT HP Xeon X3330 ID 2.66GHz PRODUCT DL120 G5
+0	1	FP	0.9912	COL title VAL Lenovo ThinkPad 11e PRODUCT Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD ;	COL title VAL Lenovo ThinkPad Yoga 11e Chromebook - 11.60 PRODUCT Celeron N3160 4 GB RAM 16 SSD
+0	0	TN	0.0572	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case Blackout Edition ;	COL title VAL Corsair Carbide 100R Silent Edition Black Case
+0	0	TN	0.0279	COL title VAL WD Red 6 TB ;	COL title VAL WD Red 2 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ( ID WD20EFRX )
+1	1	TP	0.8936	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair Vengeance LED NUM 32 GB 4x8 GB ID 3000MHz DDR4 Quad Channel DIMM
+0	0	TN	0.0010	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung 960 EVO 500 GB PRODUCT MZ - ID V6E500BW
+0	0	TN	0.0107	COL title VAL Gigabyte GeForce GTX 1070 8 GB Mini ITX OC Video Card ;	COL title VAL NVIDIA GeForce GTX 1060 3 GB Mini ITX OC Graphics Card
+0	1	FP	0.9982	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title VAL Corsair NUM 128 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 128 PRODUCT GB )
+0	0	TN	0.6411	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard ;	COL title VAL ASUS SABERTOOTH Z170 MARK 1 Motherboard
+0	1	FP	0.8897	COL title VAL AMD Ryzen Threadripper NUM 1950X Box ;	COL title VAL AMD Ryzen Threadripper 1900x Boxed
+1	1	TP	0.9991	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ID BX80633I74820 K ;	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ID BX80633I74820 K
+1	1	TP	0.9978	COL title VAL Corsair ID CMSO4GX3M1A1333C9 4 gb Ddr3 PRODUCT ID 1333mhz Sodimm Unbuff Cl9 For Laptops ;	COL title VAL Corsair 4 GB 1x4 GB DDR3 1333 MHz Laptop Memory
+0	0	TN	0.0402	COL title VAL WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB Cache 3.50 Inch ;	COL title VAL Kingston Digital 32 GB microSDHC Flash Memory Card ID SDC4/32 GB
+1	1	TP	0.9689	COL title VAL Hewlett Packard Enterprise 1 GB REG PC2700 SGLDMM Memory Module ;	COL title VAL HP 358348 - B21 ADJ 1 GB 184p PC2700 CL2.5 18c 128x4 Registered ECC DDR DIMM T027
+0	0	TN	0.0037	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title VAL Sandisk iXpand USB 3 to Lightning Flash Drive Memory Stick for iPhone and iPad - 64 PRODUCT GB
+1	1	TP	0.9982	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL WD My Cloud ID WDBCTL0060HWT NAS server 6 TB
+0	0	TN	0.0038	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL Asus PRIME X299 - DELUXE Socket ID LGA2066 Motherboard
+0	0	TN	0.0016	COL title VAL 508429 - 1 HP 400 GB 10 K 3.50 DP NHP SAS ;	COL title VAL ID BD03655B28 HP 36.40 GB 10 K FC AL HDD
+0	0	TN	0.0017	COL title VAL Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD ;	COL title VAL HP 146 - GB 3 G 10 K 2.50 DP PRODUCT SAS HDD
+0	0	TN	0.0024	COL title VAL 408851 - B21 HP 2 GB ( NUM 2x1 GB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL ID BD03656ABA HP 36.40 - GB 10 K FC - AL HDD
+0	0	TN	0.0931	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit ;	COL title PRODUCT VAL Corsair Vengeance LPX 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - ID 19200C16 ID 2400MHz Dual Channel Kit - Black
+0	0	TN	0.0388	COL title VAL Seagate SSHD ID ST1000LM014 1 TB 2.50 " SATA 6Gb / s 64 MB Cache OEM Hybrid Drive ;	COL title VAL Seagate IronWolf 1 TB NAS ID 5900RPM SATA 6Gb / s 64 MB Cache HDD OEM
+0	1	FP	0.9785	COL title VAL Intel Solid - State Drive DC P3600 Series - solid state drive 1.20 TB PCI ;	COL title VAL Intel Solid - State Drive DC S3500 Series - solid state drive 120 GB SATA
+0	1	FP	0.9839	COL title VAL Asus TURBO - ID GTX1070 - 8 G ;	COL title VAL GRAFICA TURBO - ID GTX1080 - 8 G
+1	1	TP	0.9932	COL title VAL Kingston HyperX Fury Black 64 GB 4x16 PRODUCT GB DDR4 PC4 - ID 17000C14 ID 2133MHz Dual / Quad Channel Kit ;	COL title VAL Kingston Fury Black 64 GB 4x16 PRODUCT GB DDR4 PC4 - ID 17000C14 ID 2133MHz Dual / Quad Channel Kit
+0	0	TN	0.1766	COL title VAL HDD Black 2 TB 3.50 SATA 6Gbs 64 MB ;	COL title VAL 379752 - 1 DL360 G4p Xeon 3.2GHz SATA HDD
+0	1	FP	0.8235	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240pin ;	COL title VAL Crucial 4 GB SODIMM NUM 204pin DDR3L SDRAM
+0	0	TN	0.5806	COL title VAL Seagate IronWolf Pro 10 TB NAS ID 7200RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL Seagate IronWolf Pro 8 TB NAS ID 7200RPM SATA 6Gb / s 256 MB Cache HDD OEM
+0	1	FP	0.9633	COL title VAL Asus GeForce GTX 1070Ti Turbo 8192 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus TURBO - ID GTX1080 - 8 G
+0	0	TN	0.0034	COL title VAL AMD Ryzen Threadripper NUM 1950X Box ;	COL title VAL AMD Ryzen 5 NUM 1500X Box
+1	1	TP	0.9984	COL title PRODUCT VAL AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ;	COL title PRODUCT VAL AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor
+1	0	FN	0.1292	COL title VAL Apple MacBook Air NUM 13 - inch 1.6GHz Core i5 ( Early 2015 ) ID MMGF2LL / A ;	COL title VAL Apple MacBook Air 13.30 - Inch Laptop 8 GB RAM NUM 128 GB SSD MMGF2
+0	0	TN	0.0056	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT NESN ;	COL title VAL Western Digital MY CLOUD 4 TB Desktop NAS Ethernet External Hard Drive ID WDBCTL0040HWT EESN
+0	0	TN	0.0121	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title PRODUCT VAL HP EliteDisplay E240 Monitor mit 60.40 cm 23.80 Diagonale Monitore
+0	0	TN	0.0403	COL title VAL Lenovo ThinkPad Solid State Drive 512 GB PCI Express 3 x4 NVMe ;	COL title VAL OCZ RD400A Solid State Drive 128 GB PCI Express 3.10 x4 NVMe
+1	0	FN	0.0073	COL title VAL PRODUCT Gigabyte Brix BSI5 - 6200 ;	COL title PRODUCT VAL Gigabyte BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3
+1	1	TP	0.9984	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080Pixeles USB 2 Negro cámara web
+0	0	TN	0.0592	COL title VAL Corsair Vengeance SODIMM 8 GB ( NUM 2x4 GB ) DDR3 PRODUCT PC3 - ID 12800C9 ID 1600MHz Kit ;	COL title VAL Corsair 4096Mb DDR3 PRODUCT ID 1333MHz SODIMM Memory
+1	1	TP	0.8730	COL title VAL HP 72 GB 10 K rpm FC disk hard drive ;	COL title VAL HP 72.80 - GB 10 K FC - AL
+0	0	TN	0.0104	COL title VAL Gigabyte Intel Z370 M D3H Coffee Lake Micro ATX Motherboard ;	COL title PRODUCT VAL Cooler Master MasterCase Pro 3 Micro ATX Computer Case With Freeform Modular System
+0	0	TN	0.6728	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair PRODUCT XMS3 ID CMX8GX3M2A1600C9
+0	0	TN	0.0043	COL title VAL 6th Generation Intel Core i7 6700 K 4.0GHz Socket ID LGA1151 Skylake Processor Retail ;	COL title PRODUCT VAL Gigabyte GA - Z170 - HD3P Intel Z170 Socket 1151 DDR4 ATX Motherboard
+0	0	TN	0.0219	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240pin ;	COL title PRODUCT VAL Datalogic DL - Axist data collection terminal Android 41 Jelly Bean or
+0	0	TN	0.0044	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL Seagate BarraCuda 2 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD OEM
+0	0	TN	0.0110	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL TP - Link 1000 PRODUCT Mbps 2 - Port Gigabit Passthrough Powerline Adapters Twin Pack with RJ45 Cable
+1	1	TP	0.9990	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5
+0	0	TN	0.0050	COL title VAL ASUS ROG STRIX Z270 G Kaby Lake Micro ATX Gaming Motherboard ;	COL title VAL Gigabyte B250 M D3H Kaby Lake Micro ATX Motherboard
+0	1	FP	0.9486	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL AmazonBasics notebook sleeve
+0	0	TN	0.0351	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title VAL Gigabyte NVIDIA GeForce GTX 1060 3 GB G1 GAMING Graphics Card
+0	0	TN	0.1523	COL title PRODUCT VAL HyperX Fury 64Go PRODUCT 2133 MHz ;	COL title PRODUCT VAL HyperX Fury 32Go 2400 MHz
+1	1	TP	0.9987	COL title VAL HP Smart Array ID P600/512 Controller storage controller RAID PRODUCT SATA 1.5Gb / s SAS PCI - X/133 MHz ;	COL title VAL HP Smart Array ID P600/512 Controller 432103 - B21
+1	1	TP	0.9597	COL title PRODUCT VAL Gigabyte BRIX PRODUCT GB - BSi5 - 6200 Ultra Compact PC Kit Core i5 6200 ;	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP HDMI 1.40 and USB 3
+1	1	TP	0.9738	COL title VAL Intel Giabit CT Desktop PCI Express Network Adapter ;	COL title VAL Intel Gigabit CT Desktop Network Adapter
+1	1	TP	0.9988	COL title PRODUCT VAL AMD A6 7400 K APU Processor Black Edition Dual Core ;	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 APU Kaveri Processor Retail
+0	0	TN	0.0044	COL title VAL 408851 - B21 HP 2 GB PC2 - 5300 SDRAM Kit ;	COL title VAL 658071 - B21 HP G8 G9 500 - GB SATA SC
+0	0	TN	0.0036	COL title VAL Apple 12.90 Inch iPad Pro Wi Fi 32 GB Silver ;	COL title VAL Apple MacBook Pro Air iMac Mini DisplayPort to DVI Adapter cable For Unibody Supports Audio Video and the new Thunderbolt Port
+0	0	TN	0.0013	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition ID 3.50Ghz Processor ;	COL title VAL Intel Core i7 - 7800X Box
+0	1	FP	0.9905	COL title PRODUCT VAL Corsair PRODUCT XMS3 ID TW3X4G1333C9A 4 GB 2X2 GB PC3 - 10666 DDR3 - 1333 CL9 - 9 - 9 - 24 240PIN Memory Kit ;	COL title VAL Corsair 4 GB 2X2 GB DDR3 ID 1333MHz CL9 Dual Channel Memory Kit
+0	0	TN	0.0030	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700 ;	COL title VAL 249675 - 1 HP 512 MB DDR 200MHz
+0	0	TN	0.0137	COL title VAL 340743 - B22 HP 20/40 DLT Int Tape Drive ;	COL title VAL 364430 - B21 HP MSA50 10 - Bay 1U Enclosure
+1	0	FN	0.4843	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title VAL Kingston FURY 4 GB 1 x DDR4 - 2666 Memory
+0	0	TN	0.0470	COL title VAL Samsung 850 EVO NUM 250 GB M2 SATA3 Solid State Drive ;	COL title VAL Samsung 850 EVO Series M2 1 TB SATA 6Gbps Solid State Drive
+0	0	TN	0.0705	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL Asus VivoBook Pro N552VX - FY024 T i7 - 6700HQ 8 GB 1 TB NVIDIA GTX950 4 GB W10
+0	0	TN	0.0020	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL Intel Core i3 6100 3.7GHz DualCore Processor
+0	1	FP	0.9980	COL title VAL Kingston DataTraveler SE9 G2 64 GB USB 3 ;	COL title VAL Kingston NUM 16 GB DataTraveler SE9 G2 USB 3 Flash Drive ( ID DTSE9/16 PRODUCT GB )
+0	0	TN	0.0048	COL title VAL Apple 12.90 - Inch iPad Pro Wi - Fi 32 GB Silver ;	COL title VAL Apple NUM 12.90 - inch iPad Pro Wi - Fi 256 GB Silver
+0	0	TN	0.5291	COL title PRODUCT VAL HyperX Fury NUM 64Go 2133 MHz ( 4x16 ) ;	COL title PRODUCT VAL HyperX Fury 64Go 2400 MHz ( 4x16 )
+0	0	TN	0.6248	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 1866 MHz CAS 9 - 10 - 9 - 27 Dual Channel Desktop
+0	0	TN	0.0450	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB ;	COL title VAL Seagate IronWolf 1 TB ID ST1000VN002 NAS Internal Hard Drive
+0	0	TN	0.0211	COL title PRODUCT VAL AMD Athlon X4 860 K Black Edition ID 4x3.70GHz boxed ;	COL title PRODUCT VAL AMD Athlon X4 870 K Boxed
+1	1	TP	0.9991	COL title PRODUCT VAL Asus Xonar Essence STX II 7.10 ;	COL title PRODUCT VAL Asus Xonar Essence STX II 7.10
+0	0	TN	0.2908	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL Corsair 64 GB Vengeance LPX DDR4 ID 2666MHz RAM Kit 4x16 PRODUCT GB
+0	0	TN	0.0653	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL Fire Kids Edition 7 Display Wi - Fi 16 GB Blue Kid Proof Case
+0	0	TN	0.0537	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 Processor ;	COL title PRODUCT VAL AMD A6 - 5400 K Black Edition ID 3.60GHz Socket FM2 Dual Core Processor
+0	0	TN	0.0022	COL title VAL 408850 - B21 HP 1 GB PC2 - 5300 SDRAM Kit ;	COL title VAL HP 192106 - B21 110/220 GB StndAlone SDL
+0	0	TN	0.0199	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL HP Power Bank PRODUCT para ordenadores PRODUCT portátiles
+1	0	FN	0.5571	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL 32 PRODUCT GB DT MICRODUO 3C USB3.1 TIPO C
+1	1	TP	0.9986	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL HP Smart Array 641 Controller
+0	0	TN	0.0064	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL CoolerMaster Elite 130 Mini ITX Case Black
+1	1	TP	0.9191	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL Apple iPad mini 4 Wi - Fi tablet 128 GB 7.90 ID MK9N2LL / A
+1	1	TP	0.9993	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop
+0	1	FP	0.9950	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Ryzen 7 1700 8 Core Socket AM4 Processor
+0	0	TN	0.0012	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP Pavilion 32 Monitor
+0	0	TN	0.0021	COL title VAL WD Red 1 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL Seagate PRODUCT Barracuda ES 500 GB SATA - II 16 MB Cache - OEM
+0	0	TN	0.2609	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail
+1	1	TP	0.9991	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB ;	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB
+0	0	TN	0.0030	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 230994 - 1 HP Rail Kit for ML370 G2 / G3
+0	0	TN	0.0098	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL NUM 647594 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 331 T Adapter
+0	0	TN	0.5358	COL title VAL 500660 - B21 HP 4 GB PC3 - 8500 RDIMM ;	COL title VAL 500658 - B21 HP 4 GB PC3 - 10600 RDIMM
+0	0	TN	0.0088	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple iPad Pro 128 GB Gris tablet
+1	1	TP	0.9992	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - E Graphics Card ;	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8 PRODUCT GB
+0	0	TN	0.1410	COL title VAL HPE Smart Array P421/2 GB with FBWC - storage controller RAID PRODUCT SATA 6Gb / s ;	COL title VAL HPE Smart Array ID P222/512 with FBWC - storage controller RAID PRODUCT SATA 6Gb / s
+1	1	TP	0.9878	COL title VAL Gigabyte GV - ID N1070IXOC-8GD GeForce GTX 1070 PCI - E x16 8 GB GDDR5 HDMI DVI - D DP Mini ITX OC ;	COL title VAL NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card
+0	0	TN	0.0108	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL VGA ASUS NVIDIA GeForce PRODUCT 210 - SL - TC1GD3 - L 1 GB
+0	0	TN	0.0301	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard ;	COL title VAL ASRock PRODUCT 990FX Killer AM3 + ATX Motherboard with USB 3
+1	1	TP	0.9895	COL title VAL HP 4 GB PC3 - ID 8500R-7 LP KIT ;	COL title VAL HP 4 GB PC3 - 8500 RDIMM
+0	1	FP	0.9991	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 32 PRODUCT GB
+0	0	TN	0.0511	COL title VAL NUM 533995 - B22 PRODUCT HP Xeon X3220 2.4GHz PRODUCT DL120 G5 ;	COL title VAL 455035 - B22 HP Xeon X3210 ID 2.13GHz PRODUCT DL120 G5
+0	1	FP	0.9926	COL title VAL Lenovo ThinkServer TD350 - tower Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL Lenovo ThinkServer RD350 - rack - mountable Xeon E5 - 2620V4 NUM 2.10 GHz 16 PRODUCT GB
+0	0	TN	0.0344	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 ) ID MC508LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch 3.1GHz Core i3 ( Late 2011 ) ID MC978LL / A
+0	0	TN	0.0206	COL title VAL 154457 - B21 HP Wide Ultra3 SCSI Adapter ;	COL title VAL 347786 - B21 HP PRODUCT 64/133 2 - Ports Int PCI - X HBA
+0	0	TN	0.0128	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - Express Graphics Card ( 08G - P4 - 6180 - KR ) ;	COL title VAL Gigabyte GeForce GTX 1070 Windforce 2x OC 8192 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.0099	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL StarTech.com Slim USB 3 to VGA External Video Card Multi Monitor Adapter ID 1920x1200 / 1080p
+0	0	TN	0.7775	COL title VAL   " 508429 - 1 HP 400 - GB 10 K 3.50 DP NHP SAS 5 Pack " " HP 508429 - 1 Part # -508429 - 1 - 5Pack "	COL title VAL   " NUM 300955 - 15 HP 72.80 - GB U320 SCSI 10 K " , " Null " Price NUM 300955 - 15 - 5Pack " 10 K 5 Pack Wholesale NUM 300955 - 15
+0	0	TN	0.5111	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title PRODUCT VAL Corsair Vengeance Red LED 64 GB DDR4 3000 Memory Kit 4x16 PRODUCT GB
+0	0	TN	0.0012	COL title VAL 491315 - 1 HP PRODUCT DL380 G6 2P X5560 2.8GHz 12 PRODUCT GB ;	COL title VAL 359461 - 5 HP 72.80 - GB 10 K FC - AL HDD
+0	1	FP	0.9992	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair Air Series SP120 PWM Quiet Edition High Static Pressure Fan Twin Pack
+0	0	TN	0.0013	COL title VAL WD 120 GB Green 2.50 " Solid State Drive / SSD ;	COL title VAL Crucial BX200 240 GB 2.50 " SATA SSD / Solid State Drive
+0	0	TN	0.0532	COL title VAL 432094 - B21 HP 146 - GB 15 PRODUCT K 3.50 SP SAS ;	COL title VAL ID EH0146FAWJB HP 146 - GB 6 G 15 K 2.50 DP PRODUCT SAS HDD
+0	0	TN	0.0024	COL title VAL Sandisk Extreme Pro Compact Flash CF Memory Card 160MB / s UDMA 7 - 128 PRODUCT GB ;	COL title VAL PNY Quadro M4000 NVIDIA Single Precision Pro Graphics Card 8 GB ( ID VCQM4000 - PB )
+0	0	TN	0.0117	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 NUM Late 2012 ID MD095LL / A ;	COL title VAL Apple iMac NUM 27 - inch 3.2GHz Quad - core i5 NUM Late 2012 ID MD096LL / A
+0	0	TN	0.0046	COL title VAL 500668 - B21 HP 1 GB PC3 - 10600 UDIMM ;	COL title VAL 417190 - 2 HP NUM 72 - GB 15 K SAS
+0	0	TN	0.6038	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL Mac Mini Qc I5 ID 2.6ghz/8gb/1tb / iris Graphics
+0	1	FP	0.9230	COL title VAL Kingston DataTraveler 100 G3 32 GB USB3.0 ;	COL title VAL Kingston DataTraveler 100 G3 128 GB USB3.0
+1	1	TP	0.8084	COL title VAL Seagate 4 TB BarraCuda PRODUCT SATA 6Gb s 3.50 " Internal Hard Drive ;	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD - OEM
+1	1	TP	0.9992	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title VAL 77000455 AccelePort PCI XEM Host Adapter
+0	1	FP	0.8971	COL title VAL Logitech C525 8MP HD Webcam ;	COL title PRODUCT VAL Creative Live Cam Connect HD
+0	1	FP	0.9980	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL Seagate Desktop 3 TB SATA III 3.50 " Hard Drive
+0	0	TN	0.0025	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL WD Purple 2 TB 3.50 SATA3 HD CCTV HDD / Hard Drive ID WD20PURZ
+1	1	TP	0.9986	COL title VAL AMD Ryzen 5 Six Core 1600 ID 3.60GHz Processor - Retail ;	COL title VAL AMD Ryzen 5 1600 6 Core AM4 CPU / Processor with Wraith Spire 95W cooler
+0	0	TN	0.2806	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz Ivybridge - E Socket ID LGA2011 Processor Retail ;	COL title VAL Intel PRODUCT i7 - 6800 K ID 3.40GHz Broadwell - E Socket ID LGA2011 - V3 Processor Retail
+0	0	TN	0.0015	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL Samsung NUM 500 GB 750 EVO SSD SATA 6Gbps Solid State Drive
+1	0	FN	0.7633	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL Crucial ID BLS8G4D240FSA DIC 8 GB 288p PC4 - 19200 CL15 NUM 16c 512x8 DDR4 - 2400 2Rx8 1.2V UDIMM
+1	1	TP	0.9951	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL Speck Products FlapTop Sleeve for MacBook Air 13 ( NUM 77496 - 5547 )
+0	0	TN	0.0089	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL 390394 - 1 HP Proliant ML350 G4p PS
+1	1	TP	0.9968	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple Mac mini 1.4GHz Core i5 ( Late 2014 )
+0	0	TN	0.0050	COL title PRODUCT VAL AMD Piledriver ID FX-6300 Six Core ID 3.50Ghz Processor ;	COL title VAL Gigabyte 990XA - UD3 AMD 990X DDR3 Motherboard
+0	0	TN	0.0063	COL title PRODUCT VAL ID XTA-3510 - 73 - GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title VAL HP 199679001 1020 GB Ext SCSI DLT
+0	0	TN	0.2848	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ( TL - ID WN781ND ) ;	COL title VAL TRENDnet AC1900 Dual Band Wireless Router High USB 3 ( ID TEW-818DRU )
+0	0	TN	0.6432	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title VAL Kingston NUM 64 GB SDXC UHS - I
+0	0	TN	0.0084	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL Western Digital Red 6 TB 3.50 inch Storage Hard Disk Drive ID WD60EFRX
+0	0	TN	0.0127	COL title VAL 340769 - 1 HP StorageWorks Internal DLT SCSI ;	COL title VAL NUM 388504 - B21 HP Storageworks Internal Price
+1	1	TP	0.9991	COL title VAL TP - LINK TL - ID WN781ND network adapter ;	COL title VAL TP - LINK TL - ID WN781ND network adapter Wireless Adapters Accessories
+0	0	TN	0.4389	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL Zebra Data Cable 9 ft
+0	0	TN	0.0021	COL title VAL TPLINK SWITCH 5 PRODUCT PUERTOS MINI 10/100 ;	COL title VAL 310590 - 1 HP PRODUCT ProLiant ML370 ID 3.06GHz
+0	1	FP	0.9907	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - ID 21300C14 ID 2666MHz Dual Channel Kit
+0	0	TN	0.0217	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case - Blackout Edition ( ID CC-9011076 - WW ) ;	COL title VAL Corsair Carbide 400R Midi Tower Case - Black ( ID CC-9011011 - WW )
+0	0	TN	0.0052	COL title VAL 500668 - B21 HP 1 GB PC3 - 10600 UDIMM ;	COL title VAL 359461 - 1 HP 72.80 - GB 10 K FC - AL HDD
+0	0	TN	0.4874	COL title PRODUCT VAL Corsair Vengeance Blue 4Gb DDR3 1600 ( 1x4Gb ) CL9 ;	COL title VAL Corsair 4 GB DDR3 ID 1066MHz PC3 - 8500 SODIMM Memory
+0	0	TN	0.0957	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title PRODUCT VAL HyperX FURY DDR3 NUM 4 GB DIMM 240 - pin
+0	0	TN	0.1197	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB ;	COL title PRODUCT VAL NZXT Source S340 PRODUCT Blanca
+1	1	TP	0.9993	COL title VAL   " MATROX G55 - ID MDDE32LPDF 32 MB Millenium G550 LP PCI - E Video Card with Cable " " TSpire.com . PRODUCT MATROX	COL title VAL   " MATROX ID G55MDDE32LPDF 32 MB Millenium G550 LP PCI - E Video Card with Cable " " TSpire.com . PRODUCT MATROX
+1	1	TP	0.9975	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title VAL Corsair SP120 PWM High Pressure Fan
+0	0	TN	0.0017	COL title VAL Logitech HD Pro Webcam C920 Widescreen Video Calling and Recording 1080p Camera Desktop or Laptop ;	COL title VAL Sony 4 K HD Video Recording ID FDRAX33 Handycam Camcorder
+0	0	TN	0.0125	COL title PRODUCT VAL PENDRIVE 16 GB KINGSTON USB 3 DATATRAVELER G4 ;	COL title VAL StarTech Laptop Dock with HDMI DVI VGA GbE Ethernet
+0	0	TN	0.0086	COL title VAL   " Crucial BX100 500 GB SATA 2.50 Inch Internal Solid State Drive - ID CT500BX100SSD1"@en - US " Networking Products | 5 Free Hosting"@en - PRODUCT US	COL title VAL   " CruCial ID CT240BX200SSD1 HDI 240 GB SSD SATAIII MLC 2.50 in Retail "
+0	0	TN	0.6429	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 GB ;	COL title PRODUCT VAL Corsair Vengeance Red LED 16 PRODUCT GB DDR4 2666 Memory Kit 2x8 PRODUCT GB
+0	0	TN	0.1027	COL title VAL BenQ ID RL2455HM 24 " ID 1920x1080 TN Widescreen LED Monitor - Black / Red ;	COL title VAL BenQ XL2430 ZOWIE 24 " NUM ID 1920x1080 PRODUCT TN 144Hz Widescreen LED Monitor - Black / Red /w Flicker FREE Technology
+0	0	TN	0.0353	COL title VAL Logitech HD Pro Webcam C920 Widescreen Video Calling and Recording 1080p Camera Desktop or Laptop ;	COL title VAL Outdoor HD PoE Day Night Fixed Mini Bullet Cloud Camera
+1	0	FN	0.7128	COL title VAL HP 14.10 Ultrabook sleeve Zwart ;	COL title VAL HP Sleeve for Ultrabook Black
+1	1	TP	0.9964	COL title VAL Intel PRODUCT i5 - 4460 3.2GHz 4 - Core Haswell 84W ID LGA1150 CPU Retail ;	COL title VAL B Grade Intel Core i5 - 4460 ID 3.20GHz Haswell Socket ID LGA1150 Processor Retail
+0	0	TN	0.0888	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL Corsair AX860i Digital ATX ' 80 Plus Platinum ' Modular Power Supply
+1	0	FN	0.5987	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL Seagate Barracuda ID ST4000DM004 Hard Drive 4 TB SATA 6Gb / s
+0	0	TN	0.6511	COL title VAL 323146 - B21 BL20p Xeon ID 3.06GHz ;	COL title VAL 345020 - B21 BL20P G2 Xeon 3.2GHz 1 M ( 2P )
+0	1	FP	0.8410	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title VAL McAfee LiveSafe NUM 12 mois + 3 gratuits
+0	0	TN	0.0025	COL title VAL 500660 - B21 HP 4 GB PC3 - 8500 RDIMM ;	COL title VAL 417190 - 2 HP NUM 72 - GB 15 K 3.50 DP SAS
+0	0	TN	0.0279	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title VAL 157866 - 1 HP Proliant Remote Insight Board
+0	0	TN	0.3565	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 r100MB / s w15MB / s ;	COL title VAL HP 72 - GB 3 G 15 K 2.50 DP SAS
+1	1	TP	0.9973	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - ID 24000C15 ID 3000MHz Dual Channel Kit Black ID CMD16GX4M2B3000C15 ;	COL title VAL Corsair Dominator Platinum 16 GB 2x8 PRODUCT GB DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ID CMD16GX4M2B3000C15
+0	0	TN	0.0217	COL title VAL HP 358348 - B21 ADJ 1 GB PC2700 CL2.5 Registered ECC DDR DIMM ;	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM
+0	0	TN	0.0035	COL title VAL 323146 - B21 BL20p Xeon ID 3.06GHz ;	COL title VAL 221275 - B21 DL740R ( 4P ) Xeon Hz 1 MB
+0	0	TN	0.0051	COL title VAL AMD Ryzen Threadripper NUM 1950X Box ;	COL title VAL AMD Ryzen 5 1400 Box
+1	0	FN	0.3069	COL title VAL Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD ;	COL title VAL Seagate PRODUCT Barracuda 7200.11 ID ST31000340AS 1 TB
+0	0	TN	0.0846	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 r100MB / s w15MB / s ;	COL title VAL Kingston 64 GB DataTraveler microDuo 3 ID DTDUO3/64 GB Flash Drive USB 3 OTG r70MB / s w15MB / s
+0	0	TN	0.0354	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL 615729 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366 M Adapter
+1	1	TP	0.9426	COL title VAL   " Seagate Barracuda 7200.14 ( 1 TB ) " @en , " Seagate ( ID 1TB)"@en Specs - CNET"@en	COL title VAL   " PRODUCT Seagate 1 TB PRODUCT Barracuda PRODUCT 3.50 " 7200 RPM Internal Hard Drive"@en Drive ID ST1000DM003 - Filmtools"@en
+0	0	TN	0.0372	COL title VAL HP ProBook 640 G3 i5 - 7200u 8 GB 256 GB SSD 14 W10Pro ;	COL title VAL Asus ZenBook 3 ID UX390UA - GS042 T i5 - 7200u 8 GB 256 GB SSD 12.50 W10
+1	1	TP	0.9984	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module
+0	0	TN	0.0136	COL title VAL AMD Ryzen Threadripper Eight Core 1900X 4GHz Processor - Retail ;	COL title VAL Gigabyte Z370M - D3H Intel Z370 DDR4 Micro - ATX Motherboard
+0	0	TN	0.0011	COL title VAL AMD Ryzen 5 Six Core 1600 ID 3.60GHz Processor ;	COL title VAL WD 1 TB 3.50 SATA Surveillance Storage Purple Hard Drive for CCTV DVR NVR HOME PC System
+0	0	TN	0.5603	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 GB ;	COL title VAL Kingston Technology DataTraveler microDuo 3C 32 PRODUCT GB
+0	0	TN	0.6281	COL title PRODUCT VAL HyperX Fury NUM 64Go 2133 MHz ( 4x16 ) ;	COL title VAL Kingston HyperX Fury Black ID HX426C15FB/4
+0	1	FP	0.9680	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple Mac Mini 2.3GHz Intel Core i5 Computer
+0	0	TN	0.0052	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 ) ID MC508LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core 2 Duo ( NUM Late 2009 ) ID MB950LL / A
+0	0	TN	0.0067	COL title VAL 77000455 AccelePort PCI XEM Host Adapter ;	COL title VAL 295643 - B21 HP Smart Array 3200
+0	1	FP	0.9954	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL Apple Mac mini Intel Core i5 ( 2.6GHz ) 8 GB Memory 1 TB Hard Drive White
+1	1	TP	0.9993	COL title VAL TPLINK SWITCH 5 PRODUCT PUERTOS MINI 10/100 ;	COL title VAL TPLINK SWITCH 5 PUERTOS MINI 10/100
+0	0	TN	0.1342	COL title PRODUCT VAL Gigabyte BSI5 - 6200 BRIX Ultra Compact Mini PC with mDP / HDMI 1.40 and USB 3 ;	COL title VAL Gigabyte Bace 3150 Ultra Compact PC Kit with HDMI and USB 3
+0	0	TN	0.0011	COL title VAL AMD Ryzen 5 1400 Quad - Core Processor Wraith Stealth PRODUCT 65W cooler ;	COL title VAL AMD Ryzen 5 1500X Quad - Core Processor Wraith Spire 95W cooler
+0	0	TN	0.0629	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title VAL GA - Z270N - WIFI Mini - ITX Motherboard
+1	1	TP	0.9986	COL title VAL HP 358348 - B21 ADJ 1 GB PC2700 CL2.5 18c 128x4 Registered ECC DDR DIMM ;	COL title VAL HP 358348 - B21 1 GB PC2700 DDR SDR
+0	0	TN	0.5078	COL title VAL Seagate 1 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD OEM ;	COL title VAL Seagate 2 TB ID 7200RPM SATA 6Gb / s 64 MB Cache HDD OEM
+0	0	TN	0.0560	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643772 - B21 HP Xeon E74830 ID 2.13GHz BL680c G7
+0	0	TN	0.0154	COL title VAL Samsung 850 Evo 500Go ;	COL title VAL Samsung SSD 850 EVO 250 GB PRODUCT M2
+0	0	TN	0.0297	COL title VAL WD 3 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0030HWT - NESN ;	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN
+0	0	TN	0.7897	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus GeForce GTX 1060 Dual 3072 MB GDDR5 PCI - Express Graphics Card
+1	1	TP	0.9436	COL title VAL Compaq ;	COL title VAL HP
+0	0	TN	0.0017	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL Asus ZenBook 3 Deluxe ID UX490UA - BE029 T i5 - 7200u 8 GB 256 GB SSD 14 W10 Azul i7 - 7700HQ ID 1TB+128 GB 4 PRODUCT GB
+0	0	TN	0.0402	COL title PRODUCT VAL HyperX FURY DDR4 4 GB DIMM 288 - pin ;	COL title VAL PNY Elite Performance 64 GB SDXC
+0	0	TN	0.0036	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 432806 - B21 HP 2 GB PC2 - 5300 SDRAM Module
+1	1	TP	0.9984	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ( ID PC3L-12800 ) SODIMM 204 - Pin Laptop Memory ;	COL title PRODUCT VAL Crucial 8 PRODUCT GB DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory
+0	0	TN	0.0047	COL title VAL Lenovo ThinkPad Solid State Drive 512 GB PCI Express 3 x4 NVMe ;	COL title VAL Samsung 960 PRODUCT EVO MZ - ID V6E500BW Solid State Drive 500 GB PCI Express 3
+0	0	TN	0.0312	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Apple Smart Keyboard for 9.70 Inch iPad Pro
+0	0	TN	0.7660	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair Air Series SP120 120MM ID 2350RPM ID 62.74CFM 35DBA High Static Pressure Fan Dual Pack
+0	0	TN	0.0050	COL title VAL Apple Smart Keyboard for 12.90 Inch iPad Pro Gray ;	COL title PRODUCT VAL Corsair Air Series AF140 Quiet Edition Case Fan
+0	0	TN	0.4036	COL title VAL Kingston 64 GB PRODUCT DataTraveler SE9 G2 USB 3 Flash Drive ;	COL title VAL Pen Kingston PRODUCT DataTraveler SE9 G2 16 GB USB3.0
+1	1	TP	0.9979	COL title VAL Seagate Desktop 2 TB SATA III 3.50 " Hard Drive ;	COL title VAL Seagate Desktop 2 TB 3.50 - Inch HDD SATA 6Gb / s 64 MB Cache Internal Bare Drive
+0	1	FP	0.9045	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL ASUS PRIME Z270M - PLUS Intel Z270 Socket 1151 Micro ATX Motherboard
+0	0	TN	0.0397	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL WD Blue 4 TB ID 5400rpm PRODUCT SATA 6Gb / s 64 MB Cache HDD
+0	0	TN	0.7484	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7 Channel ;	COL title VAL Asus HD 7850 DirectCU II V2 2048 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.3329	COL title VAL Acer Aspire ES1 - 132 - P194 Business Notebook ;	COL title VAL 361040 - B21 - HP Slim DVD PRODUCT DL145
+0	0	TN	0.0086	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Apple MacBook Pro 2.4GHz Intel Core i5 Silver Notebook Computer
+1	1	TP	0.9843	COL title VAL HP 16 PRODUCT GB ( NUM 1x16 GB ) Dual Rank ;	COL title VAL HP 16 GB SDRAM DIMM
+0	0	TN	0.0189	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL Logitech C270 3MP PRODUCT 1280 x ID 720pixels USB 2 Black webcam
+0	0	TN	0.1352	COL title PRODUCT VAL HyperX FURY DDR3 NUM 8 GB DIMM 240 - pin ;	COL title PRODUCT VAL HyperX FURY DDR4 16 GB 2 x 8 DIMM 288 - pin
+0	1	FP	0.9863	COL title VAL   " Buy Online | Samsung 850 EVO 1 TB SSD ID MZ-75E1T0BW Price in India"@en - PRODUCT US	COL title VAL   " Samsung 1 TB 850 EVO SATA M.2 SSD / Solid State Drive"@en Drive ID LN77103 - MZ - ID N5E1T0BW | SCAN UK"@en
+0	0	TN	0.0131	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10 ;	COL title VAL NZXT S340 Elite ATX Mid Tower Case
+0	0	TN	0.1390	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL ID MBA3147NP Fujitsu 146 - GB U320 SCSI NHP 15 K
+0	0	TN	0.0070	COL title VAL Crucial BX100 500 GB SATA 2.50 Inch Internal Solid State Drive - ID CT500BX100SSD1 ;	COL title VAL Crucial BX200 240 GB SSD SATA 6Gbps Solid State Drive ( ID CT240BX200SSD1 )
+0	1	FP	0.9881	COL title VAL Corsair 4 GB DDR3 1333 MHz Laptop Memory ;	COL title VAL Corsair Value Memory 4 GB DDR3 1333 Mhz Desktop
+0	0	TN	0.1662	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM ;	COL title VAL 432803 - B21 HP 512 PRODUCT MB PC2 - 5300 ECC DIMM
+0	1	FP	0.9960	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL Asus H81 - PLUS Intel H81 Socket 1150 DDR3 ATX Motherboard
+0	0	TN	0.0030	COL title VAL Lenovo ThinkServer TD350 Xeon E5 - 2620V4 NUM 2.10 GHz 16 GB ;	COL title VAL IBM 146 GB 2.50 SFF SAS
+0	0	TN	0.0136	COL title VAL ASUS SABERTOOTH X99 USB 3.10 Motherboard ;	COL title VAL ASUS Formula - Z PRODUCT 990FX AM3 + ATX Motherboard with USB 3
+0	0	TN	0.0024	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 ;	COL title VAL Patriot LX Series 128 GB High Speed Micro SDXC Class 10 PRODUCT UHS - I Transfer Speeds For Action Cameras Phones Tablets and PCs
+1	1	TP	0.9655	COL title VAL Apple MacBook Pro 13.30 Core i5 4 GB RAM NUM 500 HDD English ;	COL title VAL Apple MacBook PRO A1278 2.5GHz Core i5 NUM 4 GB 500 GB YOSEMITE OFFICE Carbon
+0	0	TN	0.0188	COL title VAL TP - Link ID 150Mbps Wireless PCI Express Adapter ;	COL title VAL Dell Inspiron 1720 PA-10 Power Adapter
+1	1	TP	0.9992	COL title PRODUCT VAL Gigabyte AMD Radeon RX 580 4 GB GAMING Graphics Card ;	COL title VAL Gigabyte Radeon RX 580 Gaming 4 GB GDDR5
+0	0	TN	0.0696	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung 1 TB 850 EVO SATA M2 SSD Solid State Drive
+0	0	TN	0.0033	COL title VAL 408851 - B21 HP 2 GB PC2 - 5300 SDRAM Kit ;	COL title PRODUCT VAL 518736 - 1 HP 450 - GB 10 K FC - AL HDD
+0	0	TN	0.0312	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Intel Core i3 - 4150 ID 3.50GHz Haswell Socket ID LGA1150 Processor Retail
+1	1	TP	0.9622	COL title VAL Corsair NUM 64 GB Flash Survivor Stealth USB3.0 Drive ( NUM ID CMFSS3B-64 GB ) ;	COL title VAL Corsair Flash Survivor Stealth USB 3 Rugged Drive Memory Stick - 64 PRODUCT GB
+1	1	TP	0.9990	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10 ;	COL title VAL HP Sleeve for Ultrabook Black NUM 35.60 cm 14.10
+0	0	TN	0.7634	COL title VAL Asus GeForce GTX 1070 Turbo 8192 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Asus GeForce GTX 1070 Ti 8 GB Turbo
+0	0	TN	0.0076	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 NUM Late 2012 ID MD095LL / A ;	COL title VAL Apple iMac NUM 27 - inch ID 2.66GHz Quad - core i5 NUM Late 2009 ID MB953LL / A
+0	0	TN	0.0363	COL title VAL Corsair Dominator Platinum 16 GB ( 2x8 PRODUCT GB ) DDR4 PC4 - 24000 ID 3000MHz Dual Channel Kit ;	COL title VAL 8 GB ID 2133MHZ DDR4 ECC CL15 SODIMM
+1	1	TP	0.9987	COL title VAL ASUS ID M5A99FX PRO R2 0 - motherboard ATX Socket AM3 AMD PRODUCT 990FX ;	COL title VAL Asus ID M5A99FX PRO PRODUCT R2 0 ATX AM3 Motherboard ( ID M5A99FX 0 )
+0	0	TN	0.1221	COL title PRODUCT VAL HyperX Fury 64Go PRODUCT 2133 MHz ;	COL title PRODUCT VAL HyperX Fury 8Go 2133 MHz
+0	1	FP	0.9958	COL title VAL SeeThru MacBook 12 Cases ;	COL title VAL SeeThru MacBook Air 13 Cases
+1	1	TP	0.8486	COL title VAL Apple Smart flip cover for tablet ;	COL title VAL Apple Smart screen cover for tablet
+0	1	FP	0.9813	COL title VAL Asus M5A99X PRO PRODUCT R2 0 AMD 990X Socket AM3 DDR3 ATX Motherboard ;	COL title VAL Asus M5A97 PRODUCT R2 0 AMD 970 Socket AM3 DDR3 Motherboard
+0	0	TN	0.0671	COL title VAL Apple ID MMGF2LL / A PRODUCT MacBook Air 13.30 - Inch Laptop ( 8 GB RAM NUM 128 GB SSD ) MMGF2 ;	COL title PRODUCT VAL Speck SeeThru MacBook Air 13 notebook hardshell case
+0	1	FP	0.8289	COL title PRODUCT VAL Ballistix Sport DDR4 8 GB DIMM 288 - pin ;	COL title VAL Crucial DDR4 8 GB DIMM 288 - pin
+0	0	TN	0.0747	COL title VAL Apple 12.90 Inch iPad Pro Wi Fi 32 GB Silver ;	COL title VAL Apple 9.70 iPad Pro Wi Fi Modem 4 G 32 PRODUCT GB PRODUCT Rosa Oro
+1	1	TP	0.9966	COL title VAL 417772 - B21 HP Xeon 5130 2GHz PRODUCT DL140 G3 ;	COL title VAL HP Intel Xeon 5130 2GHz NUM 4 MB L2 processor
+0	0	TN	0.0034	COL title VAL Apple 12.90 - Inch iPad Pro Wi - Fi 32 GB Silver ;	COL title VAL Apple NUM 12.90 - inch iPad Pro Wi - Fi 256 GB Space Gray
+1	1	TP	0.8753	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL HP 366FLR Network Adapter Series
+0	0	TN	0.0125	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title VAL Kingston NUM 128 GB PRODUCT SD Memory PRODUCT Card UHS - I SDA10
+1	1	TP	0.9992	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit ;	COL title VAL 408850 - B21 HP 1 GB ( 2x512 MB ) PRODUCT PC2 - 5300 SDRAM Kit
+0	0	TN	0.6219	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 16 GB DDR3 1600 MHz CAS 10 XMP Dual Channel Desktop
+1	1	TP	0.9978	COL title VAL Intel Core i7 - 4820 K 3.7Ghz ;	COL title VAL Intel PRODUCT i7 - 4820 K ID 3.70GHz ( Ivybridge - E ) Socket ID LGA2011 Processor - Retail
+0	0	TN	0.0137	COL title VAL 432103 - B21 HP Smart Array ID P600/512 Controller ;	COL title VAL 432804 - B21 HP 1 GB PC2 - 5300 ECC DIMM
+0	1	FP	0.8748	COL title VAL TP - Link NUM 16 - Port Gigabit Ethernet Switch TL - SG1016 ;	COL title VAL Apogee Element 46 Thunderbolt Audio Interface
+0	1	FP	0.8787	COL title VAL Gigabyte NVIDIA GeForce GTX 1070 Mini ITX OC Graphics Card ;	COL title VAL Palit NVIDIA GeForce GTX 1070 8 GB JetStream Graphics Card
+1	1	TP	0.9990	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Ryzen 7 1800X Box
+0	0	TN	0.0909	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643774 - B21 HP Xeon E74820 2.0GHz BL680c G7
+0	0	TN	0.0217	COL title VAL 157766 - B21 HP 50 - GB Internal Tape Drive ;	COL title VAL NUM 388504 - B21 HP Storageworks Internal
+1	1	TP	0.9991	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta SD ;	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta PRODUCT SD
+0	0	TN	0.0100	COL title VAL Lenovo Y700 - 15ISK i7 - 6700HQ 12 GB 1 TB Nvidia GTX960 M 4 GB 15.60 W10 Gaming ;	COL title VAL Lenovo ThinkPad 11e G3 Celeron N3160 1.6GHz 4 GB 16 GB ac BT WC 3C 11.60 HD Chrome
+0	1	FP	0.9986	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title VAL Corsair NUM 32 GB PRODUCT Flash Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 32 PRODUCT GB )
+0	1	FP	0.9045	COL title VAL Corsair 4 GB DDR3 1333 MHz Laptop Memory ;	COL title VAL Corsair 4 GB DDR3 ID 1066MHz PC3 - 8500 SODIMM Memory Module
+0	0	TN	0.0054	COL title VAL 370780 - 1 HP 512 MB DDR RAM PC2700 ;	COL title VAL 249674 - 1 HP ID 256MB200MHz DDR PC1600 EC
+0	0	TN	0.1247	COL title VAL 340769 - 1 HP StorageWorks Internal DLT SCSI ;	COL title VAL 394793 - B21 PCI - E GB Server Adapter
+0	0	TN	0.7365	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL Kingston 32 GB OTG On The Go DT microDuo USB 3 Flash Drive for Compatible Android / Windows devices
+1	1	TP	0.9992	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8 GB GDDR5X ;	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8 PRODUCT GB
+0	0	TN	0.0082	COL title VAL 500660 - B21 HP 4 GB ( 1x4 PRODUCT GB ) PC3 - 8500 RDIMM ;	COL title VAL 456896 - 1 HP 400 - GB 10 K 3.50 DP PRODUCT SAS HDD
+0	0	TN	0.3264	COL title VAL Logitech C920 15MP NUM 1920 x ID 1080pixels USB 2 Black webcam ;	COL title VAL StarTech.com USB 2 Capture Device for HDMI Video PRODUCT - 1080p
+0	1	FP	0.8139	COL title VAL WEBCAM LOGITECH C270 ;	COL title VAL Logitech ConferenceCam
+0	0	TN	0.0061	COL title VAL HP ENVY x360 15 - ID bp100na Convertible Laptop ;	COL title VAL HP Spectre x360 13 - ID ac004na 4 K Convertible Laptop
+0	0	TN	0.0015	COL title VAL Intel Core i7 8700 K 3.7GHz 6Core Processor ;	COL title VAL Intel Core i5 7500 Box
+0	1	FP	0.8921	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Space Gray ;	COL title VAL Apple iPad mini 4 Wi - Fi 128 GB Gold
+0	0	TN	0.0537	COL title VAL EVGA GeForce GTX 1080 Founders Edition 8192 MB GDDR5X PCI - Express Graphics Card ( 08G - P4 - 6180 - KR ) ;	COL title VAL Zotac GeForce GTX 1080Ti AMP Edition 11264 MB GDDR5X PCI - Express Graphics Card ( ZT - ID P10810D-10P )
+0	0	TN	0.0014	COL title VAL Apple iMac NUM 27 - inch 2.9GHz Quad - core i5 ( Late 2012 ) ID MD095LL / A ;	COL title VAL Kingston DDR2 2 GB SO - DIMM 200 - pin
+0	0	TN	0.0100	COL title PRODUCT VAL Corsair Vengeance White LED 32 PRODUCT GB DDR4 3000 Memory Kit 4x8 PRODUCT GB ;	COL title VAL SanDisk Ultra Micro SDHC Memory Card 48MB / s Class 10 for Android 32 PRODUCT GB ( Class 10 ) -
+1	0	FN	0.6326	COL title PRODUCT VAL Corsair Vengeance LED ID CMU32GX4M2C3000C15R ;	COL title PRODUCT VAL Corsair Vengeance Red LED 32 PRODUCT GB DDR4 3000 Memory Kit 2x16 PRODUCT GB
+1	1	TP	0.9914	COL title VAL Samsung SSD 850 EVO 250 GB ;	COL title VAL Samsung 850 EVO M2 250 PRODUCT GB
+0	0	TN	0.1440	COL title VAL Apple 12.90 iPad Pro Smart cover ;	COL title VAL Apple Smart Cover for 10.50 PRODUCT iPad Pro Midnight Blue
+0	0	TN	0.0145	COL title VAL Apple MacBook Pro 15.40 With Touch Bar Silver Laptop Computer ;	COL title VAL Targus Eco Spruce 15 - 15.60 Laptop Backpack Black
+1	1	TP	0.8264	COL title VAL HP 340769 - 1 20/40 GB Int SCSI DLT ;	COL title VAL Hewlett Packard Enterprise SP / CQ Drive DLT 20/40 GB Internal 20 PRODUCT GB tape drive
+1	1	TP	0.9993	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller PRODUCT peripheral controllers ( 291966 - B21 )
+1	0	FN	0.1115	COL title VAL Logitech C525 8MP HD Webcam ;	COL title VAL Logitech 720p USB Webcam
+0	1	FP	0.8027	COL title VAL Logitech BCC950 ConferenceCam 1920 x ID 1080Pixel USB 2 Nero PRODUCT webcam ;	COL title VAL GoPro Junior Chesty Harness PRODUCT
+0	0	TN	0.0031	COL title VAL Macbook Air 11.60 - inch Glossy 1.6GHZ Dual Core i5 Early 2015 ;	COL title VAL Supermicro ID CSE-842TQ-865B SYSTEM CABINET RACK - MOUNTABLE POWER ON / OFF BUTTON 2X NETWORK ACTIVITY LEDS
+1	1	TP	0.9813	COL title VAL Apple Mac mini 2.8GHz Intel Core i5 ;	COL title VAL Apple Mac Mini Qc I5 ID 2.6ghz/8gb/1tb / Iris Graphics
+0	0	TN	0.0869	COL title VAL Lenovo ThinkPad Solid State Drive 512 GB PCI Express 3 x4 NVMe ;	COL title VAL Lenovo Solid State Drive 180 GB M2 Card
+0	0	TN	0.7116	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title PRODUCT VAL Speck SeeThru notebook hardshell case
+0	1	FP	0.8087	COL title VAL Hewlett Packard Enterprise Smart Array 641 Controller ;	COL title VAL Epson WorkForce WF-100 Mobile Instant Savings through NUM 12/31
+0	0	TN	0.0081	COL title VAL 672631 - B21 HP 16 GB SDRAM DIMM ;	COL title VAL 3R - A3851 - AA HP 72.80 - GB U320 SCSI 15 K
+0	1	FP	0.9975	COL title VAL Kingston ID DTSE9G2/64 PRODUCT GB CXG 64 GB USB 3 Flash Drive ;	COL title VAL Kingston NUM 16 GB DataTraveler SE9 G2 USB 3 Flash Drive
+1	1	TP	0.9896	COL title VAL AMD Fx 6300 6c Processor Am3 + 14 mb 95w 3500 Mhz Box ;	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition NUM 3500 Ghz ( Socket AM3 + ) Processor - Retail
+0	0	TN	0.1137	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL Samsung 840 EVO Series 250 GB SATA III 6Gb / s 2.50 " Internal Solid State Drive ( SSD )
+0	0	TN	0.1627	COL title VAL Corsair Carbide SPEC 2 Windowed ATX PC Gaming Case Red Fan ;	COL title VAL Antec P380 Windowed Full Tower PC Gaming Case
+1	0	FN	0.6029	COL title VAL Apple ID 3.06GHz Intel Core i3 iMac Desktop Computer ;	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 )
+0	0	TN	0.0604	COL title VAL HPE Smart Array P421 2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb s ;	COL title VAL Sapphire Pulse Radeon RX NUM 580 4 GB GDDR5
+0	0	TN	0.0266	COL title VAL TP - LINK 8 - Port Fast Ethernet Desktop Switch TL - ID SF1008D ;	COL title VAL StarTech.com 1:1 Drive Duplicator and Eraser for SATA Drives
+0	0	TN	0.0268	COL title VAL 340769 - 1 HP StorageWorks Internal DLT SCSI ;	COL title VAL 379752 - 1 DL360 G4p Xeon 3.2GHz SATA HDD
+0	0	TN	0.0103	COL title PRODUCT VAL AMD A6 - 5400 PRODUCT K APU 3.6Ghz Dual - Core Processor ;	COL title PRODUCT VAL AMD A6 - 6400 K ID 3.90GHz ( Socket FM2 ) APU Richland Dual Core Processor
+0	0	TN	0.0623	COL title PRODUCT VAL Speck FlapTop notebook sleeve ;	COL title VAL Kingston ValueRAM - DDR3 4 GB SO - DIMM 204 - pin
+1	1	TP	0.9925	COL title PRODUCT VAL Asus Essence STX II 7.10 ;	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7.10 Channel
+0	0	TN	0.0045	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server ;	COL title VAL 338974 - B21 DL760 Xeon 2.5GHz 1 MB
+0	0	TN	0.4457	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title VAL Corsair Vengeance LPX Black 16 GB 2x8 PRODUCT GB DDR4 ID 2666MHz Dual Channel Kit
+0	0	TN	0.0067	COL title VAL Samsung 1 TB PRODUCT SSD 840 EVO SATA 6Gb / s Basic ;	COL title VAL WD Green PC SSD ID WDS240G1G0B solid state drive 240 GB SATA 6Gb / s
+0	0	TN	0.0217	COL title VAL 157766 - B21 HP 50 - GB Internal Tape Drive ;	COL title VAL NUM 388504 - B21 HP Storageworks Internal
+1	1	TP	0.9799	COL title PRODUCT VAL AMD Piledriver FX-6 Six Core 6300 Black Edition ID 3.50Ghz Processor ;	COL title VAL ID FX-6300 6 - Core Black Edition Socket AM3 + 3.50 GHz Processor
+1	1	TP	0.9986	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7 ;	COL title VAL 643778 - B21 HP Xeon E78867 ID 2.13GHz BL680c G7
+1	1	TP	0.9986	COL title VAL HP 336047 - B21 USB IP Console Interface Adapter ;	COL title VAL HP NUM 336047 - B21 KVM USB Console Interface
+0	0	TN	0.0225	COL title VAL Logitech HD Pro Webcam C920 Widescreen Video Calling and Recording 1080p Camera Desktop or Laptop ;	COL title VAL Full HD Outdoor Vandal Proof PoE Dome Camera
+1	1	TP	0.9953	COL title VAL Fire Tablet 7 Display Wi - Fi 8 GB Includes Special Offers Black ;	COL title VAL Fire 7 Display Wi - Fi 8 GB Includes Special Offers Black
+0	0	TN	0.0487	COL title VAL 345628 - B21 BL40P ID X2.2GHz NUM 2 MB Server ;	COL title VAL 359623 - B21 BL20P G2 Xeon 2.8GHz 1 M 512 MB
+1	1	TP	0.8997	COL title VAL Corsair Vengeance SODIMM 8 GB ( NUM 2x4 GB ) DDR3 PRODUCT PC3 - ID 12800C9 ID 1600MHz Kit ;	COL title PRODUCT VAL Corsair Vengeance 8Gb ( 2x4Gb ) DDR3 PRODUCT ID 1600MHz Cas9 SO - DIMM Kit
+0	0	TN	0.0077	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case Blackout Edition ;	COL title VAL Fire Kids Edition 7 Display Wi - Fi GB Blue Kid Proof Case
+0	0	TN	0.2645	COL title VAL Asus GeForce GTX 1050 Expedition 2048 MB GDDR5 PCI - Express Graphics Card ;	COL title VAL Star Tech 4 - PORT Pci 1394A Fire Wire Adapter Card - 3 ID EXTERNAL/1 Internal ( ID PCI1394MP )
+0	0	TN	0.0016	COL title VAL WD Red NAS 3.50 Internal HDD SATA 6Gb / s ;	COL title PRODUCT VAL SanDisk Z400s solid state drive 256 GB SATA 6Gb / s
+1	1	TP	0.9991	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 ;	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 Price
+0	0	TN	0.0293	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card ;	COL title VAL ASUS GeForce GTX 1060 TURBO 6 GB GDDR5 Graphics Card
+0	0	TN	0.0089	COL title PRODUCT VAL Transcend 64 GB 400x UHS-1 Class 10 Micro SDXC Memory Card ;	COL title VAL Crucial BX100 500 GB SATA 2.50 Inch Internal Solid State Drive
+0	0	TN	0.0997	COL title VAL Asus PCE - AC55BT Dual - Band Wireless - AC1200 Bluetooth 4 PCI - E Adapter ;	COL title VAL Seagate SSHD ID ST1000LM014 1 TB 2.50 SATA 6Gb / s 64 MB Cache OEM Hybrid Drive
+1	1	TP	0.9983	COL title VAL Seagate 1 - TB 7.20 K 3.50 3 G SATA HDD ;	COL title VAL Seagate 1 TB 7.20 K 3.50 3 G SATA HDD
+1	1	TP	0.9992	COL title VAL HP 20/40 GB Int SCSI DLT ;	COL title VAL HP 20/40 DLT Int Tape Drive
+0	0	TN	0.5205	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title VAL PNY Quadro K1200 NVIDIA 4 GB Low Profile DP Workstation Graphics Card
+0	1	FP	0.9515	COL title VAL Apple Mac Mini 1.4GHz Intel Core i5 Computer ;	COL title VAL Apple Mac Mini 2.8GHz Intel Core i5 Computer
+0	0	TN	0.0100	COL title VAL Seagate BarraCuda 4 TB ID 5900RPM SATA 6Gb / s 256 MB Cache HDD OEM ;	COL title VAL Seagate IronWolf Pro 8 TB NAS ID 7200RPM SATA 6Gb / s 256 MB Cache HDD OEM
+0	0	TN	0.0180	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive ID WD101KRYZ ;	COL title VAL Western Digital 6 TB Black Desktop Hard Drive
+1	1	TP	0.9983	COL title VAL WD Gold 10 TB ;	COL title VAL WD 10 TB Gold Datacenter HDD / Hard Drive
+0	0	TN	0.0053	COL title PRODUCT VAL AMD A6 - 7400 K 3.5GHz Socket FM2 Processor ;	COL title PRODUCT VAL AMD 6380 Opteron 16 Core Processor
+0	1	FP	0.9971	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL ASUS H81M - PLUS Intel H81 Socket 1150 Micro ATX Motherboard
+0	0	TN	0.0273	COL title VAL Apple iMac NUM 21.50 - inch ID 3.06GHz Core i3 ( Mid 2010 ) ID MC508LL / A ;	COL title VAL Apple iMac NUM 21.50 - inch 3.1GHz Core i3 ( Late 2011 ) ID MC978LL / A
+0	0	TN	0.0094	COL title VAL 417772 - B21 HP Xeon 2.0GHz DL140 G3 ;	COL title VAL 453475 - B21 HP Xeon L5335 2.0GHz DL140 G3
+1	0	FN	0.0593	COL title PRODUCT VAL Transcend 64 GB 400x UHS-1 Class 10 Micro SDXC Memory Card ;	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s
+0	0	TN	0.0046	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 507825 - B21 HP Xeon E5506 ID 2.13GHz BL280c G6
+1	1	TP	0.9992	COL title VAL Intel Core i7 7700 K 4.2GHz Quad Socket 1151 Processor ;	COL title VAL Intel Core i7 - 7700 K Processor
+0	0	TN	0.0016	COL title VAL AMD Ryzen Threadripper Eight Core 1900X 4GHz Processor - Retail ;	COL title VAL AMD Ryzen 5 Quad Core 1500X ID 3.70GHz Processor - Retail
+0	0	TN	0.0238	COL title VAL Corsair Carbide 330R Ultra Silent Midi Tower Case Blackout Edition ;	COL title VAL Corsair Carbide 400Q V2 Silent Midi Tower Gaming Case Black
+0	0	TN	0.0094	COL title VAL 417772 - B21 HP Xeon 2.0GHz DL140 G3 ;	COL title VAL 453475 - B21 HP Xeon L5335 2.0GHz DL140 G3
+0	0	TN	0.0039	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 ;	COL title VAL 637414 - B21 HP Xeon E5607 ID 2.26GHz BL460c G7
+0	0	TN	0.0068	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL 629135 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 331FLR Adapter
+1	1	TP	0.9981	COL title PRODUCT VAL MSI GAMING Z170I PRO AC Skylake WiFi Mini ITX Motherboard ;	COL title PRODUCT VAL Microstar Motherboard Z170I Gaming Pro AC Mini ITX LGA 1151 Core Pentium Celeron Family Max32 PRODUCT GB DDR4 4xSATA
+0	0	TN	0.5219	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card ;	COL title VAL Asus GeForce GTX 1070Ti Turbo 8192 MB GDDR5 PCI - Express Graphics Card
+0	0	TN	0.0201	COL title PRODUCT VAL Corsair Memory Vengeance Jet Black 8 GB DDR3 PC3 - 12800 ( 1600 ) Dual Channel Desktop ;	COL title VAL OptiPlex 790 Desktop
+1	1	TP	0.9614	COL title PRODUCT VAL Speck Flaptop Sleeve for MacBook Air 13"@en ;	COL title PRODUCT VAL Speck Notebook Sleeve
+1	1	TP	0.9990	COL title VAL Intel Core i5 - 4590 Haswell 3.30 GHz PRODUCT LGA 1150 Boxed Processor ;	COL title VAL Intel Core i5 PRODUCT 4590 / 3.30 PRODUCT GHz processor
+0	0	TN	0.0020	COL title VAL Intel Core i5 - 4590 ID 3.30GHz Haswell Socket ID LGA1150 Processor Retail ;	COL title VAL Apple MacBook Pro 13inch 2.5GHz Core i5 Retina Late 2012 ID MD213LL / A
+0	0	TN	0.4102	COL title VAL Logitech C270 ;	COL title VAL Logitech HD Webcam C310
+0	0	TN	0.3244	COL title VAL ASUS H81I - PLUS Intel H81 Socket 1150 Mini ITX Motherboard ;	COL title VAL Asus Prime H270 - Pro
+1	0	FN	0.0455	COL title VAL Crucial ID CT51264BD160BJ ;	COL title PRODUCT VAL Crucial DDR3L 4 GB DIMM 240 - pin
+0	0	TN	0.0136	COL title VAL 500668 - B21 HP 1 GB PC3 - 10600 UDIMM ;	COL title VAL NUM 500670 - B21 HP 2 GB PC3 - 10600 UDIMM
+0	1	FP	0.9983	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title VAL Corsair NUM 128 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 128 PRODUCT GB )
+0	0	TN	0.2012	COL title VAL NUM 667805 - B21 HP Intel Xeon E5 - 2603 1.8GHz BL460c G8 ;	COL title VAL 662078 - B21 HP Intel Xeon E5 - 2650L 1.8GHz BL460c G8
+0	0	TN	0.0079	COL title VAL HP ZBook Studio G3 i7 - 6700HQ 8 GB 256 GB SSD M1000 4 GB 15.60 FHD W7Pro ;	COL title VAL HP 250 G6 FHD Intel Core i5 - 7200u 8 GB 1 TB 15.60 W10Pro
+1	1	TP	0.9991	COL title PRODUCT VAL AMD Processor 8C Ryzen Threadripper NUM 1900X 3.8GHz 4.0GHz Turbo 16 MB L3 Cache 180W ID 2667MHz DDR4 ;	COL title VAL AMD Ryzen Threadripper Eight Core NUM 1900X ID 4.00GHz ( Socket TR4 ) Processor
+0	1	FP	0.9536	COL title VAL WD 120 GB Green 2.50 " Solid State Drive / SSD ;	COL title VAL 2.50 inch Force LS v2 120 GB SATA SSD Corsair Solid State Drive
+0	0	TN	0.0078	COL title VAL PNY Elite Performance 64 GB SDXC ;	COL title PRODUCT VAL Transcend JetFlash 500 USB flash drive 8 PRODUCT GB
+0	0	TN	0.0011	COL title VAL NUM 488039 - B21 HP X5470 ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL 454141 - 2 HP 500 GB 7.20 K 3.50 SATA
+1	1	TP	0.9982	COL title VAL AMD 16 Core Ryzen Threadripper NUM 1950X Unlocked CPU Processor ;	COL title VAL AMD Ryzen Threadripper 16 Core Processor
+1	1	TP	0.9984	COL title VAL Seagate 1 - TB 7.20 K 3.50 6 G SP SATA ;	COL title VAL Seagate 1 - TB 7.20 K 3.50 6 G SP SATA
+1	1	TP	0.9987	COL title VAL HP 366FLR Network Adapter Series ;	COL title VAL HP 366FLR Network Adapter
+0	0	TN	0.0051	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL Corsair NUM 64 GB Flash Survivor Stealth USB3.0 Drive
+0	0	TN	0.0014	COL title PRODUCT VAL Transcend 64 GB MicroSDXC ID Class10 UHS-1 Memory Card with Adapter 60 MB / s ;	COL title VAL Kingston flash memory card 128 GB SDXC UHS - I
+0	0	TN	0.0134	COL title VAL Matrox G550 Low Profile Graphics Card - 32 MB ;	COL title PRODUCT VAL Zebra Card ZXP Series 3 PRODUCT R2 300dpi Dual Side Printer UK / EU Colour USB Ethernet Mifare Contactless Contact Encoder ( incl Enclosure Lock Cable )
+1	1	TP	0.9988	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 G6 ;	COL title VAL 495942 - B21 HP E5506 ID 2.13GHz PRODUCT ML370 PRODUCT G6
+0	0	TN	0.1276	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core Processor Retail ;	COL title VAL AMD Ryzen 7 1700 8 Core AM4 PRODUCT CPU Processor
+0	0	TN	0.0012	COL title VAL Intel Core i7 - 8700 K 3.7GHz 6 - Core Processor ;	COL title VAL HP 300 GB 10 K FC - AL
+0	1	FP	0.9593	COL title VAL Intel Core i7 7700 K 4.2GHz Quad Socket 1151 Processor ;	COL title VAL 7th Generation Intel Core i7 7700 3.6GHz Socket ID LGA1151 Processor
+0	0	TN	0.0280	COL title VAL 665240 - B21 PRODUCT HP Ethernet 1Gb 4 - Port 366FLR Adapter ;	COL title VAL ID HD00931C35 HP 9.10 GB Ultra SCSI-3 10 K
+0	0	TN	0.0227	COL title VAL Apple Smart Keyboard for NUM 10.50 - inch iPad Pro US English ;	COL title VAL Apple Smart Keyboard for NUM 12.90 - inch PRODUCT iPad Pro
+0	0	TN	0.0047	COL title VAL Seagate 1 TB 7.20 K 3.50 " SP SATA ;	COL title VAL HP 72 GB 6 G 15 K 2.50 DP PRODUCT SAS HDD
+0	1	FP	0.9980	COL title VAL Seagate 1 - TB 7.20 K 3.50 SATA HDD ;	COL title VAL Seagate 1 - TB 7.20 K 3.50 SATA HDD
+0	0	TN	0.0052	COL title VAL WD 6 TB My Cloud Personal Network Attached Storage NAS ID WDBCTL0060HWT - NESN ;	COL title VAL Buffalo LinkStation 220 2 PRODUCT TB 2 - Drive NAS for Home ID LS220D0202
+0	0	TN	0.7659	COL title PRODUCT VAL Corsair Air Series SP120 PWM High Performance Edition Static Pressure Fan ;	COL title PRODUCT VAL Corsair AF120 Fan White
+0	0	TN	0.0095	COL title VAL Kingston 64 GB DataTraveler ID DTSE9G2/64 PRODUCT GB Flash Drive USB 3 r100MB / s w15MB / s ;	COL title VAL ID DH0072BALWL HP 72 - GB 3 G 15 K 2.50 DP SAS
+0	0	TN	0.0130	COL title VAL WD Red 6 TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb / s 64 MB Cache 3.50 Inch ;	COL title VAL WD Blue 1 TB SATA 6 Gb / s 7200 RPM NUM 64 MB Cache 3.50 Inch Desktop Hard Drive
+0	0	TN	0.0011	COL title VAL WD Gold 10 TB 3.50 " ID 7200RPM 256 MB Cache Datacenter Hard Drive ;	COL title VAL WD 6 TB Gold Datacenter HDD Hard Drive
+1	0	FN	0.6962	COL title VAL Corsair 16 GB Vengeance LPX DDR4 ID 2400MHz RAM Kit 4x4 GB ( ID CMK16GX4M4A2400C16 ) ;	COL title PRODUCT VAL Corsair Vengeance LPX NUM 16 GB 4x4 GB DDR4 ID 2400MHz Quad Channel Kit Black ( ID CMK16GX4M4A2400C16 )
+0	0	TN	0.0008	COL title PRODUCT VAL Transcend 64 GB 400x UHS-1 Class 10 Micro SDXC Memory Card ;	COL title VAL Crucial DDR3 8 GB DIMM 240 - pin
+0	1	FP	0.9955	COL title VAL AMD Ryzen 7 NUM 1800X 8 Core AM4 CPU Processor ;	COL title VAL AMD Ryzen 7 1700 3.0GHz 8 - Core Processor
+0	0	TN	0.7147	COL title VAL Kingston USB 3.10 Type A+C microDuo 3C Flash Drive 32 GB ;	COL title VAL Kingston 32 GB DataTraveler MicroDuo USB 3 Flash Drive - OTG ( ID DTDUO3/32 PRODUCT GB )
+1	1	TP	0.9984	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module ;	COL title VAL 301044 - B21 HP 2 GB 266MHz SDRAM Module
+0	1	FP	0.8835	COL title VAL Corsair NUM 256 GB Flash PRODUCT Voyager Slider X2 USB 3 Drive ( ID CMFSL3X2 - 256 PRODUCT GB ) ;	COL title PRODUCT VAL Transcend SSD370 Solid State Drive SATA III 256 PRODUCT GB
+0	0	TN	0.0031	COL title VAL Intel Core i7 - 8700 K 5.1Ghz Coffee Lake Socket ID LGA1151 Pre - Binned Processor OEM ;	COL title VAL B Grade Intel Core i5 - 6600 K 3.9GHz Skylake Socket ID LGA1151 Processor Retail
+0	0	TN	0.0265	COL title PRODUCT VAL Crucial 8 GB Single DDR3L 1600 MT / s ID PC3L-12800 SODIMM 204 - Pin Laptop Memory ;	COL title VAL HP 8 GB 2x4 GB PC2 - 5300 LP SDRAM Kit
+1	1	TP	0.9969	COL title PRODUCT VAL ID XTA-3510 - ID 73GB-10 K Sun 73 GB 10 K HP FC - AL HDD ;	COL title PRODUCT VAL ID XTA-3510 - ID 73GB-10 K Sun 73 GB 10 K FC - AL HDD ( 540 - 5629 )
+1	1	TP	0.9868	COL title VAL NUM 631674 - B21 HP Smart Array P421/2 GB Controller ;	COL title VAL HPE Smart Array P421/2 GB with FBWC storage controller RAID PRODUCT SATA 6Gb / s
+0	0	TN	0.0050	COL title VAL NUM 488039 - B21 HP Xeon ID 3.33GHz PRODUCT ML370 G5 ;	COL title VAL 487511 - B21 HP Xeon ID 3.33GHz DL360 PRODUCT G5
+0	0	TN	0.0369	COL title VAL ASUS Xonar Essence STX II PCI Express Premium Sound Card 7.10 Channel ;	COL title PRODUCT VAL HyperX Predator Solid State Drive 480 GB PCI Express 2 x4
+0	0	TN	0.0625	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 ;	COL title VAL 603608 - B21 HP Xeon X7560 PRODUCT ID 2.26GHz BL620c G7
+1	1	TP	0.9991	COL title VAL SanDisk Ultra SDXC 64 GB 80MB / s PRODUCT UHS - I Clase 10 tarjeta SD ;	COL title VAL SanDisk 64 GB Ultra SDXC UHS - I Memory Card
+1	1	TP	0.9987	COL title VAL Intel DC P3600 1.20 TB PCI - E Solid State Drive ;	COL title VAL Intel Solid - State Drive DC P3600 Series solid state drive 1.20 TB PCI
+1	1	TP	0.9990	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7 ;	COL title VAL NUM 589073 - B21 HP Xeon X7560 ID 2.26GHz BL680c G7
+1	1	TP	0.9981	COL title VAL ASUS GeForce GTX 1070 TURBO 8 GB GDDR5 Graphics Card ;	COL title VAL NVIDIA GeForce GTX 1070 Turbo 8 GB Graphics Card
+0	0	TN	0.0040	COL title VAL Kingston Technology DataTraveler 100 Generation 3 32 GB USB ;	COL title VAL Kingston Technology DataTraveler SE9 32 GB USB 2 Beige
