@@ -87,18 +87,23 @@ class OllamaFeatureExtractor:
     # -------------------- LLM prompt (pair) --------------------
     def _build_pair_prompt(self, left: Dict[str, Any], right: Dict[str, Any]) -> str:
         return f"""
+    
+You are a data normalization expert. Your job is to clean and standardize structured data records for entity matching:
+
 You are a data normalization expert. Clean and standardize TWO structured beer records at once.
 Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "right".
 Each side must follow the schema below and use booleans for is_* fields and a float or "unknown" for abv.
 
-General rules:
-1. Keep original field names (keys) conceptually, but output in the canonical schema.
-2. Standardize names (remove fluff, duplicates, marketing terms) and ensure proper capitalization.
-3. Normalize styles to canonical forms (e.g., "American Amber / Red Ale" → primary_style "Red Ale", secondary_style "Amber").
-4. Convert numbers: "5.6%" → 5.6.
-5. Missing/invalid values → "unknown".
-6. Expand abbreviations where useful (Co. → Company) and compress entities to a single canonical form (e.g., Google LLC → Google).
-7. Set flags: is_ale True for ales and stouts/porters; is_lager True for lagers/pilsners/helles; is_imperial True for imperial/double/strong variants; is_amber True when explicitly amber/red amber.
+Instructions:
+1. Keep the original field names (keys), but normalize all values.
+2. Standardize entity names by removing branding fluff, descriptors, repeated words, and unnecessary modifiers.
+3. Normalize category, type, or style fields to common canonical forms (e.g., “rock/pop” → “Rock”).
+4. Convert numeric fields (e.g., percentages, prices, weights, counts) into plain numbers (e.g., "5.6%" → 5.6, "$3.00" → 3.0).
+5. For missing, invalid, or placeholder values (e.g., "-", "", "unknown", "N/A"), replace them with the string "unknown".
+6. Fix inconsistent formatting, punctuation, and casing. Ensure proper capitalization of names, titles, and categories.
+7. Normalize abbreviations to full form (e.g., "st" → "Street", "dept" → "Department", "intl" → "International").
+8. Canonicalize and normalize entity values (e.g., merge variants like "google", "Google LLC", and "Google Inc." into "Google"). Expand abbreviations (e.g., "Co." → "Company") and remove irrelevant, duplicated, or marketing-heavy terms.
+
 
 Output JSON schema (MUST follow):
 {{
@@ -128,16 +133,188 @@ Output JSON schema (MUST follow):
   }}
 }}
 
-STRICT OUTPUT RULES:
-- Return ONLY the JSON object. No backticks, no explanations.
-- Ensure booleans are true/false literals (not strings).
-- Ensure the top-level object has exactly the keys "left" and "right".
+================ EXAMPLES (FEWSHOT) ================
+
+# Example 1: Red Ales
+Left input:
+Beer Name: Red Amber Ale
+Brewery: Example Brewing
+Style: American Amber / Red Ale
+ABV: 5.5%
+
+Right input:
+Beer Name: Red Amber
+Brewery: Example
+Style: Amber Ale
+ABV: 5.5%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Red Amber Ale",
+    "brewery": "Example Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.5,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Red Amber Ale",
+    "brewery": "Example Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.5,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }}
+}}
+
+# Example 2: IPAs (average ABV across pair)
+Left input:
+Beer Name: Hazy Double IPA
+Brewery: Craft Brewers
+Style: New England Double India Pale Ale
+ABV: 8.2%
+
+Right input:
+Beer Name: Hazy DIPA
+Brewery: Craft
+Style: Hazy Imperial IPA
+ABV: 8.0%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Hazy Double IPA",
+    "brewery": "Craft Brewers",
+    "primary_style": "IPA",
+    "secondary_style": "Double Hazy",
+    "abv": 8.1,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Hazy Double IPA",
+    "brewery": "Craft Brewers",
+    "primary_style": "IPA",
+    "secondary_style": "Double Hazy",
+    "abv": 8.1,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "none"
+  }}
+}}
+
+# Example 3: Stouts with adjuncts
+Left input:
+Beer Name: Chocolate Coffee Stout
+Brewery: Dark Brewing Co.
+Style: American Imperial Stout
+ABV: 10.5%
+
+Right input:
+Beer Name: Chocolate Coffee Imperial Stout
+Brewery: Dark Brewing
+Style: Russian Imperial Stout
+ABV: 10.5%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Chocolate Coffee Stout",
+    "brewery": "Dark Brewing",
+    "primary_style": "Stout",
+    "secondary_style": "Imperial",
+    "abv": 10.5,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "chocolate, coffee"
+  }},
+  "right": {{
+    "name": "Chocolate Coffee Stout",
+    "brewery": "Dark Brewing",
+    "primary_style": "Stout",
+    "secondary_style": "Imperial",
+    "abv": 10.5,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "chocolate, coffee"
+  }}
+}}
+
+# Example 4: Red Ale vs Irish Ale wording
+Left input:
+Beer Name: Sanibel Red Island Ale
+Brewery: Point Ybel Brewing Company
+Style: American Amber / Red Ale
+ABV: 5.60%
+
+Right input:
+Beer Name: Point Ybel Sanibel Red Island Ale
+Brewery: Point Ybel Brewing
+Style: Irish Ale
+ABV: 5.60%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Sanibel Red Island Ale",
+    "brewery": "Point Ybel Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.6,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Sanibel Red Island Ale",
+    "brewery": "Point Ybel Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.6,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }}
+}}
+____________End of Examples----------
+
+
+Now process this beer record:
 
 Left record input:
 {json.dumps(left, indent=2)}
 
 Right record input:
 {json.dumps(right, indent=2)}
+
+⚠️ OUTPUT RULES — STRICTLY FOLLOW:
+- Output must be valid JSON.
+- Do NOT include backticks, explanations, markdown, or anything outside the JSON object.
+- Do NOT say "Here is the output" ,"Note: I've normalized" or anything similar.
+- Just return the JSON object. No comments, headers, or notes.
+
 """
 
     def extract_pair_standardized_attributes(
