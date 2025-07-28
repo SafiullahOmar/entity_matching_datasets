@@ -35,171 +35,152 @@ class OllamaFeatureExtractor:
     # -------------------- LLM prompt (pair) --------------------
     def _build_pair_prompt(self, left: Dict[str, Any], right: Dict[str, Any]) -> str:
         return f"""
-You are a data normalization expert. Your job is to clean and standardize structured data records for entity matching:
+You are a product normalization expert. Clean and standardize **two** Amazon software/product records at once for entity matching with DeepMatcher.
 
-You are a data normalization expert. Clean and standardize TWO structured camera records at once.
-Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "right".
-Each side must follow the schema below .
+Return **one** valid JSON object with **exactly two top‑level keys**: "left" and "right".
+Normalize each side **independently**. **Never** rewrite fields to make left and right equal. Preserve differences (version, edition, OS, license, packaging) **inside the title string**.
+
+Each side must include **exactly** these fields and types:
+{{
+  "left":  {{"title": string, "manufacturer": string, "price": float or "unknown"}},
+  "right": {{"title": string, "manufacturer": string, "price": float or "unknown"}}
+}}
+
+**Symmetry rule**: If a field is missing/unknown on either side, set the same field missing on both sides — title/manufacturer → "" and price → "unknown".
+
 ---
-
 ### Normalization goals
 1. **Preserve key tokens** for alignment; remove vendor noise, SKUs, trailing site names.
-2. **Title**: canonical order → [Brand] [Product Type] [Model/Version] [Edition/Platform] [Key Terms].
-3. **Manufacturer**: normalize to canonical brand (e.g., "microsoft software" → "Microsoft"); expand legal suffixes compactly ("Inc." → "Inc.").
-4. **Acronym expansion, non‑destructive**: append the first time they appear in parentheses. Examples:
-   - "CS3" → "Creative Suite 3 (CS3)"
-   - "TLP" → "Transactional License Program (TLP)"
-   - "CAL" → "Client Access License (CAL)"
-   - "SBS" → "Small Business Server (SBS)"
-5. **Platform markers**: keep "Mac", "Windows", "DVD", "Upgrade", "Academic", "OEM", "Builder" when present.
-6. **Price**: parse to a **float** in USD (no currency symbol). If missing/unparseable → "unknown".
-7. **label usage**: If **label = 1** (same product), unify **title** and **manufacturer** to the same canonical phrasing on both sides. Price may differ by seller; keep each side’s parsed price. If **label = 0**, normalize each independently.
+2. **Title** canonical order ⇒ [Brand] [Product/Family] [Version] [Edition] [OS/Media/Packaging] [Key Terms].
+3. **Manufacturer**: canonical brand (e.g., "microsoft software" → "Microsoft").
+4. **Acronyms, non‑destructive**: append long form once → "CS3 (Creative Suite 3)", "CAL (Client Access License)", "TLP (Transactional License Program)".
+5. **Keep discriminators**: Educational vs Professional, Upgrade vs Full, Legal vs Professional, X vs IX, Vista Business vs SBS CALs, Media (CD/DVD/Download), OS list.
+6. **Price**: float (USD, no symbol) or "unknown".
 
+---
+## FEW‑SHOT EXAMPLES (nested left/right)
 
-
-Output JSON schema (MUST follow):
-
-{{
-  "left": {{
-    "title": string,
-    "manufacturer": string,
-    "price": string,
-  }},
-  "right": {{
-    "title": string,
-    "manufacturer": string,
-    "price": string,
-  }}
-}}
-
-## FEW‑SHOT EXAMPLES (Beer‑style; nested left/right)
-
-### Example 1 — Different products (label = 0)
+# 1. Professional vs Educational — keep editions different
 Left input:
-  title: "adobe creative suite cs3 production premium upsell"
-  manufacturer: "adobe"
-  price: 1199.0
+  title: "Sibelius 4 Professional Edition"
+  manufacturer: "Sibelius Software Ltd."
+  price: 599.99
 Right input:
-  title: "19600061dm adobe creative suite 3 production premium media tlp download mac world"
-  manufacturer: ""
-  price: 20.97
-label: 0
+  title: "Sibelius - Sibelius 4 Educational Discount Music Production Software"
+  manufacturer: "Sibelius Software Ltd."
+  price: 249.95
 
 **Standardized Output:**
 {{
   "left": {{
-    "title": "Adobe Creative Suite 3 (CS3) Production Premium Upsell",
-    "manufacturer": "Adobe",
-    "price": 1199.0
+    "title": "Sibelius 4 Professional Edition",
+    "manufacturer": "Sibelius Software Ltd.",
+    "price": 599.99
   }},
   "right": {{
-    "title": "Adobe Creative Suite 3 (CS3) Production Premium, Media TLP Download for Mac",
-    "manufacturer": "Adobe",
-    "price": 20.97
+    "title": "Sibelius 4 Educational Edition (Educational Discount)",
+    "manufacturer": "Sibelius Software Ltd.",
+    "price": 249.95
   }}
 }}
 
 ---
-### Example 2 — Same product; unify title/manufacturer, keep prices (label = 1)
+# 2. Different versions & vertical — do not unify
 Left input:
-  title: "the sims 2 : open for business expansion pack"
-  manufacturer: "aspyr media"
-  price: 34.99
+  title: "Nuance Dragon NaturallySpeaking Pro Solution 9.0"
+  manufacturer: "Nuance Communications Inc."
+  price: 399.54
 Right input:
-  title: "sims 2 open for business"
-  manufacturer: ""
-  price: 34.99
-label: 1
+  title: "Nuance Dragon NaturallySpeaking V8 Legal Solutions from Professional V6 and Up (Govt) OLPA590A-SF2-8.0"
+  manufacturer: "Nuance Communications Inc."
+  price: 314.00
 
 **Standardized Output:**
 {{
   "left": {{
-    "title": "The Sims 2: Open for Business Expansion Pack",
-    "manufacturer": "Aspyr Media",
-    "price": 34.99
+    "title": "Nuance Dragon NaturallySpeaking 9.0 Professional",
+    "manufacturer": "Nuance Communications Inc.",
+    "price": 399.54
   }},
   "right": {{
-    "title": "The Sims 2: Open for Business Expansion Pack",
-    "manufacturer": "Aspyr Media",
-    "price": 34.99
+    "title": "Nuance Dragon NaturallySpeaking 8 Legal (Government Upgrade from Professional 6+)",
+    "manufacturer": "Nuance Communications Inc.",
+    "price": 314.0
   }}
 }}
 
 ---
-### Example 3 — Same product with different prices; unify textual fields (label = 1)
+# 3. Version X vs IX — keep version tokens
 Left input:
-  title: "checkmark multiledger"
-  manufacturer: "checkmark software"
-  price: 399.0
+  title: "Corel Painter X for PC/Mac"
+  manufacturer: "Corel"
+  price: 155.22
 Right input:
-  title: "channel sources distribution co mlw6 .0 checkmark multiledger for pc/mac"
-  manufacturer: "channel sources distribution co"
-  price: 294.58
-label: 1
+  title: "Corel Painter IX Win/Mac"
+  manufacturer: "Corel Corporation"
+  price: 89.99
 
 **Standardized Output:**
 {{
   "left": {{
-    "title": "CheckMark MultiLedger 6.0 for PC/Mac",
-    "manufacturer": "CheckMark Software",
-    "price": 399.0
+    "title": "Corel Painter X for Windows/Mac",
+    "manufacturer": "Corel",
+    "price": 155.22
   }},
   "right": {{
-    "title": "CheckMark MultiLedger 6.0 for PC/Mac",
-    "manufacturer": "CheckMark Software",
-    "price": 294.58
+    "title": "Corel Painter IX for Windows/Mac",
+    "manufacturer": "Corel Corporation",
+    "price": 89.99
   }}
 }}
 
 ---
-### Example 4 — CAL / license packs (label = 0)
+# 4. Upgrade vs Media of prior version — keep both signals
 Left input:
-  title: "microsoft windows small business server cal 2003 license pack 20 client addpack device"
-  manufacturer: "microsoft software"
-  price: ""
+  title: "CorelDRAW Graphics Suite X3 (Upgrade)"
+  manufacturer: "Corel"
+  price: 179.00
 Right input:
-  title: "microsoft ( r ) windows vista ( tm ) business"
-  manufacturer: ""
-  price: 199.99
-label: 0
+  title: "CorelDRAW Graphics Suite V.12 Media, 1 User CD Win Multi-Lingual"
+  manufacturer: "Unknown"
+  price: 22.59
 
 **Standardized Output:**
 {{
   "left": {{
-    "title": "Microsoft Windows Small Business Server 2003 Client Access License Pack, 20 Device CALs (Client Access License)",
-    "manufacturer": "Microsoft",
-    "price": "unknown"
+    "title": "CorelDRAW Graphics Suite X3 Upgrade",
+    "manufacturer": "Corel",
+    "price": 179.0
   }},
   "right": {{
-    "title": "Microsoft Windows Vista Business",
-    "manufacturer": "Microsoft",
-    "price": 199.99
+    "title": "CorelDRAW Graphics Suite 12 Media, 1-User CD, Windows, Multilingual",
+    "manufacturer": "Unknown",
+    "price": 22.59
   }}
 }}
 
 ---
-### Example 5 — QuickBooks vs QuickBooks (different editions; label = 0)
+# 5. Exact title text, different manufacturer strings — keep canonical manufacturer
 Left input:
-  title: "quickbooks premier non-profit edition 2005"
-  manufacturer: "intuit inc."
-  price: 499.95
+  title: "Punch! Super Home Suite"
+  manufacturer: "Punch!"
+  price: 49.99
 Right input:
-  title: "quickbooks ( r ) premier : accountant edition 2007"
-  manufacturer: ""
-  price: 399.99
-label: 0
+  title: "Punch! Super Home Suite"
+  manufacturer: "Punch Software"
+  price: 45.99
 
 **Standardized Output:**
 {{
   "left": {{
-    "title": "QuickBooks Premier 2005 Nonprofit Edition",
-    "manufacturer": "Intuit",
-    "price": 499.95
+    "title": "Punch! Super Home Suite",
+    "manufacturer": "Punch Software",
+    "price": 49.99
   }},
   "right": {{
-    "title": "QuickBooks Premier 2007 Accountant Edition",
-    "manufacturer": "Intuit",
-    "price": 399.99
+    "title": "Punch! Super Home Suite",
+    "manufacturer": "Punch Software",
+    "price": 45.99
   }}
 }}
 
@@ -213,8 +194,6 @@ Left record input:
 Right record input:
 {json.dumps(right, ensure_ascii=False, indent=2)}
 
-
-
 📘 Output JSON schema (always follow exactly):
 {{
   "left":  {{"title": string, "manufacturer": string, "price": float or "unknown"}},
@@ -222,13 +201,9 @@ Right record input:
 }}
 
 ⚠️ OUTPUT RULES — STRICTLY FOLLOW
-- Return values exactly as strings; format Price as `USD X.XX`, Time as `MM:SS`, Released as `YYYY-MM-DD`, and use `VAL -` when unknown.
-- Do not invent fields or omit required ones.
-
-### SINGLE‑OBJECT EMISSION GUARD — CRITICAL
 - Return **exactly one** JSON object.
-- **No code fences**, markdown, comments, or explanations.
-- Output **compact single‑line JSON** if possible.
+- No code fences, markdown, comments, logs, or repeated JSON.
+- Do not add or omit keys. Use only float or "unknown" for price.
 
 """
 
@@ -322,4 +297,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
