@@ -40,447 +40,131 @@ Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "r
 Each side must follow the schema below .
 
 ## Rules:
-Schema lock: Only the three fields per side: title, manufacturer, price. No extra keys.
-  - Core‑only title: Set title to the CoreName only. Remove version, edition, license, packaging, media, OS, upgrade/source, seat counts, program names, marketing fluff, SKUs, and legal marks.
-  - Independence via deterministic mapping: Compute CoreName independently for each side using the same rules. Do not copy a value from one side to the other. If both map to the same string, that’s acceptable because the mapping is deterministic.
-  - Strict symmetry: If any field is missing/unknown on either side, set that same field missing/unknown on both sides:
-  - title / manufacturer → "" (empty string)
-  - price → "unknown"
-Manufacturer canonicalization: Use the canonical brand (e.g., "Microsoft", "Adobe", "Apple", "Encore Software"). Strip Inc., Corp., Ltd. unless needed for disambiguation. If blank on either side → blank on both (Rule 4).
-Price: Parse numeric USD as float; otherwise "unknown". If either side is non‑numeric/missing → "unknown" on both.
-Valid JSON only. No comments, no trailing commas, correct quotes.
+## Normalization Rules
 
-## CoreName Extraction
-Produce the shortest, most distinctive family/app/game/work name that identifies the product without variant attributes.
+1. **Preserve Specificity**  
+Keep version numbers (e.g., 2007, CS3), editions (e.g., Standard, Professional), packaging (DVD, CD), and licensing (Upgrade, OEM, TLP) when present.
 
-#Keep:
-  - Canonical family/app name: e.g., Visio, Access, Windows Vista, Creative Suite, Final Cut Express, iLife, Mozy, PrintMaster, The Print Shop, Instant Immersion Spanish, SpongeBob SquarePants Typing, Sunset Boulevard.
-  - Language/topic that defines the product identity (e.g., Instant Immersion Spanish vs Instant Immersion Japanese).
-  - Franchise or character names integral to the product (SpongeBob SquarePants).
+2. **Fix Casing and Whitespace**  
+Apply Title Case: capitalize major words in the title. Collapse extra spaces.
 
-## Remove (strip entirely)
-  - Version: numbers and tokens like 2007, CS3, 3.5, v. 4.1, '06.
-  - Edition/variant: Standard, Professional, Educational, Academic, Web Premium, Design Standard, Production Premium, Home Basic, Platinum, HD, Deluxe, Pro, Express only if it’s a pure edition; keep if it is inseparable from the common name (e.g., Final Cut Express is a distinct product line → keep Express).
-  - License/program/seat: Upgrade, Full, OEM, Retail, Download, DVD, CD, TLP, CAL, 20 User, Single User.
-  - OS/media/packaging: Windows, Mac, Mac DVD, PC, Box, Download, Complete Package.
-  - Source/qualifiers: for Terminal Services, for Mac, for PC, Nonprofit, Academic, Older Version, English, MLP.
-  - Legal/formatting noise: (R), (TM), Software, AV Production Software, seller/site names, SKUs/ASINs.
-## Formatting
-  - Title Case (capitalize main words) with ASCII characters; collapse whitespace.
+3. **Manufacturer Canonicalization**  
+Standardize manufacturer names (e.g., "Microsoft Corporation" → "Microsoft"). Strip suffixes like Inc., Ltd., Corp. unless needed to disambiguate.
+
+4. **Missing Values (One-Sided Only)**  
+If one side is missing a field, leave it as-is. Do NOT blank both sides. DeepMatcher learns from asymmetry.
+
+   Use these values only when field is truly missing:
+   - Title / Manufacturer → `""` (empty string)
+   - Price → `"unknown"`
+
+5. **Price Formatting**  
+If price is a numeric value, return as float. If missing, non-numeric, or noisy → return `"unknown"`.
+
 
 ## Remove duplicate words.
 
 If the best CoreName is a two‑part franchise + function, keep both (e.g., SpongeBob SquarePants Typing).
 If a listing is a compilation “featuring” a work, use the central work as CoreName (e.g., Sunset Boulevard).
 ---
-## FEW‑SHOT EXAMPLES (nested left/right)
+## FEW‑SHOT EXAMPLES 
+
 1. Adobe suites — different variants — Label: 0
 Left input:
-  title: "Adobe Creative Suite CS3 Web Premium Upgrade [Mac]"
-  manufacturer: "Adobe"
-  price: 499.0
+   "title": "Adobe Creative Suite CS3 Web Premium Upgrade [Mac]",
+  "manufacturer": "Adobe",
+  "price": 499.0
 Right input:
-  title: "Adobe CS3 Design Standard Upgrade Windows"
-  manufacturer: ""
-  price: "unknown"
+  "title": "Adobe CS3 Design Standard Upgrade Windows",
+  "manufacturer": "",
+  "price": "unknown"
 
-Standardized Output:
 {{
-"left": {{
-"title": "Adobe Creative Suite Web Premium",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Adobe Creative Suite Design Standard",
-"manufacturer": "",
-"price": "unknown"
-}}
+  "left": {{
+    "title": "Adobe Creative Suite CS3 Web Premium",
+    "manufacturer": "",
+    "price": "unknown"
+  }},
+  "right": {{
+    "title": "Adobe Creative Suite CS3 Design Standard",
+    "manufacturer": "",
+    "price": "unknown"
+  }}
 }}
 
 2. Language learning — Japanese vs Italian — Label: 0
 Left input:
-  title: "Instant Immersion Japanese Deluxe 2.0"
-  manufacturer: "Topics Entertainment"
-  price: 39.99
+  "title": "Instant Immersion Japanese Deluxe 2.0",
+  "manufacturer": "Topics Entertainment",
+  "price": 39.99
 Right input:
-  title: "Instant Immersion Italian Audio (Audio Book)"
-  manufacturer: ""
-  price: "unknown"
+  "title": "Instant Immersion Italian Audio (Audio Book)",
+  "manufacturer": "",
+  "price": "unknown"
 
 Standardized Output:
 {{
-"left": {{
-"title": "Instant Immersion Japanese",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Instant Immersion Italian",
-"manufacturer": "",
-"price": "unknown"
-}}
+  "left": {{
+    "title": "Instant Immersion Japanese Deluxe 2.0",
+    "manufacturer": "",
+    "price": "unknown"
+  }},
+  "right": {{
+    "title": "Instant Immersion Italian Audio",
+    "manufacturer": "",
+    "price": "unknown"
+  }}
 }}
 
 3. Reader Rabbit variants — Label: 0
 Left input:
-  title: "Reader Rabbit Learn to Read Phonics Pre Kindergarten"
-  manufacturer: "The Learning Company"
-  price: 9.99
+  "title": "Reader Rabbit Learn to Read Phonics Pre Kindergarten",
+  "manufacturer": "The Learning Company",
+  "price": 9.99
 Right input:
-  title: "Reader Rabbit Kindergarten Special 2-CD Edition"
-  manufacturer: ""
-  price: "unknown"
+   "title": "Reader Rabbit Kindergarten Special 2-CD Edition",
+  "manufacturer": "",
+  "price": "unknown"
 
 Standardized Output:
 {{
-"left": {{
-"title": "Reader Rabbit Learn to Read Phonics",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Reader Rabbit Kindergarten",
-"manufacturer": "",
-"price": "unknown"
-}}
+  "left": {{
+    "title": "Reader Rabbit Learn to Read Phonics",
+    "manufacturer": "",
+    "price": "unknown"
+  }},
+  "right": {{
+    "title": "Reader Rabbit Kindergarten Special Edition",
+    "manufacturer": "",
+    "price": "unknown"
+  }}
 }}
 
 4. Same product name; both have price — Label: 0
 Left input:
-  title: "Professor Teaches Windows XP"
-  manufacturer: ""
-  price: 19.99
+  "title": "Professor Teaches Windows XP",
+  "manufacturer": "",
+  "price": 19.99
 Right input:
-  title: "Individual Software Professor Teaches Windows XP"
-  manufacturer: "Individual Software"
-  price: 24.99
+    "title": "Individual Software Professor Teaches Windows XP",
+  "manufacturer": "Individual Software",
+  "price": 24.99
 
 Standardized Output:
 {{
-"left": {{
-"title": "Professor Teaches Windows XP",
-"manufacturer": "",
-"price": 19.99
-}},
-"right": {{
-"title": "Professor Teaches Windows XP",
-"manufacturer": "",
-"price": 24.99
-}}
-}}
-
-5. Instant Immersion audio languages — Label: 0
-Left input:
-  title: "Instant Immersion Spanish Audio Deluxe"
-  manufacturer: "Topics Entertainment"
-  price: 39.95
-Right input:
-  title: "Topics Entertainment Instant Immersion German Audio"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Instant Immersion Spanish Audio",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Instant Immersion German Audio",
-"manufacturer": "",
-"price": "unknown"
-}}
+  "left": {{
+    "title": "Professor Teaches Windows XP",
+    "manufacturer": "",
+    "price": 19.99
+  }},
+  "right": {{
+    "title": "Professor Teaches Windows XP",
+    "manufacturer": "",
+    "price": 24.99
+  }}
 }}
 
-6. JumpStart grades — Label: 0
-Left input:
-  title: "Jumpstart Kindergarten"
-  manufacturer: "Knowledge Adventure"
-  price: 19.99
-Right input:
-  title: "Jumpstart (R) Advanced 1st Grade"
-  manufacturer: ""
-  price: "unknown"
 
-Standardized Output:
-{{
-"left": {{
-"title": "JumpStart Kindergarten",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "JumpStart Advanced 1st Grade",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-7. QuickVerse vs QuickBooks — Label: 0
-Left input:
-  title: "QuickVerse Bible Premier Suite"
-  manufacturer: "Individual Software"
-  price: 39.99
-Right input:
-  title: "QuickBooks (R) Premier 2003"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Individual Software QuickVerse Bible",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Intuit QuickBooks Premier",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-8. OneNote vs Outlook — Label: 0
-Left input:
-  title: "Microsoft OneNote 2007 Upgrade"
-  manufacturer: "Microsoft"
-  price: 79.95
-Right input:
-  title: "Outlook 2007 Educational Microsoft"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Microsoft OneNote",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Microsoft Outlook",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-9. Audio production — different vendors — Label: 0
-Left input:
-  title: "M-Audio Pro Tools M-Powered 7.3"
-  manufacturer: "M-Audio"
-  price: 299.99
-Right input:
-  title: "Steinberg Wavelab Studio 6 Audio Editing Software Music Production Software"
-  manufacturer: "Steinberg Media Technologies"
-  price: 299.95
-
-Standardized Output:
-{{
-"left": {{
-"title": "M‑Audio Pro Tools M‑Powered",
-"manufacturer": "M-Audio",
-"price": 299.99
-}},
-"right": {{
-"title": "Steinberg WaveLab Studio",
-"manufacturer": "Steinberg Media Technologies",
-"price": 299.95
-}}
-}}
-
-10. Excel vs Word — Label: 0
-Left input:
-  title: "Microsoft Office Excel 2007"
-  manufacturer: "Microsoft"
-  price: 229.95
-Right input:
-  title: "Microsoft (R) Office Word 2004 for Mac Full Version"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Microsoft Excel",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Microsoft Word",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-11. Same game; duplicate brand wording — Label: 1
-Left input:
-  title: "Alliance Future Combat"
-  manufacturer: "Strategy First"
-  price: 19.99
-Right input:
-  title: "Strategy First Inc. Alliance Future Combat"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Strategy First Alliance Future Combat",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Strategy First Alliance Future Combat",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-12. Dreamweaver vs InDesign — Label: 0
-Left input:
-  title: "Adobe Dreamweaver CS3 Upgrade"
-  manufacturer: "Adobe"
-  price: 199.0
-Right input:
-  title: "Adobe InDesign CS3 for Mac Upgrade"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Adobe Dreamweaver",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Adobe InDesign",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-13. LoJack subscriptions — 1‑yr vs 4‑yr — Label: 0
-Left input:
-  title: "Computrace LoJack for Laptops : 1 Year Subscription"
-  manufacturer: "Absolute Software"
-  price: 49.99
-Right input:
-  title: "Absolute Software Computrace LoJack for Laptops 4-Year License"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Absolute Software Computrace LoJack for Laptops",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Absolute Software Computrace LoJack for Laptops",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-14. Preschool title match — Label: 1
-Left input:
-  title: "Land Before Time : Preschool"
-  manufacturer: "Brighter Minds Media Inc."
-  price: 9.99
-Right input:
-  title: "The Land Before Time : Preschool Adventure"
-  manufacturer: "Brighter Minds Media Inc."
-  price: 12.9
-
-Standardized Output:
-{{
-"left": {{
-"title": "Brighter Minds The Land Before Time Preschool",
-"manufacturer": "Brighter Minds Media Inc.",
-"price": 9.99
-}},
-"right": {{
-"title": "Brighter Minds The Land Before Time Preschool",
-"manufacturer": "Brighter Minds Media Inc.",
-"price": 12.9
-}}
-}}
-
-15. Punch! Pro Home Design — Label: 1
-Left input:
-  title: "Punch! Professional Home Design"
-  manufacturer: "Punch Software"
-  price: 89.99
-Right input:
-  title: "Punch Software Punch ! Professional Home Design Suite for Windows"
-  manufacturer: "Punch Software"
-  price: 62.99
-
-Standardized Output:
-{{
-"left": {{
-"title": "Punch Professional Home Design",
-"manufacturer": "Punch Software",
-"price": 89.99
-}},
-"right": {{
-"title": "Punch Professional Home Design",
-"manufacturer": "Punch Software",
-"price": 62.99
-}}
-}}
-
-16. Office Small Business vs SBS CALs — Label: 0
-Left input:
-  title: "Microsoft Office Small Business 2007"
-  manufacturer: "Microsoft"
-  price: 735.33
-Right input:
-  title: "Microsoft Windows Small Business Server 2003 License (20 Additional User CALs)"
-  manufacturer: ""
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Microsoft Office Small Business",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Microsoft Windows Small Business Server CALs",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
-
-17. CRM CAL pack vs Adobe upgrade — Label: 0
-Left input:
-  title: "Microsoft CRM Professional CAL 3.0 Product Upgrade License Pack User CAL"
-  manufacturer: "Microsoft"
-  price: 9980.0
-Right input:
-  title: "Adobe Creative Suite 3 Design Premium Product Upgrade Package 1 User Upgrade"
-  manufacturer: "Unknown"
-  price: "unknown"
-
-Standardized Output:
-{{
-"left": {{
-"title": "Microsoft CRM Professional CAL Pack",
-"manufacturer": "",
-"price": "unknown"
-}},
-"right": {{
-"title": "Adobe Creative Suite Design Premium Upgrade",
-"manufacturer": "",
-"price": "unknown"
-}}
-}}
 
 
 ____________ End of Examples ----------
