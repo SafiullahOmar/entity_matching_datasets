@@ -12,7 +12,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "gemma3:12b") -> None:
+    def __init__(self, model_name: str = "llama3.1") -> None:
         self.llm_model = model_name
 
 
@@ -83,88 +83,6 @@ Output JSON schema (MUST follow):
 
 
 ---
-## FEW‑SHOT EXAMPLES ( nested left/right)
-
-### Example 1: Same product, unify titles
-Left input:
-left_title: "Canon EF 70-300mm f/4-5.6 IS II USM Telephoto Zoom Lens"@en "by Canon | Amazon.com"
-
-Right input:
-right_title: "Canon 70-300mm IS II USM Lens EF Mount"@en "Canon Lens for EOS SLR"
-
-label: 1
-
-**Standardized Output:**
-{{
-  "left": {{
-    "title": "Canon EF 70-300mm f/4-5.6 IS II Ultrasonic Motor Telephoto Zoom Lens"
-  }},
-  "right": {{
-    "title": "Canon EF 70-300mm f/4-5.6 IS II Ultrasonic Motor Telephoto Zoom Lens"
-  }}
-}}
-
----
-### Example 2: Bundle phrased differently (may still converge)
-Left input:
-left_title: "GoPro HERO9 Black Bundle with Extra Battery + Tripod Mount"@en-US "@MediaMarkt NL"
-
-Right input:
-right_title: "GoPro HERO9 Black Edition Camera Kit with Battery and Mount"@en
-
-label: 0
-
-**Standardized Output:**
-{{
-  "left": {{
-    "title": "GoPro HERO9 Black Camera Kit with Extra Battery and Tripod Mount"
-  }},
-  "right": {{
-    "title": "GoPro HERO9 Black Camera Kit with Extra Battery and Tripod Mount"
-  }}
-}}
-
----
-### Example 3: Clearly different products (different brands/specs)
-Left input:
-left_title: "Intel Solid-State Drive 540S Series - solid state drive 240 GB SATA 6Gb Intel 6Gb SSDSCKKW240H6X1 Solid State Drives (SSDs) CDW.com"
-
-Right input:
-right_title: "Samsung 850 EVO Series M.2 1TB SATA 6Gbps Solid State Drive (MZ-N5E1T0BW) ▷ Samsung … | OcUK"
-
-label: 0
-
-**Standardized Output:**
-{{
-  "left": {{
-    "title": "Intel 540S Series 240GB SATA 6Gbps SSD SSDSCKKW240H6X1"
-  }},
-  "right": {{
-    "title": "Samsung 850 EVO Series 1TB M.2 SATA 6Gbps SSD MZ-N5E1T0BW"
-  }}
-}}
-
----
-### Example 4: Different Canon camera models
-Left input:
-left_title: "Canon EOS 90D DSLR Camera with 18-135mm IS USM Lens"@en
-
-Right input:
-right_title: "Canon EOS Rebel T7 with 18-55mm Lens Kit for Beginners"@en
-
-label: 0
-
-**Standardized Output:**
-{{
-  "left": {{
-    "title": "Canon EOS 90D DSLR Camera with 18-135mm IS Ultrasonic Motor Lens"
-  }},
-  "right": {{
-    "title": "Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens Kit"
-  }}
-}}
-
-____________ End of Examples ----------
 
 
 Now process this record:
