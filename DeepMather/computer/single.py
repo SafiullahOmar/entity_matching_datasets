@@ -13,7 +13,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "gemma3:12b") -> None:
+    def __init__(self, model_name: str = "ollama3.1") -> None:
         self.llm_model = model_name
 
 
