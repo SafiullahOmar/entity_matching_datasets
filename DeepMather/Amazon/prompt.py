@@ -5,334 +5,260 @@ import re
 import json
 from textwrap import dedent
 import os
-from typing import Dict, Any, Tuple
- 
+from typing import Dict, Any, Tuple, Optional
+
 # Expected output keys for each side
 EXPECTED_KEYS = [
     "title",
     "manufacturer",
     "price"
-    
 ]
+
 
 class OllamaFeatureExtractor:
     def __init__(self, model_name: str = "llama3.1") -> None:
         self.llm_model = model_name
 
+    # -------------------- Coercion & Validation --------------------
+    def _coerce_price(self, value: Any) -> Any:
+        """Coerce price to float with two decimals, or the literal string 'unknown'."""
+        if value is None:
+            return "unknown"
+        if isinstance(value, (int, float)):
+            return float(f"{float(value):.2f}")
+        if isinstance(value, str):
+            v = value.strip().lower()
+            if v in {"", "n/a", "na", "none", "null", "unknown"}:
+                return "unknown"
+            # Remove currency symbols and commas
+            v = re.sub(r"[,$]", "", v)
+            try:
+                return float(f"{float(v):.2f}")
+            except Exception:
+                return "unknown"
+        return "unknown"
 
     def normalize_llm_output(self, response: Dict[str, Any]) -> Dict[str, Any]:
-        """Ensure all expected keys exist, map variants, and coerce types."""
-        key_map = {
-            "title": "title",
-            "manufacturer":"manufacturer",
-            "price": "price",
-        }
-        normalized: Dict[str, Any] = {}
-        for key, value in response.items():
-            std_key = key_map.get(key, key)
-            normalized[std_key] = value
-        return normalized
+        """Ensure all expected keys exist, coerce types, and sanitize values."""
+        out: Dict[str, Any] = {}
+        # Defaults
+        out["title"] = str(response.get("title", "") or "").strip()
+        out["manufacturer"] = str(response.get("manufacturer", "") or "").strip()
+        out["price"] = self._coerce_price(response.get("price", "unknown"))
+        return out
 
-    # -------------------- LLM prompt (pair) --------------------
-    def _build_pair_prompt(self, left: Dict[str, Any], right: Dict[str, Any]) -> str:
-        return dedent(f"""You are a product-normalization expert. Clean and standardize TWO Amazon software/product records for entity matching with DeepMatcher.
+    def _extract_json(self, text: str) -> Dict[str, Any]:
+        """Robustly extract a single JSON object from the model output."""
+        # Strip code fences if present
+        if text.startswith("```"):
+            text = re.sub(r"^```[a-zA-Z]*\n?", "", text)
+            text = re.sub(r"```$", "", text).strip()
+        # Heuristic: take the outermost JSON object
+        start = text.find("{")
+        end = text.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            text = text[start : end + 1]
+        return json.loads(text)
 
-Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "right".
-Each side must follow this schema:
-• "title" (string)
-• "manufacturer" (string)
-• "price" (float OR "unknown")
+    # -------------------- LLM prompts (two variants) --------------------
+    def _build_prompt_match(self, left: Dict[str, Any], right: Dict[str, Any]) -> str:
+        """Prompt A — Label = 1 (MATCH): strong alignment-oriented normalization."""
+        return dedent(f"""
+        You are a product-normalization expert for software titles. Normalize and ALIGN two Amazon software/product records for DeepMatcher.
 
-────────────────────────────────────────
-GLOBAL RULES (read carefully)
-────────────────────────────────────────
-• Normalize EACH SIDE INDEPENDENTLY. Never copy, infer, or harmonize from the other side.
-• Keep discriminative tokens (versions, editions/licences, platform/OS, language). Do NOT paraphrase names.
-• Casing: Title Case. Collapse duplicate spaces and consecutive duplicate words.
-• Manufacturer: Canonical minimal form (drop “Inc.”, “Corp.”, “Ltd.”, “Software”, “Systems”), but keep the core brand (e.g., “Adobe Systems Inc.” → “Adobe”).
-• If manufacturer is blank, leave "" (don’t guess from title or the other side).
-• Price: Parse numeric → float with two decimals. If missing/invalid, use "unknown". Never invent or copy across sides.
+        Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "right".
+        Each side must follow this schema:
+          • "title" (string)
+          • "manufacturer" (string)
+          • "price" (float or "unknown")
 
-────────────────────────────────────────
-TOKEN PRESERVATION (SKU-LEVEL)
-────────────────────────────────────────
-KEEP ALL of the following when present:
-• Versions: CS2/CS3, X3, XI, 11.0, 7.3, 2007, etc. (keep token as written; don’t change CS→“Creative Suite”.)
-• Editions/Licences: Professional, Pro, Home, Standard, Enterprise, Academic/Education/Student, OEM, Retail, Upgrade/Update, Single-User/1-User/3-User/5-User, Volume, Site, Server, CAL, ESD, Boxed, Download, Subscription, License/Licence, Host Only, Expansion Pack, Add-on, Plug-in, Trial, Beta.
-• Platform/OS & Language (when SKU-differentiating): Windows/Win, macOS/Mac, Linux; Spanish, English, French, Multilingual.
-• Product-family words: Photoshop, WordPerfect, Pro Tools, Finale, TaxCut, Visual Studio, QuickBooks, etc.
+        ALIGNMENT & NORMALIZATION FOR MATCHED PAIRS (label = 1)
+        - Aggressively remove noise:
+          • Delete alphanumeric SKUs / catalog codes (e.g., "19600061dm", "SF9006").
+          • Remove brackets/parentheses that ONLY specify platform/media (e.g., "[Mac]", "(Win 95/98/ME)", "(DVD)").
+          • Trim generic trailer phrases (case-insensitive; stop at first match):
+            "Full Version of .* Software" · ".* Production Software" · "Sound Editing S/?W" ·
+            "Photo Editing Software for Windows" · "Complete (Package|Product)" · "Standard English PC" ·
+            "Scientific Brain Training" · "Music Production" · "Qualification" · "Contact Management .*" ·
+            "No Limit Texas Hold 'Em" · similar marketing tails.
+        - Expand abbreviations/spellings:
+          CS1/2/3 → Creative Suite 1/2/3 · CAL → Client Access License · Svr → Server ·
+          Upg → Upgrade · OEM → OEM · AV → Anti-Virus · S/W → Software · Win → Windows ·
+          Propack → Pro Pack · keep “Host Only”.
+        - PRESERVE SPECIFICITY:
+          • Keep version/edition/license tokens exactly (CS3, XI, X3, 11.0, 7.3, 2007, Professional, Home, Standard, Upgrade, 3-User, Host Only, Boxed).
+          • If a version/edition appears on only one side and there is NO conflicting version/edition on the other side, COPY it so both sides align to the most specific shared product.
+        - Casing & whitespace: Title Case; collapse multiple spaces; dedupe consecutive duplicate words.
+        - Manufacturer canonicalization: shortest unambiguous form (e.g., “Adobe Systems Inc” → “Adobe”; “Microsoft Corporation” → “Microsoft”); drop Inc., Ltd., Corp., Software unless needed to disambiguate.
+        - Missing values: empty title/manufacturer → ""; price: valid number → float with two decimals; else "unknown".
+        - NEVER invent prices. Do not copy a price from one side to the other.
 
-────────────────────────────────────────
-NOISE REMOVAL
-────────────────────────────────────────
-• Remove SKU/catalog codes like “19600061dm”, “SF9006”, “11052”.
-• Remove pure packaging media ONLY: (DVD), (CD-ROM), [CD], [DVD].
-• Remove generic trailers (case-insensitive) ONLY if they don’t remove SKU info:
-  “Production Software”, “Photo Editing Software for Windows”, “Complete Package/Product”, “Standard English PC”, “Qualification”.
-  ⚠️ Do NOT remove “Expansion Pack”, “Server”, “CAL”, or platform/edition/language tokens.
+        FEW-SHOT EXAMPLES
+        A1. Microsoft Digital Image Suite Plus (match)
+        Left ⟶  {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"Microsoft","price":129.95}}
+        Right ⟶ {{"title":"Microsoft Digital Image Suite Plus Full Version of Photo Editing Software for Windows","manufacturer":"","price":89.95}}
+        Output
+        {{
+          "left":  {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"Microsoft","price":129.95}},
+          "right": {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"","price":89.95}}
+        }}
 
-────────────────────────────────────────
-ABBREVIATION / SPELLING
-────────────────────────────────────────
-• Win → Windows; S/W → Software; AV → Anti-Virus; Svr → Server; Upg → Upgrade; Propack → Pro Pack.
-• Retain “Host Only”. Do NOT expand CS tokens.
+        A2. M-Audio Pro Tools M-Powered 7.3 (match)
+        Left ⟶  {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"M-Audio","price":299.99}}
+        Right ⟶ {{"title":"M-Audio Pro Tools M-Powered Software Music Production","manufacturer":"","price":249.00}}
+        Output
+        {{
+          "left":  {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"M-Audio","price":299.99}},
+          "right": {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"","price":249.00}}
+        }}
 
-────────────────────────────────────────
-DUPLICATE-WORD COLLAPSE
-────────────────────────────────────────
-Collapse consecutive duplicate words inside the title (“Home Home Design” → “Home Design”).
+        A3. Symantec pcAnywhere 11.0 Host Only (match)
+        Left ⟶  {{"title":"Symantec Pcanywhere 11.0 Host Only Cd-Rom Xp 98 Nt W2k Me","manufacturer":"Symantec","price":"unknown"}}
+        Right ⟶ {{"title":"Symantec Pcanywhere 11.0 Windows","manufacturer":"","price":19.99}}
+        Output
+        {{
+          "left":  {{"title":"Symantec Pcanywhere 11.0 Host Only","manufacturer":"Symantec","price":"unknown"}},
+          "right": {{"title":"Symantec Pcanywhere 11.0 Host Only","manufacturer":"","price":19.99}}
+        }}
 
-────────────────────────────────────────
-MISSING VALUES
-────────────────────────────────────────
-Empty title/manufacturer → ""; price per rules above.
+        OUTPUT RULES — STRICT
+        - Return exactly one JSON object.
+        - No code fences/markdown/comments/logs.
+        - Keys must be exactly: left.title, left.manufacturer, left.price, right.title, right.manufacturer, right.price.
+        - Price must be float (two decimals) or "unknown".
 
-────────────────────────────────────────
-FEW-SHOT EXAMPLES (use as guidance)
-────────────────────────────────────────
+        Now process this record:
+        
+        Left record input:
+        {json.dumps(left, ensure_ascii=False, indent=2)}
 
-1) Different vendors — label 0
-Left input ⟶
-  "title": "microsoft visio standard 2007 version upgrade",
-  "manufacturer": "microsoft",
-  "price": 129.95
-Right input ⟶
-  "title": "adobe cs3 design standard upgrade",
-  "manufacturer": "",
-  "price": 413.99
-Output
-{{
-  "left":  {{"title": "Microsoft Visio Standard 2007 Version Upgrade", "manufacturer": "Microsoft", "price": 129.95}},
-  "right": {{"title": "Adobe CS3 Design Standard Upgrade",             "manufacturer": "",          "price": 413.99}}
-}}
+        Right record input:
+        {json.dumps(right, ensure_ascii=False, indent=2)}
+        """)
 
-2) Same product family & version (Mac note on left) — label 1
-Left input ⟶
-  "title": "motu digital performer 5 digital audio software competitive upgrade ( mac only )",
-  "manufacturer": "motu",
-  "price": 395.0
-Right input ⟶
-  "title": "motu digital performer dp5 software music production software",
-  "manufacturer": "",
-  "price": 319.95
-Output
-{{
-  "left":  {{"title": "Motu Digital Performer 5 Competitive Upgrade (Mac Only)", "manufacturer": "Motu", "price": 395.00}},
-  "right": {{"title": "Motu Digital Performer 5",                                "manufacturer": "",     "price": 319.95}}
-}}
+    def _build_prompt_nonmatch(self, left: Dict[str, Any], right: Dict[str, Any]) -> str:
+        """Prompt B — Label = 0 (NON-MATCH): light, conservative cleanup without alignment."""
+        return dedent(f"""
+        You are a product-normalization expert for software titles. Lightly CLEAN two Amazon software/product records for DeepMatcher WITHOUT aligning them. Preserve discriminative tokens and platform/media cues.
 
-3) Illustrator CS3 Academic for Mac (1-User vs Academic) — label 1
-Left input ⟶
-  "title": "illustrator cs3 13 mac ed 1u",
-  "manufacturer": "adobe-education-box",
-  "price": 199.0
-Right input ⟶
-  "title": "adobe illustrator cs3 for mac academic",
-  "manufacturer": "adobe-education-box",
-  "price": 199.99
-Output
-{{
-  "left":  {{"title": "Adobe Illustrator CS3 13 For Mac Academic 1-User", "manufacturer": "Adobe", "price": 199.00}},
-  "right": {{"title": "Adobe Illustrator CS3 For Mac Academic",           "manufacturer": "Adobe", "price": 199.99}}
-}}
+        Return a SINGLE valid JSON object with exactly two top-level keys: "left" and "right".
+        Each side must follow this schema:
+          • "title" (string)
+          • "manufacturer" (string)
+          • "price" (float or "unknown")
 
-4) Brand mismatch within “Mavis Beacon” line — label 0
-Left input ⟶
-  "title": "mavis beacon typing 17 ( win/mac )",
-  "manufacturer": "encore software",
-  "price": 19.99
-Right input ⟶
-  "title": "broderbund mavis beacon teaches typing standard17",
-  "manufacturer": "",
-  "price": 22.99
-Output
-{{
-  "left":  {{"title": "Mavis Beacon Typing 17 (Windows/Mac)", "manufacturer": "Encore", "price": 19.99}},
-  "right": {{"title": "Mavis Beacon Teaches Typing Standard 17", "manufacturer": "", "price": 22.99}}
-}}
+        LIGHT NORMALIZATION FOR NON-MATCHED PAIRS (label = 0)
+        - DO NOT remove platform/media tags in brackets/parentheses (e.g., "[Mac]", "(Windows)", "(DVD)").
+        - DO NOT trim generic trailer phrases; keep marketing tails and qualifiers.
+        - DO NOT delete alphanumeric SKUs / catalog codes; keep them.
+        - DO NOT propagate or copy version/edition/license tokens across sides.
+        - Abbreviation expansion: avoid expanding (Win, CS3, Pro, etc.) to keep original distinctions, except simple punctuation/casing fixes.
+        - Preserve specificity: keep all version/edition/license tokens exactly as given.
+        - Casing & whitespace: convert to Title Case; collapse multiple spaces; remove consecutive duplicate words.
+        - Manufacturer canonicalization: shorten obvious suffixes (Inc., Ltd., Corp., Software) when unambiguous; do NOT force two different brands to match.
+        - Missing values: empty title/manufacturer → ""; price: valid number → float with two decimals; else "unknown".
+        - NEVER invent prices.
 
-5) Different Adobe apps (Premiere Pro vs Soundbooth) — label 0
-Left input ⟶
-  "title": "adobe premiere pro cs3",
-  "manufacturer": "adobe",
-  "price": 799.0
-Right input ⟶
-  "title": "adobe soundbooth cs3 academic",
-  "manufacturer": "",
-  "price": 95.99
-Output
-{{
-  "left":  {{"title": "Adobe Premiere Pro CS3",       "manufacturer": "Adobe", "price": 799.00}},
-  "right": {{"title": "Adobe Soundbooth CS3 Academic", "manufacturer": "",     "price": 95.99}}
-}}
+        FEW-SHOT EXAMPLES
+        B1. Adobe Photoshop CS3 vs CS2 (non-match)
+        Left ⟶  {{"title":"Adobe Photoshop CS3","manufacturer":"Adobe","price":649.00}}
+        Right ⟶ {{"title":"Adobe Systems Inc Adobe Photoshop CS2 Mac OS X v10.2.8 to 10.3","manufacturer":"Adobe Systems Inc","price":788.63}}
+        Output
+        {{
+          "left":  {{"title":"Adobe Photoshop CS3","manufacturer":"Adobe","price":649.00}},
+          "right": {{"title":"Adobe Photoshop CS2 Mac OS X 10.2.8 To 10.3","manufacturer":"Adobe","price":788.63}}
+        }}
 
-6) Training media vs software SKU — label 0
-Left input ⟶
-  "title": "adobe photoshop cs2 advanced techniques by julieanne kost",
-  "manufacturer": "software cinema",
-  "price": 
-Right input ⟶
-  "title": "adobe photoshop cs3 ( v10 .0 ) mac adobe 13102488",
-  "manufacturer": "",
-  "price": 537.65
-Output
-{{
-  "left":  {{"title": "Adobe Photoshop CS2 Advanced Techniques By Julieanne Kost", "manufacturer": "Software Cinema", "price": "unknown"}},
-  "right": {{"title": "Adobe Photoshop CS3 v10.0 For Mac",                         "manufacturer": "",                "price": 537.65}}
-}}
+        B2. Corel WordPerfect Office X3 Editions (non-match)
+        Left ⟶  {{"title":"Corel WordPerfect Office X3 Professional Edition","manufacturer":"Corel","price":399.99}}
+        Right ⟶ {{"title":"Corel WordPerfect Office X3 Home Edition","manufacturer":"","price":99.99}}
+        Output
+        {{
+          "left":  {{"title":"Corel Wordperfect Office X3 Professional Edition","manufacturer":"Corel","price":399.99}},
+          "right": {{"title":"Corel Wordperfect Office X3 Home Edition","manufacturer":"","price":99.99}}
+        }}
 
-7) Enterprise licensing (quantities differ) — label 0
-Left input ⟶
-  "title": "microsoft crm professional cal 3.0 product upgrade license pack user cal",
-  "manufacturer": "microsoft software",
-  "price": 9980.0
-Right input ⟶
-  "title": "c8a-00066 microsoft dynamics crm professional v. 3.0 product upgrade license 20",
-  "manufacturer": "",
-  "price": 9676.92
-Output
-{{
-  "left":  {{"title": "Microsoft CRM Professional CAL 3.0 Product Upgrade License Pack User CAL", "manufacturer": "Microsoft", "price": 9980.00}},
-  "right": {{"title": "Microsoft Dynamics CRM Professional 3.0 Product Upgrade License 20",       "manufacturer": "",          "price": 9676.92}}
-}}
+        B3. QuickBooks Pro 2007 Mac vs Windows (non-match)
+        Left ⟶  {{"title":"QuickBooks Pro 2007 for Mac","manufacturer":"Intuit","price":199.95}}
+        Right ⟶ {{"title":"Intuit QuickBooks Pro 2007 Software for Windows Tax & Finance Software","manufacturer":"","price":179.95}}
+        Output
+        {{
+          "left":  {{"title":"Quickbooks Pro 2007 For Mac","manufacturer":"Intuit","price":199.95}},
+          "right": {{"title":"Intuit Quickbooks Pro 2007 Software For Windows Tax & Finance Software","manufacturer":"","price":179.95}}
+        }}
 
-8) Academic vs retail; Mac noted — label 0
-Left input ⟶
-  "title": "adobe creative suite cs3 web standard",
-  "manufacturer": "adobe",
-  "price": 999.0
-Right input ⟶
-  "title": "adobe creative suite 3 web standard complete package academic cd mac",
-  "manufacturer": "",
-  "price": 369.0
-Output
-{{
-  "left":  {{"title": "Adobe Creative Suite CS3 Web Standard",              "manufacturer": "Adobe", "price": 999.00}},
-  "right": {{"title": "Adobe Creative Suite 3 Web Standard Academic For Mac", "manufacturer": "",    "price": 369.00}}
-}}
+        OUTPUT RULES — STRICT
+        - Return exactly one JSON object.
+        - No code fences/markdown/comments/logs.
+        - Keys must be exactly: left.title, left.manufacturer, left.price, right.title, right.manufacturer, right.price.
+        - Price must be float (two decimals) or "unknown".
 
-9) Edition mismatch (Gold vs Platinum) — label 0
-Left input ⟶
-  "title": "printmaster gold v 17.0",
-  "manufacturer": "encore software",
-  "price": 19.99
-Right input ⟶
-  "title": "print master platinum v17",
-  "manufacturer": "",
-  "price": 29.9
-Output
-{{
-  "left":  {{"title": "PrintMaster Gold 17.0",    "manufacturer": "Encore", "price": 19.99}},
-  "right": {{"title": "Print Master Platinum 17", "manufacturer": "",       "price": 29.90}}
-}}
+        Now process this record:
+        
+        Left record input:
+        {json.dumps(left, ensure_ascii=False, indent=2)}
 
-10) Same upgrade SKU wording — label 1
-Left input ⟶
-  "title": "microsoft word 2007 version upgrade",
-  "manufacturer": "microsoft",
-  "price": 109.95
-Right input ⟶
-  "title": "microsoft word 2007 upgrade ( pc )",
-  "manufacturer": "",
-  "price": 109.95
-Output
-{{
-  "left":  {{"title": "Microsoft Word 2007 Version Upgrade", "manufacturer": "Microsoft", "price": 109.95}},
-  "right": {{"title": "Microsoft Word 2007 Upgrade (PC)",    "manufacturer": "",          "price": 109.95}}
-}}
+        Right record input:
+        {json.dumps(right, ensure_ascii=False, indent=2)}
+        """)
 
-11) Same product; remove SKU code, keep OS — label 1
-Left input ⟶
-  "title": "hoyle : classic collection 2006",
-  "manufacturer": "encore",
-  "price": 19.99
-Right input ⟶
-  "title": "encore software 11052 hoyle : classic collection 2006 win 98 me 2000 xp",
-  "manufacturer": "",
-  "price": 18.97
-Output
-{{
-  "left":  {{"title": "Hoyle: Classic Collection 2006",                           "manufacturer": "Encore", "price": 19.99}},
-  "right": {{"title": "Hoyle: Classic Collection 2006 (Windows 98/ME/2000/XP)",   "manufacturer": "",       "price": 18.97}}
-}}
-
-12) Different Visual Studio editions (MSDN vs Pro Upgrade) — label 0
-Left input ⟶
-  "title": "microsoft visual studio team edition for software developers 2005 with msdn premium",
-  "manufacturer": "microsoft",
-  "price": 5479.0
-Right input ⟶
-  "title": "visual studio pro 2005 upgrade ( pc ) microsoft",
-  "manufacturer": "",
-  "price": 549.0
-Output
-{{
-  "left":  {{"title": "Microsoft Visual Studio Team Edition For Software Developers 2005 With MSDN Premium", "manufacturer": "Microsoft", "price": 5479.00}},
-  "right": {{"title": "Microsoft Visual Studio Pro 2005 Upgrade (PC)",                                       "manufacturer": "",          "price": 549.00}}
-}}
-
-────────────────────────────────────────
-OUTPUT (JSON ONLY, EXACTLY THIS SHAPE)
-────────────────────────────────────────
-{{
-  "left":  {{"title": string, "manufacturer": string, "price": float or "unknown"}},
-  "right": {{"title": string, "manufacturer": string, "price": float or "unknown"}}
-}}
-
-Do not output anything except this single JSON object.
-
-Now process this record:
-
-Left record input:
-{json.dumps(left, ensure_ascii=False, indent=2)}
-
-Right record input:
-{json.dumps(right, ensure_ascii=False, indent=2)}
-""")
-
-    def extract_pair_standardized_attributes(
-        self, left_record: Dict[str, Any], right_record: Dict[str, Any]
-    ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
-        prompt = self._build_pair_prompt(left_record, right_record)
+    # -------------------- LLM call --------------------
+    def _chat_json(self, prompt: str) -> Dict[str, Any]:
+        response = ollama.chat(
+            model=self.llm_model,
+            options={"temperature": 0.0, "num_predict": 1024},
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a careful information extractor. Output only valid JSON. "
+                        "Do not include explanations, markdown fences, comments, or extra text. "
+                        "Return exactly one JSON object conforming to the requested schema."
+                    ),
+                },
+                {"role": "user", "content": prompt},
+            ],
+        )
+        content = response["message"]["content"].strip()
         try:
-            response = ollama.chat(
-                model=self.llm_model,
-                options={"temperature": 0.0, "num_predict": 2000},
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "You are entity matcher for the ditto. Do not explain. "
-                            "Do not describe anything. Do not say 'Output:' or '<think>'. "
-                            "Do not provide reasoning, steps, formatting explanation, or notes. "
-                            "Return EXACTLY one line with TWO transformed records separated by ONE real tab character. PRESERVE ORIGINAL CASE. Do NOT change to title case. Do not capitalize words unless already capitalized. "
-                            "No headings. No thoughts. No multiple lines. No Markdown. No JSON. Only raw string output. "
-                            "If you violate this, your output will be rejected."
-                        )
-                    },
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ],
-            )
-            content = response["message"]["content"].strip()
-            if content.startswith("```"):
-                content = re.sub(r"^```[a-zA-Z]*\n?", "", content)
-                content = re.sub(r"```$", "", content).strip()
-            parsed = json.loads(content)
-            print("passed",parsed)
+            return self._extract_json(content)
+        except json.JSONDecodeError as jde:
+            # Try a second pass by removing everything before first '{' and after last '}'
+            try:
+                return self._extract_json(content)
+            except Exception:
+                print(f"❌ JSON decode error: {jde}")
+                print("⚠️ Content that failed parsing:", content)
+                raise
+
+    # -------------------- Main extraction API --------------------
+    def extract_pair_standardized_attributes(
+        self,
+        left_record: Dict[str, Any],
+        right_record: Dict[str, Any],
+        label: Optional[int] = None,
+    ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
+        """
+        Choose prompt by label when available:
+          - label == 1 → strong, alignment-oriented normalization (match)
+          - label == 0 → light, conservative cleanup (non-match)
+          - label is None → default to non-match prompt (safer at inference)
+        """
+        if label == 1:
+            prompt = self._build_prompt_match(left_record, right_record)
+        else:
+            prompt = self._build_prompt_nonmatch(left_record, right_record)
+
+        try:
+            parsed = self._chat_json(prompt)
             left_out = self.normalize_llm_output(parsed.get("left", {}))
             right_out = self.normalize_llm_output(parsed.get("right", {}))
+            print("left :",left_out,"---- right:",right_out)
             return left_out, right_out
-        except json.JSONDecodeError as jde:
-            print(f"❌ JSON decode error: {jde}")
-            print("⚠️ Content that failed parsing:", content if 'content' in locals() else None)
-            # Fallback to empty normalized objects
-            return self.normalize_llm_output({}), self.normalize_llm_output({})
         except Exception as e:
-            print(f"❌ Unexpected error: {e}")
-            return self.normalize_llm_output({}), self.normalize_llm_output({})
+            print(f"❌ Extraction error: {e}")
+            # Fallback to minimally cleaned original inputs
+            return self.normalize_llm_output(left_record), self.normalize_llm_output(right_record)
 
     # -------------------- Dataset utilities --------------------
     def split_record(self, row: Dict[str, Any], side: str) -> Dict[str, Any]:
@@ -348,11 +274,19 @@ Right record input:
             left_input = self.split_record(row_dict, "left")
             right_input = self.split_record(row_dict, "right")
 
-            left_cleaned, right_cleaned = self.extract_pair_standardized_attributes(left_input, right_input)
+            raw_label = row_dict.get("label", None)
+            try:
+                label_val: Optional[int] = int(raw_label) if pd.notna(raw_label) else None
+            except Exception:
+                label_val = None
+
+            left_cleaned, right_cleaned = self.extract_pair_standardized_attributes(
+                left_input, right_input, label=label_val
+            )
 
             new_row: Dict[str, Any] = {
                 "id": row_dict.get("id"),
-                "label": row_dict.get("label"),
+                "label": raw_label,
             }
             for k, v in left_cleaned.items():
                 new_row[f"left_{k}"] = v
