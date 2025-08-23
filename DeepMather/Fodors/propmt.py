@@ -17,7 +17,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "mixtral:latest") -> None:
+    def __init__(self, model_name: str = "mistral-nemo:latest") -> None:
         self.llm_model = model_name
 
 
@@ -94,89 +94,6 @@ Output JSON schema (MUST follow):
 }}
 
 
----
-## FEW‑SHOT EXAMPLES ( nested left/right)
-
-
-Example A: **label 0 — different restaurants**
-
-Left input ⟶  
-  "name": "Le Chardonnay (Los Angeles)",  
-  "address": "6703 Melrose Ave.",  
-  "city": "los angeles",  
-  "phone": "213/857 -0034",  
-  "category": "californian",  
-  "class": "6"  
-
-Right input ⟶  
-  "name": "French Bistro",  
-  "address": "8284 Melrose Ave.",  
-  "city": "los angeles",  
-  "phone": "213-655-8880",  
-  "category": "french bistro",  
-  "class": "12"
-
-label: 0
-
-Standardized Output:
-{{
- "left":  {{ "name": "Le Chardonnay", "address": "6703 Melrose Avenue", "city": "Los Angeles", "phone": "213-857-0034", "category": "californian", "class": 6 }},
- "right": {{ "name": "French Bistro", "address": "8284 Melrose Avenue", "city": "Los Angeles", "phone": "213-655-8880", "category": "french bistro", "class": 12 }}
-}}
-
-Example B: **label 1 — same restaurant**
-
-Left input ⟶  
-  "name": "Yujean Kang's Gourmet Chinese Cuisine",  
-  "address": "67 N. Raymond Ave.",  
-  "city": "los angeles",  
-  "phone": "818/585 -0855",  
-  "category": "asian",  
-  "class": "22"  
-
-Right input ⟶  
-  "name": "Yujean Kang's",  
-  "address": "67 N. Raymond Ave.",  
-  "city": "pasadena",  
-  "phone": "818-585-0855",  
-  "category": "chinese",  
-  "class": "22" 
-label: 1
-
-Standardized Output:
-{{
-  "left":  {{ "name": "Yujean Kang's Gourmet Chinese Cuisine", "address": "67 North Raymond Avenue", "city": "Pasadena", "phone": "818-585-0855", "category": "asian", "class": 22 }},
-  "right": {{ "name": "Yujean Kang's", "address": "67 North Raymond Avenue", "city": "Pasadena", "phone": "818-585-0855", "category": "chinese", "class": 22 }}
-}}
-
-Example C:  **label 0 — different restaurants**
-
-Left input ⟶  
-  "name": "Bone's",  
-  "address": "3130 Piedmont Road",  
-  "city": "atlanta",  
-  "phone": "404/237 -2663",  
-  "category": "american",  
-  "class": "76"  
-
-Right input ⟶  
-  "name": "Joe's",  
-  "address": "1023 Abbot Kinney Blvd.",  
-  "city": "venice",  
-  "phone": "310-399-5811",  
-  "category": "american (new)",  
-  "class": "560"
-  
-label: 0
-
-Standardized Output:
-Output  
-{{
-  "left":  {{ "name": "Bone's", "address": "3130 Piedmont Road", "city": "Atlanta", "phone": "404-237-2663", "category": "american", "class": 76 }},
-  "right": {{ "name": "Joe's", "address": "1023 Abbot Kinney Boulevard", "city": "Venice", "phone": "310-399-5811", "category": "american (new)", "class": 560 }}
-}}
-
-____________ End of Examples ----------
 
 
 Now process this record:
