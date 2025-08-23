@@ -20,7 +20,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "mixtral:latest") -> None:
+    def __init__(self, model_name: str = "mistral-nemo:latest") -> None:
         self.llm_model = model_name
 
 
@@ -112,6 +112,158 @@ Output JSON schema (MUST follow):
   }}
 }}
 
+
+------
+## FEW‑SHOT EXAMPLES (Beer‑style; nested left/right)
+
+Example 1 — Same track, unify; label = 1
+Left input:
+
+Song_Name: Illusion ( feat . Echosmith ) Zedd True Colors Dance , Music , Electronic 2015 Interscope Records 6:30
+Artist_Name: ""
+Album_Name: ""
+Genre: ""
+Price: $ 1.29
+CopyRight: "2015 Interscope Records"
+Time: ""
+Released: "18-May-15"
+
+Right input:
+Song_Name: Zedd - Illusion feat Echosmith (True Colors) Electronic 2015 © Interscope 6:30
+Artist_Name: "ZEDD"
+Album_Name: "True Colors (Deluxe)"
+Genre: "Electronic"
+Price: "1.29"
+CopyRight: "(C) 2015 Interscope Records"
+Time: "6:30"
+Released: "May 18, 2015"
+
+label: 1
+
+**Standardized Output:**
+{{
+    "left": {{
+    "Song_Name": "Illusion (feat. Echosmith)",
+    "Artist_Name": "Zedd",
+    "Album_Name": "True Colors",
+    "Genre": "Dance, Music, Electronic",
+    "Price": "USD 1.29",
+    "CopyRight": "2015 Interscope Records",
+    "Time": "06:30",
+    "Released": "2015-05-18"
+  }},
+  "right": {{
+    "Song_Name": "Illusion (feat. Echosmith)",
+    "Artist_Name": "Zedd",
+    "Album_Name": "True Colors",
+    "Genre": "Electronic",
+    "Price": "USD 1.29",
+    "CopyRight": "(C) 2015 Interscope Records (C) (copyright)",
+    "Time": "06:30",
+    "Released": "2015-05-18"
+  }}
+}}
+
+---
+Example 2 — Same track, explicit feature & (C); label = 1
+Left input:
+Song_Name: Transmission [ feat . X Ambassadors ] Dance & Electronic $ 1.29 ( C ) 2015 Interscope Records 4:02
+Artist_Name: "Zedd"
+Album_Name: "True Colors"
+Genre: ""
+Price: "$ 1.29"
+CopyRight: "2015 Interscope Records"
+Time: ""
+Released: "May 18 , 2015"
+
+Right input:
+
+Song_Name: Transmission (feat X Ambassadors) | Zedd True Colors
+Artist_Name: "Zedd"
+Album_Name: ""
+Genre: "Dance & Electronic"
+Price: "USD 1.29"
+CopyRight: "(C) 2015 Interscope Records"
+Time: "04:02"
+Released: "2015-05-18"
+
+label: 0
+
+**Standardized Output:**
+{{
+  "left": {{
+    "Song_Name": "Transmission (feat. X Ambassadors)",
+    "Artist_Name": "Zedd",
+    "Album_Name": "True Colors",
+    "Genre": "Dance & Electronic",
+    "Price": "USD 1.29",
+    "CopyRight": "(C) 2015 Interscope Records (C) (copyright)",
+    "Time": "04:02",
+    "Released": "2015-05-18"
+  }},
+  "right": {{
+    "Song_Name": "Transmission (feat. X Ambassadors)",
+    "Artist_Name": "Zedd",
+    "Album_Name": "True Colors",
+    "Genre": "Dance & Electronic",
+    "Price": "USD 1.29",
+    "CopyRight": "(C) 2015 Interscope Records (C) (copyright)",
+    "Time": "04:02",
+    "Released": "2015-05-18"
+  }}
+}}
+
+---
+Example 3 — Different songs; label = 0
+Left input:
+
+Song_Name: Titanium (feat. Sia) - David Guetta Listen (Deluxe Version) Pop $1.29 4:02 © 2011 What A Music Ltd
+Artist_Name: ""
+Album_Name: ""
+Genre: ""
+Price: ""
+CopyRight: ""
+Time: ""
+Released: "August 26, 2011"
+
+Right input:
+
+Song_Name: Still Down [Explicit] Zedd True Colors Dance $ 1.29 3:29
+Artist_Name: ""
+Album_Name: ""
+Genre: ""
+Price: ""
+CopyRight: ""
+Time: ""
+Released: ""
+
+label: 0
+
+**Standardized Output:**
+{{
+  "left": {{
+    "Song_Name": "Titanium (feat. Sia)",
+    "Artist_Name": "David Guetta",
+    "Album_Name": "Listen (Deluxe Version)",
+    "Genre": "Pop",
+    "Price": "USD 1.29",
+    "CopyRight": "© 2011 What A Music Ltd",
+    "Time": "04:02",
+    "Released": "2011-08-26"
+  }},
+  "right": {{
+    "Song_Name": "Still Down [Explicit]",
+    "Artist_Name": "Zedd",
+    "Album_Name": "True Colors",
+    "Genre": "Dance",
+    "Price": "USD 1.29",
+    "CopyRight": "VAL -",
+    "Time": "03:29",
+    "Released": "VAL -"
+  }}
+}}
+
+____________ End of Examples ----------
 
 
 Now process this record:
