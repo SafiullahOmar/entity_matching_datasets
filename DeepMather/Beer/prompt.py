@@ -21,7 +21,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "mixtral:latest") -> None:
+    def __init__(self, model_name: str = "mistral-nemo:latest") -> None:
         self.llm_model = model_name
 
     # -------------------- Helpers --------------------
@@ -132,6 +132,173 @@ Output JSON schema (MUST follow):
     "special_ingredients": string or null
   }}
 }}
+
+================ EXAMPLES (FEWSHOT) ================
+
+# Example 1: Red Ales
+Left input:
+Beer Name: Red Amber Ale
+Brewery: Example Brewing
+Style: American Amber / Red Ale
+ABV: 5.5%
+
+Right input:
+Beer Name: Red Amber
+Brewery: Example
+Style: Amber Ale
+ABV: 5.5%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Red Amber Ale",
+    "brewery": "Example Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.5,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Red Amber Ale",
+    "brewery": "Example Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.5,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }}
+}}
+
+# Example 2: IPAs (average ABV across pair)
+Left input:
+Beer Name: Hazy Double IPA
+Brewery: Craft Brewers
+Style: New England Double India Pale Ale
+ABV: 8.2%
+
+Right input:
+Beer Name: Hazy DIPA
+Brewery: Craft
+Style: Hazy Imperial IPA
+ABV: 8.0%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Hazy Double IPA",
+    "brewery": "Craft Brewers",
+    "primary_style": "IPA",
+    "secondary_style": "Double Hazy",
+    "abv": 8.1,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Hazy Double IPA",
+    "brewery": "Craft Brewers",
+    "primary_style": "IPA",
+    "secondary_style": "Double Hazy",
+    "abv": 8.1,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "none"
+  }}
+}}
+
+# Example 3: Stouts with adjuncts
+Left input:
+Beer Name: Chocolate Coffee Stout
+Brewery: Dark Brewing Co.
+Style: American Imperial Stout
+ABV: 10.5%
+
+Right input:
+Beer Name: Chocolate Coffee Imperial Stout
+Brewery: Dark Brewing
+Style: Russian Imperial Stout
+ABV: 10.5%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Chocolate Coffee Stout",
+    "brewery": "Dark Brewing",
+    "primary_style": "Stout",
+    "secondary_style": "Imperial",
+    "abv": 10.5,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "chocolate, coffee"
+  }},
+  "right": {{
+    "name": "Chocolate Coffee Stout",
+    "brewery": "Dark Brewing",
+    "primary_style": "Stout",
+    "secondary_style": "Imperial",
+    "abv": 10.5,
+    "is_amber": false,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": true,
+    "special_ingredients": "chocolate, coffee"
+  }}
+}}
+
+# Example 4: Red Ale vs Irish Ale wording
+Left input:
+Beer Name: Sanibel Red Island Ale
+Brewery: Point Ybel Brewing Company
+Style: American Amber / Red Ale
+ABV: 5.60%
+
+Right input:
+Beer Name: Point Ybel Sanibel Red Island Ale
+Brewery: Point Ybel Brewing
+Style: Irish Ale
+ABV: 5.60%
+
+Expected JSON:
+{{
+  "left": {{
+    "name": "Sanibel Red Island Ale",
+    "brewery": "Point Ybel Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.6,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }},
+  "right": {{
+    "name": "Sanibel Red Island Ale",
+    "brewery": "Point Ybel Brewing",
+    "primary_style": "Red Ale",
+    "secondary_style": "Amber",
+    "abv": 5.6,
+    "is_amber": true,
+    "is_ale": true,
+    "is_lager": false,
+    "is_imperial": false,
+    "special_ingredients": "none"
+  }}
+}}
+____________End of Examples----------
 
 
 Now process this beer record:
