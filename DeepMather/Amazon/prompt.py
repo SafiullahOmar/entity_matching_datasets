@@ -16,7 +16,7 @@ EXPECTED_KEYS = [
 
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "llama3.1") -> None:
+    def __init__(self, model_name: str = "mixtral:latest") -> None:
         self.llm_model = model_name
 
     # -------------------- Coercion & Validation --------------------

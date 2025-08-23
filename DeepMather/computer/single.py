@@ -1,4 +1,3 @@
-
 import pandas as pd
 import ollama
 from tqdm import tqdm
@@ -13,7 +12,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "llama3.1") -> None:
+    def __init__(self, model_name: str = "mixtral:latest") -> None:
         self.llm_model = model_name
 
 
@@ -77,6 +76,123 @@ Output JSON schema (MUST follow):
 }}
 
 
+---
+## FEW‑SHOT EXAMPLES ( nested left/right)
+
+
+Example A: Different HP server parts (should not match)
+
+Left input:
+left_title: "293461-B21 PL BL40p 1.5X Null"
+
+Right input:
+right_title: "359557-B21 BL20P G2 Xeon 2.8GHz (2P), Null Price 359557-B21 (2P) Wholesale 359557-B21"
+
+label: 0
+
+Standardized Output:
+{{
+"left":  {{"title": "HP 293461-B21 BL40p 1.5X Server Part"}},
+"right": {{"title": "HP 359557-B21 BL20p G2 Xeon 2.8GHz (2P) Server Part"}}
+}}
+
+Example B: Same HP memory kit (should match)
+
+Left input:
+left_title: "Null 461826-B21 HP 2GB PC5300 (2x1GB) Kit"
+
+Right input:
+right_title: "461826-B21 HP 2GB PC5300 (2x1GB) Kit, Null Price 461826-B21 New 461826-B21 Kit Wholesale"
+
+label: 1
+
+Standardized Output:
+{{
+"left":  {{"title": "HP 461826-B21 2GB (2x1GB) PC2-5300 DDR2 Server Memory Kit"}},
+"right": {{"title": "HP 461826-B21 2GB (2x1GB) PC2-5300 DDR2 Server Memory Kit"}}
+}}
+
+Example C: USB flash drives, different products
+
+Left input:
+left_title: "Transcend 8GB USB Flash Drive 2.0  Memory & Storage | Unique Photo"
+
+Right input:
+right_title: "Rugged Corsair Survivor Stealth USB 3.0 64GB Flash Drive V2 V2 LN65056 - CMFSS3B-64GB | SCAN UK"
+
+label: 0
+
+Standardized Output:
+{{
+"left":  {{"title": "Transcend USB 2.0 8GB Flash Drive"}},
+"right": {{"title": "Corsair Survivor Stealth USB 3.0 64GB Flash Drive CMFSS3B-64GB"}}
+}}
+
+Example D: NAS HDD vs desktop HDD (different)
+
+Left input:
+left_title: "Western Digital Red 6 TB Internal HDD  Western HDD - WD60EFRX Desktop Hard Drives CDW.com"
+
+Right input:
+right_title: "Seagate Barracuda ST2000DM006 - hard drive 2 TB SATA 6Gb/s  Seagate 6Gb/s Internal Desktop Hard Drives CDW.com"
+
+label: 0
+
+Standardized Output:
+{{
+"left": {{"title": "Western Digital Red WD60EFRX 6TB 3.5\" SATA 6Gb/s HDD"}},
+"right": {{"title": "Seagate Barracuda ST2000DM006 2TB 3.5\" SATA 6Gb/s 7200RPM HDD"}}
+}}
+
+Example E: Same SSD model (should match)
+
+Left input:
+left_title: "DISCONTINUED Samsung 840 EVO 250GB 2.5-Inch SATA III Internal SSD (MZ-7TE250BW)-US Data Storage - Page 6 | Laptops Outlet Direct-US"
+
+Right input:
+right_title: "Samsung - 840 EVO 250GB 2.5 Solid State Drive Drive (MZ-7TE250BW) PCPartPicker United Kingdom"
+
+label: 1
+
+Standardized Output:
+{{
+"left":  {{"title": "Samsung 840 EVO SSD MZ-7TE250BW 250GB 2.5\" SATA 6Gb/s"}},
+"right": {{"title": "Samsung 840 EVO SSD MZ-7TE250BW 250GB 2.5\" SATA 6Gb/s"}}
+}}
+
+Example F: RAM kit, same product (should match)
+
+Left input:
+left_title: "8GB 1333MHZ DDR3 DIMM KIT OF 2 2 | Tradineur.com"
+
+Right input:
+right_title: "Kingston ValueRAM KVR13N9S8HK2/8 - Prijzen  Tweakers"
+
+label: 1
+
+Standardized Output:
+{{
+"left":  {{"title": "Kingston ValueRAM KVR13N9S8HK2/8 8GB (2x4GB) DDR3-1333 CL9 240-Pin DIMM Kit"}},
+"right": {{"title": "Kingston ValueRAM KVR13N9S8HK2/8 8GB (2x4GB) DDR3-1333 CL9 240-Pin DIMM Kit"}}
+}}
+
+Example G: Different Apple iMac configurations (different)
+
+Left input:
+left_title: "Apple 27 2.7GHz Intel Quad-Core i5 iMac Desktop Computer Accessories For Apple Computer - Z0M6TBD1 Abt"
+
+Right input:
+right_title: "Apple 21.5 2.7GHz Intel Quad-Core i5 iMac Desktop Computer Computer - Z0M5TBD3 Abt"
+
+label: 0
+
+Standardized Output:
+{{
+"left":  {{"title": "Apple iMac Z0M6TBD1 27\" 2.7GHz Quad‑Core i5"}},
+"right": {{"title": "Apple iMac Z0M5TBD3 21.5\" 2.7GHz Quad‑Core i5"}}
+}}
+
+____________ End of Examples ----------
 
 
 Now process this record:

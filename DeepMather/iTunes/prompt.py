@@ -20,7 +20,7 @@ EXPECTED_KEYS = [
 ]
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "llama3.1") -> None:
+    def __init__(self, model_name: str = "mixtral:latest") -> None:
         self.llm_model = model_name
 
 
@@ -111,7 +111,6 @@ Output JSON schema (MUST follow):
     "Released": string
   }}
 }}
-
 
 
 
@@ -207,7 +206,7 @@ Right record input:
         return {col[len(f"{side}_"):]: row[col] for col in row if col.startswith(f"{side}_")}
 
     def process_dataset(self, input_csv: str, output_csv: str) -> None:
-        print(f"�� Reading data from {input_csv}...")
+        print(f"📄 Reading data from {input_csv}...")
         df = pd.read_csv(input_csv)
         all_rows = []
 
@@ -236,7 +235,7 @@ Right record input:
 def main() -> None:
     extractor = OllamaFeatureExtractor()
 
-    for split in ["test","train","valid"]:
+    for split in ["train", "valid", "test"]:
         input_file = f"{split}.csv"
         output_file = f"{split}_enriched.csv"
         if os.path.exists(input_file):

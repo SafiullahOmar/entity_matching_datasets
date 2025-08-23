@@ -1,0 +1,92 @@
+id,label,left_name,left_brewery,left_primary_style,left_secondary_style,left_abv,left_is_amber,left_is_ale,left_is_lager,left_is_imperial,left_special_ingredients,right_name,right_brewery,right_primary_style,right_secondary_style,right_abv,right_is_amber,right_is_ale,right_is_lager,right_is_imperial,right_special_ingredients
+0,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+1,0,Hoppy Amber Ale,Breckenridge Brewery,American Amber/Red Ale,,6.1,True,True,False,False,,Colorado Mountain Ole 59er Amber Ale,Colorado Mountain Brewery,Amber Ale,,5.2,True,True,False,False,
+2,0,Hoppy Face,Hoppy Brewing Co.,American Amber/Red Ale,,6.1,True,True,False,False,,2nd Story Hoppy New Year,2nd Story Brewing Company,Amber Ale,,5.7,True,True,False,False,
+3,0,Bonehead Red Bourbon Barrel Aged Imperial,Four Peaks Brewing Company,American Amber / Red Ale,,8.0,True,True,False,True,Bourbon Barrel Aged,Andersonville Bourbon Barrel Aged Sour Gangster,Andersonville Brewing Company,Sour Red/Brown,,5.5,False,True,False,False,Bourbon Barrel Aged
+4,0,Red Rose,Baird Brewing Company,American Amber/Red Ale,,5.4,True,True,False,False,,Upland Rad Red,Upland Brewing Company,Amber Ale,,5.6,True,True,False,False,
+5,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+6,1,Buckley's Original Ale,Buckley's Beers,American Amber/Red Ale,,4.5,True,True,False,False,,Buckley's Original Ale,Yarra Flats Brewery,English Pale Ale,,4.9,False,True,False,False,
+7,0,Barrel Aged Red Ale,BearWaters Brewing,American Amber/Red Ale,,6.7,True,True,False,False,,Riverbend Barrel Aged Right Said Red,Riverbend Brewing & Sports Pub,American Strong Ale,,9.2,False,True,False,False,barrel aged
+8,0,Double Dread,Mad River Brewing,Imperial Red Ale,American Amber,8.6,True,True,False,True,,Kinetic Infrared,Kinetic Brewing Company,Imperial Red Ale,American Strong Ale,9.3,True,True,False,True,
+9,0,Double Dragon Imperial Red Ale,Phillips Brewing Company,Imperial Red Ale,American Amber / Red Ale,8.2,True,True,False,True,,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Imperial Red Ale,Amber Ale,7.5,True,True,False,True,
+10,1,Indian Red Head,Catawba Brewing Co.,American Amber / Red Ale,,5.0,True,True,False,False,,Catawba Valley Indian Head Red,Catawba Valley Brewing Company,Amber Ale,,5.0,True,True,False,False,
+11,0,Saint Gleason Imperial Red Ale,Abita Brewing Co,American Amber / Red Ale,,unknown,True,True,False,True,,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,,8.5,True,True,False,True,
+12,0,Old Detroit Amber Ale,Frankenmuth Brewery,American Amber/Red Ale,,5.6,True,True,False,False,,Maldita Old Continent American Amber Ale,Faustino Microcervejeira,Amber Ale,,6.0,True,True,False,False,
+13,0,Ale Mania Imperial Red Ale,Ale-Mania,Imperial Red Ale,American Amber / Red Ale,9.5,True,True,False,True,,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,Imperial Red Ale,American Strong Ale,8.0,True,True,False,True,
+14,0,Ale Mania Imperial Red Ale,Ale-Mania,American Amber/Red Ale,,9.5,True,True,False,True,,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,,8.0,True,True,False,True,
+15,1,Radeau Red Ale,Cooper's Cave Ale Company,American Amber/Red Ale,,5.5,True,True,False,False,,Radeau Red Ale,Cooper's Cave Ale Company,Irish Ale,,unknown,True,True,False,False,
+16,0,Monkey King,Moonzen Brewery,American Amber/Red Ale,,5.0,True,True,False,False,,RJ King Wingwalker,Genesee Brewing Company (North American Breweries),Oktoberfest/Marzen,,4.5,True,False,True,False,
+17,0,Big Red Hoppy Barn,Westfield River Brewing Company,American Amber/Red Ale,,9.5,True,True,False,False,,21st Amendment Big Hoppy Red Bird,21st Amendment Brewery,Amber Ale,,7.1,True,True,False,False,
+18,0,Big V Amber Ale,FreeWheel Brewing Company,American Amber/Red Ale,,4.0,True,True,False,False,,Big Bear Mountain Orange Blossom Amber Ale,Big Bear Mountain Brewery,Fruit Beer,,4.5,True,True,False,False,Orange Blossom
+19,0,Hop Around,Big Bay Brewing Co.,American Amber / Red Ale,,9.0,True,True,False,True,,Oak Creek King Crimson,Oak Creek Brewing Co.,American Strong Ale,,9.5,True,True,False,True,
+20,0,Channary Imperial Red Ale,Narrows Brewing Co.,American Amber / Red Ale,,9.4,True,True,False,True,,Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,,9.5,True,True,False,True,
+21,0,Double Red Hot Ale,Midnight Sun Brewing Co.,American Amber / Red Ale,,7.57,True,True,False,False,,Below Grade Super Duty Double Red Ale,Below Grade Brewing LLC,American Strong Ale,,7.7,True,True,False,False,
+22,0,Crater Lake Amber Ale,Klamath Basin Brewing Company,American Amber/Red Ale,,6.0,True,True,False,False,,Flathead Lake Dock Start Amber Ale,Flathead Lake Brewing Company,Amber Ale,,5.6,True,True,False,False,
+23,0,American India Red Ale,Black Shirt Brewing Co.,American Amber / Red Ale,,7.18,True,True,False,False,,Lofty Zeb's American Red Ale,Lofty Brewing Company,Amber Ale,,5.4,True,True,False,False,
+24,0,Fresh Hop Red,Liquid Mechanics Brewing Co.,American Amber Ale,,7.4,True,True,False,False,,Laurelwood Fresh Hop Free Range Red,Laurelwood Public House & Brewery,Amber Ale,,6.1,True,True,False,False,Amarillo
+25,0,Escanaba River Amber Ale,Dead Bear Brewing Co.,American Amber/Red Ale,,5.76,True,True,False,False,,Piney River McKinney Eddy Amber Ale,Piney River Brewing Company,Amber Ale,,unknown,True,True,False,False,
+26,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+27,1,Five Star Amber Ale,The Civil Life Brewing Company,American Amber / Red Ale,,5.0,True,True,False,False,,Stevie's Five Star Amber Ale,The Civil Life Brewing Company,Amber Ale,,5.0,True,True,False,False,
+28,0,Boundary Bay Amber Ale,Boundary Bay Brewery,American Amber/Red Ale,,unknown,True,True,False,False,,Half Moon Bay Mavericks Amber Ale,Half Moon Bay Brewing Company,Amber Ale,,4.8,True,True,False,False,
+29,0,Killer Red Fresh Hop,Double Mountain Brewery,American Amber / Red Ale,,7.2,True,True,False,False,Fresh Hop,Central City Red Racer,Central City Brewers + Distillers,Irish Ale,,5.5,True,True,False,False,
+30,0,Buffalo Soul Jah,Three Heads Brewing,American Amber/Red Ale,,9.2,True,True,False,True,,Lagunitas Imperial Red Ale,Lagunitas Brewing Company (Heineken),American Strong Ale,,7.8,True,True,False,True,
+31,0,Big Axe Red Ale,Big Axe Brewing Company,American Amber/Red Ale,,6.8,True,True,False,False,,Big Island Red Giant Ale,Big Island Brewhaus,American Strong Ale,,6.5,True,True,False,False,
+32,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+33,1,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+34,0,Bourbon Barrel Ro Shampo,Figure 8 Brewing,American Amber / Red Ale,,unknown,True,True,False,True,,Scarlett Letter,Renegade Brewing Company,American Strong Ale,,8.5,True,True,False,True,
+35,0,15th Anniversary Imperial Red Ale,Flying Bison Brewing Company,American Amber/Red Ale,,8.3,True,True,False,True,,Battle Axe Imperial Red Ale,Austin Beerworks,American Strong Ale,,8.0,True,True,False,True,
+36,0,Simeon Jones River Valley Amber Ale,Picaroons Brewing Company,American Amber/Red Ale,,4.5,True,True,False,False,,Metolius River Ales Rusty Spinner Amber Ale,Genesee Brewing Company (North American Breweries),Amber Ale,,5.1,True,True,False,False,
+37,0,15th Anniversary Imperial Red Ale,Flying Bison Brewing Company,Red Ale,American Amber,8.3,True,True,False,True,,McCarthy's Bane Imperial Red Ale,Knee Deep Brewing Company,Strong Ale,American Red,8.0,True,True,False,True,
+38,0,Red Shedman's Imperial Amber Ale,57 Brew Pub & Bistro,American Amber/Red Ale,,7.6,True,True,False,True,,Boxing Cat Firecracker Imperial Red Ale,Boxing Cat Brewery,Amber Ale,,6.6,True,True,False,True,
+39,0,Spencer Creek Amber Ale,Mia and Pias Pizzeria and Brewhouse,American Amber/Red Ale,,5.5,True,True,False,False,,Ruby Mountain Angel Creek Amber Ale,Ruby Mountain Brewing Company,Amber Ale,,unknown,True,True,False,False,
+40,0,Rock River Red Ale,Berghoff Brewery,American Amber/Red Ale,,unknown,True,True,False,False,,Boxing Rock Temptation Red Ale,Boxing Rock Brewing Company,Amber Ale,,6.0,True,True,False,False,
+41,0,American Barleywine,Cahoots Brewing,American Barleywine,,11.1,False,True,False,True,,Barley Wine,Tighthead Brewing Company,Barley Wine,,10.3,True,True,False,True,Old Kaya Dog
+42,1,British Knight,Oskar Blues Grill & Brew,American Amber / Red Ale,,7.4,True,True,False,False,,British Knight,Oskar Blues Brewery,Scottish Ale,,7.4,True,True,False,False,
+43,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+44,0,Deputation Imperial Red Ale,Brannon's Pub and Brewery,Imperial Red Ale,American Amber / Red Ale,8.0,True,True,False,True,,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,Imperial Red Ale,American Strong Ale,7.6,True,True,False,True,
+45,1,Red RYEding Hood,Chapman's Brewing Company,American Amber / Red Ale,,10.0,True,True,False,True,RYE,Red RYEding Hood,Chapman's Brewing Company,Specialty Grain,,10.0,True,False,False,False,
+46,0,Rhino Chaser,Pizza Port Solana Beach,Imperial Red Ale,American Amber / Red Ale,9.5,True,True,False,True,,Edge,Edge Brewing Company,American Strong Ale,,8.5,False,True,False,True,
+47,0,Stone Liberty Station Outbreak Series Red Ale,Stone Brewing,American Amber/Red Ale,,7.0,True,True,False,False,,Brew Bus Detour Series Rollin Dirty Red Ale Wood Aged,Cigar City Brewing,Irish Ale,,5.0,True,True,False,False,Wood Aged
+48,0,San Marcos Red Ale,San Marcos Brewery and Grill,American Amber / Red Ale,,5.9,True,True,False,False,,Fish Rock Red Emperor Ale,Australian Independent Brewers,Amber Ale,,4.5,True,True,False,False,
+49,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+50,0,Alaskan Imperial Red Ale,Alaskan Brewing Company,American Amber / Red Ale,,8.5,True,True,False,True,,Lagunitas Imperial Red Ale,Lagunitas Brewing Company (Heineken),American Strong Ale,,7.8,True,True,False,True,
+51,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+52,0,Flying Monkey Amber Ale,Flying Monkey Brewing Company,American Amber / Red Ale,,4.6,True,True,False,False,,Flying Monkeys Amber Ale,Flying Monkeys Craft Brewery,Amber Ale,,5.0,True,True,False,False,
+53,0,Oak-Aged Backburner,Southern Tier Brewing Company,American Barleywine,,9.6,False,True,False,True,,Amsterdam X Sawdust City X Great Lakes X Indie Ale Barley Wine,Amsterdam Brewing Company,Barley Wine,,10.0,False,True,False,True,Oak
+54,0,Kickin Chicken Bourbon Barrel Barley Wine,Santa Fe Brewing Company,American Barleywine,,12.0,False,True,False,True,Bourbon Barrel,Elevator Barrel Aged Barley Wine,Elevator Brewing Company,Barley Wine,,unknown,False,True,False,True,Barrel Aged
+55,0,Saint Gleason Imperial Red Ale,Abita Brewing Company,American Amber/Red Ale,,unknown,True,True,False,True,,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Amber Ale,,7.5,True,True,False,True,
+56,0,Emils Amber Ale,JT Schmids Restaurant & Brewery,American Amber / Red Ale,,5.2,True,True,False,False,,Emils Amber Ale,JT Schmids Brewhouse & Eatery,Amber Ale,,5.2,True,True,False,False,
+57,0,Ole Redbeard Barleywine,Fitger's Brewhouse,American Barleywine,,unknown,False,True,False,True,Bourbon Barrel Aged,Uncle Rusty,Columbus Brewing Company,American Strong Ale,,unknown,False,True,False,False,Bourbon Barrel Aged
+58,0,Wobbly Red Ale,Dirty Hands Brewing Company,American Amber/Red Ale,,5.9,True,True,False,False,,Wobbly Toddler Red Milk Ale,Crannog Ales,English Strong Ale,Milk/Sweet Stout,7.5,True,True,False,False,Milk/Sweet Stout
+59,1,Revenuers Red Ale,Catawba Brewing Co.,American Amber / Red Ale,,5.2,True,True,False,False,,Revenuers Red Ale,Catawba Valley Brewing Company,Irish Ale,,5.2,True,True,False,False,
+60,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+61,1,Sierra Amber Ale,Silver Peak Restaurant & Brewery,American Amber/Red Ale,,4.5,True,True,False,False,,Sierra Amber Ale,Zamecky Pivovar Chyse,Amber Ale,,5.3,True,True,False,False,
+62,0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,,7.5,True,True,False,True,,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,,8.0,True,True,False,True,
+63,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+64,0,Red Toad,Blue Cat Brew Pub,American Amber/Red Ale,,5.7,True,True,False,False,,Trailhead Red,Trailhead Brewing Co.,Amber Ale,,unknown,True,True,False,False,
+65,0,Unite Red Ale,S : t Eriks Bryggeri,American Amber/Red Ale,,4.6,True,True,False,False,,Unite Red Ale,Daytona Beach Brewing Company,Amber Ale,,5.9,True,True,False,False,Wildflower
+66,0,Creeper Trail Amber Ale,Wolf Hills Brewing Company,American Amber/Red Ale,,4.8,True,True,False,False,,Black Diamond Steep Trail Amber Ale,Black Diamond Brewing Company,Amber Ale,,5.7,True,True,False,False,
+67,0,Alexander Keith's Red Ale,Alexander Keith's,American Amber / Red Ale,,5.0,True,True,False,False,,Swashbuckler Red Sea Amber Ale,Swashbuckler Brewing Company,Amber Ale,,unknown,True,True,False,False,
+68,1,Movamber Moustache Ale,Bull City Burger and Brewery,American Amber / Red Ale,,unknown,True,True,False,False,,Movamber Moustache Ale,Bull City Burger and Brewery,Amber Ale,,unknown,True,True,False,False,
+69,1,Hooligan Ale,Bentley Brewing Company / Dark Horse Tavern,American Amber / Red Ale,,6.0,True,True,False,False,,Hooligan Ale,Bentley Brewing Co. / Dark Horse Tavern,Amber Ale,,6.0,True,True,False,False,
+70,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+71,0,Bourbon Barrel Aged Behemoth,3 Floyds Brewing Co.,American Barleywine,,12.5,True,True,False,True,cherries,Bourbon Barrel Aged Old Tavern Rat,Lompoc Brewing,Barley Wine,,9.7,True,True,False,True,
+72,0,Bourbon Barrel Ro Shampo,Figure 8 Brewing,American Amber / Red Ale,,unknown,True,True,False,True,Bourbon Barrel,The Libertine Imperial Red Ale,Fulton Beer Company,American Strong Ale,,8.5,True,True,False,True,Heaven Hill Rye Whiskey Barrel Aged
+73,0,John Barleycorn - Bourbon Barrel Aged,Mad River Brewing Company,American Barleywine,,12.5,False,True,False,True,,Actual Bourbon Barrel Aged Elektron,Actual Brewing Company,Amber Ale,,7.3,True,True,False,False,
+74,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+75,1,Bitter Orange Blossom,I & I Brewing,American Amber/Red Ale,,5.3,True,True,False,False,,Bitter Orange Blossom,I & I Brewing,Amber Ale,,5.3,True,True,False,False,
+76,0,Red Rock Amber Ale,OPA-OPA Steakhouse & Brewery,American Amber/Red Ale,,6.0,True,True,False,False,,Elk Mountain Rock Slide Amber Ale,Elk Mountain Brewing Company,Amber Ale,,5.5,True,True,False,False,
+77,0,Fire Brew Red Ale,Minhas Craft Brewery,American Amber / Red Ale,,5.5,True,True,False,False,,Conshohocken Hale Fire Red Ale,Conshohocken Brewing Company,Amber Ale,,6.6,True,True,False,False,
+78,1,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+79,0,Buffalo Trace Bourbon Barrel Aged Amber Ale,Wolf Hills Brewing Company,American Amber/Red Ale,,unknown,True,True,False,False,Buffalo Trace Bourbon Barrel,Bull & Barrel Session Style - Amber Ale,Bull & Barrel Brew Pub,Amber Ale,,4.7,True,True,False,False,unknown
+80,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+81,0,The Unforgiven,Rush River Brewing,American Amber Ale,,5.8,True,True,False,False,,Stevie's 5 Star Amber Ale,The Civil Life Brewing,Amber Ale,,5.0,True,True,False,False,
+82,0,Fresh Hopped Harvest Ale,Big Al Brewing,American Amber/Red Ale,,unknown,True,True,False,False,,Crosby Farms Harvest Fresh Hop Ale,10 Barrel Brewing (AB InBev),India Pale Ale,,5.5,False,True,False,False,Crosby Farms Harvest Fresh Hop
+83,0,Oatmeal Raisin Cookie Ale,Bluebird Microcreamery and Brewery,American Amber Ale,Red Ale,5.9,True,True,False,False,Oatmeal Raisin Cookie,Oatmeal Raisin Cookie Ale,Aftershock Brewing Company,Golden Ale,Blond Ale,5.5,False,True,False,False,Oatmeal Raisin Cookie
+84,0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,,unknown,True,True,False,True,,Legacy Bourbon Barrel Hedonism Red,Legacy Brewing,American Strong Ale,,7.1,True,True,False,False,
+85,0,Premium Red Ale,Uehara Shuzou Co. Ltd. / Echigo Beer Pub,American Amber / Red Ale,,6.0,True,True,False,False,,Ranga Premium Red Ale,Southern Bay Brewing Company,Amber Ale,,4.5,True,True,False,False,
+86,1,Red Curry Ale,Hideout Brewing Company,American Amber/Red Ale,,5.5,True,True,False,False,,Red Curry Ale,Hideout Brewing Company,Amber Ale,,unknown,True,True,False,False,
+87,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+88,0,Old Blarney Barleywine,Moylan's Brewery,American Barleywine,,10.0,False,True,False,True,Bourbon Barrel,Lower da Boom Barleywine,21st Amendment Brewery,Barley Wine,,9.5,False,True,False,True,Bourbon Barrel
+89,0,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown,unknown,unknown,unknown,unknown,unknown,False,False,False,False,unknown
+90,0,Legends Of The Bay Giant's Tomb,Hockley Valley Brewing Co.,American Amber / Red Ale,,5.0,True,True,False,False,,Legends of the Bay Ghosts of Hope Island,Hockley Valley Brewing & Malting Company,Amber Ale,,5.0,True,True,False,False,
