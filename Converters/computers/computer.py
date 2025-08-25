@@ -59,8 +59,8 @@ def extract_title(entity_text):
 if __name__ == "__main__":
     import sys
 
-    input_file = "valid.txt"
-    output_file = "valid.csv"
+    input_file = "train.txt"
+    output_file = "train.csv"
 
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
