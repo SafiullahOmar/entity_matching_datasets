@@ -85,33 +85,7 @@ class OllamaFeatureExtractor:
         - Missing: empty fields → ""; price → float with two decimals if valid, else "unknown".
         - Prices: NEVER fabricate/copy/average across sides.
 
-        FEW-SHOT EXAMPLES
-        A1. HP Transfer Kit (match)
-        Left ⟶  {{"title":"HP Q3675A Image Transfer Kit","category":"Printers","brand":"HP","modelno":"Q3675A","price":194.84}}
-        Right ⟶ {{"title":"Hewlett Packard Q3675A Image Transfer Kit For HP Color LaserJet 4650","category":"Cleaning & Repair","brand":"HP","modelno":"Q3675A","price":""}}
-        Output
-        {{
-          "left":  {{"title":"HP Q3675A Image Transfer Kit","category":"Printers","brand":"HP","modelno":"Q3675A","price":194.84}},
-          "right": {{"title":"HP Q3675A Image Transfer Kit","category":"Printers","brand":"HP","modelno":"Q3675A","price":"unknown"}}
-        }}
-
-        A2. IOGEAR Bluetooth Micro Adapter (match)
-        Left ⟶  {{"title":"IOGEAR GBU421W6 Bluetooth USB Micro Adapter","category":"Networking","brand":"IOGEAR","modelno":"GBU421W6","price":14.84}}
-        Right ⟶ {{"title":"IOGEAR Bluetooth USB 2.1 Micro Adapter With Tri-Language Package Black","category":"Computers & Accessories","brand":"IOGEAR","modelno":"GBU421W6","price":15.17}}
-        Output
-        {{
-          "left":  {{"title":"IOGEAR Bluetooth USB Micro Adapter","category":"Networking","brand":"IOGEAR","modelno":"GBU421W6","price":14.84}},
-          "right": {{"title":"IOGEAR Bluetooth USB Micro Adapter","category":"Networking","brand":"IOGEAR","modelno":"GBU421W6","price":15.17}}
-        }}
-
-        A3. Balt Wheasel Easel (match; correct brand/category)
-        Left ⟶  {{"title":"Balt Wheasel Easel Adjustable Melamine Dry Erase Board White","category":"Stationery & Office Machinery","brand":"Balt","modelno":"33250","price":239.88}}
-        Right ⟶ {{"title":"Balt Inc. Wheasel Easel Adjustable Melamine Dry Erase Board 28 3/4 X 59 1/2 White","category":"Laminating Supplies","brand":"Mayline","modelno":"","price":134.45}}
-        Output
-        {{
-          "left":  {{"title":"Balt Wheasel Easel Adjustable Melamine Dry Erase Board","category":"Stationery & Office Machinery","brand":"Balt","modelno":"33250","price":239.88}},
-          "right": {{"title":"Balt Wheasel Easel Adjustable Melamine Dry Erase Board","category":"Stationery & Office Machinery","brand":"Balt","modelno":"","price":134.45}}
-        }}
+        
 
         OUTPUT RULES — STRICT
         - Return exactly one JSON object.
@@ -150,33 +124,7 @@ class OllamaFeatureExtractor:
         - Missing: empty fields → ""; price → float with two decimals if valid, else "unknown".
         - Prices: NEVER fabricate.
 
-        FEW-SHOT EXAMPLES
-        B1. SD Cards (non-match)
-        Left ⟶  {{"title":"Sony 16GB Class 4 SD Memory Card","category":"USB Drives","brand":"Sony","modelno":"SF16N4/TQP","price":0.0}}
-        Right ⟶ {{"title":"PNY 4GB Class 4 Navy SD Card","category":"Car Audio Video","brand":"PNY","modelno":"P-SDHC4G4-EF / Navy","price":11.18}}
-        Output
-        {{
-          "left":  {{"title":"Sony 16Gb Class 4 SD Memory Card","category":"USB Drives","brand":"Sony","modelno":"SF16N4/TQP","price":0.00}},
-          "right": {{"title":"PNY 4Gb Class 4 SD Card","category":"Car Audio Video","brand":"PNY","modelno":"P-SDHC4G4-EF","price":11.18}}
-        }}
-
-        B2. GPUs (non-match)
-        Left ⟶  {{"title":"ZOTAC GeForce GT430 1GB DDR3 PCI-Express 2.0 Graphics Card","category":"Electronics - General","brand":"ZOTAC","modelno":"ZT-40604-10L","price":88.88}}
-        Right ⟶ {{"title":"EVGA GeForce GTS450 Superclocked 1 GB GDDR5 PCI-Express 2.0 Graphics Card 01G-P3-1452-TR","category":"Graphics Cards","brand":"EVGA","modelno":"01G-P3-1452-TR","price":119.88}}
-        Output
-        {{
-          "left":  {{"title":"Zotac GeForce GT430 1Gb Ddr3 PCI-Express 2.0 Graphics Card","category":"Electronics - General","brand":"ZOTAC","modelno":"ZT-40604-10L","price":88.88}},
-          "right": {{"title":"EVGA GeForce GTS450 Superclocked 1 Gb Gddr5 PCI-Express 2.0 Graphics Card","category":"Graphics Cards","brand":"EVGA","modelno":"01G-P3-1452-TR","price":119.88}}
-        }}
-
-        B3. USB Flash (non-match)
-        Left ⟶  {{"title":"Verbatim 4GB Tuff - N - Tiny USB 2.0 Flash Drive Green","category":"USB Drives","brand":"Verbatim","modelno":"","price":11.98}}
-        Right ⟶ {{"title":"Verbatim Clip-It 4 GB USB 2.0 Flash Drive 97556 Green","category":"USB Flash Drives","brand":"Verbatim","modelno":"97556","price":10.98}}
-        Output
-        {{
-          "left":  {{"title":"Verbatim 4Gb Tuff-N-Tiny USB 2.0 Flash Drive Green","category":"USB Drives","brand":"Verbatim","modelno":"","price":11.98}},
-          "right": {{"title":"Verbatim Clip-It 4 Gb USB 2.0 Flash Drive 97556 Green","category":"USB Flash Drives","brand":"Verbatim","modelno":"97556","price":10.98}}
-        }}
+        
 
         OUTPUT RULES — STRICT
         - Return exactly one JSON object.

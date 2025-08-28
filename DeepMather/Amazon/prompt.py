@@ -93,34 +93,6 @@ class OllamaFeatureExtractor:
         - Missing values: empty title/manufacturer → ""; price: valid number → float with two decimals; else "unknown".
         - NEVER invent prices. Do not copy a price from one side to the other.
 
-        FEW-SHOT EXAMPLES
-        A1. Microsoft Digital Image Suite Plus (match)
-        Left ⟶  {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"Microsoft","price":129.95}}
-        Right ⟶ {{"title":"Microsoft Digital Image Suite Plus Full Version of Photo Editing Software for Windows","manufacturer":"","price":89.95}}
-        Output
-        {{
-          "left":  {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"Microsoft","price":129.95}},
-          "right": {{"title":"Microsoft Digital Image Suite Plus","manufacturer":"","price":89.95}}
-        }}
-
-        A2. M-Audio Pro Tools M-Powered 7.3 (match)
-        Left ⟶  {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"M-Audio","price":299.99}}
-        Right ⟶ {{"title":"M-Audio Pro Tools M-Powered Software Music Production","manufacturer":"","price":249.00}}
-        Output
-        {{
-          "left":  {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"M-Audio","price":299.99}},
-          "right": {{"title":"M-Audio Pro Tools M-Powered 7.3","manufacturer":"","price":249.00}}
-        }}
-
-        A3. Symantec pcAnywhere 11.0 Host Only (match)
-        Left ⟶  {{"title":"Symantec Pcanywhere 11.0 Host Only Cd-Rom Xp 98 Nt W2k Me","manufacturer":"Symantec","price":"unknown"}}
-        Right ⟶ {{"title":"Symantec Pcanywhere 11.0 Windows","manufacturer":"","price":19.99}}
-        Output
-        {{
-          "left":  {{"title":"Symantec Pcanywhere 11.0 Host Only","manufacturer":"Symantec","price":"unknown"}},
-          "right": {{"title":"Symantec Pcanywhere 11.0 Host Only","manufacturer":"","price":19.99}}
-        }}
-
         OUTPUT RULES — STRICT
         - Return exactly one JSON object.
         - No code fences/markdown/comments/logs.
@@ -159,33 +131,6 @@ class OllamaFeatureExtractor:
         - Missing values: empty title/manufacturer → ""; price: valid number → float with two decimals; else "unknown".
         - NEVER invent prices.
 
-        FEW-SHOT EXAMPLES
-        B1. Adobe Photoshop CS3 vs CS2 (non-match)
-        Left ⟶  {{"title":"Adobe Photoshop CS3","manufacturer":"Adobe","price":649.00}}
-        Right ⟶ {{"title":"Adobe Systems Inc Adobe Photoshop CS2 Mac OS X v10.2.8 to 10.3","manufacturer":"Adobe Systems Inc","price":788.63}}
-        Output
-        {{
-          "left":  {{"title":"Adobe Photoshop CS3","manufacturer":"Adobe","price":649.00}},
-          "right": {{"title":"Adobe Photoshop CS2 Mac OS X 10.2.8 To 10.3","manufacturer":"Adobe","price":788.63}}
-        }}
-
-        B2. Corel WordPerfect Office X3 Editions (non-match)
-        Left ⟶  {{"title":"Corel WordPerfect Office X3 Professional Edition","manufacturer":"Corel","price":399.99}}
-        Right ⟶ {{"title":"Corel WordPerfect Office X3 Home Edition","manufacturer":"","price":99.99}}
-        Output
-        {{
-          "left":  {{"title":"Corel Wordperfect Office X3 Professional Edition","manufacturer":"Corel","price":399.99}},
-          "right": {{"title":"Corel Wordperfect Office X3 Home Edition","manufacturer":"","price":99.99}}
-        }}
-
-        B3. QuickBooks Pro 2007 Mac vs Windows (non-match)
-        Left ⟶  {{"title":"QuickBooks Pro 2007 for Mac","manufacturer":"Intuit","price":199.95}}
-        Right ⟶ {{"title":"Intuit QuickBooks Pro 2007 Software for Windows Tax & Finance Software","manufacturer":"","price":179.95}}
-        Output
-        {{
-          "left":  {{"title":"Quickbooks Pro 2007 For Mac","manufacturer":"Intuit","price":199.95}},
-          "right": {{"title":"Intuit Quickbooks Pro 2007 Software For Windows Tax & Finance Software","manufacturer":"","price":179.95}}
-        }}
 
         OUTPUT RULES — STRICT
         - Return exactly one JSON object.
