@@ -13,7 +13,7 @@ EXPECTED_KEYS = ["title", "category", "brand", "modelno", "price"]
 
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "mistral-nemo:latest") -> None:
+    def __init__(self, model_name: str = "llama3.1") -> None:
         self.llm_model = model_name
 
     # -------------------- Coercion & Validation (no manual normalization) --------------------
