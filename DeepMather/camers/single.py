@@ -118,12 +118,9 @@ Right record input:
                     {
                         "role": "system",
                         "content": (
-                            "You are entity matcher for the ditto. Do not explain. "
-                            "Do not describe anything. Do not say 'Output:' or '<think>'. "
-                            "Do not provide reasoning, steps, formatting explanation, or notes. "
-                            "Return EXACTLY one line with TWO transformed records separated by ONE real tab character. PRESERVE ORIGINAL CASE. Do NOT change to title case. Do not capitalize words unless already capitalized. "
-                            "No headings. No thoughts. No multiple lines. No Markdown. No JSON. Only raw string output. "
-                            "If you violate this, your output will be rejected."
+                             "You are a data normalization assistant. "
+                            "Return EXACTLY one valid JSON object matching the schema. "
+                            "No prose, no code fences, no extra text."
                         )
                     },
                     {
