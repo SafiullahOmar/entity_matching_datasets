@@ -3,12 +3,13 @@ import re
 import csv
 import sys
 
+# === Regex pattern for COL/VAL fields ===
 FIELD_RE = re.compile(r'\bCOL\s+([A-Za-z0-9_]+)\s+VAL\b', re.IGNORECASE)
 
 def robust_parse_col_val(text: str) -> dict:
     """
-    Parse 'COL <key> VAL <value>' segments without being confused by 'COL' inside values.
-    Uses explicit boundary matches and index slicing between successive COL/VAL markers.
+    Parse 'COL <key> VAL <value>' segments robustly.
+    Handles inconsistent spacing, stray words, and embedded 'COL' tokens.
     """
     if not text:
         return {}
@@ -17,39 +18,39 @@ def robust_parse_col_val(text: str) -> dict:
     record = {}
 
     for i, m in enumerate(matches):
-        key = m.group(1).strip().lower()  # normalize keys
+        key = m.group(1).strip().lower()  # normalize key name
         start = m.end()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
         val = text[start:end].strip()
-        # collapse internal whitespace; trim stray separators
+        # Clean spacing, punctuation, and stray symbols
         val = re.sub(r'\s+', ' ', val).strip(' |;,:')
         record[key] = val
 
     return record
 
+
 def parse_tabbed_file(lines, output_file, preferred_order=None):
     """
-    lines: iterable of strings. Each line = "<left>\t<right>\t<label>"
-    preferred_order: an optional ordered list of expected fields to pin column order (e.g., ['title','category','brand','modelno','price'])
+    Convert a tab-separated COL/VAL dataset to DeepMatcher-compatible CSV.
+    Each line in input = "<left record>\t<right record>\t<label>"
     """
     data = []
     row_id = 0
     all_fields = set()
 
-    # First pass: collect all unique field names
+    # === First pass: find all field names ===
     for raw in lines:
         line = raw.strip()
         if not line:
             continue
-        parts = re.split(r'\t+', line)  # tolerate multiple tabs
+        parts = re.split(r'\t+', line)
         if len(parts) != 3:
-            # silently skip in pass 1
             continue
         left, right, _ = parts
         all_fields.update(robust_parse_col_val(left).keys())
         all_fields.update(robust_parse_col_val(right).keys())
 
-    # lock a stable, sensible field order
+    # Order fields cleanly
     if preferred_order:
         preferred = [f for f in preferred_order if f in all_fields]
         the_rest = sorted(f for f in all_fields if f not in preferred)
@@ -57,7 +58,7 @@ def parse_tabbed_file(lines, output_file, preferred_order=None):
     else:
         ordered_fields = sorted(all_fields)
 
-    # Second pass: build rows
+    # === Second pass: build rows ===
     for raw in lines:
         line = raw.strip()
         if not line:
@@ -86,30 +87,32 @@ def parse_tabbed_file(lines, output_file, preferred_order=None):
         data.append(row)
         row_id += 1
 
+    # === Build DataFrame ===
     df = pd.DataFrame(data)
 
-    # If you want numeric price inference, uncomment next 6 lines
-    # for side in ('left', 'right'):
-    #     col = f'{side}_price'
-    #     if col in df.columns:
-    #         df[col] = (
-    #             df[col].str.extract(r'([0-9]+(?:\.[0-9]+)?)', expand=False)
-    #                   .astype(float, errors='ignore')
-    #         )
+    # Optional: normalize 'year' fields to numeric 4-digit form
+    for side in ('left', 'right'):
+        col = f'{side}_year'
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.extract(r'(\d{4})', expand=False).fillna("")
 
+    # === Save to CSV ===
     df.to_csv(output_file, index=False, quoting=csv.QUOTE_NONNUMERIC)
-    #df.to_csv(output_file, index=False, quoting=csv.QUOTE_NONE, escapechar='\\')
     print(f"✅ Saved {len(df)} records to {output_file}")
     return df
 
+
 # === Entry point ===
 if __name__ == "__main__":
-    # Example: reading from your file
-    input_file = "train.txt"
-    output_file = "train.csv"
+    input_file = "test.txt"   # your COL/VAL dataset
+    output_file = "test.csv"  # output DeepMatcher-compatible CSV
 
     with open(input_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # Pin common field order so CSV columns look tidy
-    parse_tabbed_file(lines, output_file, preferred_order=['title','category','brand','modelno','price'])
+    # Field order for academic metadata
+    parse_tabbed_file(
+        lines,
+        output_file,
+        preferred_order=['title', 'authors', 'venue', 'year']
+    )
