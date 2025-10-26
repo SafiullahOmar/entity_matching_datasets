@@ -18,7 +18,7 @@ EXPECTED_KEYS = [
 
 
 class OllamaFeatureExtractor:
-    def __init__(self, model_name: str = "gemma3:12b") -> None:
+    def __init__(self, model_name: str = "llama3.1") -> None:
         self.llm_model = model_name
 
     def normalize_llm_output(self, response: Dict[str, Any]) -> Dict[str, Any]:
